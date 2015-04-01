@@ -1,0 +1,20 @@
+colors = dark-gray mid-gray light-gray bc-white bc-yellow bc-orange
+  for color in colors
+
+    .{color}
+      color $+color
+
+    .hover-{color}:hover
+      color $+color
+
+    .bg-{color}
+      color $+color
+
+    .border-{color}
+      color $+color
+
+.bg-transparent
+  background-color transparent
+
+.muted
+  opacity .5

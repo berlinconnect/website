@@ -1,0 +1,92 @@
+input,
+select,
+textarea,
+fieldset
+  font-size $form-field-font-size
+  margin-top 0
+  margin-bottom $space-1
+
+input[type=text],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week]
+  box-sizing border-box
+  height $form-field-height
+  vertical-align middle
+  -webkit-appearance none
+
+select
+  box-sizing border-box
+  line-height 1.75
+
+select:not([multiple])
+  height $form-field-height
+  vertical-align middle
+
+textarea
+  box-sizing border-box
+  line-height 1.75
+  min-height 100px
+
+.field-light
+  background-color white
+  border-style solid
+  border-width $border-width
+  border-color rgba($border-color, 0.8)
+  border-radius $border-radius
+  color $bc-gray
+  height 42px
+
+select.field-light
+  padding 5px
+  -webkit-appearance none
+  text-indent 5px
+  background-position right 10px center
+  background-size 12px 7px
+  background-repeat no-repeat
+  background-image url(data:image/pngbase64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAOCAMAAAACJixMAAAALVBMVEUAAAB0dHR2dnZ5cnl0dHR2cnZ0dHR2c3Z1dXV3c3dzc3N0c3R0cnRzcnN0c3Tn1Df/AAAAD3RSTlMACw0mQkNERUZHr+X19vc1dTdVAAAAV0lEQVR42nXJWw7AIAhEUfCFirL/5ZqaaWxLOj+Ec+l33MWj9ECs1r7eTANRVKtvr6aRCMU5ihwXOEohrMDvMgt8wk/J183bXYG7ktJ2X8aAuwJ3Y348CwVQAtk/TVYPAAAAAElFTkSuQmCC)
+
+.field-light:focus
+  outline none
+  border-color $bc-yellow
+  box-shadow 0 0 2px rgba($bc-yellow,.5)
+
+.field-light:disabled
+  color $mid-gray
+  background-color $light-gray-blue
+  opacity 0.6
+
+.field-light:read-only:not(select)
+  background-color $darken-2
+
+.field-light:invalid
+  border-color: red
+
+.field-light.is-success
+  border-color: green
+
+.field-light.is-warning
+  border-color: $bc-yellow
+
+.field-light.is-error
+  border-color: red
+
+.radio-light,
+.checkbox-light
+  transition box-shadow .2s ease
+
+.radio-light
+  border-radius 50%
+
+.radio-light:focus,
+.checkbox-light:focus
+  outline none
+  box-shadow 0 0 2px rgba(blue,.5)
