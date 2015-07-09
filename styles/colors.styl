@@ -1,4 +1,4 @@
-colors = dark-gray mid-gray light-gray bc-white bc-yellow bc-orange
+colors = dark-gray mid-gray light-gray bc-off-white bc-white bc-yellow bc-orange bc-blue bc-green
   for color in colors
 
     .{color}
@@ -8,10 +8,13 @@ colors = dark-gray mid-gray light-gray bc-white bc-yellow bc-orange
       color $+color
 
     .bg-{color}
-      color $+color
+      background-color $+color
+
+    .bg-faded-{color}
+      background-color rgba($+color,0.99)
 
     .border-{color}
-      color $+color
+      border-color $+color !important
 
 .bg-transparent
   background-color transparent
