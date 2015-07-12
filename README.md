@@ -25,7 +25,7 @@ are:
 
 When you're creating new designs, you can look at our simple styleguide to help you get started.
 
-[link: http://f.cl.ly/items/0t0G1P2I3W0S3e313j0p/styleguide.pdf text: View PDF]
+<a href="http://f.cl.ly/items/0t0G1P2I3W0S3e313j0p/styleguide.pdf">View PDF</a>
 
 
 
