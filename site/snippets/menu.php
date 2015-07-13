@@ -1,11 +1,11 @@
-<div class="menu clearfix full-width">
+<div class="clearfix full-width menu">
   <div class="p3">
     <div class="font-size-0">
-      <div class="col-inline col-2 logo vm">
+      <div class="col-inline col-2 vm logo">
         <img src="../images/logo/light-white.svg" width="50px" alt="bc"/>
       </div>
-      <nav class="col-inline col-10 navigation right-align vm">
-        <ul class="caps bold list-reset m0">
+      <nav class="right-align col-inline col-10 vm navigation ">
+        <ul class="caps bold m0 list-reset">
           <li class="inline-block mr3"><a href="#" class="bc-white">CALENDAR</a></li>
           <li class="inline-block mr3"><a href="#" class="bc-white">GIVE</a></li>
           <li class="inline-block mr3"><a href="#" class="bc-white">CONTACT</a></li>

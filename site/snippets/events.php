@@ -1,3 +1,5 @@
+<!-- Typograph > Positioning > Layout > Color & Theme > State > Custom -->
+
 <div class="full-width border-box clearfix py4 px4">
   <div class="container center">
     <h1 class="m0 caps lighter">This Week</h1>

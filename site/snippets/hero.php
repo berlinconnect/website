@@ -7,26 +7,32 @@
   <div class="clearfix container center mt3 mb3 py3 bc-white">
 
     <h1 class="huge caps letter-spacing m0"><?= $page->herotitle() ?></h1>
-    <p class="h3 mx-auto col-inline col-7 m0"><?= $page->herotext() ?></p>
+    <?php if (strlen($page->herotext()) != 0): ?>
+      <p class="h3 mx-auto col-inline col-7 m0"><?= $page->herotext() ?></p>
+    <?php endif ?>
 
-    <!-- divider -->
-    <div class="py2">
-      <div class="mx-auto col-inline col-1 border-top border-bc-white">
+    <?php if($page->isHomePage()): ?>
+      <!-- divider -->
+      <div class="py2">
+        <div class="mx-auto col-inline col-1 border-top border-bc-white">
+        </div>
       </div>
-    </div>
-    <!-- end -->
+      <!-- end -->
 
-    <div class="mt2">
-      <a class="display-inline mr3">
-        <img src="../images/social/facebook.svg" width="30px">
-      </a>
-      <a class="display-inline mr3">
-        <img src="../images/social/twitter.svg" width="36px">
-      </a>
-      <a class="display-inline">
-        <img src="../images/social/instagram.svg" width="30px">
-      </a>
-    </div>
+      <div class="mt2">
+        <a class="display-inline mr3">
+          <img src="../images/social/facebook.svg" width="30px">
+        </a>
+        <a class="display-inline mr3">
+          <img src="../images/social/twitter.svg" width="36px">
+        </a>
+        <a class="display-inline">
+          <img src="../images/social/instagram.svg" width="30px">
+        </a>
+      </div>
+    <?php else: ?>
+    <?php endif ?>
+
 
   </div>
 </div>

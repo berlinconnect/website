@@ -1,3 +1,5 @@
+<!-- Typograph > Positioning > Layout > Color & Theme > State > Custom -->
+
 <div class="grid clearfix">
   <div class="relative col col-4 square cover-bg" <?php if($image = $page->image('1.jpg')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
   </div>
