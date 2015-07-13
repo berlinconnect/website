@@ -1,1 +1,8 @@
 Title: Home
+----
+
+HeroTitle: Welcome Home
+----
+
+HeroText: An english speaking, multicultural church in the heart of Berlin, changing people's perceptions about Jesus and His Church.
+----
