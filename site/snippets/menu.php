@@ -6,9 +6,16 @@
       </div>
       <nav class="right-align col-inline col-10 vm navigation ">
         <ul class="caps bold m0 list-reset">
-          <li class="inline-block mr3"><a href="#" class="bc-white">CALENDAR</a></li>
-          <li class="inline-block mr3"><a href="#" class="bc-white">GIVE</a></li>
-          <li class="inline-block mr3"><a href="#" class="bc-white">CONTACT</a></li>
+          <?php
+            // main menu items
+            $items = $pages->visible();
+            // only show the menu if items are available
+            if($items->count()):
+          ?>
+          <?php foreach($items as $item): ?>
+            <li class="inline-block mr3"><a href="<?= $item->url() ?>" class="bc-white caps"><?= $item->title() ?></a></li>
+          <?php endforeach ?>
+          <?php endif ?>
           <li class="inline-block">
             <a href="#" class="bc-white">MENU<img class="ml1" src="../images/ui/sidebar.svg" width="17px" alt="sidebar"/></a>
           </li>
