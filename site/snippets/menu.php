@@ -5,7 +5,7 @@
         <a href="<?php echo $site->url() ?>"><img src="../images/logo/light-white.svg" width="50px" alt="bc"/></a>
       </div>
       <nav class="right-align col-inline col-10 vm navigation ">
-        <ul class="caps bold m0 list-reset">
+        <ul class="m0 list-reset">
           <?php
             // main menu items
             $items = $pages->visible();
@@ -13,11 +13,11 @@
             if($items->count()):
           ?>
           <?php foreach($items as $item): ?>
-            <li class="inline-block mr3"><a href="<?= $item->url() ?>" class="bc-white caps"><?= $item->title() ?></a></li>
+            <li class="inline-block mr3"><a href="<?= $item->url() ?>" class="bc-white caps"><h4 class="caps regular m0"><?= $item->title() ?></h4></a></li>
           <?php endforeach ?>
           <?php endif ?>
           <li class="inline-block">
-            <a href="#" class="bc-white">MENU<img class="ml1" src="../images/ui/sidebar.svg" width="17px" alt="sidebar"/></a>
+            <a href="#" class="bc-white caps">MENU<img class="ml1" src="../images/ui/sidebar.svg" width="17px" alt="sidebar"/></a>
           </li>
         </ul>
       <nav>
