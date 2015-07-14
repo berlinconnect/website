@@ -3,7 +3,7 @@
 <head>
 
   <title>
-    <?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?>
+    <?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>
   </title>
 
   <meta charset="utf-8" />
