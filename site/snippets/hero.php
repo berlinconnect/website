@@ -13,26 +13,10 @@
 
     <?php if($page->isHomePage()): ?>
       <!-- divider -->
-      <div class="py2">
-        <div class="mx-auto col-inline col-1 border-top border-bc-white">
-        </div>
-      </div>
-      <!-- end -->
-
-      <div class="mt2">
-        <a class="display-inline mr3">
-          <img src="../images/social/facebook.svg" width="30px">
-        </a>
-        <a class="display-inline mr3">
-          <img src="../images/social/twitter.svg" width="36px">
-        </a>
-        <a class="display-inline">
-          <img src="../images/social/instagram.svg" width="30px">
-        </a>
-      </div>
+      <?php snippet('heroDivider') ?>
     <?php else: ?>
-    <?php endif ?>
 
+    <?php endif ?>
 
   </div>
 </div>
