@@ -2,7 +2,7 @@
   <div class="p3">
     <div class="font-size-0">
       <div class="col-inline col-2 vm logo">
-        <img src="../images/logo/light-white.svg" width="50px" alt="bc"/>
+        <a href="<?php echo $site->url() ?>"><img src="../images/logo/light-white.svg" width="50px" alt="bc"/></a>
       </div>
       <nav class="right-align col-inline col-10 vm navigation ">
         <ul class="caps bold m0 list-reset">
