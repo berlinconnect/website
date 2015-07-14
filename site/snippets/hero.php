@@ -12,6 +12,11 @@
     <?php endif ?>
 
     <?php if($page->isHomePage()): ?>
+
+      <div class="py2">
+        <div class="mx-auto col-inline col-1 border-top border-bc-white">
+        </div>
+      </div>
       <!-- divider -->
       <?php snippet('heroDivider') ?>
     <?php else: ?>
