@@ -1,4 +1,4 @@
-<!-- Typograph > Positioning > Layout > Color & Theme > State > Custom -->
+<!-- Typography > Positioning > Layout > Color & Theme > State > Custom -->
 
 <div class="full-width pb4 cover-bg top-bg" style="background-image: url(<?php echo $page->images()->first()->url(); ?>)">
 
