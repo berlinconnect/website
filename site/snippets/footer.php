@@ -1,4 +1,4 @@
-<!-- <div class="full-width px2 py4 bg-dark-gray light-gray border-box">
+<div class="full-width px2 py4 bg-dark-gray light-gray border-box">
   <div class="container">
     <img class="inline-block mr4 muted" src="../images/logo/light-white.svg" width="100px"/>
     <div class="right">
@@ -27,4 +27,4 @@
   </div>
 </div>
 </body>
-</html> -->
+</html>
