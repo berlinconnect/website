@@ -3169,4 +3169,4 @@
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
-.grid-content{max-width:300px}.event{min-height:300px}.map{height:480px}
+.grid-content{max-width:300px}.event{min-height:300px}.map{height:480px;-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:grayscale(100%);filter:url("grayscale.svg");filter:#808080}
