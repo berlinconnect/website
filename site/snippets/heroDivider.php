@@ -1,3 +1,5 @@
+<!-- these images do not have to be dynamic -->
+
 <div class="mt2">
   <a class="display-inline mr3">
     <img src="../images/social/facebook.svg" width="30px">

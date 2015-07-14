@@ -28,6 +28,19 @@ When you're creating new designs, you can look at our simple styleguide to help 
 <a href="http://f.cl.ly/items/0t0G1P2I3W0S3e313j0p/styleguide.pdf">View PDF</a>
 
 
+# Bass CSS Order
+
+While the order of classes doesn't matter to the browser, maintaining a consistent order will drastically improve code readability. 
+
+The following order is recommended by Bass CSS:
+
+1. Typography - sets the visual hierarchy and is one of the most important parts of web design
+2. Positioning - can severely change document flow
+3. Layout - can affect other elements and document flow
+4. Color & Theme - has little or no effect on layout
+5. State - is dynamic and often unnecessary
+6. Custom - our custom CSS classes
+
 
 # Get started with development
 
