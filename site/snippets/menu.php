@@ -13,11 +13,11 @@
             if($items->count()):
           ?>
           <?php foreach($items as $item): ?>
-            <li class="inline-block mr3"><a href="<?= $item->url() ?>" class="bc-white caps"><?= $item->title() ?></a></li>
+            <li class="inline-block mr3"><a href="<?= $item->url() ?>" class="h4 regular bc-white caps"><?= $item->title() ?></a></li>
           <?php endforeach ?>
           <?php endif ?>
           <li class="inline-block">
-            <a href="#" class="bc-white">MENU<img class="ml1" src="../images/ui/sidebar.svg" width="17px" alt="sidebar"/></a>
+            <a href="#" class="h4 regular bc-white">MENU<img class="ml1" src="../images/ui/sidebar.svg" width="17px" alt="sidebar"/></a>
           </li>
         </ul>
       <nav>
