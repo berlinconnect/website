@@ -18,6 +18,9 @@
   <script type="text/javascript" src="//use.typekit.net/xkv4ghj.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+  <!-- Masonry -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+
   <!-- Maps -->
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   <script>
