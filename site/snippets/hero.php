@@ -8,7 +8,7 @@
 
     <h1 class="huge caps letter-spacing m0"><?= $page->herotitle() ?></h1>
     <?php if (strlen($page->herotext()) != 0): ?>
-      <p class="h3 mx-auto col-inline col-7 m0"><?= $page->herotext() ?></p>
+      <p class="h3 regular mx-auto col-inline col-7 m0"><?= $page->herotext() ?></p>
     <?php endif ?>
 
     <?php if($page->isHomePage()): ?>
