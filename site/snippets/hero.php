@@ -2,7 +2,7 @@
 
 <div class="full-width pb4 cover-bg top-bg" style="background-image: url(<?php echo $page->images()->first()->url(); ?>)">
 
-  <?php snippet('menu') ?>
+  <?php snippet('menu', array('color' => 'bc-white')) ?>
 
   <div class="clearfix container center mt3 mb3 py3 bc-white">
 

@@ -11,6 +11,8 @@ h1, h2, h3, h4, h5, h6
   font-family $heading-font-family
   margin-top 1em
   margin-bottom .5em
+  text-transform uppercase
+  letter-spacing .07rem
 
 p, dl, ol, ul
   font-size $body-text
@@ -18,8 +20,6 @@ p, dl, ol, ul
   margin-top 0
   margin-bottom $space-2
 
-p.h1, p.h2, p.h3, p.h4, p.h5, p.h6
-  font-weight $normal-font-weight
 
 ol, ul
   padding-left $space-3
@@ -65,14 +65,15 @@ h2, .h2
 
 h3, .h3
   font-size $h3
-  margin-bottom .5em
-  line-height $line-height + 0.02em
+  margin-bottom .5rem
+  line-height $line-height + 1rem
   font-weight $bold-font-weight
 
 h4, .h4
   font-size $h4
-  line-height $line-height + 0.2em
+  line-height $line-height + 0.5rem
   font-weight $bold-font-weight
+  margin-bottom .5rem
 
 h5, .h5
   font-size $h5
