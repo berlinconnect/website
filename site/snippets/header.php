@@ -17,5 +17,32 @@
   <!-- Typekit -->
   <script type="text/javascript" src="//use.typekit.net/xkv4ghj.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- Masonry -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+
+  <!-- Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script>
+    function initialize() {
+      var myLatLng = new google.maps.LatLng(52.521300, 13.406281);
+      var map_canvas = document.getElementById('map_canvas');
+      var myIcon = new google.maps.MarkerImage("<?php echo url('images/logo/logo-black.png') ?>", null, null, null, new google.maps.Size(60,60));
+      var map_options = {
+        center: new google.maps.LatLng(52.521874, 13.410211),
+        zoom: 16,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        scrollwheel: false,
+      }
+      var map = new google.maps.Map(map_canvas, map_options)
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        icon: myIcon,
+        map: map
+      });
+      marker.setMap(map);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
 </head>
 <body>

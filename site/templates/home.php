@@ -39,8 +39,7 @@
       <button type="submit" class="center full-width p2 border-none bg-bc-white dark-gray"><?= $page->subscribesubmit() ?></button>
     </div>
   </div>
-  <div class="col col-8 full-height cover-bg map" <?php if($image = $page->image('map.png')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
-
+  <div class="map" id="map_canvas"></div>
   </div>
 </div>
 <?php snippet('footer') ?>

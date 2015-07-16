@@ -1,1 +1,3 @@
 Title: Berlinc Connect
+----
+Copyright: © Berlin Connect 2015. All rights reserved
