@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-297 391 17 12"
+	 style="enable-background:new -297 391 17 12;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#212121;}
+</style>
+<title>Sidebar</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Homepage" transform="translate(-1213.000000, -47.000000)" sketch:type="MSArtboardGroup">
+		<g id="Navigation-Bar" transform="translate(48.000000, 27.000000)" sketch:type="MSLayerGroup">
+			<g id="Menu" transform="translate(640.000000, 14.000000)" sketch:type="MSShapeGroup">
+				<path id="Sidebar" class="st0" d="M228,407h17v2h-17V407z M228,402h17v2h-17V402z M228,397h17v2h-17V397z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,7 +1,8 @@
 <?php snippet('header') ?>
-<?php snippet('hero') ?>
+<?php snippet('menu', array('color' => 'dark-gray')) ?>
 
   <div class="container py4">
+    <p class="h1 center letter-spacing m0 mb4"><?= $page->herotitle() ?></p>
     <div class="clearfix">
       <?php if (strlen($page->rightcolumn()) != 0): ?>
         <div class="col col-7">
