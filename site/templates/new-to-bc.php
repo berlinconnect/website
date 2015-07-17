@@ -3,10 +3,10 @@
 
 <div class="container pt4 mt3 mb3 clearfix">
   <div class="col col-5">
-    <p class="h3 bc-blue lighter">Our philosophy is simply to love God, love people and love life. </p>
+    <p class="h3 bc-blue lighter"><?= $page->introquote() ?></p>
   </div>
   <div class="col-right col-6">
-    <p>We are multicultural church in the heart of Berlin, changing people's perceptions about Jesus and His Church. Our philosophy is simply to love God, love people and love life. Our motto is - 'Come as you are'</p>
+    <?= $page->introcopy()->kirbytext() ?>
   </div>
 </div>
 <div class="full-width border-box p3 clearfix">
@@ -32,22 +32,21 @@
   </div>
   <div class="font-size-0">
     <div class="col-inline vm col-6 border-box full-height px4">
-      <h5 class="caps m0 mb2">Our Sundays</h5>
-      <p class="h4 regular bc-blue caps line-height-2 m0 mb2">Sundays are Jesus-focused and people-empowering.</p>
-      <p>Our desire is that Sundays in God’s House will be a place where people from all walks of life can come and feel 'AT HOME'. A place of connection with God and each other, of encouragement and worship, a place where guests become family.</p>
-      <p>Our services include live music, kids & youth activities for 1-18 year olds and translation to German, Spanish and Portuguese.</p>
+      <h5 class="caps m0 mb2"><?= $page->sundays() ?></h5>
+      <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->sundayquote() ?>.</p>
+      <?= $page->sundaycopy()->kirbytext() ?>
       <ul class="list-reset pt2">
         <li class="block">
-          <p class="h6 caps light-gray mr1 mb1">More Information</p>
+          <p class="h6 caps light-gray mr1 mb1"><?= $site->moreinformation() ?></p>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1">Conferences</a>
+          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->conferences() ?></a>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1">Kids</a>
+          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->kids() ?></a>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1">Youth</a>
+          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->youth() ?></a>
         </li>
       </ul>
     </div>
@@ -66,19 +65,18 @@
       </div>
     </div>
     <div class="col-inline vm col-6 border-box full-height px4">
-      <h5 class="caps m0 mb2">Our Community</h5>
-      <p class="h4 regular bc-blue caps line-height-2 m0 mb2">Connecting our Sundays to our Midweek.</p>
-      <p>Sitting together around a table of friendship and family is important for all of us. As a church we place great value on developing meaningful and personal connections midweek through our Dinner Parties. These are hosted throughout the city and enable us to put into practice midweek what we are learning on Sundays.</p>
-      <p>Dinner Parties with purpose are not merely about 'what is on' the table but more about 'who is around' the table.</p>
+      <h5 class="caps m0 mb2"><?= $page->community() ?></h5>
+      <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->communityquote() ?></p>
+      <?= $page->communitycopy()->kirbytext() ?>
       <ul class="list-reset pt2">
         <li class="block">
-          <p class="h6 caps light-gray mr1 mb1">More Information</p>
+          <p class="h6 caps light-gray mr1 mb1"><?= $site->moreinformation() ?></p>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1">Dinner Parties</a>
+          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->dinnerparties() ?></a>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1">Sisterhood</a>
+          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->sisterhood() ?></a>
         </li>
       </ul>
     </div>
@@ -93,18 +91,20 @@
 </div>
 <div class="full-width clearfix py4">
   <div class="col-5 center mx-auto">
-    <h5 class="caps m0 mb2">Our Society</h5>
-    <p class="h4 regular bc-blue caps line-height-2 m0 mb2">Shining brightly in society</p>
-    <p>Our desire is to contribute to the well-being of society as a whole through social enterprise and leadership innovation. Out of the overflow of our lives we can serve our city by getting involved, finding and supporting positive solutions that place value, speak to people's potential and point to vision that shapes a better society.</p>
+    <h5 class="caps m0 mb2"><?= $page->society() ?></h5>
+    <p class="h4 regular bc-blue caps line-height-2 m0 mb2">
+      <?= $page->societyquote() ?>
+    </p>
+    <?= $page->societycopy() ?>
     <ul class="list-reset pt2">
       <li class="block">
-        <p class="h6 caps light-gray mr1 mb1">More Information</p>
+        <p class="h6 caps light-gray mr1 mb1"><?= $site->moreinformation() ?></p>
       </li>
       <li class="inline-block">
-        <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1">Social Kindnesss</a>
+        <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->socialkindness() ?></a>
       </li>
       <li class="inline-block">
-        <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1">futureminded</a>
+        <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->futureminded() ?></a>
       </li>
     </ul>
   </div>
@@ -136,10 +136,10 @@
 </div>
 <div class="full-width clearfix bg-bc-blue bc-white py4">
   <div class="container center py3">
-    <p class="h1 lighter mb3">Are you free this Sunday?</p>
-    <p class="h3 lighter px1 col-inline col-8">We are unashamedly passionate about the House of God. We welcome visitors at Berlin Connect and would love to have you join us in church this weekend.</p>
+    <p class="h1 lighter mb3"><?= $page->areyoufree() ?></p>
+    <p class="h3 lighter px1 col-inline col-8"><?= $page->areyoufreecopy() ?></p>
     <div class="mt3">
-      <a href="" class="h5 caps bold p2 center bg-bc-white bc-blue">Find Us on a map</a>
+      <a href="" class="h5 caps bold p2 center bg-bc-white bc-blue"><?= $page->findus() ?></a>
     </div>
   </div>
 </div>
