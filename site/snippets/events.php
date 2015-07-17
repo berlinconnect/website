@@ -3,7 +3,7 @@
 <div class="container py4 clearfix">
   <div class="center">
     <h1 class="m0 caps lighter">This Week</h1>
-    <p class="h3 px1 col-inline col-8">As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation.</p>
+    <p class="h3 regular px1 col-inline col-8">As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation.</p>
   </div>
   <div class="col col-12 py3">
     <div class="col col-3 event-container inline-block border-box p1 mt2">
