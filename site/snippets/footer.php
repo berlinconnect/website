@@ -44,5 +44,10 @@
         </ul>
     </div>
 </div>
+
+<?php echo js('js/libs/jquery.js') ?>
+<?php echo js('js/plugins/adaptiveBackgrounds.js') ?>
+<?php echo js('js/plugins/wow.js') ?>
+<?php echo js('js/main.js') ?>
 </body>
 </html>
