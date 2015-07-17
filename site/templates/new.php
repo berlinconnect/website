@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('hero', array('bgAttachement' => '')) ?>
+<?php snippet('hero', array('bgAttachement' => 'fixed-bg')) ?>
 
 <div class="container pt4 mt3 mb3 clearfix">
   <div class="col col-5">
@@ -110,7 +110,7 @@
 <div class="full-width clearfix bg-bc-blue bc-white py4">
   <div class="container center py3">
     <p class="h1 lighter mb3">Are you free this Sunday?</p>
-    <p class="h3 regular px1 col-inline col-8">We are unashamedly passionate about the House of God. We welcome visitors at Berlin Connect and would love to have you join us in church this weekend.</p>
+    <p class="h3 lighter px1 col-inline col-8">We are unashamedly passionate about the House of God. We welcome visitors at Berlin Connect and would love to have you join us in church this weekend.</p>
     <div class="mt3">
       <a href="" class="h5 caps bold p2 center bg-bc-white bc-blue">Find Us on a map</a>
     </div>
