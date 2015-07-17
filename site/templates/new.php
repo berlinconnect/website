@@ -13,18 +13,20 @@
   <div class="col col-12">
     <div class="font-size-0">
       <div class="col-inline col-6 vt border-box p1">
-        <?php if($image = $page->image('photo-1.jpg')): ?><img src="<?= $image->url() ?>" width="100%" height="100%" /><?php endif ?>
-      </div>
+        <div>
+          <?php if($image = $page->image('photo-1.jpg')): ?>
+            <img class="wow fadeIn" src="<?= $image->url() ?>" width="100%" height="100%" data-adaptive-background>
+          <?php endif ?>
+        </div>
+        </div>
       <div class="col-inline col-6 vt">
-        <div class="col-inline col-4 vt border-box p1"><?php if($image = $page->image('photo-2.jpg')): ?><img src="<?= $image->url() ?>" width="100%" /><?php endif ?></div>
-        <div class="col-inline col-4 vt border-box p1"><?php if($image = $page->image('photo-3.jpg')): ?><img src="<?= $image->url() ?>" width="100%" /><?php endif ?></div>
-        <div class="col-inline col-4 vt border-box p1"><?php if($image = $page->image('photo-4.jpg')): ?><img src="<?= $image->url() ?>" width="100%" /><?php endif ?></div>
-        <div class="col-inline col-4 vt border-box p1"><?php if($image = $page->image('photo-5.jpg')): ?><img src="<?= $image->url() ?>" width="100%" /><?php endif ?></div>
-        <div class="col-inline col-4 vt border-box p1"><?php if($image = $page->image('photo-6.jpg')): ?><img src="<?= $image->url() ?>" width="100%" /><?php endif ?></div>
-        <div class="col-inline col-4 vt border-box p1"><?php if($image = $page->image('photo-7.jpg')): ?><img src="<?= $image->url() ?>" width="100%" /><?php endif ?></div>
-        <div class="col-inline col-4 vt border-box p1"><?php if($image = $page->image('photo-8.jpg')): ?><img src="<?= $image->url() ?>" width="100%" /><?php endif ?></div>
-        <div class="col-inline col-4 vt border-box p1"><?php if($image = $page->image('photo-9.jpg')): ?><img src="<?= $image->url() ?>" width="100%" /><?php endif ?></div>
-        <div class="col-inline col-4 vt border-box p1"><?php if($image = $page->image('photo-10.jpg')): ?><img src="<?= $image->url() ?>" width="100%" /><?php endif ?></div>
+        <?php foreach($page->children()->find('grid')->images()->limit(9) as $image): ?>
+          <div class="col-inline col-4 vt border-box p1">
+            <div>
+              <img class="wow fadeIn" src="<?php echo $image->url() ?>" width="100%" data-adaptive-background>
+            </div>
+          </div>
+        <?php endforeach ?>
       </div>
     </div>
   </div>
@@ -50,10 +52,18 @@
       </ul>
     </div>
     <div class="col-inline col-6 border-box p1">
-      <?php if($image = $page->image('sunday.jpg')): ?><img src="<?= $image->url() ?>" width="100%" height="100%" /><?php endif ?>
+      <div>
+        <?php if($image = $page->image('sunday.jpg')): ?>
+          <img class="wow fadeIn" src="<?= $image->url() ?>" width="100%" height="100%" data-adaptive-background>
+        <?php endif ?>
+      </div>
     </div>
     <div class="col-inline col-6 border-box p1">
-      <?php if($image = $page->image('community.jpg')): ?><img src="<?= $image->url() ?>" width="100%" height="100%" /><?php endif ?>
+      <div>
+        <?php if($image = $page->image('community.jpg')): ?>
+          <img class="wow fadeIn" src="<?= $image->url() ?>" width="100%" height="100%" data-adaptive-background>
+        <?php endif ?>
+      </div>
     </div>
     <div class="col-inline vm col-6 border-box full-height px4">
       <h5 class="caps m0 mb2">Our Community</h5>
@@ -74,7 +84,12 @@
     </div>
   </div>
 </div>
-<div class="full-width cover-bg" <?php if($image = $page->image('sisterhood.jpg')): ?>style="background-image:url('<?= $image->url() ?>'); height:500px;"<?php endif ?>>
+<div class="full-width cover-bg">
+  <div class="font-size-0">
+  <?php if($image = $page->image('sisterhood.jpg')): ?>
+    <img class="wow fadeIn" src="<?= $image->url() ?>" width="100%" height="auto" data-adaptive-background>
+  <?php endif ?>
+  </div>
 </div>
 <div class="full-width clearfix py4">
   <div class="col-5 center mx-auto">
@@ -96,13 +111,25 @@
   <div class="container mt4">
     <div class="font-size-0">
       <div class="col-inline col-6 border-box p1">
-        <?php if($image = $page->image('charitywater.jpg')): ?><img src="<?= $image->url() ?>" width="100%" height="100%" /><?php endif ?>
+        <div>
+          <?php if($image = $page->image('charitywater.jpg')): ?>
+            <img class="wow fadeIn" src="<?= $image->url() ?>" width="100%" height="100%" data-adaptive-background>
+          <?php endif ?>
+        </div>
       </div>
       <div class="col-inline col-6 border-box p1">
-        <?php if($image = $page->image('a21.jpg')): ?><img src="<?= $image->url() ?>" width="100%" height="100%" /><?php endif ?>
+        <div>
+          <?php if($image = $page->image('a21.jpg')): ?>
+            <img class="wow fadeIn" src="<?= $image->url() ?>" width="100%" height="100%" data-adaptive-background>
+          <?php endif ?>
+        </div>
       </div>
       <div class="col-inline col-12 border-box p1">
-        <?php if($image = $page->image('visionrescue.jpg')): ?><img src="<?= $image->url() ?>" width="100%" height="100%" /><?php endif ?>
+        <div>
+          <?php if($image = $page->image('visionrescue.jpg')): ?>
+            <img class="wow fadeIn" src="<?= $image->url() ?>" width="100%" height="100%" data-adaptive-background>
+          <?php endif ?>
+        </div>
       </div>
     </div>
   </div>
