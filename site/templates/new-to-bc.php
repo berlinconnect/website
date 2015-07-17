@@ -95,7 +95,7 @@
     <p class="h4 regular bc-blue caps line-height-2 m0 mb2">
       <?= $page->societyquote() ?>
     </p>
-    <?= $page->societycopy() ?>
+    <?= $page->societycopy()->kirbytext() ?>
     <ul class="list-reset pt2">
       <li class="block">
         <p class="h6 caps light-gray mr1 mb1"><?= $site->moreinformation() ?></p>

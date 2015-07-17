@@ -29,7 +29,7 @@ CommunityCopy: Sitting together around a table of friendship and family is impor
 Dinner Parties with purpose are not merely about 'what is on' the table but more about 'who is around' the table.
 ----
 
-Society: Our Community
+Society: Our Society
 ----
 
 SocietyQuote: Shining brightly in society
@@ -38,7 +38,7 @@ SocietyQuote: Shining brightly in society
 SocietyCopy: Our desire is to contribute to the well-being of society as a whole through social enterprise and leadership innovation. Out of the overflow of our lives we can serve our city by getting involved, finding and supporting positive solutions that place value, speak to people's potential and point to vision that shapes a better society.
 ----
 
-AreYouFree: Are you free this Weekend?
+AreYouFree: Are you free this weekend?
 ----
 
 AreYouFreeCopy: We are unashamedly passionate about the House of God. We welcome visitors at Berlin Connect and would love to have you join us in church this weekend.
