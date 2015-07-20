@@ -1,0 +1,29 @@
+.sidebar-container
+  width 100%
+  z-index: 1
+  overflow: hidden
+
+  &.show
+    .sidebar
+      transform translateX(0) translateZ(0)
+
+  &.show + .stage
+    transform translateX(-160px) translateZ(0)
+
+  &.behind
+    width 0
+
+  .sidebar
+    width 360px
+    will-change transform
+    transform translateX(360px) translateZ(0)
+    transition transform 800ms cubic-bezier(0.645, 0.045, 0.355, 1)
+
+.stage
+  will-change transform
+  transform translateX(0) translateZ(0)
+  transition transform 800ms cubic-bezier(0.645, 0.045, 0.355, 1)
+
+
+
+

@@ -45,4 +45,11 @@
     google.maps.event.addDomListener(window, 'load', initialize);
   </script>
 </head>
-<body>
+<body class="animated fadeIn">
+  <div  class="full-width full-height fixed top-0 left-0 border-box sidebar-container behind">
+    <div class="absolute right-0 full-height border-box p3 bg-dark-gray sidebar">
+      <a id="closeSidebar" href="#" class="h4 regular caps bc-white block mt1 right">Close<img class="ml1" src="../images/ui/close-bc-white.svg" width="14px" alt="sidebar"/>
+      </a>
+    </div>
+  </div>
+  <div class="stage">

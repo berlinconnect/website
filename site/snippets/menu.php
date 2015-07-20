@@ -1,4 +1,3 @@
-<!-- <div class="full-width dropdown-menu fixed top-0 left-0 z4" style="height:300px;"></div> -->
 <div class="clearfix full-width menu">
   <div class="p3">
     <div class="font-size-0">
@@ -23,7 +22,7 @@
 
           <?php endif ?>
           <li class="inline-block">
-            <a href="#" class="h4 regular <?= $color ?>">
+            <a href="#" id="openSidebar" class="h4 regular <?= $color ?>">
               MENU<img class="ml1" src="../images/ui/sidebar-<?= $color ?>.svg" width="17px" alt="sidebar"/>
             </a>
           </li>
