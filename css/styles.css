@@ -1069,6 +1069,7 @@
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  will-change:opacity;
 }
 
 @-webkit-keyframes fadeInDown {
