@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('hero') ?>
+<?php snippet('hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
 <?php snippet('grid') ?>
 <div class="full-width bg-bc-off-white py4">
   <div class="container clearfix center">

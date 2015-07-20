@@ -1,6 +1,6 @@
 <!-- Typography > Positioning > Layout > Color & Theme > State > Custom -->
 
-<div class="full-width pb4 cover-bg center-bg <?= $bgAttachement ?>" style="background-image: url(<?php echo $page->images()->first()->url(); ?>)" data-adaptive-background data-ab-css-background>
+<div class="full-width pb4 cover-bg <?= $bgPosition ?> <?= $bgAttachement ?>" style="background-image: url(<?php echo $page->images()->first()->url(); ?>)" data-adaptive-background data-ab-css-background>
 
   <?php snippet('menu', array('color' => 'bc-white')) ?>
 
@@ -8,14 +8,20 @@
 
     <?php if (strlen($page->herotitle()) != 0): ?>
       <h1 class="huge caps letter-spacing m0"><?= $page->herotitle() ?></h1>
+
     <?php else: ?>
       <div class="py4 my4">
+        <?php if($page->id() == 'new-to-bc'): ?>
+          <div class="py4 my4">
+          </div>
+        <?php endif ?>
         <?php if($page->id() == 'oneteam'): ?>
           <div class="center">
             <div class="contain-bg center-bg" style="background-image:url('../images/logo/teamlogo.svg'); width:100%; height:300px;"></div>
           </div>
         <?php endif ?>
       </div>
+
     <?php endif ?>
 
     <?php if (strlen($page->herotext()) != 0): ?>
