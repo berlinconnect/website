@@ -1,5 +1,5 @@
 Title: Calendar
 ----
 
-Text: This is the Calendar!
+Text: Show our events for this month!
 ----
