@@ -15,7 +15,7 @@
           <div class="py4 my4">
           </div>
         <?php endif ?>
-        <?php if($page->id() == 'oneteam'): ?>
+        <?php if($page->id() == 'one-team'): ?>
           <div class="center">
             <div class="contain-bg center-bg" style="background-image:url('../images/logo/teamlogo.svg'); width:100%; height:300px;"></div>
           </div>

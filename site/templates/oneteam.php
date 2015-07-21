@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('hero', array('bgAttachement' => 'fixed-bg')) ?>
+<?php snippet('hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
 
 <div class="container clearfix">
   <div class="py4 font-size-0">
