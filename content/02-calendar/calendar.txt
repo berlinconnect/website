@@ -1,1 +1,5 @@
 Title: Calendar
+----
+
+Text: Show our events for this month!
+----
