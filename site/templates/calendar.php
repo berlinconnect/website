@@ -1,11 +1,7 @@
 <?php snippet('header') ?>
-<?php snippet('menu', array('color' => 'dark-gray')) ?>
+<?php snippet('hero', array('bgAttachement' => 'bg-fixed', 'bgPosition' => 'center-bg')) ?>
 
 <div class="py4 container clearfix ">
-  <header class=" center col-8 mx-auto mb4">
-    <p class="h1 block letter-spacing pb2"><?= $page->title() ?></p>
-    <p class="h3 lighter mx-auto col-inline mb3"><?= $page->text() ?></p>
-  </header>
   <div class="questions grid">
     <?php foreach($page->children()->visible() as $event): ?>
       <!-- $date = $event->date('M'); ?> -->
@@ -29,7 +25,7 @@
           </div>
         </div>
       <!-- endif ?>  -->
-    <?php endforeach ?>  -->
+    <?php endforeach ?>
   </div>
 </div>
 

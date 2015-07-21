@@ -1,5 +1,11 @@
 Title: Calendar
 ----
 
+HeroTitle: Upcoming
+----
+
+HeroText: This Sunday, Guest Speakers & more.
+----
+
 Text: Show our events for this month!
 ----
