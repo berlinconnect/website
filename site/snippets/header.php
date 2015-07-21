@@ -46,20 +46,5 @@
   </script>
 </head>
 <body class="animated fadeIn">
-  <div class="fixed bg-faded-dark-gray z4 pill navigation-button">
-    <div class="hamburger absolute">
-      <span class="block bg-bc-white bar topPosition"></span>
-      <span class="block bg-bc-white bar middlePosition"></span>
-      <span class="block bg-bc-white bar bottomPosition"></span>
-    </div>
-  </div>
-  <div  class="full-width full-height fixed top-0 left-0 border-box sidebar-container behind">
-    <nav class="absolute right-0 full-height border-box p3 bg-dark-gray sidebar">
-      <ul class="list-reset">
-        <?php foreach($pages as $item): ?>
-        <li><a class="caps bc-white" href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
-        <?php endforeach ?>
-      </ul>
-    </nav>
-  </div>
+  <?= snippet('sidebar')?>
   <div class="stage">
