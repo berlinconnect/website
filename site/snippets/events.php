@@ -60,6 +60,6 @@
 </div>
 <div class="container pb4 clearfix">
   <div class="center mt3">
-    <a class="button bg-bc-blue py2 px4">See full calendar</a>
+    <a class="button bg-bc-blue py2 px4" href='<?php echo $pages->find('calendar')->url() ?>'>See full calendar</a>
   </div>
 </div>
