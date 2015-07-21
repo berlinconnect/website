@@ -11,17 +11,17 @@
     <div class="col col-12 mt2 border-box">
       <div class="col col-4 center">
         <h5 class="caps"><?= $page->sundaytitle() ?></h5>
-        <p class="h4 px1 mb3"><?= $page->sundaytext() ?></p>
+        <p class="h4 regular px1 mb3"><?= $page->sundaytext() ?></p>
         <a href="#" class="h6 caps bold p1 border border-bc-blue bc-blue"><?= $page->readmore() ?></a>
       </div>
       <div class="col col-4 center">
         <h5 class="caps"><?= $page->communitytitle() ?></h5>
-        <p class="h4 px1 mb3 mid-gray"><?= $page->communitytext() ?></p>
+        <p class="h4 regular px1 mb3 mid-gray"><?= $page->communitytext() ?></p>
         <a href="#" class="caps bold h6 p1 border border-bc-blue bc-blue"><?= $page->readmore() ?></a>
       </div>
       <div class="col col-4 center">
         <h5 class="caps"><?= $page->socialtitle() ?></h5>
-        <p class="h4 px1 mb3"><?= $page->socialtext() ?></p>
+        <p class="h4 regular px1 mb3"><?= $page->socialtext() ?></p>
         <a href="#" class="h6 caps bold p1 border border-bc-blue bc-blue"><?= $page->readmore() ?></a>
       </div>
     </div>
@@ -34,7 +34,7 @@
       <h5 class="caps m0 mb2 light-gray"><?= $page->subscribetitle() ?></h5>
       <p class="h4 bold caps line-height-2 m0 mb2"><?= $page->subscribeheader() ?></p>
 
-        <p class="h4 m0 mb2 light-gray"><?= $page->subscribetext() ?></p>
+        <p class="h4 regular m0 mb2 light-gray"><?= $page->subscribetext() ?></p>
       <input class="mt2 full-width p2 border-box bg-mid-gray" placeholder="<?= $page->subscribeinputplaceholder() ?>"></input>
       <button type="submit" class="center full-width p2 border-none bg-bc-white dark-gray"><?= $page->subscribesubmit() ?></button>
     </div>
