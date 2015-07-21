@@ -45,4 +45,6 @@
     google.maps.event.addDomListener(window, 'load', initialize);
   </script>
 </head>
-<body>
+<body class="animated fadeIn">
+  <?= snippet('sidebar')?>
+  <div class="stage">

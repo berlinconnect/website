@@ -1,0 +1,83 @@
+.navigation-button
+  width 50px
+  height 50px
+  right $space-3
+  top 30px
+  cursor pointer
+
+  &.close
+    .hamburger
+      span.topPosition
+        transform: translateY(7px) rotate(-45deg)
+      span.middlePosition
+        transform scaleX(0)
+        opacity 0
+      span.bottomPosition
+        transform: translateY(-7px) rotate(45deg)
+
+.hamburger
+  width 20px
+  height: 16px
+  left 15px
+  top 17px
+
+  span
+    width 100%
+    height 2px
+    margin-bottom 5px
+    will-change transform
+    transition all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)
+
+    &:last-child
+      margin-bottom 0
+
+.sidebar-container
+  width 100%
+  z-index: 1
+  overflow: hidden
+
+  &.show
+    .sidebar
+      transform translateX(0) translateZ(0)
+
+  &.show + .stage
+    transform translateX(-100px) translateZ(0)
+    opacity 0.3
+
+  &.behind
+    width 0
+
+  .sidebar
+    width 290px
+    will-change transform
+    transform translateX(@width) translateZ(0)
+    transition transform 600ms cubic-bezier(0.645, 0.045, 0.355, 1)
+    overflow scroll
+    height 100%
+
+    ul li
+      transition all 200ms ease
+
+      &.active
+      &.active:hover
+        background $bc-blue
+
+        a
+          color $bc-white
+
+      &:hover
+        background $light-gray
+
+        a
+          color $bc-white
+      a
+        transition all 200ms ease
+
+.stage
+  will-change transform
+  transform translateX(0) translateZ(0)
+  transition all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)
+
+
+
+

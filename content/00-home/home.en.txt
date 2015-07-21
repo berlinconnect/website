@@ -1,0 +1,53 @@
+Title: Welcome Home
+----
+
+HeroTitle: Welcome Home
+----
+
+HeroText: An english speaking, multicultural church in the heart of Berlin, changing people's perceptions about Jesus and His Church.
+----
+
+AboutTitle: About
+----
+
+AboutHeader: Berlin Connect is a multicultural church in the heart of Berlin.
+----
+
+AboutText: 'Love God, love people, love life'. Our motto is 'Come as you are'. Sitting together around a table of friendship and family is important for all of us.
+----
+
+SubscribeTitle: SUBSCRIBE
+----
+
+SubscribeHeader: Help us help you to stay connected
+----
+
+SubscribeText: Subscribe to our weekly newsletter giving you the latest information on whats happening at church.
+----
+
+SubscribeInputPlaceholder: Enter your email address
+----
+
+SubscribeSubmit: Send
+----
+
+SundayTitle: Sunday
+----
+
+SundayText: As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation.
+----
+
+ReadMore: Read More
+----
+
+CommunityTitle: Community
+----
+
+CommunityText: As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation.
+----
+
+SocialTitle: Social enterprise
+----
+
+SocialText: As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation.
+----

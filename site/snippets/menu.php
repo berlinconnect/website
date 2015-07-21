@@ -1,4 +1,3 @@
-<!-- <div class="full-width dropdown-menu fixed top-0 left-0 z4" style="height:300px;"></div> -->
 <div class="clearfix full-width menu">
   <div class="p3">
     <div class="font-size-0">
@@ -6,10 +5,10 @@
         <a href="<?php echo $site->url() ?>"><img src="../images/logo/light-<?= $color ?>.svg" width="50px" alt="bc"/></a>
       </div>
       <nav class="right-align col-inline col-10 vm navigation ">
-        <ul class="caps bold m0 list-reset">
+        <ul class="caps bold m0 list-reset pr4">
           <?php
             // main menu items
-            $items = $pages->visible();
+            $items = $pages->find('new-to-bc', 'calendar', 'faq', 'contact');
             // only show the menu if items are available
             if($items->count()):
           ?>
@@ -22,11 +21,6 @@
           <?php endforeach ?>
 
           <?php endif ?>
-          <li class="inline-block">
-            <a href="#" class="h4 regular <?= $color ?>">
-              MENU<img class="ml1" src="../images/ui/sidebar-<?= $color ?>.svg" width="17px" alt="sidebar"/>
-            </a>
-          </li>
         </ul>
       <nav>
     </div>
