@@ -46,10 +46,20 @@
   </script>
 </head>
 <body class="animated fadeIn">
-  <div  class="full-width full-height fixed top-0 left-0 border-box sidebar-container behind">
-    <div class="absolute right-0 full-height border-box p3 bg-dark-gray sidebar">
-      <a id="closeSidebar" href="#" class="h4 regular caps bc-white block mt1 right">Close<img class="ml1" src="../images/ui/close-bc-white.svg" width="14px" alt="sidebar"/>
-      </a>
+  <div class="fixed bg-faded-dark-gray z4 pill navigation-button">
+    <div class="hamburger absolute">
+      <span class="block bg-bc-white bar topPosition"></span>
+      <span class="block bg-bc-white bar middlePosition"></span>
+      <span class="block bg-bc-white bar bottomPosition"></span>
     </div>
+  </div>
+  <div  class="full-width full-height fixed top-0 left-0 border-box sidebar-container behind">
+    <nav class="absolute right-0 full-height border-box p3 bg-dark-gray sidebar">
+      <ul class="list-reset">
+        <?php foreach($pages as $item): ?>
+        <li><a class="caps bc-white" href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+        <?php endforeach ?>
+      </ul>
+    </nav>
   </div>
   <div class="stage">

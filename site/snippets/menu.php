@@ -5,7 +5,7 @@
         <a href="<?php echo $site->url() ?>"><img src="../images/logo/light-<?= $color ?>.svg" width="50px" alt="bc"/></a>
       </div>
       <nav class="right-align col-inline col-10 vm navigation ">
-        <ul class="caps bold m0 list-reset">
+        <ul class="caps bold m0 list-reset pr4">
           <?php
             // main menu items
             $items = $pages->visible();
@@ -21,11 +21,6 @@
           <?php endforeach ?>
 
           <?php endif ?>
-          <li class="inline-block">
-            <a href="#" id="openSidebar" class="h4 regular <?= $color ?>">
-              MENU<img class="ml1" src="../images/ui/sidebar-<?= $color ?>.svg" width="17px" alt="sidebar"/>
-            </a>
-          </li>
         </ul>
       <nav>
     </div>
