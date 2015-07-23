@@ -24,27 +24,8 @@
           Privacy Policy
         </p>
       </div>
-      <div class="hidden col-right col-9 mt3">
-        <ul class="caps m0 list-reset">
-          <?php
-              // main menu items
-              $items = $pages->not('error','home');
-              // only show the menu if items are available
-              if($items->count()):
-            ?>
-            <?php foreach($items as $item): ?>
-              <li class="inline-block mr3">
-                <a href="<?= $item->url() ?>" class="h5 regular light-gray">
-                  <?= $item->title() ?>
-                </a>
-              </li>
-            <?php endforeach ?>
-
-            <?php endif ?>
-          </ul>
-      </div>
+    </div>
   </div>
-
 </div>
 
 <?php echo js('js/libs/jquery.js') ?>
