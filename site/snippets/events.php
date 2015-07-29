@@ -3,40 +3,43 @@
 <div class="container pt4 clearfix">
   <div class="center">
     <h1 class="m0 caps lighter"><?= $site->eventsectiontitle() ?></h1>
-    <p class="h3 regular px1 col-inline col-8"><?= $site->eventsectioninfo() ?></p>
+    <p class="h3 regular px1 border-box col-inline col-12 sm-col-10 md-col-9"><?= $site->eventsectioninfo() ?></p>
   </div>
   <div class="questions grid">
-    <?php 
-      /* 
-        since the built-in Kirby limit() function won't be useable, 
+    <?php
+      /*
+        since the built-in Kirby limit() function won't be useable,
         because we need to filter dates as well,
-        use $limitEvents variable to keep track of how many events have 
+        use $limitEvents variable to keep track of how many events have
         already been posted
       */
-      $limitEvents = 1;
+      //$limitEvents = 1;
       // get the current date and the date in seven days
-      $now = date('M d, Y');
-      $now = strtotime($now);
-      $sevenDays = strtotime("+7 day", $now); 
+      //$now = date('M d, Y');
+      //$now = strtotime($now);
+      //$sevenDays = strtotime("+7 day", $now);
+
     ?>
-    <?php foreach($pages->find('calendar')->children()->visible() as $event): ?>
-      <?php 
+    <?php foreach($pages->find('calendar')->children()->visible()->limit(4) as $event): ?>
+      <?php
         // get date of the event
-        $date = $event->date(); 
+        //$date = $event->date();
       ?>
-      <?php 
-        /* 
+      <?php
+        /*
           only show the event if the event is not obsolete
           and will happen in less than or in exactly 7 days
-          and there are less than 4 events posted already 
+          and there are less than 4 events posted already
         */
-        if ($date <= $sevenDays and $now <= $date and $limitEvents <= 4): 
+
+        //if ($date <= $sevenDays and $now <= $date and $limitEvents <= 4):
       ?>
-        <?php 
+        <?php
           // increase by one, as part of keeping track how many events were posted already
-          $limitEvents = $limitEvents + 1; 
+
+          //$limitEvents = $limitEvents + 1;
         ?>
-        <div class="col col-3 event-container inline-block border-box p1 mt2">
+        <div class="xsm-col col-12 sm-col-6 lg-col-3  event-container inline-block border-box p1 mt2">
         <!-- IMPORTANT: the image in the content folder/for every event must be named 1.jpg!!!!!!! -->
           <div class="relative drop-shadow event bg-light-gray p1 width-bg top-bg" <?php if($image = $event->image('1.jpg')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
             <div class="date align-left bc-white ml1">
@@ -54,7 +57,7 @@
             </div>
           </div>
         </div>
-      <?php endif ?>
+      <?php //endif ?>
     <?php endforeach ?>
   </div>
 </div>

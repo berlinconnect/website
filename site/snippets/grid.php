@@ -1,10 +1,11 @@
 <!-- Typography > Positioning > Layout > Color & Theme > State > Custom -->
+<?php $cols = 'xsm-col col-12 xsm-col-12 sm-col-6 lg-col-4' ?>
 
 <div class="clearfix grid">
-  <div class="relative col col-4 square cover-bg" <?php if($image = $page->image('1.jpg')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
+  <div class="relative <?= $cols ?> square cover-bg" <?php if($image = $page->image('1.jpg')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
   </div>
 
-  <div class="relative col col-4 square center">
+  <div class="relative <?= $cols ?> square center">
     <div class="middle full-width">
       <div class="relative mx-auto grid-content">
         <h5 class="caps m0 mb3 bc-blue"><?= $page->abouttitle() ?></h5>
@@ -14,10 +15,10 @@
     </div>
   </div>
 
-  <div class="relative col col-4 square cover-bg" <?php if($image = $page->image('2.jpg')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
+  <div class="relative <?= $cols ?> square cover-bg" <?php if($image = $page->image('2.jpg')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
   </div>
 
-  <div class="relative col col-4 square center">
+  <div class="relative <?= $cols ?> square center">
     <div class="middle full-width">
       <div class="relative mx-auto grid-content">
         <h5 class="caps m0 mb3 bc-orange">ENLARGE</h5>
@@ -28,10 +29,10 @@
     </div>
   </div>
 
-  <div class="relative col col-4 square cover-bg" <?php if($image = $page->image('3.jpg')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
+  <div class="relative <?= $cols ?> square cover-bg" <?php if($image = $page->image('3.jpg')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
   </div>
 
-  <div class="relative col col-4 square center">
+  <div class="relative <?= $cols ?> square center">
     <div class="middle full-width">
       <div class="relative mx-auto grid-content">
         <h5 class="caps m0 mb3 light-gray"><?= $page->subscribetitle() ?></h5>
