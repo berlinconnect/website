@@ -1,8 +1,33 @@
-.xsm-show, .sm-show, .md-show, .lg-show, .xlg-show
+.tiny-show, .xsm-show, .sm-show, .md-show, .lg-show, .xlg-show
   display none !important
 
-.xsm-show-inline, .sm-show-inline, .md-show-inline, .lg-show-inline, .xlg-show-inline
+.tiny-show-inline, .xsm-show-inline, .sm-show-inline, .md-show-inline, .lg-show-inline, .xlg-show-inline
   display none !important
+
+@media $breakpoint-tiny
+  body
+    &::before
+      content 'tiny'
+      position fixed
+      top 20px
+      left 20px
+      background red
+      color white
+      z-index 100
+
+    h1
+      &.huge
+        font-size ($h1 / 1)
+        line-height $line-height - 0.2
+
+  .tiny-show-inline
+    display inline-block !important
+
+  .tiny-show
+    display block !important
+
+  .tiny-hide
+    display none !important
 
 @media $breakpoint-xsm
 
