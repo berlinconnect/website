@@ -4,63 +4,104 @@
 .xsm-show-inline, .sm-show-inline, .md-show-inline, .lg-show-inline, .xlg-show-inline
   display none !important
 
-@media ($breakpoint-xsm)
+@media $breakpoint-xsm
+
+  body
+    &::before
+      content 'xsm'
+      position fixed
+      top 20px
+      left 20px
+      background red
+      color white
+      z-index 100
+
   .xsm-show-inline
     display inline-block !important
 
-@media ($breakpoint-sm)
-  .sm-show-inline
-    display inline-block !important
-
-@media ($breakpoint-md)
-  .md-show-inline
-    display inline-block !important
-
-@media ($breakpoint-lg)
-  .lg-show-inline
-    display inline-block !important
-
-@media ($breakpoint-xlg)
-  .xlg-show-inline
-    display inline-block !important
-
-@media ($breakpoint-xsm)
   .xsm-show
     display block !important
 
-@media ($breakpoint-sm)
-  .sm-show
-    display block !important
-
-@media ($breakpoint-md)
-  .md-show
-    display block !important
-
-@media ($breakpoint-lg)
-  .lg-show
-    display block !important
-
-@media ($breakpoint-xlg)
-  .xlg-show
-    display block !important
-
-@media ($breakpoint-xsm)
   .xsm-hide
     display none !important
 
-@media ($breakpoint-sm)
+@media $breakpoint-sm
+
+  body::before
+    content 'sm'
+    position fixed
+    top 20px
+    left 20px
+    background red
+    color white
+    z-index 100
+
+  .sm-show-inline
+    display inline-block !important
+
+  .sm-show
+    display block !important
+
   .sm-hide
     display none !important
 
-@media ($breakpoint-md)
+@media $breakpoint-md
+
+  body::before
+    content 'md'
+    position fixed
+    top 20px
+    left 20px
+    background red
+    color white
+    z-index 100
+
+  .md-show-inline
+    display inline-block !important
+
+  .md-show
+    display block !important
+
   .md-hide
     display none !important
 
-@media ($breakpoint-lg)
+@media $breakpoint-lg
+
+  body::before
+    content 'lg'
+    position fixed
+    top 20px
+    left 20px
+    background red
+    color white
+    z-index 100
+
+  .lg-show-inline
+    display inline-block !important
+
+  .lg-show
+    display block !important
+
   .lg-hide
     display none !important
 
-@media ($breakpoint-xlg)
+@media $breakpoint-xlg
+
+  body::before
+    content 'xlg'
+    position fixed
+    top 20px
+    left 20px
+    background red
+    color white
+    z-index 100
+
+  .xlg-show-inline
+    display inline-block !important
+
+  .xlg-show
+    display block !important
+
   .xlg-hide
     display none !important
 

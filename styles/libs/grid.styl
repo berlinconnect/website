@@ -20,12 +20,11 @@ for num in (1..12)
       padding-bottom: (num / 12) * 100%
       height 0
 
-
-sizes = "xsm" $breakpoint-xsm,
-        "sm" $breakpoint-sm,
-        "md" $breakpoint-md,
-        "lg" $breakpoint-lg,
-        "xlg" $breakpoint-xlg
+sizes = "xsm" 'min-width: 30em',
+        "sm" 'min-width: 40em',
+        "md" 'min-width: 48em',
+        "lg" 'min-width: 64em',
+        "xlg" 'min-width: 81em'
 
   for size in sizes
     @media ({size[1]})

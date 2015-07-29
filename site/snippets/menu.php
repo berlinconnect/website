@@ -4,7 +4,7 @@
       <div class="col-inline col-2 vm logo">
         <a href="<?php echo $site->url() ?>"><img src="../images/logo/light-<?= $color ?>.svg" width="50px" alt="bc"/></a>
       </div>
-      <nav class="right-align col-inline col-10 vm navigation ">
+      <nav class="right-align col-inline col-10 vm animated fadeInRight navigation md-show-inline">
         <ul class="caps bold m0 list-reset pr4">
           <?php
             // main menu items
