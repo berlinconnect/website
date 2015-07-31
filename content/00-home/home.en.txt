@@ -48,3 +48,14 @@ SocialTitle: Social enterprise
 
 SocialText: As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation.
 ----
+
+AddressTitle: Address
+----
+
+AddressText: Haus Ungarn
+Karl-Liebknecht-Straße 9
+10178 Berlin
+----
+
+TransportTitle: Transport
+----
