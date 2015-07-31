@@ -1,23 +1,23 @@
   <div class="full-width py4 px3 bg-dark-gray bc-off-white border-box">
-    <div class="clearfix mt2 mb3">
-      <div class="col col-2">
-        <img class="inline-block mr2 vm" src="../images/logo/light-bc-white.svg" width="70px"/>
+    <div class="clearfix mt2 mb3 tiny-center sm-center md-left font-size-0">
+      <div class="mx-auto col-2 sm-col-12 sm-center">
+        <img class="inline-block  mb3 vm" src="../images/logo/light-bc-white.svg" width="70px"/>
       </div>
-      <div class="col-right col-3">
+      <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">
         <p>
           Berlin Christian Life Centre e.V.<br>
           Weinbergsweg 24M<br>
           10119 Berlin
         </p>
       </div>
-      <div class="col-right col-3">
+      <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">
         <p>
           +49 (0) 174 3463491<br>
           hello@myberlinconnect.de<br>
           myberlinconnect.de
         </p>
       </div>
-      <div class="col-right col-3">
+      <div class="col-inline col-12  sm-col-12 lg-col-4 md-center">
         <p>
           © Berlin Connect 2015.<br>
           All rights reserved<br>

@@ -38,8 +38,7 @@
         <h5 class="caps m0 mb3 light-gray"><?= $page->subscribetitle() ?></h5>
         <p class="h4 bold caps line-height-2 m0 mb1"><?= $page->subscribeheader() ?></p>
         <p class="h4 regular m0 mb2"><?= $page->subscribetext() ?></p>
-        <input class="p2 mt2 full-width border-box bg-bc-off-white" placeholder="<?= $page->subscribeinputplaceholder() ?>"></input>
-        <button type="submit" class="p2 center full-width border-none bg-dark-gray bc-white"><?= $page->subscribesubmit() ?></button>
+        <button type="submit" class="p2 center full-width border-none bg-dark-gray bc-white"><?= $site->subscribesubmit() ?></button>
       </div>
     </div>
   </div>
