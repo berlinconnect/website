@@ -33,6 +33,7 @@
         zoom: 16,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: false,
+        draggable: false
       }
       var map = new google.maps.Map(map_canvas, map_options)
       var marker = new google.maps.Marker({
