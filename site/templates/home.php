@@ -33,13 +33,26 @@
   </div>
   <?php snippet('events') ?>
   <div class="full-width bg-dark-gray clearfix">
-    <div class="col col-4 center">
-      <div class="relative mt4 mx-auto bc-white grid-content">
-        <h5 class="caps m0 mb2 light-gray"><?= $page->subscribetitle() ?></h5>
-        <p class="h4 bold caps line-height-2 m0 mb2"><?= $page->subscribeheader() ?></p>
-        <p class="h4 regular m0 mb2 light-gray"><?= $page->subscribetext() ?></p>
-        <input class="mt2 full-width p2 border-box bg-mid-gray" placeholder="<?= $page->subscribeinputplaceholder() ?>"></input>
-        <button type="submit" class="center full-width p2 border-none bg-bc-white dark-gray"><?= $page->subscribesubmit() ?></button>
+    <div class="col col-4">
+      <div class="relative mt3 mx-auto bc-white grid-content">
+        <h5 class="h4 bold caps line-height-2 m0 mb1"><?= $page->addresstitle() ?></h5>
+        <p class="h4 regular m0 mb3"><?= $page->addresstext() ?></p>
+        <p class="h4 bold caps line-height-2 m0 mb1"><?= $page->transporttitle() ?></p>
+        <p>Alexanderplatz:</p>
+        <div class="connections">
+          <span style="background-color:#F05921">U2</span><span style="background-color:#825942">U5</span><span style="background-color:#0D619E">U8</span><span class="s" style="background-color:#F47922">S5</span><span class="s" style="background-color:#7A6CAC">S7</span><span class="s" style="background-color:#7A6CAC">S75</span>
+        </div>
+        <div class="m connections">
+          <span>M4</span><span>M5</span><span>M6</span><span>M8</span><span>M48</span>
+        </div>
+        <br>
+        <p>Hackescher Markt:</p>
+        <div class="s connections">
+          <span class="s" style="background-color:#F47922">S5</span><span class="s" style="background-color:#7A6CAC">S7</span><span class="s" style="background-color:#7A6CAC">S75</span>
+        </div>
+        <div class="m connections">
+          <span>M1</span><span>M4</span><span>M5</span>
+        </div>
       </div>
     </div>
     <div class="map" id="map_canvas"></div>
