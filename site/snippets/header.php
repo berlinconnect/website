@@ -7,7 +7,7 @@
   </title>
 
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
   <meta name="description" content="<?php echo html($site->description()) ?>" />
 
   <link rel="icon" href="<?php echo url('img/favicon.ico') ?>" type="image/x-icon">
@@ -40,6 +40,7 @@
         icon: myIcon,
         map: map
       });
+      map.panTo(marker.getPosition());
       marker.setMap(map);
     }
     google.maps.event.addDomListener(window, 'load', initialize);

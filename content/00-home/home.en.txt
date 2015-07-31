@@ -28,9 +28,6 @@ SubscribeText: Subscribe to our weekly newsletter giving you the latest informat
 SubscribeInputPlaceholder: Enter your email address
 ----
 
-SubscribeSubmit: Send
-----
-
 SundayTitle: Sunday
 ----
 
