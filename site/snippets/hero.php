@@ -10,9 +10,9 @@
       <h1 class="huge caps letter-spacing m0"><?= $page->herotitle() ?></h1>
 
     <?php else: ?>
-      <div class="py4 my4">
+      <div class="py4 my4 tiny-my2">
         <?php if($page->id() == 'new-to-bc'): ?>
-          <div class="py4 my4">
+          <div class="py4 my4 tiny-my0">
           </div>
         <?php endif ?>
         <?php if($page->id() == 'one-team'): ?>
