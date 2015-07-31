@@ -4,6 +4,24 @@
 .tiny-show-inline, .xsm-show-inline, .sm-show-inline, .md-show-inline, .lg-show-inline, .xlg-show-inline
   display none !important
 
+sizes = "tiny" 'max-width: 29.999em',
+        "xsm" 'min-width: 30em',
+        "sm" 'min-width: 40em',
+        "md" 'min-width: 48em',
+        "lg" 'min-width: 64em',
+        "xlg" 'min-width: 81em'
+
+  for size in sizes
+    @media ({size[1]})
+      .{size[0]}-center
+        text-align center
+
+      .{size[0]}-justify
+        text-align justify
+
+      .{size[0]}-left
+        text-align left
+
 @media $breakpoint-tiny
   body
     &::before
@@ -15,10 +33,14 @@
       color white
       z-index 100
 
-    h1
+    h1, .h1
       &.huge
         font-size ($h1 / 1)
         line-height $line-height - 0.2
+
+    h3, .h3
+      font-size ($h3 / 1.2)
+      line-height $line-height - 0.05
 
   .tiny-show-inline
     display inline-block !important
@@ -52,14 +74,20 @@
 
 @media $breakpoint-sm
 
-  body::before
-    content 'sm'
-    position fixed
-    top 20px
-    left 20px
-    background red
-    color white
-    z-index 100
+  body
+    &:before
+      content 'sm'
+      position fixed
+      top 20px
+      left 20px
+      background red
+      color white
+      z-index 100
+
+    h1, .h1
+      &.huge
+        font-size ($h1 / 0.8)
+        line-height $line-height - 0.2
 
   .sm-show-inline
     display inline-block !important

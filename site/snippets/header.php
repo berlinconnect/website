@@ -40,6 +40,7 @@
         icon: myIcon,
         map: map
       });
+      map.panTo(marker.getPosition());
       marker.setMap(map);
     }
     google.maps.event.addDomListener(window, 'load', initialize);

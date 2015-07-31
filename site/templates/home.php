@@ -3,7 +3,7 @@
   <?php snippet('grid') ?>
   <div class="full-width bg-bc-off-white py4">
     <div class="container clearfix center">
-      <p class="caps h4 regular letter-spacing-1 px3 line-height-3 m0 bc-blue">As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation we live in with the love, hope and goodness of our compassionate and faithful God.</p>
+      <p class="caps h4 regular tiny-justify sm-justify md-center letter-spacing-1 px3 line-height-3 m0 bc-blue">As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation we live in with the love, hope and goodness of our compassionate and faithful God.</p>
       <div class="py3 divider md-show">
         <div class="col-inline col-1 mx-auto border-top border-light-gray">
         </div>
@@ -33,7 +33,7 @@
   </div>
   <?php snippet('events') ?>
   <div class="full-width bg-dark-gray clearfix">
-    <div class="col col-4 center">
+    <div class="col col-6 lg-col-4 center sm-show">
       <div class="relative mt4 mx-auto bc-white grid-content">
         <h5 class="caps m0 mb2 light-gray"><?= $page->subscribetitle() ?></h5>
         <p class="h4 bold caps line-height-2 m0 mb2"><?= $page->subscribeheader() ?></p>
