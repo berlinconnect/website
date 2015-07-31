@@ -25,7 +25,7 @@
     <?php endif ?>
 
     <?php if (strlen($page->herotext()) != 0): ?>
-      <p class="h3 px1 border-box regular mx-auto col-inline col-12 md-col-9 lg-col-7 m0"><?= $page->herotext() ?></p>
+      <p class="h3 regular col-inline tiny-col-12 md-col-9 lg-col-7 mx-auto m0 px1 border-box"><?= $page->herotext() ?></p>
     <?php endif ?>
 
 
