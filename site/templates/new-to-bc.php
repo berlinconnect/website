@@ -36,7 +36,7 @@
     </div>
   </div>
   <div class="font-size-0">
-    <div class="col-inline vm col-12 md-col-6 tiny-center sm-center md-left border-box full-height px4 sm-pt4 sm-pb3 tiny-px1 tiny-py4 sm-px2 md-px2 md-pt4">
+    <div class="col-inline vm col-12 md-col-6 tiny-center sm-center md-left border-box full-height px4 sm-pt4 sm-pb3 tiny-px1 tiny-py4 sm-px2 md-px2 md-pt4 lg-px4">
       <h5 class="caps m0 mb2"><?= $page->sundays() ?></h5>
       <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->sundayquote() ?>.</p>
       <span class="tiny-justify"><?= $page->sundaycopy()->kirbytext() ?></span>
@@ -69,7 +69,7 @@
         <?php endif ?>
       </div>
     </div>
-    <div class="col-inline vm col-12 md-col-6 tiny-center sm-center md-left border-box full-height px4 sm-pt4 sm-pb3 tiny-px1 tiny-py4 sm-px2 md-px2 md-pt4">
+    <div class="col-inline vm col-12 md-col-6 tiny-center sm-center md-left border-box full-height px4 sm-pt4 sm-pb3 tiny-px1 tiny-py4 sm-px2 md-px2 md-pt4 lg-px4">
       <h5 class="caps m0 mb2"><?= $page->community() ?></h5>
       <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->communityquote() ?></p>
       <span class="tiny-justify"><?= $page->communitycopy()->kirbytext() ?></span>
@@ -95,7 +95,7 @@
   </div>
 </div>
 <div class="full-width clearfix py4">
-  <div class="col-12 border-box tiny-px2 m-px2 md-col-8 lg-col-5 center mx-auto">
+  <div class="col-12 border-box tiny-px2 m-px2 sm-col-10 md-col-7 lg-col-5 center mx-auto">
     <h5 class="caps m0 mb2"><?= $page->society() ?></h5>
     <p class="h4 regular bc-blue caps line-height-2 m0 mb2">
       <?= $page->societyquote() ?>

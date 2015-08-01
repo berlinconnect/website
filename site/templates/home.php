@@ -33,7 +33,7 @@
   </div>
   <?php snippet('events') ?>
   <div class="full-width bg-dark-gray clearfix">
-    <div class="col col-6 lg-col-4 center sm-show">
+    <div class="col col-6 lg-col-4 sm-show">
       <div class="relative mt3 mx-auto bc-white grid-content">
         <h5 class="h4 bold caps line-height-2 m0 mb1"><?= $page->addresstitle() ?></h5>
         <p class="h4 regular m0 mb3"><?= $page->addresstext() ?></p>
