@@ -8,7 +8,7 @@
         <ul class="caps bold m0 list-reset pr4">
           <?php
             // main menu items
-            $items = $pages->find('new-to-bc', 'calendar', 'faq', 'contact');
+            $items = $pages->find('new-to-bc', 'calendar', 'enlarge', 'faq');
             // only show the menu if items are available
             if($items->count()):
           ?>

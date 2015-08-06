@@ -17,7 +17,7 @@
         <?php endif ?>
         <?php if($page->id() == 'one-team'): ?>
           <div class="center">
-            <div class="contain-bg center-bg" style="background-image:url('../images/logo/teamlogo.svg'); width:100%; height:300px;"></div>
+            <div class="contain-bg center-bg" style="background-image:url('../images/logo/teamlogo.svg'); width:100%; height:260px;"></div>
           </div>
         <?php endif ?>
       </div>

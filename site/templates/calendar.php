@@ -1,12 +1,12 @@
 <?php snippet('header') ?>
 <?php snippet('hero', array('bgAttachement' => 'bg-fixed', 'bgPosition' => 'center-bg')) ?>
 
-<div class="py4 container clearfix ">
+<div class="tiny-py0 md-py0 lg-py4 container clearfix">
   <div class="questions grid">
     <?php foreach($page->children()->visible() as $event): ?>
       <!-- $date = $event->date('M'); ?> -->
       <!-- $ if ($date == date('M')): ?> -->
-        <div class="col col-3 event-container inline-block border-box p1 mt2">
+        <div class="xsm-col col-12 sm-col-6 lg-col-3  event-container inline-block border-box p1 mt2">
         <!-- IMPORTANT: the image in the content folder/for every event must be named 1.jpg!!!!!!! -->
           <div class="relative drop-shadow event bg-light-gray p1 width-bg top-bg" <?php if($image = $event->image('1.jpg')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
             <div class="date align-left bc-white ml1">
