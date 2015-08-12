@@ -4,6 +4,23 @@
   100%
     bottom 0
 
+.overlay
+  height 20px
+  width 20px
+  border-radius 40px
+  background-color rgba(black,0.8)
+  position fixed
+  left 50%
+  top 50%
+  margin -10px 0 0 -10px
+  z-index 3
+  transform scale(0)
+  opacity 0
+  transition all 600ms cubic-bezier(0.205, 0.000, 0.000, 1.000)
+
+  &.zoomed
+    opacity 1
+    transform scale(100)
 
 .notice
   width 360px
@@ -12,29 +29,29 @@
   bottom 0
   transform translateY(-40%) translateX(-180px)
   will-change transform
-  transition all 400ms cubic-bezier(0.19, 1, 0.22, 1)
+  transition all 400ms cubic-bezier(0.205, 0.000, 0.000, 1.000)
   background white
-  animation-name fadeInUpNotice
-  animation-delay 3000ms
+  // animation-name fadeInUpNotice
+  // animation-delay 3000ms
 
-  & ~ .stage
-    opacity 0.3
+  // & ~ .stage
+  //   opacity 0.3
 
   .header
     .heading
       transform translateY(-50px)
-      transition all 400ms cubic-bezier(0.645, 0.045, 0.355, 1)
+      transition all 400ms cubic-bezier(0.205, 0.000, 0.000, 1.000)
 
     .header-image
-      transition all 400ms cubic-bezier(0.645, 0.045, 0.355, 1)
+      transition all 400ms cubic-bezier(0.205, 0.000, 0.000, 1.000)
       transform translateY(-50px)
 
   &.minified:hover
-    transform translateY(87%) translateX(-180px) !important
+    bottom 6px
 
   .header
     height 160px
-    transition all 400ms cubic-bezier(0.19, 1, 0.22, 1)
+    transition all 400ms cubic-bezier(0.205, 0.000, 0.000, 1.000)
 
   &.minified
     transform translateY(88%) translateX(-180px)
@@ -48,3 +65,12 @@
 
       .header-image
         transform translateY(0)
+
+@media $breakpoint-tiny
+  body
+    .notice
+      width 300px
+      transform translateY(0%) translateX(-150px)
+
+      &.minified
+        transform translateY(88%) translateX(-150px)
