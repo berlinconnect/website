@@ -48,5 +48,6 @@
   </script>
 </head>
 <body class="animated fadeIn">
+  <?= snippet('notice')?>
   <?= snippet('sidebar')?>
   <div class="stage">

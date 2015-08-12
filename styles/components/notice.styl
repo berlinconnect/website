@@ -1,0 +1,50 @@
+@keyframes fadeInUpNotice
+  0%
+    bottom -100px
+  100%
+    bottom 0
+
+
+.notice
+  width 360px
+  min-height 340px
+  left 50%
+  bottom 0
+  transform translateY(-40%) translateX(-180px)
+  will-change transform
+  transition all 400ms cubic-bezier(0.19, 1, 0.22, 1)
+  background white
+  animation-name fadeInUpNotice
+  animation-delay 3000ms
+
+  & ~ .stage
+    opacity 0.3
+
+  .header
+    .heading
+      transform translateY(-50px)
+      transition all 400ms cubic-bezier(0.645, 0.045, 0.355, 1)
+
+    .header-image
+      transition all 400ms cubic-bezier(0.645, 0.045, 0.355, 1)
+      transform translateY(-50px)
+
+  &.minified:hover
+    transform translateY(87%) translateX(-180px) !important
+
+  .header
+    height 160px
+    transition all 400ms cubic-bezier(0.19, 1, 0.22, 1)
+
+  &.minified
+    transform translateY(88%) translateX(-180px)
+
+    & ~ .stage
+      opacity 1
+
+    .header
+      .heading
+        transform translateY(0)
+
+      .header-image
+        transform translateY(0)

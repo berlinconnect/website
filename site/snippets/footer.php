@@ -32,6 +32,7 @@
 <?php echo js('js/plugins/adaptiveBackgrounds.js') ?>
 <?php echo js('js/plugins/wow.js') ?>
 <?php echo js('js/components/sidebar.js') ?>
+<?php echo js('js/components/notice.js') ?>
 <?php echo js('js/plugins/instafeed.js') ?>
 
 <?php if($page->id() == 'new-to-bc'): ?>
