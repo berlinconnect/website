@@ -16,7 +16,9 @@
         Our annual Heart for the House will be coming up very soon. To find out more about what it is and what it means for you, click the button below.
       </p>
     </div>
-    <a class="col col-6 bg-bc-off-white center light-gray block p2 caps h5 close-notice">Dismiss</a>
-    <a class="col col-6 bg-bc-blue center bc-white block p2 caps h5">Visit</a>
+    <div class="buttons">
+      <a class="col col-6 bg-bc-off-white center light-gray block p2 caps h5 close-notice">Dismiss</a>
+      <a class="col col-6 bg-bc-blue center bc-white block p2 caps h5">Visit</a>
+    </div>
   </div>
 </div>
