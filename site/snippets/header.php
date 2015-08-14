@@ -10,7 +10,36 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
   <meta name="description" content="<?php echo html($site->description()) ?>" />
 
-  <link rel="icon" href="<?php echo url('img/favicon.ico') ?>" type="image/x-icon">
+  <meta name="theme-color" content="#0087e0">
+
+  <meta content="summary" name="twitter:card">
+  <meta content="@berliconnect" name="twitter:site">
+  <meta content="<?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>" name="twitter:title">
+  <meta content="<?= excerpt($page->description(), 300) ?>">
+
+  <?php if($page->parent()->id() == 'enlarge'): ?>
+    <meta property="og:type" content="article" />
+    <meta content="<?= excerpt($page->text(), 300) ?>" itemprop="description">
+    <meta content="<?= excerpt($page->text(), 300) ?>">
+    <meta property="og:description" content="<?= excerpt($page->text(), 300) ?>" />
+    <meta content="<?= excerpt($page->text(), 300) ?>" itemprop="description">
+  <?php else: ?>
+    <meta content="<?= $site->description() ?>">
+    <meta content="<?= $site->description() ?>" itemprop="description">
+    <meta property="og:description" content="<?= $site->description() ?>" />
+    <meta content="<?= $site->description() ?>" itemprop="description">
+  <?php endif ?>
+  <meta property="og:site_name" content="<?php echo $site->title()->html() ?>" />
+  <meta property="og:description" content="<?= excerpt($page->description(), 300) ?>" />
+  <meta property="og:url" content="<?= $page->url() ?>" />
+  <meta property="og:title" content="<?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>" />
+  <meta property="og:image" content="<?php echo $page->images()->first()->url(); ?>" />
+  <meta property="article:author" content="<?= $site->url() ?>" />
+
+  <meta content="<?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>" itemprop="name">
+  <meta content="<?= excerpt($page->description(), 300) ?>" itemprop="description">
+
+  <link rel="icon" type="image/png" href="../images/favicon.ico" sizes="32x32" />
 
   <?php echo css('css/styles.css') ?>
 
@@ -45,6 +74,21 @@
       marker.setMap(map);
     }
     google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-82811-13']);
+    _gaq.push(['_setDomainName', 'myberlinconnect.de']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
   </script>
 </head>
 <body class="animated fadeIn">

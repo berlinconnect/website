@@ -62,11 +62,11 @@
     <p class="h1 lighter mb3 tiny-mb2">Serve the Lord with gladness.</p>
     <p class="h3 lighter px1 sm-px2 col-inline col-12 md-col-8">Are you considering taking the next step and serving in church? Click the button below, complete the form and we will be in touch with you.</p>
     <div class="mt3">
-      <a href="" class="h5 caps bold p2 center bg-bc-white bc-blue">Sign Up Today</a>
+      <a href="" class="h5 caps bold p2 center bg-bc-white bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Sign Up Today</a>
     </div>
   </div>
 </div>
-<div class="full-width font-size-0" id="instafeed"></div>
-<a id="load-more" class="full-width block center h1 caps bc-white border-box p3 pointer bg-bc-blue">Load More</a>
+<!-- <div class="full-width font-size-0" id="instafeed"></div>
+<a id="load-more" class="full-width block center h1 caps bc-white border-box p3 pointer bg-bc-blue">Load More</a> -->
 
 <?php snippet('footer') ?>

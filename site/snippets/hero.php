@@ -36,7 +36,7 @@
         </div>
       </div>
       <!-- divider -->
-      <?php snippet('heroDivider') ?>
+      <?php snippet('social') ?>
     <?php else: ?>
 
     <?php endif ?>

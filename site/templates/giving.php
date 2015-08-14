@@ -13,7 +13,7 @@
       <div class="col col-12 sm-col-6 pr2">
         <h5 class="caps">Online Giving</h5>
         <p class="small justify">Online giving is a quick and easy way to give. Click on the button below which will take you to our payment system and complete the online form with your details.</p>
-        <a href="" class="h5 caps bold p2 block center bg-bc-blue bc-white">Give Online</a>
+        <a href="" class="h5 caps bold p2 block center bg-bc-blue bc-white" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Give Online']);">Give Online</a>
         <p class="small mt2 light-gray italic">If you have any queries with regards to your giving please call 0207 384 9200 to speak to someone in accounts or email giving@hillsong.co.uk</p>
       </div>
       <div class="col-right col-12 sm-col-6 sm-pl2">

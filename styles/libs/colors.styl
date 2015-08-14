@@ -16,6 +16,14 @@ colors = dark-gray mid-gray light-gray bc-off-white bc-white bc-yellow bc-orange
     .border-{color}
       border-color $+color !important
 
+    button.bg-{color}:hover,
+    .button.bg-{color}:hover
+      background-color darken($+color,30%)
+
+    .button-outline.border-{color}:hover
+      background-color $+color
+      color white
+
 .bg-transparent
   background-color transparent
 

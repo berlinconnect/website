@@ -3,11 +3,11 @@
       <div class="mx-auto col-2 sm-col-12 sm-center">
         <img class="inline-block  mb3 vm" src="../images/logo/light-bc-white.svg" width="70px"/>
       </div>
-      <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">
+      <div class="col-inline col-12  sm-col-12 lg-col-4 md-center">
         <p>
-          Berlin Christian Life Centre e.V.<br>
-          Weinbergsweg 24M<br>
-          10119 Berlin
+          © Berlin Connect 2015.<br>
+          All rights reserved<br>
+          Privacy Policy
         </p>
       </div>
       <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">
@@ -17,11 +17,9 @@
           myberlinconnect.de
         </p>
       </div>
-      <div class="col-inline col-12  sm-col-12 lg-col-4 md-center">
+      <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">
         <p>
-          © Berlin Connect 2015.<br>
-          All rights reserved<br>
-          Privacy Policy
+          <?= $site->churchaddress()?>
         </p>
       </div>
     </div>
