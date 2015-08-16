@@ -36,7 +36,7 @@
         </div>
       </div>
       <!-- divider -->
-      <?php snippet('social') ?>
+      <?= snippet('social', array('iconSize' => '30px')) ?>
     <?php else: ?>
 
     <?php endif ?>

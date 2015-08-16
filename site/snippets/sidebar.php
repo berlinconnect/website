@@ -17,19 +17,8 @@
         <?php endforeach ?>
       </ul>
       <div class="px3">
-        <div class="py3">
-          <a href="<?= $site->facebooklink() ?>" class="display-inline mr2" onclick="_gaq.push(['_trackEvent', 'Social Link', 'Clicked', 'Facebook in Sidebar']);">
-            <img src="../images/social/facebook.svg" width="20px">
-          </a>
-          <a href="<?= $site->twitterlink() ?>" class="display-inline mr2" onclick="_gaq.push(['_trackEvent', 'Social Link', 'Clicked', 'Twitter in Sidebar']);">
-            <img src="../images/social/twitter.svg" width="26px">
-          </a>
-          <a href="<?= $site->instagramlink() ?>" class="display-inline mr2" onclick="_gaq.push(['_trackEvent', 'Social Link', 'Clicked', 'Instagram in Sidebar']);">
-            <img src="../images/social/instagram.svg" width="20px">
-          </a>
-          <a href="<?= $site->tumblrlink() ?>" class="display-inline" onclick="_gaq.push(['_trackEvent', 'Social Link', 'Clicked', 'Tumblr in Sidebar']);">
-            <img src="../images/social/instagram.svg" width="20px">
-          </a>
+        <div class="py2">
+          <?= snippet('social', array('iconSize' => '24px')) ?>
         </div>
         <?= snippet('languageSwitcher') ?>
       </div>
