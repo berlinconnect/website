@@ -7,6 +7,9 @@ colors = dark-gray mid-gray light-gray bc-off-white bc-white bc-yellow bc-orange
     .hover-{color}:hover
       color $+color
 
+    .hover-bg-{color}:hover
+      background-color $+color
+
     .bg-{color}
       background-color $+color
 
@@ -19,6 +22,7 @@ colors = dark-gray mid-gray light-gray bc-off-white bc-white bc-yellow bc-orange
     button.bg-{color}:hover,
     .button.bg-{color}:hover
       background-color darken($+color,30%)
+      color white
 
     .button-outline.border-{color}:hover
       background-color $+color

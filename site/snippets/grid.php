@@ -38,7 +38,7 @@
         <h5 class="caps m0 mb3 light-gray"><?= $page->subscribetitle() ?></h5>
         <p class="h4 bold caps line-height-2 m0 mb1"><?= $page->subscribeheader() ?></p>
         <p class="h4 regular m0 mb2"><?= $page->subscribetext() ?></p>
-        <button type="submit" class="p2 center full-width border-none bg-dark-gray bc-white" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Newsletter signup']);"><?= $site->subscribesubmit() ?></button>
+        <a href="<?= $site->formUrl() ?>" target="_blank" class="button p2 center full-width border-none bg-dark-gray bc-white" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Newsletter signup']);"><?= $site->subscribesubmit() ?></a>
       </div>
     </div>
   </div>
