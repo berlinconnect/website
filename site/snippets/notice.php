@@ -1,7 +1,7 @@
-<div class="overlay">
+<div class="overlay z4">
 
 </div>
-<div class="fixed bg-bc-white z4 heavy-drop-shadow animated box-sizing notice minified">
+<div class="fixed bg-bc-white z4 animated box-sizing notice minified">
   <div class="clearfix heavy-drop-shadow">
     <div class="relative header bg-bc-blue bc-white overflow-hidden pointer">
       <div class="heading clearfix p2">
@@ -17,7 +17,7 @@
       </p>
     </div>
     <div class="buttons">
-      <a class="button col col-6 bg-bc-off-white center gray block p2 caps h5 close-notice">Dismiss</a>
+      <a class="button col col-6 bg-bc-off-white center gray block p2 caps h5 close-notice" onClick="<?php cookie::set('notice', 'seen');?>">Dismiss</a>
       <a class="button col col-6 bg-bc-blue center bc-white block p2 caps h5">Visit</a>
     </div>
   </div>

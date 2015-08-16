@@ -1,4 +1,4 @@
-<button class="fixed bg-faded-dark-gray z4 pill navigation-button no-select animated fadeInRightBig" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Navigation Hamburger']);">
+<button class="fixed bg-faded-dark-gray z3 pill navigation-button no-select animated fadeInRightBig" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Navigation Hamburger']);">
   <div class="hamburger absolute">
     <span class="block bg-bc-white bar topPosition"></span>
     <span class="block bg-bc-white bar middlePosition"></span>
