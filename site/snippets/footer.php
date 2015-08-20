@@ -7,13 +7,14 @@
         <p>
           © Berlin Connect 2015.<br>
           All rights reserved<br>
-          Privacy Policy
+          <a href="" class="bc-white">Privacy Policy</a>
         </p>
       </div>
       <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">
         <p>
+          Questions? Call Conny:<br>
           +49 (0) 174 3463491<br>
-          hello@myberlinconnect.de<br>
+          conny@berlinclc.de<br>
           myberlinconnect.de
         </p>
       </div>
