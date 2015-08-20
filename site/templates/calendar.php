@@ -2,7 +2,9 @@
 <?php snippet('hero', array('bgAttachement' => 'bg-fixed', 'bgPosition' => 'center-bg')) ?>
 
 <div class="tiny-py0 md-py0 lg-py4 container clearfix">
-  <div class="questions grid">
+  <p class="caps h4 regular tiny-justify sm-justify md-center letter-spacing-1 px3 py2 line-height-3 m0 mb2 bc-blue"><?= $page->text() ?></p>
+
+  <div class="events grid">
     <?php foreach($page->children()->visible() as $event): ?>
       <!-- $date = $event->date('M'); ?> -->
       <!-- $ if ($date == date('M')): ?> -->
