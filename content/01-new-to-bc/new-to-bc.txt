@@ -4,44 +4,47 @@ Title: New to BC
 IntroQuote: Our philosophy is simply to love God, love people and love life.
 ----
 
-IntroCopy: We are multicultural church in the heart of Berlin, changing people's perceptions about Jesus and His Church. Our philosophy is simply to love God, love people and love life. Our motto is - 'Come as you are'
+IntroCopy: We are a multicultural church in the heart of Berlin, changing people's perceptions about Jesus and His Church. Our philosophy is simply to love God, love people and love life. Our motto is - 'Come as you are'.
 ----
 
-Sundays: Our Sundays
+Sundays: Our Sunday Gatherings
 ----
 
 SundayQuote: Sundays are Jesus-focused and people-empowering.
 ----
 
-SundayCopy: Our desire is that Sundays in God’s House will be a place where people from all walks of life can come and feel 'AT HOME'. A place of connection with God and each other, of encouragement and worship, a place where guests become family.
+SundayCopy: On Sunday the whole day is the message. We aim to create an environment where you can easily connect with God and people in a personal, relational way that is warmhearted and authentic.
 
-Our services include live music, kids & youth activities for 1-18 year olds and translation to German, Spanish and Portuguese.
+We have five gatherings at 11:00, 13:00, 15:00, 17:00, 19:00 every Sunday. They include live music, kids & youth activities for 1-18 year olds and translation to German, Spanish and Portuguese.
+
+Join us this Sunday!
 ----
 
-Community: Our Community
+Community: Our Midweek Community
 ----
 
 CommunityQuote: Connecting our Sundays to our Midweek.
 ----
 
-CommunityCopy: Sitting together around a table of friendship and family is important for all of us. As a church we place great value on developing meaningful and personal connections midweek through our Dinner Parties. These are hosted throughout the city and enable us to put into practice midweek what we are learning on Sundays.
+CommunityCopy: As a church we place great value on developing meaningful and personal connections midweek through our Dinner Parties and Sisterhood gatherings.
+Dinner Parties are informal get-togethers that take place every fortnight on Wednesday nights in homes all across Berlin.
 
-Dinner Parties with purpose are not merely about 'what is on' the table but more about 'who is around' the table.
+Sisterhood is all about placing value on women and gets together for morning tea every Thursday from 10:30 to 12:30 at the Hub.
 ----
 
-Society: Our Society
+Society: Engaging In Society
 ----
 
 SocietyQuote: Shining brightly in society
 ----
 
-SocietyCopy: Our desire is to contribute to the well-being of society as a whole through social enterprise and leadership innovation. Out of the overflow of our lives we can serve our city by getting involved, finding and supporting positive solutions that place value, speak to people's potential and point to vision that shapes a better society.
+SocietyCopy: Our desire is to contribute to the well-being of society as a whole through social enterprise. Out of the overflow of our lives we can serve our city by getting involved, finding and supporting positive solutions that place value, speak to people's potential and point to vision that shapes a better society. Would be cool to have one more sentence about why we have partnerships, what we do locally and what Futureminded is.
 ----
 
-AreYouFree: Are you free this weekend?
+AreYouFree: What is your next step?
 ----
 
-AreYouFreeCopy: We are unashamedly passionate about the House of God. We welcome visitors at Berlin Connect and would love to have you join us in church this weekend.
+AreYouFreeCopy: We’re all on a journey together – loving God, loving people, building the church together. We would love to help you make the next step in your journey with Christ at the Center.
 ----
 
 FindUs: Find us on a map

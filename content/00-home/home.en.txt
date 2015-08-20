@@ -53,6 +53,12 @@ SocialTitle: Social enterprise
 SocialText: We are passionate about empowering people to shine brightly in society and we believe that together, we can make a difference in our city and beyond by getting involved.
 ----
 
+EventSectionTitle: Coming Up
+----
+
+EventSectionInfo: We came to Church because someone invited us. In the same way, you are invited to join us this week, as we are celebrating life, building new friendships and discovering our God-given potential in Christ
+----
+
 AddressTitle: Address
 ----
 

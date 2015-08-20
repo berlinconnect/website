@@ -27,12 +27,6 @@ SocialKindness: Social Kindness
 Futureminded: futureminded
 ----
 
-EventSectionTitle: This Week
-----
-
-EventSectionInfo: As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation.
-----
-
 SubscribeSubmit: Check it out
 ----
 

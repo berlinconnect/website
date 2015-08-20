@@ -6,8 +6,3 @@ HeroTitle: Coming Up
 
 HeroText: This Sunday, Guest Speakers & more.
 ----
-
-Text: We came to Church because someone invited us.
-In the same way, you are invited to join us this week, as we are celebrating life,
-building new friendships and discovering our God-given potential in Christ
-----
