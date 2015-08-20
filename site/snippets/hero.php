@@ -20,9 +20,6 @@
             <div class="contain-bg center-bg" style="background-image:url('../images/logo/teamlogo.svg'); width:100%; height:260px;"></div>
           </div>
         <?php endif ?>
-        <?php if($page->id() != 'one-team, new-to-bc'): ?>
-          <h1 class="huge caps letter-spacing m0"><?= $page->title() ?></h1>
-        <?php endif ?>
       </div>
 
     <?php endif ?>
