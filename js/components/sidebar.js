@@ -12,14 +12,6 @@ function fixedBody() {
   $('body').toggleClass('overflow-hidden');
 }
 
-function navTrackOpened() {
-  $sidebarButton.attr("onclick", "_gaq.push(['_trackEvent', 'navigation-button', 'opened']);");
-}
-
-function navTrackClosed() {
-  $sidebarButton.attr("onclick", "_gaq.push(['_trackEvent', 'navigation-button', 'closed']);");
-}
-
 function transformClose() {
   $sidebarButton.toggleClass('close');
 }
