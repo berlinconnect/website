@@ -67,6 +67,6 @@
   </div>
 </div>
 <div class="full-width font-size-0" id="instafeed"></div>
-<a id="load-more" class="full-width block center h1 caps bc-white border-box p3 pointer bg-bc-blue">Load More Stories</a>
+<a id="load-more" class="full-width block center h1 bc-white border-box p3 pointer bg-bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'See more stories']);">See More Stories</a>
 
 <?php snippet('footer') ?>
