@@ -1,4 +1,26 @@
 Title: Enlarge
 ----
-Text:
+Overview: We believe church can be a place where people from all walks of life and ages can feel ‘at home’.
+At Berlin Connect, we aim to create an environment where you can easily connect with God and people, enabling your life to grow as you discover and live out your God-given potential in Christ.
+----
+
+SundayTitle: Sunday
+----
+
+SundayText: Our desire is that Sunday gatherings are a place of connection with God and each other, of encouragement, worship and a place where guests become family.
+----
+
+ReadMore: Read More
+----
+
+CommunityTitle: Community
+----
+
+CommunityText: Sitting together around a table of friendship and family is important for all of us. As a church we place great value on developing meaningful and personal connections midweek.
+----
+
+SocialTitle: Social enterprise
+----
+
+SocialText: We are passionate about empowering people to shine brightly in society and we believe that together, we can make a difference in our city and beyond by getting involved.
 ----
