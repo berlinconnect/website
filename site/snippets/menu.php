@@ -14,7 +14,7 @@
           ?>
           <?php foreach($items as $item): ?>
             <li class="inline-block mr3">
-              <a href="<?= $item->url() ?>" class="h4 regular <?= $color ?>">
+              <a href="<?= $item->url() ?>" class="h4 regular <?= $color ?>" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Top Menu <?php echo $item->uid() ?>']);">
                 <?= $item->title() ?>
               </a>
             </li>

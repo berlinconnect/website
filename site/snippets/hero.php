@@ -36,7 +36,7 @@
         </div>
       </div>
       <!-- divider -->
-      <?php snippet('heroDivider') ?>
+      <?= snippet('social', array('iconSize' => '30px')) ?>
     <?php else: ?>
 
     <?php endif ?>

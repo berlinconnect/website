@@ -45,13 +45,13 @@
           <p class="h6 caps light-gray mr1 mb1"><?= $site->moreinformation() ?></p>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->conferences() ?></a>
+          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about conferences']);"><?= $site->conferences() ?></a>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->kids() ?></a>
+          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about kids']);"><?= $site->kids() ?></a>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->youth() ?></a>
+          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about youth']);"><?= $site->youth() ?></a>
         </li>
       </ul>
     </div>
@@ -78,10 +78,10 @@
           <p class="h6 caps light-gray mr1 mb1"><?= $site->moreinformation() ?></p>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->dinnerparties() ?></a>
+          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about dinner parties']);"><?= $site->dinnerparties() ?></a>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->sisterhood() ?></a>
+          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about sisterhood']);"><?= $site->sisterhood() ?></a>
         </li>
       </ul>
     </div>
@@ -106,10 +106,10 @@
         <p class="h6 caps light-gray mr1 mb1"><?= $site->moreinformation() ?></p>
       </li>
       <li class="inline-block">
-        <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->socialkindness() ?></a>
+        <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about social kindness']);"><?= $site->socialkindness() ?></a>
       </li>
       <li class="inline-block">
-        <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1"><?= $site->futureminded() ?></a>
+        <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about futureminded']);"><?= $site->futureminded() ?></a>
       </li>
     </ul>
   </div>
@@ -144,7 +144,7 @@
     <p class="h1 lighter mb3 tiny-mb2"><?= $page->areyoufree() ?></p>
     <p class="h3 lighter px1 sm-px2 col-inline col-12 md-col-8"><?= $page->areyoufreecopy() ?></p>
     <div class="mt3">
-      <a href="" class="h5 caps bold p2 center bg-bc-white bc-blue"><?= $page->findus() ?></a>
+      <a href="" class="button h5 caps bold p2 center bg-bc-white bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Find us on a map']);"><?= $page->findus() ?></a>
     </div>
   </div>
 </div>
