@@ -3,13 +3,13 @@
   <?php snippet('grid') ?>
   <div class="full-width bg-bc-off-white py4">
     <div class="container clearfix center">
-      <p class="caps h4 regular tiny-justify sm-justify md-center letter-spacing-1 px3 line-height-3 m0 bc-blue">As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation we live in with the love, hope and goodness of our compassionate and faithful God.</p>
+      <p class="caps h4 regular tiny-justify sm-justify md-center letter-spacing-1 px3 line-height-3 m0 bc-blue"><?= $page->overview() ?></p>
       <div class="py3 divider md-show">
         <div class="col-inline col-1 mx-auto border-top border-light-gray">
         </div>
       </div>
 
-      <a href="/new-to-bc" class="button inline-block md-hide mt3 h5 caps bg-bc-blue bc-white bold p2" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Go to new to bc on mobile']);">Find out more</a>
+      <a href="/new-to-bc" class="button inline-block md-hide mt3 h5 caps bg-bc-blue bc-white bold p2" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Go to new to bc on mobile']);"><?= $page->readmore() ?></a>
 
       <?php $hwacols = 'col col-12 sm-col-4 mb4' ?>
       <div class="col col-12 mt2 md-show border-box">
