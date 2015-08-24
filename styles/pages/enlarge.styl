@@ -1,0 +1,71 @@
+.post
+  height 0
+  float left
+
+  p.description
+    display none
+
+  &:hover
+    .bg-image
+      transform scale(1.8)
+
+  .bg-image
+    transform scale(1)
+    transition all 20000ms 300ms linear
+
+  &.square
+    &.big
+      p.description
+        display block
+
+@media $breakpoint-tiny
+  body
+    .post
+      &.square
+        padding-bottom 60%
+
+        &.big
+        &.small
+          width 100%
+
+        &.small
+          padding-bottom 60%
+
+      &.rectangle
+        width 100%
+        padding-bottom 60%
+
+
+@media $breakpoint-xsm
+  body
+    .post
+      &.square
+        padding-bottom 60%
+
+        &.big
+        &.small
+          width 100%
+
+        &.small
+          padding-bottom 60%
+
+      &.rectangle
+        width 100%
+        padding-bottom 60%
+
+@media $breakpoint-md
+  body
+    .post
+      &.square
+        padding-bottom 50%
+
+        &.big
+          width (6 / 12) * 100%
+
+        &.small
+          width (3 / 12) * 100%
+          padding-bottom 25%
+
+      &.rectangle
+        width (6 / 12) * 100%
+        padding-bottom 25%

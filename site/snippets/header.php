@@ -49,6 +49,8 @@
 
   <!-- Masonry -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+  <?php echo js('js/plugins/isotope.js') ?>
+  <?php echo js('js/plugins/packery.js') ?>
 
   <!-- Maps -->
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
