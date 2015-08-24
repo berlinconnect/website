@@ -1,0 +1,30 @@
+.posts:after
+  content ''
+  display block
+  clear both
+
+.post
+  height 0
+  float left
+
+  &:hover
+    .bg-image
+      transform scale(1.8)
+
+  .bg-image
+    transform scale(1)
+    transition: all 20000ms 300ms linear
+
+  &.square
+    padding-bottom 50%
+
+    &.big
+      width (6 / 12) * 100%
+
+    &.small
+      width (3 / 12) * 100%
+      padding-bottom 25%
+
+  &.rectangle
+    width (6 / 12) * 100%
+    padding-bottom 25%

@@ -1,26 +1,33 @@
 Title: Enlarge
 ----
+HeroTitle: Enlarge
+----
+
 Overview: We believe church can be a place where people from all walks of life and ages can feel ‘at home’.
 At Berlin Connect, we aim to create an environment where you can easily connect with God and people, enabling your life to grow as you discover and live out your God-given potential in Christ.
 ----
 
-SundayTitle: Sunday
+DiscoverTitle: Discovery
 ----
 
-SundayText: Our desire is that Sunday gatherings are a place of connection with God and each other, of encouragement, worship and a place where guests become family.
+DiscoverText: focuses on the essentials of living your Christian faith. Topics include ‘Who is Jesus?’, Water baptism, prayer and more.
 ----
 
-ReadMore: Read More
+LifeTitle: Life Skills
 ----
 
-CommunityTitle: Community
+LifeText: will equip you with practical skills in key areas of life such as finances, relationships, leadership, and work.
 ----
 
-CommunityText: Sitting together around a table of friendship and family is important for all of us. As a church we place great value on developing meaningful and personal connections midweek.
+MyBibleTitle: My Bible
 ----
 
-SocialTitle: Social enterprise
+MyBibleText: will equip you with practical skills in key areas of life such as finances, relationships, leadership, and work.
 ----
 
-SocialText: We are passionate about empowering people to shine brightly in society and we believe that together, we can make a difference in our city and beyond by getting involved.
+ToolboxTitle: Toolbox
+----
+
+ToolboxText: We want to provide you with material to help you grow.
+Here you can find recaps of discovery night, downloads, and other resources.
 ----
