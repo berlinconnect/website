@@ -35,13 +35,13 @@
     </div>
     <div class="posts clearfix">
       <?php foreach($page->find('toolbox')->children()->visible()->limit(4) as $post): ?>
-        <div class="relative post <?= $post->size() ?>  overflow-hidden">
-          <span class="h6 bold caps absolute left-0 top-0 mt2 ml2 bc-white p1 py2 line-height-0 bg-bc-orange z4 "><?= $post->category() ?></span>
+        <div class="relative post <?= $post->size() ?> <?= $post->category() ?> overflow-hidden">
+          <span class="h6 bold caps absolute left-0 top-0 mt2 ml2 bc-white p1 py2 line-height-0 bg-bc-<?= $post->color() ?> z4 "><?= $post->tag() ?></span>
           <div class="absolute top-0 left-0 bottom-0 right-0 cover-bg center-bg bg-image" style="background-image: url(<?= $post->images()->first()->url(); ?>)"></div>
           <div class="table left-0 top-0 absolute full-height bg-overlay-dark-gray center z2">
-            <div class="table-cell px4 vm bc-white">
-              <h2 class="lighter mb1"><?= $post->title() ?></h2>
-              <p class="m0">
+            <div class="table-cell px4 md-px2 vm bc-white">
+              <h3 class="lighter mb0"><?= $post->title() ?></h3>
+              <p class="m0 mt1 description">
                 <?= $post->text()->excerpt(150) ?>
               </p>
               <div class="mx-auto col-inline col-2 mt3 pb3 border-top border-bc-white">
@@ -54,6 +54,9 @@
         </div>
       <?php endforeach ?>
     </div>
+
+    <?php snippet('events') ?>
+
     <script type="text/javascript">
 
     var elem = document.querySelector('.posts');

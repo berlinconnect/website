@@ -4,9 +4,13 @@ Date: 22/08/2015
 ----
 Author:Berlin Connect
 ----
-Size: rectangle
+Size: square small
 ----
-Category: discovery
+Category: life-skills
+----
+Tag: Life Skills
+----
+Color: green
 ----
 Scriptures: John 3:16, Jeremiah 29:11
 ----

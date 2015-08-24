@@ -1,12 +1,17 @@
-Title:Named or Unnamed
+
+Title:Crafting your CV: Present your best self
 ----
 Date: 22/08/2015
 ----
-Author:Berlin Connect
+Author:Frauka Von Polier
 ----
 Size: rectangle
 ----
-Category: discovery
+Category: life-skills
+----
+Tag: Life Skills
+----
+Color: green
 ----
 Scriptures: John 3:16, Jeremiah 29:11
 ----

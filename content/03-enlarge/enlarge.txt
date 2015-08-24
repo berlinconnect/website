@@ -31,3 +31,6 @@ ToolboxTitle: Toolbox
 ToolboxText: We want to provide you with material to help you grow.
 Here you can find recaps of discovery night, downloads, and other resources.
 ----
+
+EventSectionTitle: Sessions & Workshops
+----

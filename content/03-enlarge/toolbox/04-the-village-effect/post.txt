@@ -1,12 +1,16 @@
-Title:Named or Unnamed
+Title:The Village Effect
 ----
 Date: 22/08/2015
 ----
 Author:Berlin Connect
 ----
-Size: rectangle
+Size: square small
 ----
-Category: discovery
+Category: my-bible
+----
+Tag: My Bible
+----
+Color: blue
 ----
 Scriptures: John 3:16, Jeremiah 29:11
 ----

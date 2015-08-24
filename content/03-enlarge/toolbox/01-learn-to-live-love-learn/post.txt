@@ -8,6 +8,10 @@ Size: square big
 ----
 Category: discovery
 ----
+Tag: discovery notes
+----
+Color: orange
+----
 Scriptures: John 3:16, Jeremiah 29:11
 ----
 Readings: Live, Love, Lead by Brian Houston<br>
