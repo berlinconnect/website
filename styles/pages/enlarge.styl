@@ -13,7 +13,6 @@
   height 0
   float left
   backface-visibility hidden
-  box-sizing border-box
 
   p.description
     display none
@@ -27,92 +26,56 @@
     transition all 27000ms linear
 
   &.square
+    padding-bottom 50%
+
     &.big
+      width (6 / 12) * 100%
+
       p.description
         display block
 
-@media $breakpoint-tiny
+      .content
+        padding-left $space-4
+        padding-right $space-4
+
+    &.small
+      width (3 / 12) * 100%
+      padding-bottom 25%
+
+      .content
+        padding-left $space-2
+        padding-right $space-2
+
+  &.rectangle
+    width (6 / 12) * 100%
+    padding-bottom 25%
+
+    .content
+      padding-left $space-4
+      padding-right $space-4
+
+
+@media $breakpoint-max-sm
   body
     .filler
       display none
+      
     .post
-      top 0 !important
-      height auto !important
+      height auto
+      width 100% !important
       position relative !important
+      top 0 !important
 
       .content-container
-        position relative !important
-        padding $space-4 $space-3
+        padding $space-4
         box-sizing border-box
+        position relative
 
       &.square
         padding-bottom 0
 
-        &.big
         &.small
-          width 100%
-
-        &.small
-          padding-bottom 0
+          padding-bottom 0%
 
       &.rectangle
-        width 100%
-        padding-bottom 0
-
-
-@media $breakpoint-xsm
-  body
-    .filler
-      display none
-    .post
-      top 0 !important
-      height auto !important
-      position relative !important
-
-      .content-container
-        position relative !important
-        padding $space-4 $space-3
-        box-sizing border-box
-
-      &.square
-        padding-bottom 0
-
-        &.big
-        &.small
-          width 100%
-
-        &.small
-          padding-bottom 0
-
-      &.rectangle
-        width 100%
-        padding-bottom 0
-
-@media $breakpoint-md
-  body
-    .post
-      &.square
-        padding-bottom 50%
-
-        &.big
-          width (6 / 12) * 100%
-
-          .content
-            padding-left $space-4
-            padding-right $space-4
-
-        &.small
-          width (3 / 12) * 100%
-          padding-bottom 25%
-
-          .content
-            padding-left $space-2
-            padding-right $space-2
-
-      &.rectangle
-        width (6 / 12) * 100%
-        padding-bottom 25%
-
-        .content
-          padding-left $space-4
-          padding-right $space-4
+        padding-bottom 0%
