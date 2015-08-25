@@ -11,14 +11,23 @@
         <?php $hwacols = 'col col-12 sm-col-4 mb4 sm-mb0' ?>
         <div class="col col-12 mt2 md-show border-box">
           <div class="<?= $hwacols ?> center">
+            <div class="p4 inline-block bg-bc-orange pill">
+
+            </div>
             <h5 class="caps"><?= $page->discovertitle() ?></h5>
             <p class="h4 regular px1 mb3"><?= $page->discovertext() ?></p>
           </div>
           <div class="<?= $hwacols ?> center">
+            <div class="p4 inline-block bg-bc-green pill">
+
+            </div>
             <h5 class="caps"><?= $page->lifetitle() ?></h5>
             <p class="h4 regular px1 mb3 mid-gray"><?= $page->lifetext() ?></p>
           </div>
           <div class="<?= $hwacols ?> center">
+            <div class="p4 inline-block bg-bc-blue pill">
+
+            </div>
             <h5 class="caps"><?= $page->mybibletitle() ?></h5>
             <p class="h4 regular px1 mb3"><?= $page->mybibletext() ?></p>
           </div>
