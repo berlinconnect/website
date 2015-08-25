@@ -7,9 +7,9 @@ Author:Frauka Von Polier
 ----
 Size: rectangle
 ----
-Category: life-skills
+Tags: life-skills
 ----
-Tag: Life Skills
+Category: Life Skills
 ----
 Color: green
 ----

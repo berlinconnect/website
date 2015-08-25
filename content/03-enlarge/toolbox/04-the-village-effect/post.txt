@@ -6,9 +6,9 @@ Author:Berlin Connect
 ----
 Size: square small
 ----
-Category: my-bible
+Tags: my-bible
 ----
-Tag: My Bible
+Category: My Bible
 ----
 Color: blue
 ----

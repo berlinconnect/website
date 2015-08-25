@@ -47,6 +47,8 @@
   <script type="text/javascript" src="//use.typekit.net/xkv4ghj.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+  <?php echo js('js/libs/jquery.js') ?>
+  
   <!-- Masonry -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
   <?php echo js('js/plugins/isotope.js') ?>
