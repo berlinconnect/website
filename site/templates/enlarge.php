@@ -40,8 +40,8 @@
         <p class="h3 regular px1 border-box col-inline col-12 sm-col-10 md-col-9"><?= $page->toolboxtext() ?></p>
       </div>
     </div>
-    <div class="clearfix bg-dark-gray">
-      <ul class="col col-12 posts list-reset m0">
+    <div class="clearfix md-px3 border-box">
+      <ul class="relative col-12 mx-auto posts list-reset m0">
         <div class="filler">
 
         </div>
@@ -57,7 +57,9 @@
       </ul>
     </div>
 
-    <a class="center block bg-dark-gray hover-bg-bc-blue bc-white p3 h2 caps m0" href='<?php echo $page->find('toolbox')->url() ?>' onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Explore the tooltox']);">See More</a>
+    <div class="center mt3">
+      <a class="button bg-bc-blue py2 px4" href='<?php echo $page->find('toolbox')->url() ?>' onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Explore the tooltox']);">See More</a>
+    </div>
 
       <div class="container py4 clearfix">
         <div class="center pt3">
@@ -77,7 +79,6 @@
 
     <script>
 
-    $( document ).ready( function() {
       // init Isotope
       var $container = $('.posts').isotope({
         itemSelector: '.post',
@@ -98,8 +99,6 @@
           $( this ).addClass('is-checked');
         });
       });
-
-    });
 
     </script>
 
