@@ -33,11 +33,8 @@
   </div>
   <?php snippet('events') ?>
   <div class="full-width bg-dark-gray clearfix">
-<<<<<<< HEAD
-    <div class="col col-6 lg-col-4 center sm-show">
-=======
+
     <div class="col col-6 lg-col-4 sm-show">
->>>>>>> 694d08f7a1f6bcb636938e902bae8862dc1fcbf8
       <div class="relative mt3 mx-auto bc-white grid-content">
         <h5 class="bold caps line-height-2 m0"><?= $page->addresstitle() ?></h5>
         <p class="h4 regular m0 mb3"><?= $site->churchaddress()?></p>
