@@ -1,0 +1,46 @@
+.col
+  float left
+  box-sizing border-box
+
+.col-inline
+  display:inline-block
+  box-sizing: border-box
+  vertical-align: middle
+
+.col-right
+  float right
+  box-sizing border-box
+
+
+for num in (1..12)
+  .col-{num}
+    width: (num / 12) * 100%
+
+    &.square
+      padding-bottom: (num / 12) * 100%
+      height 0
+
+sizes = "tiny" 'max-width: 29.999em',
+        "xsm" 'min-width: 30em',
+        "sm" 'min-width: 40em',
+        "md" 'min-width: 48em',
+        "lg" 'min-width: 64em',
+        "xlg" 'min-width: 81em'
+
+  for size in sizes
+    @media ({size[1]})
+      .{size[0]}-col
+        float left
+        box-sizing border-box
+
+      .{size}-col-right
+        float right
+        box-sizing border-box
+
+      for number in (1..12)
+        .{size}-col-{number}
+          width (number / 12) * 100%
+
+          &.square
+            padding-bottom: (number / 12) * 100%
+            height 0

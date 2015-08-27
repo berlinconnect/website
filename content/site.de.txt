@@ -33,4 +33,23 @@ EventSectionTitle: This Week
 EventSectionInfo: As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation.
 ----
 
+SubscribeSubmit: Sign Up Now
+----
 
+ChurchAddress: Haus Ungarn<br>Karl-Liebknecht-Straße 9<br>10178 Berlin
+----
+
+FacebookLink: https://www.facebook.com/myberlinconnect
+----
+
+TwitterLink: https://twitter.com/berlinconnect
+----
+
+InstagramLink: https://instagram.com/berlinconnect/
+----
+
+TumblrLink: http://berlinconnect.tumblr.com/
+----
+
+FormUrl: http://eepurl.com/6DKQ5
+----

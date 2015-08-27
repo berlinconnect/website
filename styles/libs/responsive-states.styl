@@ -1,0 +1,188 @@
+.tiny-show, .xsm-show, .sm-show, .md-show, .lg-show, .xlg-show
+  display none !important
+
+.tiny-show-inline, .xsm-show-inline, .sm-show-inline, .md-show-inline, .lg-show-inline, .xlg-show-inline
+  display none !important
+
+sizes = "tiny" 'max-width: 29.999em',
+        "xsm" 'min-width: 30em',
+        "sm" 'min-width: 40em',
+        "md" 'min-width: 48em',
+        "lg" 'min-width: 64em',
+        "xlg" 'min-width: 81em'
+
+  for size in sizes
+    @media ({size[1]})
+      .{size[0]}-center
+        text-align center
+
+      .{size[0]}-justify
+        text-align justify
+
+      .{size[0]}-left
+        text-align left
+
+@media $breakpoint-tiny
+  body
+    &::before
+      content 'tiny'
+      position fixed
+      top 20px
+      left 20px
+      background red
+      color white
+      z-index 100
+
+    h1, .h1
+      font-size ($h1 / 1.2)
+      line-height $line-height - 0.2
+
+      &.huge
+        font-size ($h1 / 1)
+        line-height $line-height - 0.2
+
+    h3, .h3
+      font-size ($h3 / 1.2)
+      line-height $line-height - 0.05
+
+  .tiny-show-inline
+    display inline-block !important
+
+  .tiny-show
+    display block !important
+
+  .tiny-hide
+    display none !important
+
+@media $breakpoint-xsm
+
+  body
+    &::before
+      content 'xsm'
+      position fixed
+      top 20px
+      left 20px
+      background red
+      color white
+      z-index 100
+
+    h1, .h1
+      font-size ($h1 / 1.2)
+      line-height $line-height - 0.2
+
+      &.huge
+        font-size ($h1 / 1)
+        line-height $line-height - 0.2
+
+  .xsm-show-inline
+    display inline-block !important
+
+  .xsm-show
+    display block !important
+
+  .xsm-hide
+    display none !important
+
+@media $breakpoint-sm
+
+  body
+    &:before
+      content 'sm'
+      position fixed
+      top 20px
+      left 20px
+      background red
+      color white
+      z-index 100
+
+    h1, .h1
+      &.huge
+        font-size ($h1 / 0.8)
+        line-height $line-height - 0.2
+
+  .sm-show-inline
+    display inline-block !important
+
+  .sm-show
+    display block !important
+
+  .sm-hide
+    display none !important
+
+@media $breakpoint-md
+
+  body::before
+    content 'md'
+    position fixed
+    top 20px
+    left 20px
+    background red
+    color white
+    z-index 100
+
+  .md-show-inline
+    display inline-block !important
+
+  .md-show
+    display block !important
+
+  .md-hide
+    display none !important
+
+@media $breakpoint-lg
+
+  body
+    &:before
+      content 'lg'
+      position fixed
+      top 20px
+      left 20px
+      background red
+      color white
+      z-index 100
+
+    h1, .h1
+      font-size $h1
+      font-weight $light-font-weight
+
+      &.huge
+        font-size $h1 + 2px
+
+  .lg-show-inline
+    display inline-block !important
+
+  .lg-show
+    display block !important
+
+  .lg-hide
+    display none !important
+
+@media $breakpoint-xlg
+
+  body::before
+    content 'xlg'
+    position fixed
+    top 20px
+    left 20px
+    background red
+    color white
+    z-index 100
+
+  .xlg-show-inline
+    display inline-block !important
+
+  .xlg-show
+    display block !important
+
+  .xlg-hide
+    display none !important
+
+.display-none
+  display none !important
+
+.hide
+  position absolute !important
+  height 1px !important
+  width 1px !important
+  overflow hidden
+  clip rect(1px, 1px, 1px, 1px)

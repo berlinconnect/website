@@ -1,0 +1,49 @@
+Title: Berlinc Connect
+----
+Copyright: © Berlin Connect 2015. All rights reserved
+----
+
+MoreInformation: More Information
+----
+
+Conferences: Conferences
+----
+
+Kids: Kids
+----
+
+Youth: Youth
+----
+
+DinnerParties: Dinner Parties
+----
+
+Sisterhood: Sisterhood
+----
+
+SocialKindness: Social Kindness
+----
+
+Futureminded: futureminded
+----
+
+SubscribeSubmit: Check it out
+----
+
+ChurchAddress: Haus Ungarn<br>Karl-Liebknecht-Straße 9<br>10178 Berlin
+----
+
+FacebookLink: https://www.facebook.com/myberlinconnect
+----
+
+TwitterLink: https://twitter.com/berlinconnect
+----
+
+InstagramLink: https://instagram.com/berlinconnect/
+----
+
+TumblrLink: http://berlinconnect.tumblr.com/
+----
+
+FormUrl: http://eepurl.com/6DKcf
+----

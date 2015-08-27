@@ -30,5 +30,3 @@ $sidebarButton.click(function() {
   transformClose();
   fixedBody();
 });
-
-

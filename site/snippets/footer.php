@@ -1,27 +1,26 @@
   <div class="full-width py4 px3 bg-dark-gray bc-off-white border-box">
-    <div class="clearfix mt2 mb3">
-      <div class="col col-2">
-        <img class="inline-block mr2 vm" src="../images/logo/light-bc-white.svg" width="70px"/>
+    <div class="clearfix mt2 mb3 tiny-center sm-center md-left font-size-0">
+      <div class="mx-auto col-2 sm-col-12 sm-center">
+        <img class="inline-block  mb3 vm" src="../images/logo/light-bc-white.svg" width="70px"/>
       </div>
-      <div class="col-right col-3">
-        <p>
-          Berlin Christian Life Centre e.V.<br>
-          Weinbergsweg 24M<br>
-          10119 Berlin
-        </p>
-      </div>
-      <div class="col-right col-3">
-        <p>
-          +49 (0) 174 3463491<br>
-          hello@myberlinconnect.de<br>
-          myberlinconnect.de
-        </p>
-      </div>
-      <div class="col-right col-3">
+      <div class="col-inline col-12  sm-col-12 lg-col-4 md-center">
         <p>
           © Berlin Connect 2015.<br>
           All rights reserved<br>
-          Privacy Policy
+          <a href="" class="bc-white">Privacy Policy</a>
+        </p>
+      </div>
+      <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">
+        <p>
+          Questions? Call Conny:<br>
+          +49 (0) 174 3463491<br>
+          conny@berlinclc.de<br>
+          myberlinconnect.de
+        </p>
+      </div>
+      <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">
+        <p>
+          <?= $site->churchaddress()?>
         </p>
       </div>
     </div>
@@ -32,6 +31,10 @@
 <?php echo js('js/plugins/adaptiveBackgrounds.js') ?>
 <?php echo js('js/plugins/wow.js') ?>
 <?php echo js('js/components/sidebar.js') ?>
+<?php echo js('js/components/notice.js') ?>
+<?php echo js('js/plugins/instafeed.js') ?>
+
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 
 <?php if($page->id() == 'new-to-bc'): ?>
   <script type="text/javascript">
@@ -56,7 +59,34 @@
     });
   </script>
 <?php endif ?>
+<?php if($page->id() == 'one-team'): ?>
+  <script type="text/javascript">
 
+    var loadButton = document.getElementById('load-more');
+    var feed = new Instafeed({
+        after: function() {
+          // disable button if no more results to load
+          if (!this.hasNext()) {
+            $('#load-more').addClass('hidden');
+          }
+        },
+
+        get: 'tagged',
+        tagName: 'bcteambesties',
+        clientId: 'ca090230b9b241d79c684fc7f76b89d8',
+        resolution: 'standard_resolution',
+        sortBy: 'most-recent',
+        links: 'false',
+        template: '<div class="relative overflow-hidden col-inline col-12 xsm-col-6 sm-col-4 md-col-3 image"><div class="absolute caption">{{caption}}</div><img src="{{image}}" /></div>'
+    });
+
+    loadButton.addEventListener('click', function() {
+      feed.next();
+    });
+
+    feed.run();
+  </script>
+<?php endif ?>
 
 </body>
 </html>
