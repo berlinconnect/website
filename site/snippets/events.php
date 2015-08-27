@@ -13,17 +13,18 @@
         use $limitEvents variable to keep track of how many events have
         already been posted
       */
-      //$limitEvents = 1;
+      $limitEvents = 1;
+
       // get the current date and the date in seven days
-      //$now = date('M d, Y');
-      //$now = strtotime($now);
-      //$sevenDays = strtotime("+7 day", $now);
+      $now = date('M d, Y');
+      $now = strtotime($now);
+      // $sevenDays = strtotime("+7 day", $now);
 
     ?>
-    <?php foreach($pages->find('calendar')->children()->visible()->limit(4) as $event): ?>
+    <?php foreach($pages->find('calendar')->children()->visible() as $event): ?>
       <?php
         // get date of the event
-        //$date = $event->date();
+        $date = $event->date();
       ?>
       <?php
         /*
@@ -32,15 +33,19 @@
           and there are less than 4 events posted already
         */
 
-        //if ($date <= $sevenDays and $now <= $date and $limitEvents <= 4):
-      ?>
-      <?php
-        // increase by one, as part of keeping track how many events were posted already
+        /*
+        it seems unnecessary to only show events that will happen in the next 7 days,
+        only show the soonest max. 4 events
+        */
+        // if ($date <= $sevenDays and $now <= $date and $limitEvents <= 4){
+        if ($now <= $date and $limitEvents <= 4){
+          // increase by one, as part of keeping track how many events were posted already
 
-        //$limitEvents = $limitEvents + 1;
+          $limitEvents = $limitEvents + 1;
+
+          snippet('single-event', array('event' => $event));
+        }
       ?>
-        <?php snippet('single-event', array('event' => $event)) ?>
-      <?php //endif ?>
     <?php endforeach ?>
   </div>
 </div>
