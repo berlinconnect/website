@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" <?php if($page->id() == 'error'): ?>style="height:100%;min-height:100%"<?php endif ?>>
 <head>
 
   <title>
@@ -94,7 +94,7 @@
     })();
   </script>
 </head>
-<body class="animated fadeIn">
+<body class="animated fadeIn <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">
   <?= snippet('notice')?>
   <?= snippet('sidebar')?>
-  <div class="stage">
+  <div class="stage <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">
