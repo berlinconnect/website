@@ -1,19 +1,23 @@
 .error
+  height: 700px
+  position:fixed
+  padding:0
+  margin:0
+  top:0
+  left:0
   background: #1a1a1a url('../images/404.jpg') center center
   background-repeat: no-repeat
   background-size: cover
   color: $bc-white !important
-  height: 100%
-  width: 100%
+  padding-top: $space-4
 
-.wrapper.page
-h1, p, a
+.error h1, p, a
   color: $bc-white
   text-decoration: none
-
+  
 .logo
-  background: url('../images/logo.png');
-  background-image: url('../images/logo.svg'), none;
+  background: url('../images/logo.png')
+  background-image: url('../images/logo.svg'), none
   background-position: center center
   background-repeat: no-repeat
   height: 200px
@@ -25,16 +29,21 @@ h1
   font-size: 60px !important
   line-height: @font-size
   margin-bottom: 10px
-  font-weight: 600
+  font-weight: $semibold-font-weight
   
 .button
-	color: $bc-white
-	border: 2px solid $light-gray
-	border-radius: $space-1
-	cursor: pointer
-	font-weight: 600
-	padding: $space-2
-	margin-top: $space-2
+  color: $bc-white
+  border: 2px solid $light-gray
+  border-radius: $space-1
+  cursor: pointer
+  font-size: $h5
+  font-weight: $button-font-weight
+  padding: $button-padding-y $button-padding-x
+  margin-top: $space-3
+  transition: border 0.7s
+
+.button:hover
+  border: 2px solid black
 
 .social-links a
   font-size: 60px

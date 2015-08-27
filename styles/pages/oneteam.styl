@@ -1,0 +1,50 @@
+ol.reasons
+  counter-reset: my-badass-counter;
+  li
+    padding-left 70px
+    position relative
+
+    &:before
+      content: counter(my-badass-counter)
+      counter-increment: my-badass-counter
+      color $bc-blue
+      position absolute
+      width 50px
+      height @width
+      border-radius 100px
+      border 1px solid $bc-blue
+      box-sizing border-box
+      padding 8px 0 0 0
+      top 16px
+      left 0
+      text-align center
+      font-size $h2
+      font-weight $light-font-weight
+
+#instafeed
+  div
+    position relative
+    &:hover
+      img
+        transform: scale(1.8)
+
+      .caption
+        transform: translateY(0)
+
+    .caption
+      transform: translateY(1000px)
+      transition: all 300ms 300ms cubic-bezier(1, 0, 0, 1)
+      font-size: 13px
+      position: absolute
+      z-index: 1
+      background: rgba($bc-blue,0.8)
+      font-style: italic
+      color white
+      width 100%
+      padding 20px
+      box-sizing: border-box
+      bottom 0
+
+    img
+      width: 100%
+      transition: all 20000ms 300ms linear

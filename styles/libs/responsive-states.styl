@@ -34,6 +34,9 @@ sizes = "tiny" 'max-width: 29.999em',
       z-index 100
 
     h1, .h1
+      font-size ($h1 / 1.2)
+      line-height $line-height - 0.2
+
       &.huge
         font-size ($h1 / 1)
         line-height $line-height - 0.2
@@ -62,6 +65,14 @@ sizes = "tiny" 'max-width: 29.999em',
       background red
       color white
       z-index 100
+
+    h1, .h1
+      font-size ($h1 / 1.2)
+      line-height $line-height - 0.2
+
+      &.huge
+        font-size ($h1 / 1)
+        line-height $line-height - 0.2
 
   .xsm-show-inline
     display inline-block !important
@@ -120,14 +131,22 @@ sizes = "tiny" 'max-width: 29.999em',
 
 @media $breakpoint-lg
 
-  body::before
-    content 'lg'
-    position fixed
-    top 20px
-    left 20px
-    background red
-    color white
-    z-index 100
+  body
+    &:before
+      content 'lg'
+      position fixed
+      top 20px
+      left 20px
+      background red
+      color white
+      z-index 100
+
+    h1, .h1
+      font-size $h1
+      font-weight $light-font-weight
+
+      &.huge
+        font-size $h1 + 2px
 
   .lg-show-inline
     display inline-block !important

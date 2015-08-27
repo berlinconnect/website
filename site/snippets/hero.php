@@ -10,14 +10,14 @@
       <h1 class="huge caps letter-spacing m0"><?= $page->herotitle() ?></h1>
 
     <?php else: ?>
-      <div class="py4 my4">
+      <div class="py4 my4 tiny-my2">
         <?php if($page->id() == 'new-to-bc'): ?>
-          <div class="py4 my4">
+          <div class="py4 my4 tiny-my0">
           </div>
         <?php endif ?>
         <?php if($page->id() == 'one-team'): ?>
           <div class="center">
-            <div class="contain-bg center-bg" style="background-image:url('../images/logo/teamlogo.svg'); width:100%; height:300px;"></div>
+            <div class="contain-bg center-bg" style="background-image:url('../images/logo/teamlogo.svg'); width:100%; height:260px;"></div>
           </div>
         <?php endif ?>
       </div>
@@ -36,7 +36,7 @@
         </div>
       </div>
       <!-- divider -->
-      <?php snippet('heroDivider') ?>
+      <?= snippet('social', array('iconSize' => '30px')) ?>
     <?php else: ?>
 
     <?php endif ?>
