@@ -7,5 +7,6 @@ password: >
 language: en
 role: admin
 history:
-  - error
   - calendar/thanksgiving
+  - home
+  - error
