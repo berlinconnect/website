@@ -46,6 +46,6 @@ fields:
   areyoufreecopy:
   	label: Are You Free Copy
   	type: textarea
-  findus
+  findus:
   	label: Find Us
   	type: text

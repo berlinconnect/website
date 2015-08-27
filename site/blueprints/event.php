@@ -22,5 +22,5 @@ fields:
   	type: url
   	help: Google Maps Link of the location address
   link:
- 	label: Link
- 	type: url
+ 	  label: Link
+ 	  type: url
