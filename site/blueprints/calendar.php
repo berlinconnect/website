@@ -13,4 +13,3 @@ fields:
   herotext:
   	label: Hero Text
   	type: text
-  	help: IMPORTANT - the events have to be aligned in chronological order, otherwise it might not work properly!
