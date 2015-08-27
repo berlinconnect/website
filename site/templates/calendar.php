@@ -3,7 +3,7 @@
 
 <div class="tiny-py0 md-py0 lg-py0 mb4 container clearfix">
   <!-- <div class="events grid"> -->
-    <?php foreach($page->children()->visible() as $event): ?>
+    <?php foreach($page->children()->visible()->sortBy('date', 'asc') as $event): ?>
       <?php
         // get the current date and the date in seven days
         $now = date('M d, Y');
@@ -13,6 +13,7 @@
         $date = $event->date();
 
         if ($now <= $date) {
+
           /* 
           Save two Dates, and then compare them. 
           If there is a new Month, then a new Month section is created 
@@ -49,7 +50,9 @@
           }
             
           snippet('single-event', array('event' => $event));
+        
         }
+
       ?>
         
       <!-- endif ?>  -->
