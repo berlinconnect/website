@@ -22,9 +22,11 @@
     <div class="middle full-width">
       <div class="relative mx-auto grid-content">
         <h5 class="caps m0 mb3 bc-orange">ENLARGE</h5>
-        <p class="h4 bold caps line-height-2 m0 mb2">This is the title of the message of the month</p>
-        <p class="h4 regular">This sunday we go to hear an amazing message from Mark. He spoke about something really awesome....</p>
-        <a href="#" class="h5 bold caps m0 mt3 full-width inline-block bg-bc-white bc-orange">Listen Now</a>
+        <?php foreach($pages->find('enlarge')->find('toolbox')->children()->visible()->limit(1) as $post): ?>
+          <p class="h4 bold caps line-height-2 m0 mb2"><?= $post->title() ?></p>
+          <p class="h4 regular"><?= $post->text()->excerpt(100) ?></p>
+          <a href="<?= $post->url() ?>" class="h5 bold caps m0 mt3 full-width inline-block bg-bc-white bc-orange">View</a>
+        <?php endforeach ?>
       </div>
     </div>
   </div>

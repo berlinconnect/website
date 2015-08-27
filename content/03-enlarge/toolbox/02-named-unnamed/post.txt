@@ -6,9 +6,9 @@ Author:Berlin Connect
 ----
 Size: square small
 ----
-Category: life-skills
+Tags: life-skills
 ----
-Tag: Life Skills
+Category: Life Skills
 ----
 Color: green
 ----

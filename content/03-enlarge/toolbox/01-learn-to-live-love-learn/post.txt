@@ -6,9 +6,9 @@ Author:Berlin Connect
 ----
 Size: square big
 ----
-Category: discovery
+Tags: discovery
 ----
-Tag: discovery notes
+Category: discovery notes
 ----
 Color: orange
 ----

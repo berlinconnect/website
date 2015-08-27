@@ -1,71 +1,81 @@
+#filters
+  li.is-checked
+    background $bc-blue
+
+.filler
+  padding-bottom 50%
+  width (6 / 12) * 100%
+
+.posts
+  height auto !important
+
 .post
   height 0
-  float left
+  display inline-block
+  backface-visibility hidden
 
   p.description
     display none
 
   &:hover
     .bg-image
-      transform scale(1.8)
+      transform scale(1.4)
 
   .bg-image
     transform scale(1)
-    transition all 20000ms 300ms linear
+    transition all 27000ms linear
 
   &.square
+    padding-bottom 50%
+
     &.big
+      width (6 / 12) * 100%
+
       p.description
         display block
 
-@media $breakpoint-tiny
+      .content
+        padding-left $space-4
+        padding-right $space-4
+
+    &.small
+      width (3 / 12) * 100%
+      padding-bottom 25%
+
+      .content
+        padding-left $space-2
+        padding-right $space-2
+
+  &.rectangle
+    width (6 / 12) * 100%
+    padding-bottom 25%
+
+    .content
+      padding-left $space-4
+      padding-right $space-4
+
+
+@media $breakpoint-max-sm
   body
+    .filler
+      display none
+
     .post
+      height auto
+      width 100% !important
+      position relative !important
+      top 0 !important
+
+      .content-container
+        padding $space-4
+        box-sizing border-box
+        position relative
+
       &.square
-        padding-bottom 60%
-
-        &.big
-        &.small
-          width 100%
+        padding-bottom 0
 
         &.small
-          padding-bottom 60%
+          padding-bottom 0%
 
       &.rectangle
-        width 100%
-        padding-bottom 60%
-
-
-@media $breakpoint-xsm
-  body
-    .post
-      &.square
-        padding-bottom 60%
-
-        &.big
-        &.small
-          width 100%
-
-        &.small
-          padding-bottom 60%
-
-      &.rectangle
-        width 100%
-        padding-bottom 60%
-
-@media $breakpoint-md
-  body
-    .post
-      &.square
-        padding-bottom 50%
-
-        &.big
-          width (6 / 12) * 100%
-
-        &.small
-          width (3 / 12) * 100%
-          padding-bottom 25%
-
-      &.rectangle
-        width (6 / 12) * 100%
-        padding-bottom 25%
+        padding-bottom 0%
