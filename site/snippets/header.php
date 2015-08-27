@@ -33,7 +33,7 @@
   <meta property="og:description" content="<?= excerpt($page->description(), 300) ?>" />
   <meta property="og:url" content="<?= $page->url() ?>" />
   <meta property="og:title" content="<?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>" />
-  <meta property="og:image" content="<?php echo $page->images()->first()->url(); ?>" />
+  <meta property="og:image" content="<?php if($image = $page->image()): ?><?php echo $image->url() ?><?php endif ?>" />
   <meta property="article:author" content="<?= $site->url() ?>" />
 
   <meta content="<?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>" itemprop="name">
