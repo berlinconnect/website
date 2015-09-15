@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" <?php if($page->id() == 'error'): ?>style="height:100%;min-height:100%"<?php endif ?>>
 <head>
 
   <title>
@@ -33,7 +33,7 @@
   <meta property="og:description" content="<?= excerpt($page->description(), 300) ?>" />
   <meta property="og:url" content="<?= $page->url() ?>" />
   <meta property="og:title" content="<?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>" />
-  <meta property="og:image" content="<?php echo $page->images()->first()->url(); ?>" />
+  <meta property="og:image" content="<?php if($image = $page->image()): ?><?php echo $image->url() ?><?php endif ?>" />
   <meta property="article:author" content="<?= $site->url() ?>" />
 
   <meta content="<?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>" itemprop="name">
@@ -96,7 +96,7 @@
     })();
   </script>
 </head>
-<body class="animated fadeIn">
+<body class="animated fadeIn <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">
   <?= snippet('notice')?>
   <?= snippet('sidebar')?>
-  <div class="stage">
+  <div class="stage <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">
