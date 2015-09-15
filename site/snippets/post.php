@@ -6,7 +6,7 @@
 
   <div class="absolute full-height full-width  cover-bg bg-overlay-dark-gray"></div>
 
-  <div class="table m-autoe full-height full-width  font-size-0 absolute center z2 content-container">
+  <div class="table m-auto full-height full-width font-size-0 absolute center z2 content-container">
 
     <div class="table-cell vm bc-white content">
       <h3 class="lighter mb0"><?= $post->title() ?></h3>
