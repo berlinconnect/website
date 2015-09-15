@@ -7,6 +7,9 @@ fields:
   title:
     label: Title
     type:  title
+  introtitle:
+    label: Introduction
+    type: text
   introquote:
     label: Intro Quote
     type:  textarea
@@ -22,6 +25,9 @@ fields:
   sundaycopy:
   	label: Sunday Copy
   	type: textarea
+  sundaytags:
+    label: Sunday Tags
+    type: tags
   community:
   	label: Community
   	type: text
@@ -31,6 +37,9 @@ fields:
   communitycopy:
   	label: Community Copy
   	type: textarea
+  communitytags:
+    label: Community Tags
+    type: tags
   society:
   	label: Society
   	type: text
@@ -46,6 +55,9 @@ fields:
   areyoufreecopy:
   	label: Are You Free Copy
   	type: textarea
+  areyoufreebuttons:
+    label: Are You Free Buttons
+    type: tags
   findus:
   	label: Find Us
   	type: text
