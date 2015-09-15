@@ -7,6 +7,7 @@ password: >
 language: en
 role: admin
 history:
+  - new-to-bc
   - calendar/thanksgiving
   - home
   - error

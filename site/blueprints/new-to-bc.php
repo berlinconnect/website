@@ -49,6 +49,9 @@ fields:
   societycopy:
   	label: Society Copy
   	type: textarea
+  societytags:
+    label: Society Tags
+    type: tags
   areyoufree:
   	label: Are You Free
   	type: text
