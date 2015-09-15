@@ -45,10 +45,10 @@
         <div class="filler">
 
         </div>
-        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'square big', ',')->visible()->limit(1) as $post): ?>
+        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'squarebig', ',')->visible()->limit(1) as $post): ?>
           <?php snippet('post', array('post' => $post)) ?>
         <?php endforeach ?>
-        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'square small', ',')->visible()->limit(2) as $post): ?>
+        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'squaresmall', ',')->visible()->limit(2) as $post): ?>
           <?php snippet('post', array('post' => $post)) ?>
         <?php endforeach ?>
         <?php foreach($page->find('toolbox')->children()->filterBy('size', 'rectangle', ',')->visible()->limit(1) as $post): ?>

@@ -7,7 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - new-to-bc
-  - calendar/thanksgiving
-  - home
-  - error
+  - enlarge/toolbox/named-unnamed
+  - enlarge/toolbox/crafting-your-cv
+  - enlarge/toolbox/test
+  - enlarge/toolbox/learn-to-live-love-learn
+  - enlarge/toolbox/truth-and-transformation
