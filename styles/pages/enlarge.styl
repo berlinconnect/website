@@ -6,6 +6,12 @@
   padding-bottom 50%
   width (6 / 12) * 100%
 
+.bubble-graphic
+  height 120px
+  width 120px
+  background-repeat no-repeat
+  background-position center center
+
 .posts
   height auto !important
 
@@ -57,25 +63,22 @@
 
 @media $breakpoint-max-sm
   body
-    .filler
-      display none
-
     .post
       height auto
       width 100% !important
       position relative !important
       top 0 !important
-
-      .content-container
-        padding $space-4
-        box-sizing border-box
-        position relative
+      display block !important
 
       &.square
-        padding-bottom 0
+        padding-bottom 60%
+
+        &.big
+          p.description
+            display none
 
         &.small
-          padding-bottom 0%
+          padding-bottom 60%
 
       &.rectangle
-        padding-bottom 0%
+        padding-bottom 60%
