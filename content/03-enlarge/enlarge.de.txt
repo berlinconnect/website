@@ -1,10 +1,12 @@
-Title: Enlarge
+Title: (En)large
 ----
-HeroTitle: Enlarge
+HeroTitle: (En)large
 ----
+HeroText: Rüste dich aus um die Person zu sein, zu der Gott dich berufen hat
+---
 
-Overview: We believe church can be a place where people from all walks of life and ages can feel ‘at home’.
-At Berlin Connect, we aim to create an environment where you can easily connect with God and people, enabling your life to grow as you discover and live out your God-given potential in Christ.
+Overview: (en)large ist eine Lernplattform, die verschiedene Hilfsmittel bietet, damit du ausgerüstet bist um hell zu leuchten und eine positive Veränderung zu sein, egal in welchem Bereich der Gesellschaft du dich befindest.
+
 ----
 
 DiscoverTitle: Discovery

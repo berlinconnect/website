@@ -1,0 +1,37 @@
+Title: (En)large
+----
+HeroTitle: (En)large
+----
+HeroText: Equipping you to be all god has called you to be
+----
+
+Overview: (en)large is a learning and resources platform to equip you to shine brightly and add value to whatever sphere of society you find yourself in.
+----
+
+DiscoverTitle: Discovery
+----
+
+DiscoverText: focuses on the essentials of living your Christian faith. Topics include ‘Who is Jesus?’, Water baptism, prayer and more.
+----
+
+LifeTitle: Life Skills
+----
+
+LifeText: will equip you with practical skills in key areas of life such as finances, relationships, leadership, and work.
+----
+
+MyBibleTitle: My Bible
+----
+
+MyBibleText: will equip you with practical skills in key areas of life such as finances, relationships, leadership, and work.
+----
+
+ToolboxTitle: Toolbox
+----
+
+ToolboxText: We want to provide you with material to help you grow.
+Here you can find recaps of discovery night, downloads, and other resources.
+----
+
+EventSectionTitle: Sessions & Workshops
+----

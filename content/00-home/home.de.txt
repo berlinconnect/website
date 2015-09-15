@@ -1,96 +1,80 @@
-Title: Welcome Home
-
+Title: Willkommen zuhause
 ----
 
-Herotitle: Welcome Home
-
+HeroTitle: Willkommen zuhause
 ----
 
-Herotext: An english speaking, multicultural church in the heart of Berlin, changing people's perceptions about Jesus and His Church. DUDE
-
+HeroText: Eine multikulturelle Kirche im Herzen Berlins, die Menschen eine neue Perspektive auf Jesus und Seine Kirche ermöglichen möchte.
 ----
 
-Abouttitle: About
-
+AboutTitle: Über uns
 ----
 
-Aboutheader: Berlin Connect is a multicultural church in the heart of Berlin.
-
+AboutHeader: Berlin Connect ist eine multikulturelle kirche im herzen Berlins. 
 ----
 
-Abouttext: As a local church we are a community of ordinary people that simply love God, love people, and love life. Our motto is 'Come as you are'.
-
+AboutText: Unsere Philosophie ist einfach: 'Liebe Gott, liebe Menschen und liebe das Leben'. Unser Motto lautet 'Komm' so wie du bist'.
 ----
 
-Subscribetitle: NEWSLETTER
-
+SubscribeTitle: Newsletter
 ----
 
-Subscribeheader: Help us help you to stay connected
-
+SubscribeHeader: Lass uns in Kontakt bleiben
 ----
 
-Subscribetext: Subscribe to our weekly newsletter giving you the latest information on what’s happening in the life of church.
-
+SubscribeText: Wir halten dich gern auf dem Laufenden, was im Leben unserer Kirche alles passiert.
 ----
 
-Subscribeinputplaceholder: Enter your email address
-
+SubscribeInputPlaceholder: Deine Email Adresse 
 ----
 
-Overview: 
-
-We believe church can be a place where people from all walks of life and ages can feel ‘at home’.
-At Berlin Connect, we aim to create an environment where you can easily connect with God and people, enabling your life to grow as you discover and live out your God-given potential in Christ.
-
+Overview: Wir glauben, dass Kirche ein Ort sein kann,
+an dem Menschen aus allen Lebenslagen und jeden Alters sich ‘Zuhause’ fühlen können.
+Bei Berlin Connect wollen wir eine Umgebung schaffen, in der du leicht mit Gott und Menschen
+in Beziehung treten kannst, wodurch dein Leben größer wird und du das Potential, das Gott dir
+gegeben hat, entdecken und ausleben kannst.
 ----
 
-Sundaytitle: Sunday
-
+SundayTitle: Sonntag
 ----
 
-Sundaytext: Our desire is that Sunday gatherings are a place of connection with God and each other, of encouragement, worship and a place where guests become family.
-
+SundayText: Our desire is that Sunday gatherings are a place of connection with God and each other, of encouragement, worship and a place where guests become family. <!-- TO BE CHANGED-->
 ----
 
-Readmore: Read More
-
+ReadMore: Mehr
 ----
 
-Communitytitle: Community
-
+CommunityTitle: Gemeinschaft
 ----
 
-Communitytext: Sitting together around a table of friendship and family is important for all of us. As a church we place great value on developing meaningful and personal connections midweek.
-
+CommunityText: Zusammen mit Freunden und Familie um den Tisch zu sitzen ist für uns alle wichtig. Als Kirche legen wir großen Wert darauf, persönliche und tiefe Beziehungen unter der Woche aufzubauen.
 ----
 
-Socialtitle: Social enterprise
-
+SocialTitle: (En)gage
 ----
 
-Socialtext: We are passionate about empowering people to shine brightly in society and we believe that together, we can make a difference in our city and beyond by getting involved.
-
+SocialText: Wir wollen zum Wohlergehen der gesamten Gesellschaft beitragen durch soziale Unternehmungen und innovatives Leiten.
 ----
 
-Eventsectiontitle: This Week
-
+EventSectionTitle: Kalender
 ----
 
-Eventsectioninfo: We came to Church because someone invited us. In the same way, you are invited to join us this week, as we are celebrating life, building new friendships and discovering our God-given potential in Christ
-
+EventSectionHeader: Was liegt an
 ----
 
-Addresstitle: Address
-
+EventSectionInfo: Finde heraus, was im Leben unserer Kirche ansteht.
 ----
 
-Addresstext: 
+AddressTitle: Adresse
+----
 
-Haus Ungarn
+AddressHeader: Ort der Gottesdienste
+----
+
+AddressText: Haus Ungarn
 Karl-Liebknecht-Straße 9
 10178 Berlin
-
 ----
 
-Transporttitle: Transport
+TransportTitle: Transport
+----

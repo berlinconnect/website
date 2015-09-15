@@ -68,6 +68,9 @@ fields:
   eventsectiontitle:
   	label: Event Section Title
   	type: text
+  eventsectionheader:
+    label: Event Section Header
+    type: text
   eventsectioninfo:
   	label: Event Section Info
   	type: textarea
@@ -75,6 +78,9 @@ fields:
   addresstitle:
   	label: Address Title
   	type: text
+  addressheader:
+    label: Address Header
+    type: text
   addresstext:
   	label: Address Text
   	type: textarea

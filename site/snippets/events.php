@@ -2,7 +2,7 @@
 
 <div class="container pt4 clearfix">
   <div class="center">
-    <h1 class="m0 caps lighter"><?= $page->eventsectiontitle() ?></h1>
+    <h1 class="m0 caps lighter"><?= $page->eventsectionheader() ?></h1>
     <p class="h3 regular px1 border-box col-inline col-12 sm-col-10 md-col-9"><?= $page->eventsectioninfo() ?></p>
   </div>
   <div class="questions grid">
