@@ -1,12 +1,14 @@
 Title: (En)large
 ----
-HeroTitle: (En)large
+HeroTitle: Über (En)large <!-- TO BE CHANGED-->
 ----
-HeroText: Rüste dich aus um die Person zu sein, zu der Gott dich berufen hat
----
 
-Overview: (en)large ist eine Lernplattform, die verschiedene Hilfsmittel bietet, damit du ausgerüstet bist um hell zu leuchten und eine positive Veränderung zu sein, egal in welchem Bereich der Gesellschaft du dich befindest.
+Overview: (en)large ist eine Lern- und Ressourcenplattform um dich auszurüsten, damit du all das sein kannst, wozu Gott dich berufen hat, damit du hell scheinen kannst und einen Mehrwert schaffen kannst, egal in welchem Bereich der Gesellschaft du dich befindest.
 
+(en)large hat 3 Aspekte: “Entdecke Jesus und Seine Kirche”, “Lebenskompetenzen” und “Meine Bibel”.
+
+Sei Teil der Sessions und Workshops unter der Woche, lerne neue Freunde kennen und erlebe eine tolle Lernumgebung. In der Werkzeugkiste findest du anregende Ressourcen wie Podcasts, Mitschriften und Bücher.
+<!-- TO BE CHANGED-->
 ----
 
 DiscoverTitle: Discovery
