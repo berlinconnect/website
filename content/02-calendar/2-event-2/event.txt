@@ -10,3 +10,9 @@ GoogleMapsLink: https://www.google.at/maps/place/Karl-Liebknecht-Stra%C3%9Fe+82,
 ----
 Link: #
 ----
+Tag: kids
+----
+TicketPrice:
+----
+TicketLink:
+----

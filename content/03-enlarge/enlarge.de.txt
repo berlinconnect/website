@@ -1,6 +1,6 @@
-Title: (En)large
+Title: (en)large
 ----
-HeroTitle: Über (En)large <!-- TO BE CHANGED-->
+HeroTitle: (en)large <!-- TO BE CHANGED-->
 ----
 
 Overview: (en)large ist eine Lern- und Ressourcenplattform um dich auszurüsten, damit du all das sein kannst, wozu Gott dich berufen hat, damit du hell scheinen kannst und einen Mehrwert schaffen kannst, egal in welchem Bereich der Gesellschaft du dich befindest.

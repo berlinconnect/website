@@ -24,3 +24,20 @@ fields:
   link:
  	  label: Link
  	  type: url
+  tag:
+    label: Tag
+    type: select
+    options:
+      general: General
+      kids: Kids
+      youth: Youth
+      sisterhood: Sisterhood
+      dinnerparty: Dinner Party
+      citykindness: City Kindness
+      conferences: Conferences
+  ticketprice:
+    lable: Ticket Price
+    type: text
+  ticketlink:
+    lable: Ticket Link
+    type: text

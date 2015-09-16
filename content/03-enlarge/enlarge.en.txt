@@ -1,7 +1,7 @@
-Title: (En)large
+Title: (en)large
 ----
 
-HeroTitle: About (En)large
+HeroTitle: (en)large
 ----
 
 Overview: (en)large is a learning and resources platform to equip you to shine brightly and add value to whatever sphere of society you find yourself in.

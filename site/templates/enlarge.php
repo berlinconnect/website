@@ -63,9 +63,29 @@
           <h1 class="m0 mb2 caps lighter"><?= $page->eventsectiontitle() ?></h1>
         </div>
         <div class="questions grid">
-          <?php foreach($pages->find('calendar')->children()->visible()->limit(4) as $event): ?>
-            <?php snippet('single-event', array('event' => $event)) ?>
-          <?php endforeach ?>
+
+          <?php
+
+          // nested menu
+          $events = $pages->find('calendar')->children()->filterBy('tag', 'enlarge', ',')->visible();
+
+          // only show the menu if items are available
+          if($events->count()):
+
+          ?>
+            <?php foreach($events as $event): ?>
+
+              <?php snippet('single-event', array('event' => $event)) ?>
+
+            <?php endforeach ?>
+
+          <?php else: ?>
+
+            <div class="center mx-auto col-12 sm-col-6 bg-bc-off-white p3 mt4 mb3">
+              <p class="m0">No upcoming sessions or workshops.</p>
+            </div>
+
+          <?php endif ?>
         </div>
       </div>
 
