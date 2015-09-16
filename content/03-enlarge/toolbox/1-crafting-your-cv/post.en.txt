@@ -10,7 +10,7 @@ Author: Frauka Von Polier
 
 ----
 
-Size: squaresmall
+Size: featured
 
 ----
 

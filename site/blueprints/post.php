@@ -19,9 +19,9 @@ fields:
     type: radio
     default: squaresmall
     options:
-      squarebig: Square Big
-      squaresmall: Square Small
-      rectangle: Rectangle 
+      featured: Featured
+      small: Small
+      normal: Normal 
     help: Please choose one of these sizes
   tags:
     label: Tags
@@ -36,6 +36,9 @@ fields:
       orange: Orange
       green: Green
       blue: Blue
+  link:
+    label: Link
+    type: url
   scriptures: 
     label: Scriptures
     type: text

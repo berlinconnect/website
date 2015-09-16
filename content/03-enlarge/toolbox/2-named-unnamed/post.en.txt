@@ -2,7 +2,7 @@ Title: Named or Unnamed
 
 ----
 
-Date: 1970-01-03
+Date: 1970-01-10
 
 ----
 
@@ -10,7 +10,7 @@ Author: Berlin Connect
 
 ----
 
-Size: squarebig
+Size: normal
 
 ----
 
