@@ -1,6 +1,15 @@
 <!-- Typography > Positioning > Layout > Color & Theme > State > Custom -->
 
-<div class="full-width pb4 cover-bg <?= $bgPosition ?> <?= $bgAttachement ?>" style="background-image: url(<?php echo $page->images()->first()->url(); ?>)" data-adaptive-background data-ab-css-background>
+<div class="full-width pb4 cover-bg <?= $bgPosition ?> <?= $bgAttachement ?>" style="background-image: url(
+<?php 
+if ($page->hasImages()){
+  echo $page->images()->first()->url();
+}
+else{
+  echo $site->image('default_img.jpg')->url();
+} 
+?>
+)" data-adaptive-background data-ab-css-background>
 
   <?php snippet('menu', array('color' => 'bc-white')) ?>
 
