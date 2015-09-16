@@ -1,5 +1,7 @@
 Title: Conferences
 ----
+HeroTitle: Conferences
+----
 Text: Hillsong and Colour Conferences are annual gatherings that unite people from every walk of life and church background. An environment that places value, speaks to potential and points to Godly vision.
 
 Hillsong Conference

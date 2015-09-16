@@ -1,6 +1,7 @@
 Title: Imprint
 ----
-
+HeroTitle: Imprint
+----
 Text: Berlin Christian Life Centre e.V.
 Weinbergsweg 24
 D-10119 Berlin

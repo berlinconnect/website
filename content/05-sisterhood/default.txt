@@ -1,5 +1,7 @@
 Title: Sisterhood
 ----
+HeroTitle: Sisterhood
+----
 Text: Sisterhood is passionate about placing value on women of all ages and empowering them to flourish in every season of life.
 
 We believe that collectively we can make a difference locally and globally and endeavour to gather, equip and mobilise women to be part of the solution.
