@@ -3,13 +3,10 @@
     <div class="full-width bg-bc-off-white py4">
       <div class="container clearfix center">
         <p class="caps h4 regular tiny-justify sm-justify md-center letter-spacing-1 px3 line-height-3 m0 bc-blue"><?= $page->overview() ?></p>
-        <div class="py3 divider md-show">
-          <div class="col-inline col-1 mx-auto border-top border-light-gray">
-          </div>
-        </div>
 
         <?php $hwacols = 'col col-12 sm-col-4 mb4 sm-mb0' ?>
-        <div class="col col-12 mt2 md-show border-box">
+
+        <div class="col col-12 mt2 md-show border-box mt4">
           <div class="<?= $hwacols ?> center">
             <div class="bubble-graphic inline-block bg-bc-orange pill bg-center" style="background-image:url('../images/ui/discover.svg')">
             </div>
