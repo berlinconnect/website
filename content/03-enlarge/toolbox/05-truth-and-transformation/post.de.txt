@@ -2,7 +2,7 @@ Title: Truth and Transformation
 
 ----
 
-Date: 
+Date:
 
 ----
 
@@ -10,15 +10,15 @@ Author: Vishal Mangalwadi
 
 ----
 
-Size: squaresmall
+Size: small
 
 ----
 
-Tags: 
+Tags:
 
 ----
 
-Category: 
+Category:
 
 ----
 
@@ -26,7 +26,7 @@ Color: blue
 
 ----
 
-Scriptures: 
+Scriptures:
 
 ----
 
@@ -34,4 +34,4 @@ Readings: http://amzn.to/1wJfnfe
 
 ----
 
-Text: 
+Text:

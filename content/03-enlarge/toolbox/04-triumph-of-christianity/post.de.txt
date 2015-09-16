@@ -2,7 +2,7 @@ Title: Triumph of Christianity
 
 ----
 
-Date: 
+Date:
 
 ----
 
@@ -10,7 +10,7 @@ Author: Rodney Stark
 
 ----
 
-Size: rectangle
+Size: normal
 
 ----
 
@@ -26,11 +26,11 @@ Color: blue
 
 ----
 
-Scriptures: 
+Scriptures:
 
 ----
 
-Readings: 
+Readings:
 
 ----
 
