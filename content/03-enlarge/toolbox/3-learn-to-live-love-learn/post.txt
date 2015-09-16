@@ -1,16 +1,16 @@
-Title:The Village Effect
+Title:Learning to Live, Love & Learn
 ----
 Date: 22/08/2015
 ----
-Author:Berlin Connect
+Author: Berlin Connect
 ----
-Size: square small
+Size: square big
 ----
-Tags: my-bible
+Tags: discovery
 ----
-Category: My Bible
+Category: discovery notes
 ----
-Color: blue
+Color: orange
 ----
 Scriptures: John 3:16, Jeremiah 29:11
 ----

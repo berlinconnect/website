@@ -5,22 +5,19 @@
       </div>
       <div class="col-inline col-12  sm-col-12 lg-col-4 md-center">
         <p>
-          © Berlin Connect 2015.<br>
-          All rights reserved<br>
-          <a href="" class="bc-white">Privacy Policy</a>
+          <?= $site->copyright()?>
+          <br>
+          <a href="" class="bc-white"><?= $site->privacylink()?></a>
         </p>
       </div>
       <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">
         <p>
-          Questions? Call Conny:<br>
-          +49 (0) 174 3463491<br>
-          conny@berlinclc.de<br>
-          myberlinconnect.de
+          <?= $site->contactquestions()?>
         </p>
       </div>
       <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">
         <p>
-          <?= $site->churchaddress()?>
+          <?= $site->hubaddress()?>
         </p>
       </div>
     </div>
