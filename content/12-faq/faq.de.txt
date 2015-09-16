@@ -1,4 +1,4 @@
-Title: FAQs
+Title: FAQ
 ----
 HeroTitle: Frequently Asked Questions
 ----

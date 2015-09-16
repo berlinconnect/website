@@ -1,10 +1,15 @@
-Title: New to BC
+Title: New to B/C
+<!-- TO BE CHANGED-->
 ----
 
-IntroQuote: Our philosophy is simply to love God, love people and love life.
+IntroTitle: Introduction
 ----
 
-IntroCopy: We are a multicultural church in the heart of Berlin, changing people's perceptions about Jesus and His Church. Our philosophy is simply to love God, love people and love life. Our motto is - 'Come as you are'.
+IntroQuote: Our philosophy is simply to love God, love people and love life.<!-- TO BE CHANGED-->
+----
+
+IntroCopy: We are a multicultural church in the heart of Berlin, changing people's perceptions about Jesus and His Church. Our philosophy is simply to love God, love people and love life. Our motto is 'Come as you are'.
+<!-- TO BE CHANGED-->
 ----
 
 Sundays: Our Sunday Gatherings
@@ -18,6 +23,10 @@ SundayCopy: On Sunday the whole day is the message. We aim to create an environm
 We have five gatherings at 11:00, 13:00, 15:00, 17:00, 19:00 every Sunday. They include live music, kids & youth activities for 1-18 year olds and translation to German, Spanish and Portuguese.
 
 Join us this Sunday!
+<!-- TO BE CHANGED-->
+----
+
+SundayTags: 
 ----
 
 Community: Our Midweek Community
@@ -30,21 +39,28 @@ CommunityCopy: As a church we place great value on developing meaningful and per
 Dinner Parties are informal get-togethers that take place every fortnight on Wednesday nights in homes all across Berlin.
 
 Sisterhood is all about placing value on women and gets together for morning tea every Thursday from 10:30 to 12:30 at the Hub.
+<!-- TO BE CHANGED-->
 ----
 
-Society: Engaging In Society
+CommunityTags:
+----
+
+Society: Engage
 ----
 
 SocietyQuote: Shining brightly in society
 ----
 
-SocietyCopy: Our desire is to contribute to the well-being of society as a whole through social enterprise. Out of the overflow of our lives we can serve our city by getting involved, finding and supporting positive solutions that place value, speak to people's potential and point to vision that shapes a better society. Would be cool to have one more sentence about why we have partnerships, what we do locally and what Futureminded is.
+SocietyCopy: Our desire is to contribute to the well-being of society as a whole through social enterprise. Out of the overflow of our lives we can serve our city by getting involved, finding and supporting positive solutions that place value, speak to people's potential and point to vision that shapes a better society. Would be cool to have one more sentence about why we have partnerships, what we do locally and what Futureminded is. <!-- TO BE CHANGED-->
 ----
 
 AreYouFree: What is your next step?
 ----
 
-AreYouFreeCopy: We’re all on a journey together – loving God, loving people, building the church together. We would love to help you make the next step in your journey with Christ at the Center.
+AreYouFreeCopy: Discovering Jesus & His Church is a journey. No matter where you are at – there is always a next step. We would love to help you take the next step in your journey.
+----
+
+AreYouFreeButtons: 
 ----
 
 FindUs: Find us on a map
