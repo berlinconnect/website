@@ -6,13 +6,13 @@ Date: 08/08/2015
 ----
 Location: The Hub
 ----
-GoogleMapsLink: #
+GoogleMapsLink:
 ----
-Link: #
+Link:
 ----
 Tag: enlarge
 ----
 TicketPrice: 10
 ----
-TicketLink: #
+TicketLink:
 ----

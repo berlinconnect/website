@@ -10,7 +10,7 @@ HeroText: Eine multikulturelle Kirche im Herzen Berlins, die Menschen eine neue 
 AboutTitle: Über uns
 ----
 
-AboutHeader: Berlin Connect ist eine multikulturelle kirche im herzen Berlins. 
+AboutHeader: Berlin Connect ist eine multikulturelle kirche im herzen Berlins.
 ----
 
 AboutText: Unsere Philosophie ist einfach: 'Liebe Gott, liebe Menschen und liebe das Leben'. Unser Motto lautet 'Komm' so wie du bist'.
@@ -25,7 +25,7 @@ SubscribeHeader: Lass uns in Kontakt bleiben
 SubscribeText: Wir halten dich gern auf dem Laufenden, was im Leben unserer Kirche alles passiert.
 ----
 
-SubscribeInputPlaceholder: Deine Email Adresse 
+SubscribeInputPlaceholder: Deine Email Adresse
 ----
 
 Overview: Wir glauben, dass Kirche ein Ort sein kann,

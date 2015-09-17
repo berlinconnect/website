@@ -1,10 +1,10 @@
 <!-- Typography > Positioning > Layout > Color & Theme > State > Custom -->
 
-<div class="full-width pb4 cover-bg <?= $bgPosition ?> <?= $bgAttachement ?>" style="background-image: url(<?php echo $page->images()->first()->url(); ?>)" data-adaptive-background data-ab-css-background>
+<div class="relative full-width pb4 cover-bg <?= $bgPosition ?> <?= $bgAttachement ?>" style="background-image: url(<?php echo $page->images()->first()->url(); ?>)" data-adaptive-background data-ab-css-background>
 
   <?php snippet('menu', array('color' => 'bc-white')) ?>
 
-  <div class="clearfix container center mt3 mb3 py3 bc-white">
+  <div class="clearfix relative z4 container center mt3 mb3 py3 bc-white">
 
     <?php if (strlen($page->herotitle()) != 0): ?>
       <h1 class="huge caps letter-spacing m0"><?= $page->herotitle() ?></h1>
@@ -42,4 +42,9 @@
     <?php endif ?>
 
   </div>
+
+  <div class="absolute left-0 top-0 full-height full-width bg-light-overlay-dark-gray">
+
+  </div>
+
 </div>

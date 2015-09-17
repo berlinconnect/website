@@ -6,9 +6,9 @@ Date: 08/08/2015
 ----
 Location: Huferland Straße 17
 ----
-GoogleMapsLink: #
+GoogleMapsLink:
 ----
-Link: #
+Link:
 ----
 Tag: enlarge
 ----

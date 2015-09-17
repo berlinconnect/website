@@ -45,13 +45,13 @@
           <p class="h6 caps light-gray mr1 mb1"><?= $site->moreinformation() ?></p>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about conferences']);"><?= $site->conferences() ?></a>
+          <a href="/conferences" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about conferences']);"><?= $site->conferences() ?></a>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about kids']);"><?= $site->kids() ?></a>
+          <a href="/kids" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about kids']);"><?= $site->kids() ?></a>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about youth']);"><?= $site->youth() ?></a>
+          <a href="/youth" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about youth']);"><?= $site->youth() ?></a>
         </li>
       </ul>
     </div>
