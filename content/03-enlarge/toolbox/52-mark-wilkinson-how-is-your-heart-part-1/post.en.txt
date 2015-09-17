@@ -1,4 +1,4 @@
-Title: Mark Wilkinson: How is your heart? (Part 1)
+Title: How is your heart? (Part 1)
 
 ----
 
@@ -10,7 +10,7 @@ Author: Berlin Connect
 
 ----
 
-Size: small
+Size: normal
 
 ----
 

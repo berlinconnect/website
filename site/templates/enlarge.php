@@ -38,13 +38,16 @@
       <ul class="relative col-12 mx-auto posts list-reset m0 bg-dark-gray">
         <div class="filler">
         </div>
-        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'featured', ',')->visible()->limit(1) as $post): ?>
+        <?php
+          $posts = $page->find('toolbox')->children()->flip();
+        ?>
+        <?php foreach($posts->filterBy('size', 'featured', ',')->visible()->limit(1) as $post): ?>
           <?php snippet('post', array('post' => $post)) ?>
         <?php endforeach ?>
-        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'small', ',')->visible()->limit(2) as $post): ?>
+        <?php foreach($posts->filterBy('size', 'small', ',')->visible()->limit(2) as $post): ?>
           <?php snippet('post', array('post' => $post)) ?>
         <?php endforeach ?>
-        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'normal', ',')->visible()->limit(1) as $post): ?>
+        <?php foreach($posts->filterBy('size', 'normal', ',')->visible()->limit(1) as $post): ?>
           <?php snippet('post', array('post' => $post)) ?>
         <?php endforeach ?>
 

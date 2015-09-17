@@ -1,4 +1,4 @@
-Title: Mark Wilkinson: Going the distance
+Title: Going the distance
 
 ----
 
@@ -6,11 +6,11 @@ Date: 2015-04-12
 
 ----
 
-Author: Berlin Connect
+Author: Mark Wilkinson
 
 ----
 
-Size: small
+Size: normal
 
 ----
 
