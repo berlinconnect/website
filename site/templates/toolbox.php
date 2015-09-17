@@ -5,7 +5,11 @@
     <ul class="relative col-12 mx-auto posts list-reset m0 bg-dark-gray">
       <div class="filler">
       </div>
-      <?php foreach($page->children()->visible() as $post): ?>
+      <?php 
+        $heroPost = $page->children()->visible()->limit(1)->first();
+        $slug = $heroPost->slug();
+        foreach($page->children()->visible()->not($slug) as $post): 
+      ?>
         <?php snippet('post', array('post' => $post)) ?>
       <?php endforeach ?>
     </ul>
