@@ -17,7 +17,7 @@ fields:
   size:
     label: Size
     type: radio
-    default: squaresmall
+    default: small
     options:
       featured: Featured
       small: Small
@@ -42,7 +42,7 @@ fields:
     type: url
   scriptures: 
     label: Scriptures
-    type: text
+    type: textarea
   readings:
     label: Readings
     type: textarea
