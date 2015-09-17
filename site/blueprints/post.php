@@ -17,7 +17,7 @@ fields:
   size:
     label: Size
     type: radio
-    default: squaresmall
+    default: small
     options:
       featured: Featured
       small: Small
@@ -36,12 +36,13 @@ fields:
       orange: Orange
       green: Green
       blue: Blue
+    help: Orange = Discovery, Green = Life Skills, Blue = My Bible
   link:
     label: Link
     type: url
   scriptures: 
     label: Scriptures
-    type: text
+    type: textarea
   readings:
     label: Readings
     type: textarea
