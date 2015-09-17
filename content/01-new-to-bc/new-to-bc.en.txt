@@ -1,0 +1,67 @@
+Title: New to B/C
+<!-- TO BE CHANGED-->
+----
+
+IntroTitle: Introduction
+----
+
+IntroQuote: Our philosophy is simply to love God, love people and love life.<!-- TO BE CHANGED-->
+----
+
+IntroCopy: We are a multicultural church in the heart of Berlin, changing people's perceptions about Jesus and His Church. Our philosophy is simply to love God, love people and love life. Our motto is 'Come as you are'.
+<!-- TO BE CHANGED-->
+----
+
+Sundays: Our Sunday Gatherings
+----
+
+SundayQuote: Sundays are Jesus-focused and people-empowering.
+----
+
+SundayCopy: On Sunday the whole day is the message. We aim to create an environment where you can easily connect with God and people in a personal, relational way that is warmhearted and authentic.
+
+We have five gatherings at 11:00, 13:00, 15:00, 17:00, 19:00 every Sunday. They include live music, kids & youth activities for 1-18 year olds and translation to German, Spanish and Portuguese.
+
+Join us this Sunday!
+<!-- TO BE CHANGED-->
+----
+
+SundayTags: 
+----
+
+Community: Our Midweek Community
+----
+
+CommunityQuote: Connecting our Sundays to our Midweek.
+----
+
+CommunityCopy: As a church we place great value on developing meaningful and personal connections midweek through our Dinner Parties and Sisterhood gatherings.
+Dinner Parties are informal get-togethers that take place every fortnight on Wednesday nights in homes all across Berlin.
+
+Sisterhood is all about placing value on women and gets together for morning tea every Thursday from 10:30 to 12:30 at the Hub.
+<!-- TO BE CHANGED-->
+----
+
+CommunityTags:
+----
+
+Society: Engage
+----
+
+SocietyQuote: Shining brightly in society
+----
+
+SocietyCopy: Our desire is to contribute to the well-being of society as a whole through social enterprise. Out of the overflow of our lives we can serve our city by getting involved, finding and supporting positive solutions that place value, speak to people's potential and point to vision that shapes a better society. Would be cool to have one more sentence about why we have partnerships, what we do locally and what Futureminded is. <!-- TO BE CHANGED-->
+----
+
+AreYouFree: What is your next step?
+----
+
+AreYouFreeCopy: Discovering Jesus & His Church is a journey. No matter where you are at – there is always a next step. We would love to help you take the next step in your journey.
+----
+
+AreYouFreeButtons: 
+----
+
+FindUs: Find us on a map
+----

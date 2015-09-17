@@ -3,30 +3,24 @@
     <div class="full-width bg-bc-off-white py4">
       <div class="container clearfix center">
         <p class="caps h4 regular tiny-justify sm-justify md-center letter-spacing-1 px3 line-height-3 m0 bc-blue"><?= $page->overview() ?></p>
-        <div class="py3 divider md-show">
-          <div class="col-inline col-1 mx-auto border-top border-light-gray">
-          </div>
-        </div>
 
         <?php $hwacols = 'col col-12 sm-col-4 mb4 sm-mb0' ?>
-        <div class="col col-12 mt2 md-show border-box">
-          <div class="<?= $hwacols ?> center">
-            <div class="p4 inline-block bg-bc-orange pill">
 
+        <div class="col col-12 mt2 md-show border-box mt4">
+          <div class="<?= $hwacols ?> center">
+            <div class="bubble-graphic inline-block bg-bc-orange pill bg-center" style="background-image:url('../images/ui/discover.svg')">
             </div>
             <h5 class="caps"><?= $page->discovertitle() ?></h5>
             <p class="h4 regular px1 mb3"><?= $page->discovertext() ?></p>
           </div>
           <div class="<?= $hwacols ?> center">
-            <div class="p4 inline-block bg-bc-green pill">
-
+            <div class="bubble-graphic inline-block bg-bc-green pill" style="background-image:url('../images/ui/lifeskills.svg')">
             </div>
             <h5 class="caps"><?= $page->lifetitle() ?></h5>
             <p class="h4 regular px1 mb3 mid-gray"><?= $page->lifetext() ?></p>
           </div>
           <div class="<?= $hwacols ?> center">
-            <div class="p4 inline-block bg-bc-blue pill">
-
+            <div class="bubble-graphic inline-block bg-bc-blue pill" style="background-image:url('../images/ui/bible.svg')">
             </div>
             <h5 class="caps"><?= $page->mybibletitle() ?></h5>
             <p class="h4 regular px1 mb3"><?= $page->mybibletext() ?></p>
@@ -41,19 +35,19 @@
       </div>
     </div>
     <div class="clearfix md-px3 border-box">
-      <ul class="relative col-12 mx-auto posts list-reset m0">
+      <ul class="relative col-12 mx-auto posts list-reset m0 bg-dark-gray">
         <div class="filler">
-
         </div>
-        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'square big', ',')->visible()->limit(1) as $post): ?>
+        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'featured', ',')->visible()->limit(1) as $post): ?>
           <?php snippet('post', array('post' => $post)) ?>
         <?php endforeach ?>
-        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'square small', ',')->visible()->limit(2) as $post): ?>
+        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'small', ',')->visible()->limit(2) as $post): ?>
           <?php snippet('post', array('post' => $post)) ?>
         <?php endforeach ?>
-        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'rectangle', ',')->visible()->limit(1) as $post): ?>
+        <?php foreach($page->find('toolbox')->children()->filterBy('size', 'normal', ',')->visible()->limit(1) as $post): ?>
           <?php snippet('post', array('post' => $post)) ?>
         <?php endforeach ?>
+
       </ul>
     </div>
 
@@ -66,14 +60,29 @@
           <h1 class="m0 mb2 caps lighter"><?= $page->eventsectiontitle() ?></h1>
         </div>
         <div class="questions grid">
-          <?php foreach($pages->find('calendar')->children()->visible()->limit(4) as $event): ?>
-            <?php snippet('single-event', array('event' => $event)) ?>
-          <?php endforeach ?>
-        </div>
-        <div class="container pb4 clearfix">
-          <div class="center mt3">
-            <a class="button bg-bc-blue py2 px4" href='<?php echo $pages->find('calendar')->url() ?>' onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'See full calendar']);">See full calendar</a>
-          </div>
+
+          <?php
+
+          // nested menu
+          $events = $pages->find('calendar')->children()->filterBy('tag', 'enlarge', ',')->visible();
+
+          // only show the menu if items are available
+          if($events->count()):
+
+          ?>
+            <?php foreach($events as $event): ?>
+
+              <?php snippet('single-event', array('event' => $event)) ?>
+
+            <?php endforeach ?>
+
+          <?php else: ?>
+
+            <div class="center mx-auto col-12 sm-col-6 bg-bc-off-white p3 mt4 mb3">
+              <p class="m0">No upcoming sessions or workshops.</p>
+            </div>
+
+          <?php endif ?>
         </div>
       </div>
 

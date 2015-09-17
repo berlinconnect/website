@@ -6,8 +6,11 @@
   padding-bottom 50%
   width (6 / 12) * 100%
 
-.posts
-  height auto !important
+.bubble-graphic
+  height 120px
+  width 120px
+  background-repeat no-repeat
+  background-position center center
 
 .post
   height 0
@@ -25,28 +28,18 @@
     transform scale(1)
     transition all 27000ms linear
 
-  &.square
+  &.featured
     padding-bottom 50%
+    width (6 / 12) * 100%
 
-    &.big
-      width (6 / 12) * 100%
+    p.description
+      display block
 
-      p.description
-        display block
+    .content
+      padding-left $space-4
+      padding-right $space-4
 
-      .content
-        padding-left $space-4
-        padding-right $space-4
-
-    &.small
-      width (3 / 12) * 100%
-      padding-bottom 25%
-
-      .content
-        padding-left $space-2
-        padding-right $space-2
-
-  &.rectangle
+  &.normal
     width (6 / 12) * 100%
     padding-bottom 25%
 
@@ -54,9 +47,17 @@
       padding-left $space-4
       padding-right $space-4
 
+  &.small
+    width (3 / 12) * 100%
+    padding-bottom 25%
+
+    .content
+      padding-left $space-2
+      padding-right $space-2
 
 @media $breakpoint-max-sm
   body
+
     .filler
       display none
 
@@ -65,17 +66,9 @@
       width 100% !important
       position relative !important
       top 0 !important
+      display block !important
+      padding-bottom 60% !important
 
-      .content-container
-        padding $space-4
-        box-sizing border-box
-        position relative
-
-      &.square
-        padding-bottom 0
-
-        &.small
-          padding-bottom 0%
-
-      &.rectangle
-        padding-bottom 0%
+      &.featured
+        p.description
+          display none

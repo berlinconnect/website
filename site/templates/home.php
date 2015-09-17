@@ -3,7 +3,9 @@
   <?php snippet('grid') ?>
   <div class="full-width bg-bc-off-white py4">
     <div class="container clearfix center">
+      
       <p class="caps h4 regular tiny-justify sm-justify md-center letter-spacing-1 px3 line-height-3 m0 bc-blue"><?= $page->overview() ?></p>
+
       <div class="py3 divider md-show">
         <div class="col-inline col-1 mx-auto border-top border-light-gray">
         </div>
@@ -12,6 +14,7 @@
       <a href="/new-to-bc" class="button inline-block md-hide mt3 h5 caps bg-bc-blue bc-white bold p2" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Go to new to bc on mobile']);"><?= $page->readmore() ?></a>
 
       <?php $hwacols = 'col col-12 sm-col-4 mb4' ?>
+
       <div class="col col-12 mt2 md-show border-box">
         <div class="<?= $hwacols ?> center">
           <h5 class="caps"><?= $page->sundaytitle() ?></h5>
@@ -31,12 +34,13 @@
       </div>
     </div>
   </div>
-  <?php snippet('events') ?>
-  <div class="full-width bg-dark-gray clearfix">
 
+  <?php snippet('events') ?>
+
+  <div class="full-width bg-dark-gray clearfix">
     <div class="col col-6 lg-col-4 sm-show">
       <div class="relative mt3 mx-auto bc-white grid-content">
-        <h5 class="bold caps line-height-2 m0"><?= $page->addresstitle() ?></h5>
+        <h5 class="bold caps line-height-2 m0"><?= $page->addressheader() ?></h5>
         <p class="h4 regular m0 mb3"><?= $site->churchaddress()?></p>
         <h5 class="bold caps line-height-2 m0"><?= $page->transporttitle() ?></h5>
         <p class="m0">Alexanderplatz:</p>

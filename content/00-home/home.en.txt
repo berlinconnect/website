@@ -4,38 +4,38 @@ Title: Welcome Home
 HeroTitle: Welcome Home
 ----
 
-HeroText: An english speaking, multicultural church in the heart of Berlin, changing people's perceptions about Jesus and His Church.
+HeroText: A multicultural church in the heart of Berlin, changing people's perceptions about Jesus and His Church.
 ----
 
 AboutTitle: About
 ----
 
-AboutHeader: Berlin Connect is a multicultural church in the heart of Berlin.
+AboutHeader: Berlin connect is a multicultural church in the heart of Berlin.
 ----
 
 AboutText: As a local church we are a community of ordinary people that simply love God, love people, and love life. Our motto is 'Come as you are'.
 ----
 
-SubscribeTitle: NEWSLETTER
+SubscribeTitle: Newsletter
 ----
 
-SubscribeHeader: Help us help you to stay connected
+SubscribeHeader: Let’s stay in touch!
 ----
 
-SubscribeText: Subscribe to our weekly newsletter giving you the latest information on what’s happening in the life of church.
+SubscribeText: We would love to keep you up to date with what’s coming up in church life.
 ----
 
 SubscribeInputPlaceholder: Enter your email address
 ----
 
 Overview: We believe church can be a place where people from all walks of life and ages can feel ‘at home’.
-At Berlin Connect, we aim to create an environment where you can easily connect with God and people, enabling your life to grow as you discover and live out your God-given potential in Christ.
+At Berlin Connect, we aim to create an environment where you can easily connect with God and people, enabling your life to grow as you discover and live out your God-given potential.
 ----
 
 SundayTitle: Sunday
 ----
 
-SundayText: Our desire is that Sunday gatherings are a place of connection with God and each other, of encouragement, worship and a place where guests become family.
+SundayText: Our desire is that Sunday Gatherings are a place of connection with God and each other, of encouragement and worship, a place where guests become family.
 ----
 
 ReadMore: Read More
@@ -47,19 +47,25 @@ CommunityTitle: Community
 CommunityText: Sitting together around a table of friendship and family is important for all of us. As a church we place great value on developing meaningful and personal connections midweek.
 ----
 
-SocialTitle: Social enterprise
+SocialTitle: (En)gage
 ----
 
-SocialText: We are passionate about empowering people to shine brightly in society and we believe that together, we can make a difference in our city and beyond by getting involved.
+SocialText: Our desire is to contribute to the well-being of society as a whole through social enterprise and leadership innovation.
 ----
 
-EventSectionTitle: Coming Up
+EventSectionTitle: Calendar
 ----
 
-EventSectionInfo: We came to Church because someone invited us. In the same way, you are invited to join us this week, as we are celebrating life, building new friendships and discovering our God-given potential in Christ
+EventSectionHeader: What's ahead
+----
+
+EventSectionInfo: Check out what’s coming up in church life.
 ----
 
 AddressTitle: Address
+----
+
+AddressHeader: Sunday Gatherings - Our Venue
 ----
 
 AddressText: Haus Ungarn

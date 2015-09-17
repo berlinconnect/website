@@ -1,6 +1,6 @@
 Title: Berlinc Connect
 ----
-Copyright: © Berlin Connect 2015. All rights reserved
+Copyright: © Berlin Connect 2015.<br>All rights reserved
 ----
 
 MoreInformation: More Information
@@ -33,7 +33,7 @@ EventSectionTitle: This Week
 EventSectionInfo: As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation.
 ----
 
-SubscribeSubmit: Sign Up Now
+SubscribeSubmit: Updates erhalten
 ----
 
 ChurchAddress: Haus Ungarn<br>Karl-Liebknecht-Straße 9<br>10178 Berlin
@@ -52,4 +52,13 @@ TumblrLink: http://berlinconnect.tumblr.com/
 ----
 
 FormUrl: http://eepurl.com/6DKQ5
+----
+
+PrivacyLink: Privacy Policy
+----
+
+HubAddress: Hub (Midweek Office):<br>Weinbergsweg 24<br>10119 Berlin
+----
+
+ContactQuestions: Fragen? Ruf Dave an:<br>+49 (0) 174 3463491<br>dave@berlinclc.de<br>myberlinconnect.de
 ----

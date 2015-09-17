@@ -1,0 +1,73 @@
+Title: Neu bei B/C
+----
+
+IntroTitle: Introduction
+----
+
+IntroQuote: Unsere Philosophie ist einfach: 'Liebe Gott, liebe Menschen und liebe das Leben'.
+----
+
+IntroCopy: Wir sind eine multikulturelle Kirche im Herzen Berlins, die verändern möchte, wie Menschen über Jesus und Seine Kirche denken. Unsere Philosophie ist einfach: 'Liebe Gott, liebe Menschen und liebe das Leben'. Unser Motto lautet 'Komm' so wie du bist'.
+
+----
+
+Sundays: Unsere Treffen am Sonntag <!-- TO BE CHANGED-->
+----
+
+SundayQuote: Sonntags - Auf Jesus fokussieren und Menschen befähigen <!-- TO BE CHANGED-->
+----
+
+SundayCopy: Sonntags ist der ganze Tag die Botschaft. Wir wollen eine Umgebung schaffen, in der du
+leicht zu Gott und Menschen eine persönliche, herzliche und authentische Beziehung
+aufbauen kannst.
+
+Wir treffen uns jeden Sonntag fünf mal, um 11:00, 13:00, 15:00, 17:00 & 19:00 Uhr. Es gibt Live-Musik, Aktivitäten für Kinder & Jugendliche (1-18 Jahre) & Übersetzung ins Deutsche, Spanische und Portugiesische.
+
+Komm diesen Sonntag vorbei! <!-- TO BE CHANGED-->
+----
+
+SundayTags: 
+----
+
+Community: In der Woche <!-- TO BE CHANGED-->
+----
+
+CommunityQuote: Den Sonntag mit unserem Alltag verbinden <!-- TO BE CHANGED-->
+----
+
+CommunityCopy: Als Kirche legen wir großen Wert darauf, bedeutungsvolle und persönliche Beziehungen in der Woche durch unsere Dinner Parties und Sisterhood-Treffen aufzubauen.
+
+Dinner Parties sind lockere Zusammenkünfte und finden zweiwöchentlich Mittwoch abends in Wohnungen in ganz Berlin statt.
+
+Bei Sisterhood geht es darum, Frauen wertzuschätzen. Die Sisterhood versammelt sich zum morgendlichen Tee jeden Donnerstag von 10:30-12:30 im Hub.
+<!-- TO BE CHANGED-->
+----
+
+CommunityTags:
+----
+
+Society: Mitmachen <!-- TO BE CHANGED-->
+----
+
+SocietyQuote: In der Gesellschaft hell strahlen <!-- TO BE CHANGED-->
+----
+
+SocietyCopy: Wir wollen zum Wohlergehen der gesamten Gesellschaft durch soziale Unternehmungen beitragen. Aus dem Überfluss unseres Lebens heraus können wir unserer Stadt dienen, indem wir uns involvieren, positive Lösungen suchen und sie unterstützen. Lösungen, die Wert beimessen, das Potential von Menschen ansprechen, und auf eine Vision hinweisen, die eine bessere Gesellschaft prägt.
+
+Es ist unsere Leidenschaft, Menschen dazu zu befähigen, dass sie hell in der Gesellschaft leuchten und aus der Guten Nachricht, wer sie in Christus sind, heraus leben. Wir glauben, dass die Zukunft Berlins durch den Einfallsreichtum der Menschen, die hier leben, positiv geprägt werden kann.
+
+Wir streben an, durch die Futureminded Group zum Wohlergehen der Gesellschaft beizutragen, indem wir einen kollaborativen Ansatz verfolgen und Lösungen für die aktuellen und zukünftigen Herausforderungen unserer Stadt bringen.
+<!-- TO BE CHANGED-->
+----
+
+AreYouFree: Was ist dein nächster Schritt?
+----
+
+AreYouFreeCopy: Jesus & Seine Kirche zu entdecken ist eine Reise. Egal, wo du gerade stehst – es gibt immer einen nächsten Schritt. Wir helfen dir gern, den nächsten Schritt auf deiner Reise zu gehen.
+----
+
+AreYouFreeButtons: 
+----
+
+FindUs: Find us on a map
+----

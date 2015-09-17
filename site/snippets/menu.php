@@ -1,4 +1,4 @@
-<div class="clearfix full-width menu">
+<div class="clearfix full-width menu relative z4">
   <div class="p3">
     <div class="font-size-0">
       <div class="col-inline col-2 vm logo">
