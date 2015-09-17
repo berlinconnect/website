@@ -10,7 +10,7 @@ Author: Berlin Connect
 
 ----
 
-Size: small
+Size: featured
 
 ----
 
