@@ -36,6 +36,7 @@ fields:
       orange: Orange
       green: Green
       blue: Blue
+    help: Orange = Discovery, Green = Life Skills, Blue = My Bible
   link:
     label: Link
     type: url
