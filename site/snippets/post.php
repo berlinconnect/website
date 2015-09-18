@@ -21,7 +21,10 @@
     echo $post->images()->first()->url();
   }
   else{
-    echo $pages->find('enlarge')->find('toolbox')->image('default_post.jpg')->url();
+    $randomNumber = rand(1, 13);
+    $defaultImage = "default_{$randomNumber}.jpg";
+    echo $pages->find('enlarge')->find('toolbox')->image($defaultImage)->url();
+    // echo $pages->find('enlarge')->find('toolbox')->image('default_1.jpg')->url();
   }
   ?>
   )"></div>
