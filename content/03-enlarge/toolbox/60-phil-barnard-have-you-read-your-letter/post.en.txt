@@ -1,4 +1,4 @@
-Title: Have you read your letter?
+Title: Phil Barnard: Have you read your letter?
 
 ----
 
@@ -6,11 +6,11 @@ Date: 2015-04-26
 
 ----
 
-Author: Phil Barnard
+Author: Berlin Connect
 
 ----
 
-Size: normal
+Size: small
 
 ----
 
