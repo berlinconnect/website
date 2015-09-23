@@ -99,4 +99,4 @@
 <body class="animated fadeIn <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">
   <?= snippet('notice')?>
   <?= snippet('sidebar')?>
-  <div class="stage <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">
+  <div class="stage relative <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">

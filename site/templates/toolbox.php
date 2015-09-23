@@ -1,12 +1,15 @@
 <?php snippet('header') ?>
 <?php snippet('featured-hero') ?>
-  <div class="filter">
-    <div class="button-group filter-button-group">
-      <button data-filter="*">Show all</button>
-      <button data-filter=".Message">Messages</button>
-      <button data-filter=".Annual-report">Annual Report</button>
-      <button data-filter=".Podcast">Podcasts</button>
-    </div>
+  <div class="filterAnchor"></div>
+  <div class="full-width p1 border-box bg-bc-blue filter top-0 left-0">
+  <div class="container flex flex-justify filter-group filter-button-group">
+    <button class="bg-transparent h4 m0" data-filter="*">Show all</button>
+    <button class="bg-transparent h4 m0" data-filter=".message">Messages</button>
+    <button class="bg-transparent h4 m0" data-filter=".podcast">Podcasts</button>
+    <button class="bg-transparent h4 m0" data-filter=".discovery-notes">Discovery Notes</button>
+    <button class="bg-transparent h4 m0" data-filter=".my-bible">My Bible</button>
+    <button class="bg-transparent h4 m0" data-filter=".annual-report">Annual Report</button>
+  </div>
   </div>
   <div class="clearfix md-px3 py3 border-box">
     <ul class="relative col-12 mx-auto posts list-reset m0 bg-dark-gray">
@@ -36,20 +39,28 @@
       layoutMode: 'packery',
     });
 
-    // bind filter button click
-    $('#filters').on( 'click', 'li', function() {
-      var filterValue = $( this ).attr('data-filter');
-      $container.isotope({ filter: filterValue });
-    });
+  // filter items on button click
+  $('.filter-button-group').on( 'click', 'button', function() {
+    var filterValue = $(this).attr('data-filter');
+    $('.filter-button-group button').removeClass('active');
+    $(this).addClass('active');
+    $container.isotope({ filter: filterValue });
+  });
 
-    // change is-checked class on buttons
-    $('.filter-group').each( function( i, buttonGroup ) {
-      var $buttonGroup = $( buttonGroup );
-      $buttonGroup.on( 'click', 'li', function() {
-        $buttonGroup.find('.is-checked').removeClass('is-checked');
-        $( this ).addClass('is-checked');
-      });
-    });
+  function sticky_relocate() {
+     var window_top = $(window).scrollTop();
+     var div_top = $('.filterAnchor').offset().top;
+     if (window_top > div_top) {
+         $('.filter').addClass('fixed');
+     } else {
+         $('.filter').removeClass('fixed');
+     }
+  }
+
+  $(function () {
+     $(window).scroll(sticky_relocate);
+     sticky_relocate();
+  });
 
   </script>
 
