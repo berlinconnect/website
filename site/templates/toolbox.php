@@ -1,10 +1,15 @@
 <?php snippet('header') ?>
 <?php snippet('featured-hero') ?>
-
+  <div class="filter">
+    <div class="button-group filter-button-group">
+      <button data-filter="*">Show all</button>
+      <button data-filter=".Message">Messages</button>
+      <button data-filter=".Annual-report">Annual Report</button>
+      <button data-filter=".Podcast">Podcasts</button>
+    </div>
+  </div>
   <div class="clearfix md-px3 py3 border-box">
     <ul class="relative col-12 mx-auto posts list-reset m0 bg-dark-gray">
-      <div class="filler">
-      </div>
       <?php
         $heroPost = $page->children()->flip()->visible()->limit(1)->first();
         $slug = $heroPost->slug();
