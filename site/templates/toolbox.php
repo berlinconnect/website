@@ -8,9 +8,17 @@
       <?php
         $heroPost = $page->children()->flip()->visible()->limit(1)->first();
         $slug = $heroPost->slug();
+        // $randomNumber is for the images for each post
+        $randomNumber = 1;
         foreach($page->children()->flip()->visible()->not($slug) as $post):
+          // increase $randomNumber by one to show another image next time
+          $randomNumber = $randomNumber + 1;
+          // if $randomNumber is over 13, then repeat all images again
+          if ($randomNumber > 13) {
+            $randomNumber = 1;
+          }
       ?>
-        <?php snippet('post', array('post' => $post)) ?>
+        <?php snippet('post', array('post' => $post, 'randomNumber' => $randomNumber)) ?>
       <?php endforeach ?>
     </ul>
   </div>

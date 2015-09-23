@@ -6,7 +6,7 @@ if ($post->hasImages()){
   echo $post->images()->first()->url();
 }
 else{
-  $randomNumber = rand(1, 13);
+  $randomNumber = 1;
   $defaultImage = "default_{$randomNumber}.jpg";
   echo $pages->find('enlarge')->find('toolbox')->image($defaultImage)->url();
   // echo $pages->find('enlarge')->find('toolbox')->image('default_1.jpg')->url();
