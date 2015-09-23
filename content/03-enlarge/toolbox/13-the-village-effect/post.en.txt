@@ -2,7 +2,7 @@ Title: The Village Effect
 
 ----
 
-Date: 
+Date:
 
 ----
 
@@ -14,7 +14,7 @@ Size: small
 
 ----
 
-Tags: Book recommendation
+Tags: book-recommendation
 
 ----
 
@@ -30,12 +30,12 @@ Link: http://www.susanpinker.com/the-village-effect/
 
 ----
 
-Scriptures: 
+Scriptures:
 
 ----
 
-Readings: 
+Readings:
 
 ----
 
-Text: 
+Text:

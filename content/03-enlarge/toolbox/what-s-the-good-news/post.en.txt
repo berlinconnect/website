@@ -2,7 +2,7 @@ Title: What's The Good News
 
 ----
 
-Date: 
+Date:
 
 ----
 
@@ -14,7 +14,7 @@ Size: small
 
 ----
 
-Tags: Podcast
+Tags: podcast
 
 ----
 
@@ -30,12 +30,12 @@ Link: https://soundcloud.com/berlinconnect/whats-the-good-news
 
 ----
 
-Scriptures: 
+Scriptures:
 
 ----
 
-Readings: 
+Readings:
 
 ----
 
-Text: 
+Text:
