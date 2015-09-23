@@ -14,7 +14,7 @@ Size: small
 
 ----
 
-Tags: Discovery notes
+Tags: discovery-notes
 
 ----
 

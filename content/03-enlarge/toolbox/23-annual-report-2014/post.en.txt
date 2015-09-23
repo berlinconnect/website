@@ -14,7 +14,7 @@ Size: small
 
 ----
 
-Tags: Annual Report
+Tags: annual-report
 
 ----
 
@@ -30,12 +30,12 @@ Link: http://issuu.com/berlinconnect/docs/bc_annual_report_2014_final
 
 ----
 
-Scriptures: 
+Scriptures:
 
 ----
 
-Readings: 
+Readings:
 
 ----
 
-Text: 
+Text:

@@ -14,7 +14,7 @@ Size: small
 
 ----
 
-Tags: Book recommendation
+Tags: book-recommendation
 
 ----
 
