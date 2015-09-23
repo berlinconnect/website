@@ -8,7 +8,7 @@
       <?php
         $heroPost = $page->children()->flip()->visible()->limit(1)->first();
         $slug = $heroPost->slug();
-        foreach($page->children()->visible()->not($slug) as $post):
+        foreach($page->children()->flip()->visible()->not($slug) as $post):
       ?>
         <?php snippet('post', array('post' => $post)) ?>
       <?php endforeach ?>
