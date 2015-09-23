@@ -38,16 +38,13 @@
       <ul class="relative col-12 mx-auto posts list-reset m0 bg-dark-gray">
         <div class="filler">
         </div>
-        <?php
-          $posts = $page->find('toolbox')->children()->flip();
-        ?>
-        <?php foreach($posts->filterBy('size', 'featured', ',')->visible()->limit(1) as $post): ?>
+        <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'featured', ',')->visible()->limit(1) as $post): ?>
           <?php snippet('post', array('post' => $post)) ?>
         <?php endforeach ?>
-        <?php foreach($posts->filterBy('size', 'small', ',')->visible()->limit(2) as $post): ?>
+        <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'small', ',')->visible()->limit(2) as $post): ?>
           <?php snippet('post', array('post' => $post)) ?>
         <?php endforeach ?>
-        <?php foreach($posts->filterBy('size', 'normal', ',')->visible()->limit(1) as $post): ?>
+        <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'normal', ',')->visible()->limit(1) as $post): ?>
           <?php snippet('post', array('post' => $post)) ?>
         <?php endforeach ?>
 
@@ -67,25 +64,39 @@
           <?php
 
           // nested menu
-          $events = $pages->find('calendar')->children()->filterBy('tag', 'enlarge', ',')->visible();
+          $events = $pages->find('calendar')->children()->filterBy('tag', 'enlarge', ',')->visible()->sortBy('date', 'asc');
 
-          // only show the menu if items are available
-          if($events->count()):
+          // integer to count how many events are not obsolete
+          $notObsoleteItems = 0;
 
+          // only show the menu if items are available and not obsolete
+          if($events->count()){
+            foreach($events as $event){
+              // get the current date and the date in seven days
+              $now = date('M d, Y');
+              $now = strtotime($now);
+
+              // get date of the event
+              $date = $event->date();
+
+              if ($now <= $date) {
+                $notObsoleteItems = $notObsoleteItems + 1;
+                snippet('single-event', array('event' => $event));
+              }
+            }
+
+            if (notObsoleteItems == 0) {
+              echo "<div class='center mx-auto col-12 sm-col-6 bg-bc-off-white p3 mt4 mb3'>";
+              echo "<p class='m0'>No upcoming sessions or workshops.</p>";
+              echo "</div>";
+            }
+          }
+          else{
+            echo "<div class='center mx-auto col-12 sm-col-6 bg-bc-off-white p3 mt4 mb3'>";
+            echo "<p class='m0'>No upcoming sessions or workshops.</p>";
+            echo "</div>";
+          }
           ?>
-            <?php foreach($events as $event): ?>
-
-              <?php snippet('single-event', array('event' => $event)) ?>
-
-            <?php endforeach ?>
-
-          <?php else: ?>
-
-            <div class="center mx-auto col-12 sm-col-6 bg-bc-off-white p3 mt4 mb3">
-              <p class="m0">No upcoming sessions or workshops.</p>
-            </div>
-
-          <?php endif ?>
         </div>
       </div>
 
