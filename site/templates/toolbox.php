@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 <?php snippet('featured-hero') ?>
-  <div class="filterAnchor"></div>
-  <div class="full-width p1 border-box bg-bc-blue filter top-0 left-0">
+<div class="filterAnchor"></div>
+<div class="full-width p1 border-box bg-bc-blue filter top-0 left-0 z4">
   <div class="container flex flex-justify filter-group filter-button-group">
     <button class="bg-transparent h4 m0" data-filter="*">Show all</button>
     <button class="bg-transparent h4 m0" data-filter=".message">Messages</button>
@@ -10,9 +10,9 @@
     <button class="bg-transparent h4 m0" data-filter=".my-bible">My Bible</button>
     <button class="bg-transparent h4 m0" data-filter=".annual-report">Annual Report</button>
   </div>
-  </div>
+</div>
   <div class="clearfix md-px3 py3 border-box">
-    <ul class="relative col-12 mx-auto posts list-reset m0 bg-dark-gray">
+    <ul class="relative col-12 mx-auto posts list-reset m0">
       <?php
         $heroPost = $page->children()->flip()->visible()->limit(1)->first();
         $slug = $heroPost->slug();
@@ -51,9 +51,9 @@
      var window_top = $(window).scrollTop();
      var div_top = $('.filterAnchor').offset().top;
      if (window_top > div_top) {
-         $('.filter').addClass('fixed');
+         $('.filterhidden').removeClass('hidden');
      } else {
-         $('.filter').removeClass('fixed');
+         $('.filterhidden').addClass('hidden');
      }
   }
 
