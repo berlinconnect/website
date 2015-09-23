@@ -38,14 +38,42 @@
       <ul class="relative col-12 mx-auto posts list-reset m0 bg-dark-gray">
         <div class="filler">
         </div>
+        <?php 
+          // $randomNumber is for the images for each post
+          $randomNumber = 1;
+        ?>
         <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'featured', ',')->visible()->limit(1) as $post): ?>
-          <?php snippet('post', array('post' => $post)) ?>
+          <?php 
+            // increase $randomNumber by one to show another image next time
+            $randomNumber = $randomNumber + 1;
+            // if $randomNumber is over 13, then repeat all images again
+            if ($randomNumber > 13) {
+              $randomNumber = 1;
+            }
+          ?>
+          <?php snippet('post', array('post' => $post, 'randomNumber' => $randomNumber)) ?>
         <?php endforeach ?>
         <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'small', ',')->visible()->limit(2) as $post): ?>
-          <?php snippet('post', array('post' => $post)) ?>
+          <?php 
+            // increase $randomNumber by one to show another image next time
+            $randomNumber = $randomNumber + 1;
+            // if $randomNumber is over 13, then repeat all images again
+            if ($randomNumber > 13) {
+              $randomNumber = 1;
+            }
+          ?>
+          <?php snippet('post', array('post' => $post, 'randomNumber' => $randomNumber)) ?>
         <?php endforeach ?>
         <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'normal', ',')->visible()->limit(1) as $post): ?>
-          <?php snippet('post', array('post' => $post)) ?>
+          <?php 
+            // increase $randomNumber by one to show another image next time
+            $randomNumber = $randomNumber + 1;
+            // if $randomNumber is over 13, then repeat all images again
+            if ($randomNumber > 13) {
+              $randomNumber = 1;
+            }
+          ?>
+          <?php snippet('post', array('post' => $post, 'randomNumber' => $randomNumber)) ?>
         <?php endforeach ?>
 
       </ul>

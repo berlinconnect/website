@@ -21,10 +21,9 @@
     echo $post->images()->first()->url();
   }
   else{
-    $randomNumber = rand(1, 13);
+    // echo "<script type='text/javascript'>alert('$randomNumber');</script>";
     $defaultImage = "default_{$randomNumber}.jpg";
     echo $pages->find('enlarge')->find('toolbox')->image($defaultImage)->url();
-    // echo $pages->find('enlarge')->find('toolbox')->image('default_1.jpg')->url();
   }
   ?>
   )"></div>

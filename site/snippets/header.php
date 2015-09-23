@@ -48,7 +48,7 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <?php echo js('js/libs/jquery.js') ?>
-  
+
   <!-- Masonry -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
   <?php echo js('js/plugins/isotope.js') ?>
@@ -99,4 +99,15 @@
 <body class="animated fadeIn <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">
   <?= snippet('notice')?>
   <?= snippet('sidebar')?>
+  <div class="full-width p1 border-box bg-bc-blue filterhidden hidden fixed top-0 left-0 z2">
+    <div class="container flex flex-justify filter-group filter-button-group">
+      <button class="bg-transparent h4 m0" data-filter="*">Show all</button>
+      <button class="bg-transparent h4 m0" data-filter=".message">Messages</button>
+      <button class="bg-transparent h4 m0" data-filter=".podcast">Podcasts</button>
+      <button class="bg-transparent h4 m0" data-filter=".discovery-notes">Discovery Notes</button>
+      <button class="bg-transparent h4 m0" data-filter=".my-bible">My Bible</button>
+      <button class="bg-transparent h4 m0" data-filter=".annual-report">Annual Report</button>
+    </div>
+  </div>
+
   <div class="stage <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">

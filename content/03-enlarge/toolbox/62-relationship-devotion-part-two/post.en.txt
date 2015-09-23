@@ -10,7 +10,7 @@ Author: Mark Wilkinson
 
 ----
 
-Tags: Message
+Tags: message
 
 ----
 

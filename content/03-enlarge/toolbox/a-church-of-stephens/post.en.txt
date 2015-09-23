@@ -2,7 +2,7 @@ Title: A Church of Stephens
 
 ----
 
-Date: 
+Date:
 
 ----
 
@@ -14,7 +14,7 @@ Size: small
 
 ----
 
-Tags: Podcast
+Tags: podcast
 
 ----
 
@@ -30,12 +30,12 @@ Link: https://soundcloud.com/berlinconnect/a-church-of-stevens-mark-wilkinson-20
 
 ----
 
-Scriptures: 
+Scriptures:
 
 ----
 
-Readings: 
+Readings:
 
 ----
 
-Text: 
+Text:
