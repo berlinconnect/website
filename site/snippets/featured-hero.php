@@ -1,6 +1,19 @@
 <!-- Typography > Positioning > Layout > Color & Theme > State > Custom -->
-<?php foreach($page->children()->visible()->limit(1) as $post): ?>
-<div class="relative full-width pb4 cover-bg center-bg" style="background-image: url(<?php echo $post->images()->first()->url(); ?>)" data-adaptive-background data-ab-css-background>
+<?php foreach($page->children()->visible()->flip()->limit(1) as $post): ?>
+<div class="relative full-width pb4 cover-bg center-bg" style="background-image: url(
+<?php
+if ($post->hasImages()){
+  echo $post->images()->first()->url();
+}
+else{
+  $randomNumber = rand(1, 13);
+  $defaultImage = "default_{$randomNumber}.jpg";
+  echo $pages->find('enlarge')->find('toolbox')->image($defaultImage)->url();
+  // echo $pages->find('enlarge')->find('toolbox')->image('default_1.jpg')->url();
+}
+?>
+)
+" data-adaptive-background data-ab-css-background>
 
   <?php snippet('menu', array('color' => 'bc-white')) ?>
 
