@@ -42,7 +42,7 @@
         <h5 class="caps">Positions You around good leadership</h5>
         <p class="small justify">Serving with others who have been on the journey you're on gives you so much insight and input to help you grow.</p>
       </li>
-      <<li class="<?= $reasoncols ?>">
+      <li class="<?= $reasoncols ?>">
         <h5 class="caps">Focus on what matters</h5>
         <p class="small justify">Being on team gives you a greater understanding of the why behind all the tasks we do: IT’S ALL ABOUT PEOPLE</p>
       </li>
