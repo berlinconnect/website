@@ -44,4 +44,20 @@
       </div>
     </div>
   </div>
+  <div class="relative <?= $cols ?> square cover-bg" <?php if($image = $page->image('1.jpg')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
+  </div>
+
+  <div class="relative <?= $cols ?> square center">
+    <div class="middle full-width">
+      <div class="relative mx-auto grid-content">
+        <h5 class="caps m0 mb3 bc-blue"><?= $page->abouttitle() ?></h5>
+        <p class="h4 bold caps line-height-2 m0 mb2"><?= $page->aboutheader() ?></p>
+        <p class="h4 regular"><?= $page->abouttext() ?></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="relative <?= $cols ?> square cover-bg" <?php if($image = $page->image('2.jpg')): ?>style="background-image: url(<?= $image->url() ?>)"<?php endif ?>>
+  </div>
+
 </div>
