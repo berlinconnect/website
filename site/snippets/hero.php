@@ -22,7 +22,7 @@
         <?php endif ?>
         <?php if($page->id() == 'h4h2015'): ?>
           <div class="center">
-            <div class="contain-bg center-bg" style="background-image:url('<?= $pages->find('h4h2015')->image('h4h-logo-white.svg')->url(); ?>'); width:100%; height:260px;"></div>
+            <div class="contain-bg center-bg" style="background-image:url('<?= $pages->find('h4h2015')->image('h4h-logo-white.svg')->url(); ?>'); width:100%; height:350px;"></div>
           </div>
         <?php endif ?>
       </div>

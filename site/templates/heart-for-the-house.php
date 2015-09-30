@@ -44,7 +44,7 @@
         <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4">Vision<br>Giver</h1>
       </div>
 
-      <div class="col-12 md-col-6 tiny-center sm-center md-left border-box full-height p2 xsm-p3 lg-p4">
+      <div class="flex-first col-12 md-col-6 tiny-center sm-center md-left border-box full-height p2 xsm-p3 lg-p4">
 
         <p class="h4 regular bc-blue caps line-height-2 m0 mb2">Bring a gift on the day + a monthly commitment</p>
 
