@@ -10,11 +10,11 @@ Author: Mal Fletcher
 
 ----
 
-Size: small
+Size: featured
 
 ----
 
-Tags: podcast
+Tags: message
 
 ----
 

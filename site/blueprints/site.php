@@ -6,10 +6,10 @@ files: true
 fields:
   title:
     label: Title
-    type:  text
+    type: text
   copyright:
     label: Copyright
-    type:  text
+    type: text
   moreinformation:
     label: More Information
     type: text

@@ -1,9 +1,8 @@
 <!-- Typography > Positioning > Layout > Color & Theme > State > Custom -->
-<?php foreach($page->children()->visible()->flip()->limit(1) as $post): ?>
 <div class="relative full-width pb4 cover-bg center-bg" style="background-image: url(
 <?php
-if ($post->hasImages()){
-  echo $post->images()->first()->url();
+if ($page->hasImages()){
+  echo $page->images()->first()->url();
 }
 else{
   $randomNumber = 1;
@@ -17,17 +16,10 @@ else{
 
   <?php snippet('menu', array('color' => 'bc-white')) ?>
 
-  <div class="clearfix relative z4 center mt3 mb3 py4 px2 md-px4 bc-white">
+  <div class="clearfix relative z4 container center mt3 mb4 bc-white">
 
       <!-- <h5 class="caps inline-block px1 pyhalf m0 rounded mb3">Toolbox</h5> -->
-
-      <h1 class="huge lighter caps letter-spacing m0 px3"><?= $post->title() ?></h1>
-
-      <p class="small mt2">
-        by <span class="caps bold"><?= $post->author() ?></span>
-      </p>
-
-      <a href="<?= $post->url() ?> " class="h5 px3 py2 mt3 caps bg-bc-white gray inline-block">Read More</a>
+      <h1 class="huge lighter caps letter-spacing m0 px3 py3"><?= $page->title() ?></h1>
 
   </div>
 
@@ -36,4 +28,3 @@ else{
   </div>
 
 </div>
-<?php endforeach ?>

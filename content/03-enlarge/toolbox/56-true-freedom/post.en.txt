@@ -10,7 +10,7 @@ Author: Mark Wilkinson
 
 ----
 
-Size: small
+Size: featured
 
 ----
 
