@@ -3,7 +3,9 @@
     <?php if (strlen($event->link()) > 1): ?>
       <a href="<?= $event->link() ?>" class="absolute top-0 left-0 bottom-0 right-0"></a>
     <?php endif ?>
-    <div class="absolute top-0 left-0 bottom-0 right-0 cover-bg top-bg bg-image z-1" style="background-image: url(<?php echo $event->images()->first()->url(); ?>)"></div>
+    <div class="absolute top-0 left-0 bottom-0 right-0 cover-bg top-bg bg-image z-1" style="background-image: url(<?php if ($event->hasImages()){
+      echo $event->images()->first()->url();
+    } ?>)"></div>
     <div class="date align-left bc-white ml1">
       <h4 class="caps light m0 mt2 line-height-0"><?php echo $event->date('M') ?></h4>
       <h2 class="caps light m0"><?= $event->date('d') ?></h2>
