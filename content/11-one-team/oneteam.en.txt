@@ -1,0 +1,109 @@
+Title: one-team
+
+----
+
+Introheader: The local Church is not built on the gifts and talents of a few, but on the sacrifice of many.
+
+----
+
+Introtext: Berlin Connect is a local church community built and carried by ordinary people serving an extraordinary God. People just like you who give their time, talent and energy to make church great for others. Whether it’s sweeping or singing, on Sunday or midweek, serving on a team is a fantastic way to get to know new friends while learning new skills.
+
+----
+
+Tenreasonsheader: 10 Reasons why you should consider being on team
+
+----
+
+Reason1header: God, People, Life
+
+----
+
+Reason1text: Being around others who share the same vision develops your passion for: God, People, Life.
+
+----
+
+Reason2header: Challenges your mindset
+
+----
+
+Reason2text: Adding purpose behind what you do and remembers its all about others will change your mindsets.
+
+----
+
+Reason3header: Add Value
+
+----
+
+Reason3text: Serving with others give you an opportunity to add value & contribute to the bigger picture.
+
+----
+
+Reason4header: Develops your leadership
+
+----
+
+Reason4text: We are all called to be leaders in life and through serving, you are equipped to lead in all areas of life.
+
+----
+
+Reason5header: Grow In Confidence
+
+----
+
+Reason5text: Serving creates an environment for your voice & ideas to be heard which helps you grow confidence in yourself.
+
+----
+
+Reason6header: Care in Practical Ways
+
+----
+
+Reason6text: Serving give you a practical way to care for others. It teaches you and helps you grow in your ability to care.
+
+----
+
+Reason7header: Positions You around good leadership
+
+----
+
+Reason7text: Serving with others who have been on the journey you're on gives you so much insight and input to help you grow.
+
+----
+
+Reason8header: Focus on what matters
+
+----
+
+Reason8text: Being on team gives you a greater understanding of the why behind all the tasks we do: IT’S ALL ABOUT PEOPLE
+
+----
+
+Reason9header: Discover Strengths and Weaknesses
+
+----
+
+Reason9text: Serving allows you to try everything in an enviroment where it's ok to fail. Dicovering the things you're good at and develop them.
+
+----
+
+Reason10header: Character building
+
+----
+
+Reason10text: Serving with people builds your character, credibility and increases your trust-worthiness.
+
+----
+
+Signupheader: Serve the Lord with gladness.
+
+----
+
+Signuptext: Are you considering taking the next step and serving in church? Click the button below, complete the form and we will be in touch with you.
+
+----
+
+Signupcalltoaction: Sign Up Today
+
+----
+
+Moreinstagram: See More Stories
