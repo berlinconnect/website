@@ -4,7 +4,7 @@
 
   <?php snippet('menu', array('color' => 'bc-white')) ?>
 
-  <div class="clearfix relative z4 container center mt3 mb3 py3 bc-white">
+  <div class="clearfix relative z4 container center mb3 pb3 bc-white">
 
     <?php if (strlen($page->herotitle()) != 0): ?>
       <h1 class="huge caps letter-spacing m0"><?= $page->herotitle() ?></h1>
@@ -22,7 +22,7 @@
         <?php endif ?>
         <?php if($page->id() == 'h4th2015'): ?>
           <div class="center">
-            <div class="contain-bg center-bg" style="background-image:url('<?= $page->url() ?>/h4h-logo-white.svg'); width:100%; height:350px;"></div>
+            <div class="contain-bg center-bg" style="background-image:url('<?= $page->url() ?>/h4h-logo-white.svg'); width:100%; height:400px;"></div>
           </div>
         <?php endif ?>
       </div>

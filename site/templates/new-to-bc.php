@@ -78,10 +78,10 @@
           <p class="h6 caps light-gray mr1 mb1"><?= $site->moreinformation() ?></p>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about dinner parties']);"><?= $site->dinnerparties() ?></a>
+          <a href="/dinner-parties" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about dinner parties']);"><?= $site->dinnerparties() ?></a>
         </li>
         <li class="inline-block">
-          <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about sisterhood']);"><?= $site->sisterhood() ?></a>
+          <a href="sisterhood" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about sisterhood']);"><?= $site->sisterhood() ?></a>
         </li>
       </ul>
     </div>
@@ -106,10 +106,10 @@
         <p class="h6 caps light-gray mr1 mb1"><?= $site->moreinformation() ?></p>
       </li>
       <li class="inline-block">
-        <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about social kindness']);"><?= $site->socialkindness() ?></a>
+        <a href="social-kindness" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about social kindness']);"><?= $site->socialkindness() ?></a>
       </li>
       <li class="inline-block">
-        <a href="#" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about futureminded']);"><?= $site->futureminded() ?></a>
+        <a href="http://futureminded.de" class="h6 caps p1 bc-white bg-bc-blue mr1" onclick="_gaq.push(['_trackEvent', 'Links', 'Clicked', 'Learn about futureminded']);"><?= $site->futureminded() ?></a>
       </li>
     </ul>
   </div>

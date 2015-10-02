@@ -27,7 +27,17 @@ else{
         by <span class="caps bold"><?= $post->author() ?></span>
       </p>
 
-      <a href="<?= $post->url() ?> " class="h5 px3 py2 mt3 caps bg-bc-white gray inline-block">Read More</a>
+      <?php if($post->tags() == 'book-recommendation'): ?>
+        <a href="<?= $post->link() ?> " class="h5 px3 py2 mt3 caps bg-bc-white gray inline-block">View Book</a>
+      <?php endif ?>
+
+      <?php if($post->tags() == 'podcast'): ?>
+        <a href="<?= $post->link() ?> " class="h5 px3 py2 mt3 caps bg-bc-white gray inline-block">Listen</a>
+      <?php endif ?>
+
+      <?php if (strlen($post->link()) == 0): ?>
+        <a href="<?= $post->url() ?> " class="h5 px3 py2 mt3 caps bg-bc-white gray inline-block">Read More</a>
+      <?php endif ?>
 
   </div>
 

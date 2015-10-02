@@ -21,9 +21,9 @@
         <?= snippet('social', array('iconSize' => '30px')) ?>
     </div>
 
-    <div class="absolute left-0 top-0 full-height full-width bg-light-overlay-dark-gray z1"></div>
+    <div class="absolute left-0 top-0 full-height muted full-width bg-light-overlay-dark-gray z1"></div>
 
-    <div class="video-container">
+    <div class="video-container sm-show">
       <video class="" autoplay muted loop poster="<?= $site->url() ?>/video/bg.jpg" id="bgvid">
         <source src="<?= $site->url() ?>/video/bg.mp4" type="video/mp4">
         <source src="<?= $site->url() ?>/video/bg.ogv" type="video/ogg">

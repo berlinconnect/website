@@ -25,7 +25,11 @@
         <h5 class="m0 caps mb1"><?= $event->title() ?></h5>
         <p class="small regular light-gray m0"><?php echo $event->text()->excerpt(70) ?></p>
       </div>
-        <a class='bg-bc-off-white px2 py1 block dark-gray' href='<?= $event->googlemapslink() ?>'><img src="../images/ui/location.svg" width="8px" class="mr1"><h6 class="caps inline-block m0"><?= $event->location() ?></h6></a>
+        <?php if (strlen($event->googlemapslink()) != 0): ?>
+          <a class='bg-bc-off-white px2 py1 block dark-gray' href='<?= $event->googlemapslink() ?>'><img src="../images/ui/location.svg" width="8px" class="mr1"><h6 class="caps inline-block m0"><?= $event->location() ?></h6></a>
+        <?php else: ?>
+          <span class='bg-bc-off-white px2 py1 block dark-gray'><img src="../images/ui/location.svg" width="8px" class="mr1"><h6 class="caps inline-block m0"><?= $event->location() ?></h6></span>
+        <?php endif ?>
     </div>
   </div>
 </div>

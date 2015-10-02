@@ -2,19 +2,19 @@
 <?php snippet('hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
 
 <div class="full-width clearfix">
-  <div class="p4 bg-dark-gray">
+  <div class="md-p4 bg-dark-gray">
     <div class="center video-wrapper border-box">
       <iframe src="<?= $page->video() ?>" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
   </div>
 
-    <div class="flex flex-stretch flex-column md-flex-row">
+    <div class="flex flex-stretch flex-column md-flex-row mb3 md-mb0">
 
-      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image" style="background-image:url('<?= $page->url(); ?>/giver1.jpg');">
+      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image py4" style="background-image:url('<?= $page->url(); ?>/giver1.jpg');">
         <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->faithfulgivertitle() ?></h1>
       </div>
 
-      <div class="col-12 md-col-6 tiny-center sm-center md-left border-box full-height p2 xsm-p3 lg-p4">
+      <div class="col-12 md-col-6 border-box full-height p2 xsm-p3 lg-p4">
 
         <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->faithfulgiverheader() ?></p>
 
@@ -36,15 +36,15 @@
     </div>
 
 
-    <div class="flex flex-stretch flex-column md-flex-row">
+    <div class="flex flex-stretch flex-column md-flex-row mb3 md-mb0">
 
-      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image" style="background-image:url('<?= $page->url(); ?>/giver2.jpg');">
+      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image py4" style="background-image:url('<?= $page->url(); ?>/giver2.jpg');">
         <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->visiongivertitle() ?></h1>
       </div>
 
-      <div class="flex-first col-12 md-col-6 tiny-center sm-center md-left border-box full-height p2 xsm-p3 lg-p4">
+      <div class="md-flex-first col-12 md-col-6 border-box full-height p2 xsm-p3 lg-p4">
 
-        <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->visiongiverteader() ?></p>
+        <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->visiongiverheader() ?></p>
 
         <p class="tiny-justify"><?= $page->visiongivertext() ?></p>
 
@@ -63,15 +63,15 @@
 
     </div>
 
-    <div class="flex flex-stretch flex-column md-flex-row">
+    <div class="flex flex-stretch flex-column md-flex-row mb3 md-mb0">
 
-      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image" style="background-image:url('<?= $page->url(); ?>/giver3.jpg');">
+      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image py4" style="background-image:url('<?= $page->url(); ?>/giver3.jpg');">
         <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->kingdomgivertitle() ?></h1>
       </div>
 
-      <div class="col-12 md-col-6 tiny-center sm-center md-left border-box full-height p2 xsm-p3 lg-p4">
+      <div class="col-12 md-col-6 border-box full-height p2 xsm-p3 lg-p4">
 
-        <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->kingdomgiverteader() ?></p>
+        <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->kingdomgiverheader() ?></p>
 
         <p class="tiny-justify"><?= $page->kingdomgivertext() ?></p>
 
