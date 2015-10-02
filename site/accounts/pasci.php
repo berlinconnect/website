@@ -8,12 +8,12 @@ language: en
 role: admin
 history:
   - >
+    enlarge/toolbox/helping-those-who-lack-power
+  - >
+    enlarge/toolbox/the-yes-series-the-great-gap-closer
+  - >
     enlarge/toolbox/jesus-our-role-model-in-everything-part-1
   - >
     enlarge/toolbox/jesus-our-role-model-in-everything-part-2
   - >
     enlarge/toolbox/jesus-our-role-model-in-everything-part-2-message
-  - >
-    enlarge/toolbox/stand-out-generation-part-1
-  - >
-    enlarge/toolbox/stand-out-generation-part-2

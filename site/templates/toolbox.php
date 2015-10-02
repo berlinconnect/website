@@ -7,7 +7,7 @@
     <?php
 
     // fetch all tags
-    $tags = $page->children()->visible()->flip()->pluck('tags', ',', true);
+    $tags = $page->children()->visible()->pluck('tags', ',', true);
 
 
     ?>
@@ -21,11 +21,11 @@
   <div class="clearfix md-px3 py3 border-box">
     <ul class="relative col-12 mx-auto posts list-reset m0">
       <?php
-        $heroPost = $page->children()->flip()->visible()->limit(1)->first();
+        $heroPost = $page->children()->visible()->limit(1)->first();
         $slug = $heroPost->slug();
         // $randomNumber is for the images for each post
         $randomNumber = 1;
-        foreach($page->children()->flip()->visible()->not($slug) as $post):
+        foreach($page->children()->visible()->not($slug) as $post):
           // increase $randomNumber by one to show another image next time
           $randomNumber = $randomNumber + 1;
           // if $randomNumber is over 13, then repeat all images again
