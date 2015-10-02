@@ -7,7 +7,7 @@
         <p>
           <?= $site->copyright()?>
           <br>
-          <a href="" class="bc-white"><?= $site->privacylink()?></a>
+          <a href="/imprint" class="bc-white"><?= $site->imprintlink()?></a>
         </p>
       </div>
       <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">

@@ -48,7 +48,7 @@ TumblrLink: http://berlinconnect.tumblr.com/
 FormUrl: http://eepurl.com/6DKcf
 ----
 
-PrivacyLink: Privacy Policy
+ImprintLink: Imprint
 ----
 
 HubAddress: Hub (Midweek Office):<br>Weinbergsweg 24<br>10119 Berlin
