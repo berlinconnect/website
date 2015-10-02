@@ -7,84 +7,84 @@ fields:
   title:
     label: Title
     type:  title
-  introHeader:
+  introheader:
   	label: Intro Header
   	type: textarea
-  introText:
+  introtext:
   	label: Intro Text
   	type: textarea
-  TenReasonsHeader:
+  tenreasonsheader:
   	label: Ten Reasons Header
   	type: textarea
-  Reason1Header:
+  reason1header:
   	label: Reason 1 Header
   	type: textarea
-  Reason1Text:
+  reason1text:
   	label: Reason 1 Text
   	type: textarea
-  Reason2Header:
+  reason2header:
   	label: Reason 2 Header
   	type: textarea
-  Reason2Text:
+  reason2text:
   	label: Reason 2 Text
   	type: textarea
-  Reason3Header:
+  reason3header:
   	label: Reason 3 Header
   	type: textarea
-  Reason3Text:
+  reason3text:
   	label: Reason 3 Text
   	type: textarea
-  Reason4Header:
+  reason4header:
   	label: Reason 4 Header
   	type: textarea
-  Reason4Text:
+  reason4text:
   	label: Reason 4 Text
   	type: textarea
-  Reason5Header:
+  reason5header:
   	label: Reason 5 Header
   	type: textarea
-  Reason5Text:
+  reason5text:
   	label: Reason 5 Text
   	type: textarea
-  Reason6Header:
+  reason6header:
   	label: Reason 6 Header
   	type: textarea
-  Reason6Text:
+  reason6text:
   	label: Reason 6 Text
   	type: textarea
-  Reason7Header:
+  reason7header:
   	label: Reason 7 Header
   	type: textarea
-  Reason7Text:
+  reason7text:
   	label: Reason 7 Text
   	type: textarea
-  Reason8Header:
+  reason8header:
   	label: Reason 8 Header
   	type: textarea
-  Reason8Text:
+  reason8text:
   	label: Reason 8 Text
   	type: textarea
-  Reason9Header:
+  reason9header:
   	label: Reason 9 Header
   	type: textarea
-  Reason9Text:
+  reason9text:
   	label: Reason 9 Text
   	type: textarea
-  Reason10Header:
+  reason10header:
   	label: Reason 10 Header
   	type: textarea
-  Reason10Text:
+  reason10text:
   	label: Reason 10 Text
   	type: textarea
-  SignupHeader:
+  signupheader:
   	label: Signup Header
   	type: text
-  SignupText:
+  signuptext:
   	label: Signup Text
   	type: textarea
-  SignupCallToAction:
+  signupcalltoaction:
   	label: Signup Call To Action
   	type: text
-  MoreInstagram:
+  moreinstagram:
   	label: More Instagram Stories
   	type: text

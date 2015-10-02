@@ -2,11 +2,11 @@ Title: one-team
 
 ----
 
-Introheader: The local Church is not built on the gifts and talents of a few, but on the sacrifice of many.
+introHeader: The local Church is not built on the gifts and talents of a few, but on the sacrifice of many.
 
 ----
 
-Introtext: Berlin Connect is a local church community built and carried by ordinary people serving an extraordinary God. People just like you who give their time, talent and energy to make church great for others. Whether it’s sweeping or singing, on Sunday or midweek, serving on a team is a fantastic way to get to know new friends while learning new skills.
+introText: Berlin Connect is a local church community built and carried by ordinary people serving an extraordinary God. People just like you who give their time, talent and energy to make church great for others. Whether it’s sweeping or singing, on Sunday or midweek, serving on a team is a fantastic way to get to know new friends while learning new skills.
 
 ----
 
