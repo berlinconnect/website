@@ -7,14 +7,13 @@ password: >
 language: en
 role: admin
 history:
-<<<<<<< HEAD
-  - enlarge/toolbox/named-unnamed
-  - enlarge/toolbox/crafting-your-cv
-  - enlarge/toolbox/test
-  - enlarge/toolbox/learn-to-live-love-learn
-  - enlarge/toolbox/truth-and-transformation
-=======
-  - calendar/thanksgiving
-  - home
-  - error
->>>>>>> parent of 6e79e12... added the tags in the panel
+  - >
+    enlarge/toolbox/jesus-our-role-model-in-everything-part-1
+  - >
+    enlarge/toolbox/jesus-our-role-model-in-everything-part-2
+  - >
+    enlarge/toolbox/jesus-our-role-model-in-everything-part-2-message
+  - >
+    enlarge/toolbox/stand-out-generation-part-1
+  - >
+    enlarge/toolbox/stand-out-generation-part-2
