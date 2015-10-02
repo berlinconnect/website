@@ -17,11 +17,11 @@ else{
 
   <?php snippet('menu', array('color' => 'bc-white')) ?>
 
-  <div class="clearfix relative z4 container center mt3 mb3 py4 bc-white">
+  <div class="clearfix relative z4 center mt3 mb3 py4 px2 md-px4 bc-white">
 
       <!-- <h5 class="caps inline-block px1 pyhalf m0 rounded mb3">Toolbox</h5> -->
 
-      <h2 class="huge lighter caps letter-spacing m0 px3"><?= $post->title() ?></h2>
+      <h1 class="huge lighter caps letter-spacing m0 px3"><?= $post->title() ?></h1>
 
       <p class="small mt2">
         by <span class="caps bold"><?= $post->author() ?></span>

@@ -101,12 +101,19 @@
   <?= snippet('sidebar')?>
   <div class="full-width p1 border-box bg-bc-blue filterhidden hidden fixed top-0 left-0 z2">
     <div class="container flex flex-justify filter-group filter-button-group">
-      <button class="bg-transparent h4 m0" data-filter="*">Show all</button>
-      <button class="bg-transparent h4 m0" data-filter=".message">Messages</button>
-      <button class="bg-transparent h4 m0" data-filter=".podcast">Podcasts</button>
-      <button class="bg-transparent h4 m0" data-filter=".discovery-notes">Discovery Notes</button>
-      <button class="bg-transparent h4 m0" data-filter=".my-bible">My Bible</button>
-      <button class="bg-transparent h4 m0" data-filter=".annual-report">Annual Report</button>
+      <button class="bg-transparent h5 m0" data-filter="*">Show all</button>
+      <?php
+
+      // fetch all tags
+      $tags = $pages->find('enlarge')->find('toolbox')->children()->visible()->flip()->pluck('tags', ',', true);
+
+
+      ?>
+      <?php foreach($tags as $tag):
+        $tagStripped = str_replace("-"," ",$tag);
+      ?>
+        <button class="bg-transparent h5 m0" data-filter=".<?= $tag ?>"><?= $tagStripped ?></button>
+      <?php endforeach ?>
     </div>
   </div>
 

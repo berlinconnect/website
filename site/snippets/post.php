@@ -29,6 +29,12 @@
   )"></div>
 
   <div class="absolute full-height left-0 top-0 full-width  cover-bg bg-overlay-dark-gray"></div>
-  <a class="absolute full-height left-0 top-0 full-width z4" href="<?= $post->url() ?>"></a>
+
+  <?php if (strlen($post->link()) != 0): ?>
+    <a class="absolute full-height left-0 top-0 full-width z4" href="<?= $post->link() ?>"></a>
+  <?php else: ?>
+    <a class="absolute full-height left-0 top-0 full-width z4" href="<?= $post->url() ?>"></a>
+  <?php endif ?>
+
 
 </li>

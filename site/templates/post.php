@@ -17,10 +17,12 @@
           <p class="small"><?= $page->date('M d, Y') ?></p>
         </div>
       </div>
-      <div class="scriptures mt2">
-        <h5>Key Striptures</h5>
-        <p class="small"><?= $page->scriptures() ?></p>
-      </div>
+      <?php if (strlen($page->scriptures()) != 0): ?>
+        <div class="scriptures mt2">
+          <h5>Key Striptures</h5>
+          <p class="small"><?= $page->scriptures() ?></p>
+        </div>
+      <?php endif ?>
     </div>
     <div class="col-right col-12 md-col-8 tiny-px1 xsm-px2 md-px0 border-box mx-auto">
       <?= $page->text()->kirbytext() ?>
