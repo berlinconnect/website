@@ -32,9 +32,10 @@ fields:
       kids: Kids
       youth: Youth
       sisterhood: Sisterhood
-      dinnerparty: Dinner Party
-      citykindness: City Kindness
+      dinner-parties: Dinner Party
       conferences: Conferences
+      social-kindness: Social Kindness
+      enlarge: Enlarge
   ticketprice:
     lable: Ticket Price
     type: text
