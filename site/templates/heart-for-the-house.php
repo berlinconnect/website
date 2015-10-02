@@ -30,7 +30,7 @@
           <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
-          <span class="bold">IBAN:</span> DE771204000000623459501<br/>
+          <span class="bold">IBAN:</span> DE77120400000623459501<br/>
           <span class="bold">Reference:</span> H4TH2015
         </h5>
       </div>
@@ -58,7 +58,7 @@
           <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
-          <span class="bold">IBAN:</span> DE771204000000623459501<br/>
+          <span class="bold">IBAN:</span> DE77120400000623459501<br/>
           <span class="bold">Reference:</span> Vision Giver
         </h5>
       </div>
@@ -87,7 +87,7 @@
           <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
-          <span class="bold">IBAN:</span> DE771204000000623459501<br/>
+          <span class="bold">IBAN:</span> DE77120400000623459501<br/>
           <span class="bold">Reference:</span> Kingdom Giver
         </h5>
       </div>
