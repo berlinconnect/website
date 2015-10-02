@@ -1,5 +1,5 @@
 <!-- Typography > Positioning > Layout > Color & Theme > State > Custom -->
-<?php foreach($page->children()->visible()->flip()->limit(1) as $post): ?>
+<?php foreach($page->children()->visible()->sortBy('date', 'desc')->limit(1) as $post): ?>
 <div class="relative full-width pb4 cover-bg center-bg" style="background-image: url(
 <?php
 if ($post->hasImages()){

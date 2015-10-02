@@ -99,7 +99,7 @@
 <body class="animated fadeIn <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">
   <?= snippet('notice')?>
   <?= snippet('sidebar')?>
-  <div class="full-width p1 border-box bg-bc-blue filterhidden hidden fixed top-0 left-0 z2">
+  <div class="full-width p1 border-box bg-bc-blue filterhidden hidden fixed top-0 left-0 z2 sm-show">
     <div class="container flex flex-justify filter-group filter-button-group">
       <button class="bg-transparent h5 m0" data-filter="*">Show all</button>
       <?php
