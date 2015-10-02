@@ -2,7 +2,7 @@
 <?php snippet('featured-hero') ?>
 <div class="filterAnchor"></div>
 <div class="full-width p1 border-box bg-bc-blue filter top-0 left-0 z4">
-  <div class="container flex flex-justify filter-group filter-button-group sm-show">
+  <div class="container flex flex-justify filter-group filter-button-group">
     <button class="bg-transparent h5 m0" data-filter="*">Show all</button>
     <?php
 
