@@ -10,20 +10,20 @@
 
     <div class="flex flex-stretch flex-column md-flex-row">
 
-      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image" style="background-image:url('<?= $pages->find('h4h2015')->image('giver1.jpg')->url(); ?>');">
-        <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->faithfulGiverTitle() ?></h1>
+      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image" style="background-image:url('<?= $page->url(); ?>/giver1.jpg');">
+        <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->faithfulgivertitle() ?></h1>
       </div>
 
       <div class="col-12 md-col-6 tiny-center sm-center md-left border-box full-height p2 xsm-p3 lg-p4">
 
-        <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->faithfulGiverHeader() ?></p>
+        <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->faithfulgiverheader() ?></p>
 
-        <p class="tiny-justify"><?= $page->faithfulGiverText() ?></p>
+        <p class="tiny-justify"><?= $page->faithfulgivertext() ?></p>
 
         <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
 
         <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
-        
+
         <h5 class="regular m0">
           <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
@@ -35,23 +35,23 @@
 
     </div>
 
-    
+
     <div class="flex flex-stretch flex-column md-flex-row">
 
-      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image" style="background-image:url('<?= $pages->find('h4h2015')->image('giver2.jpg')->url(); ?>');">
-        <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->visionGiverTitle() ?></h1>
+      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image" style="background-image:url('<?= $page->url(); ?>/giver2.jpg');">
+        <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->visiongivertitle() ?></h1>
       </div>
 
       <div class="flex-first col-12 md-col-6 tiny-center sm-center md-left border-box full-height p2 xsm-p3 lg-p4">
 
-        <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->visionGiverHeader() ?></p>
+        <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->visiongiverteader() ?></p>
 
-        <p class="tiny-justify"><?= $page->visionGiverText() ?></p>
+        <p class="tiny-justify"><?= $page->visiongivertext() ?></p>
 
         <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
 
         <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
-        
+
         <h5 class="regular m0">
           <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
@@ -65,20 +65,20 @@
 
     <div class="flex flex-stretch flex-column md-flex-row">
 
-      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image" style="background-image:url('<?= $pages->find('h4h2015')->image('giver3.jpg')->url(); ?>');">
-        <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->kingdomGiverTitle() ?></h1>
+      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image" style="background-image:url('<?= $page->url(); ?>/giver3.jpg');">
+        <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->kingdomgivertitle() ?></h1>
       </div>
 
       <div class="col-12 md-col-6 tiny-center sm-center md-left border-box full-height p2 xsm-p3 lg-p4">
 
-        <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->kingdomGiverHeader() ?></p>
+        <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->kingdomgiverteader() ?></p>
 
-        <p class="tiny-justify"><?= $page->kingdomGiverText() ?></p>
+        <p class="tiny-justify"><?= $page->kingdomgivertext() ?></p>
 
         <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
 
         <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
-        
+
         <h5 class="regular m0">
           <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
