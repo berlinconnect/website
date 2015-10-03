@@ -43,7 +43,7 @@
         <h5 class="bold caps line-height-2 m0"><?= $page->addressheader() ?></h5>
         <p class="h4 regular m0 mb3"><?= $page->churchaddress()?></p>
         <!-- only for this weekend, hide entrance info for Haus Ungarn, since we are at Maritim Hotel -->
-        <!-- <p class="small italic mb3 light-gray"><?= $page entranceInfo()?></p> -->
+        <!-- <p class="small italic mb3 light-gray">entranceinfo()</p> -->
         <h5 class="bold caps line-height-2 m0"><?= $page->transporttitle() ?></h5>
         <p class="m0">Alexanderplatz:</p>
         <div class="connections">
