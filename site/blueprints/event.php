@@ -23,7 +23,7 @@ fields:
   	help: Google Maps Link of the location address
   link:
  	  label: Link
- 	  type: url
+ 	  type: text
   tag:
     label: Tag
     type: select
