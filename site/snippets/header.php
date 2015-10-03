@@ -99,20 +99,20 @@
 <body class="animated fadeIn <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">
   <?= snippet('notice')?>
   <?= snippet('sidebar')?>
-  <div class="full-width p1 border-box bg-bc-blue filterhidden hidden fixed top-0 left-0 z2">
+  <div class="full-width p1 border-box bg-bc-blue filterhidden slideUp fixed top-0 left-0 z2 md-show">
     <div class="container flex flex-justify filter-group filter-button-group">
-      <button class="bg-transparent h5 m0" data-filter="*">Show all</button>
+      <button class="bg-transparent h5 m0 p0" data-filter="*">Show all</button>
       <?php
 
       // fetch all tags
-      $tags = $pages->find('enlarge')->find('toolbox')->children()->visible()->flip()->pluck('tags', ',', true);
+      $tags = $pages->find('enlarge')->find('toolbox')->children()->visible()->pluck('tags', ',', true);
 
 
       ?>
       <?php foreach($tags as $tag):
         $tagStripped = str_replace("-"," ",$tag);
       ?>
-        <button class="bg-transparent h5 m0" data-filter=".<?= $tag ?>"><?= $tagStripped ?></button>
+        <button class="bg-transparent h5 m0 p0" data-filter=".<?= $tag ?>"><?= $tagStripped ?></button>
       <?php endforeach ?>
     </div>
   </div>

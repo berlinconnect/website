@@ -1,9 +1,9 @@
 <?php snippet('header') ?>
 <?php snippet('featured-hero') ?>
 <div class="filterAnchor"></div>
-<div class="full-width p1 border-box bg-bc-blue filter top-0 left-0 z4">
+<div class="full-width p1 border-box bg-bc-blue filter top-0 left-0 z4 md-show">
   <div class="container flex flex-justify filter-group filter-button-group">
-    <button class="bg-transparent h5 m0" data-filter="*">Show all</button>
+    <button class="bg-transparent h5 m0 p0" data-filter="*">Show all</button>
     <?php
 
     // fetch all tags
@@ -14,7 +14,7 @@
     <?php foreach($tags as $tag):
       $tagStripped = str_replace("-"," ",$tag);
     ?>
-      <button class="bg-transparent h5 m0" data-filter=".<?= $tag ?>"><?= $tagStripped ?></button>
+      <button class="bg-transparent h5 m0 p0" data-filter=".<?= $tag ?>"><?= $tagStripped ?></button>
     <?php endforeach ?>
   </div>
 </div>
@@ -58,9 +58,9 @@
      var window_top = $(window).scrollTop();
      var div_top = $('.filterAnchor').offset().top;
      if (window_top > div_top) {
-         $('.filterhidden').removeClass('hidden');
+         $('.filterhidden').removeClass('slideUp');
      } else {
-         $('.filterhidden').addClass('hidden');
+         $('.filterhidden').addClass('slideUp');
      }
   }
 

@@ -20,7 +20,7 @@
 
         <p class="tiny-justify"><?= $page->faithfulgivertext() ?></p>
 
-        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
+        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'H4TH Online Faithful Giver']);">Online Giving</a>
 
         <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
 
@@ -48,7 +48,7 @@
 
         <p class="tiny-justify"><?= $page->visiongivertext() ?></p>
 
-        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
+        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'H4TH Online Vision Giver']);">Online Giving</a>
 
         <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
 
@@ -75,7 +75,7 @@
 
         <p class="tiny-justify"><?= $page->kingdomgivertext() ?></p>
 
-        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
+        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'H4TH Online Kingdom Giver']);">Online Giving</a>
 
         <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
 
