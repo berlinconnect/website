@@ -58,6 +58,9 @@ fields:
   areyoufreebuttons:
     label: Are You Free Buttons
     type: tags
+  emailaddress:
+    label: Email Address
+    type: email
   findus:
   	label: Find Us
   	type: text
