@@ -49,7 +49,7 @@
           }
           else{
             echo '<script language="javascript">';
-            echo 'alert("DUDE: $page->venuelocation()")';
+            echo 'alert($page->venuelocation())';
             echo '</script>';
             snippet('address_maritimHotel');
           }
