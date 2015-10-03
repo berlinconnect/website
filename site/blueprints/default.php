@@ -12,7 +12,7 @@ fields:
     type: text
   herotext:
     label: Hero Text
-    type: textare
+    type: textarea
   text:
     label: Text
     type:  textarea
