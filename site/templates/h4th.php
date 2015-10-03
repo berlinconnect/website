@@ -22,7 +22,7 @@
 
         <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
 
-        <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
+        <p class="small mt2 light-gray">All Heart for the House giving to be completed before 31 October 2015.</p>
 
         <h5 class="regular m0">
           <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>

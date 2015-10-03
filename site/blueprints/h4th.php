@@ -10,6 +10,15 @@ fields:
   video:
     label: Video Link
     type: url
+  completionInfo:
+    label: Completion Date Info
+    type: textarea
+  accountName:
+    label: Account Name
+    type: text
+  reference:
+    label: Reference
+    type: text
   faithfulGiverTitle:
     label: Faithful Giver Title
     type:  text
