@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 <?php snippet('menu', array('color' => 'dark-gray')) ?>
-
-<div class="sm-pt1 sm-pb4 md-py4 container clearfix ">
+<div class="py4"></div>
+<div class="sm-pt1 sm-pb4 md-py3 container clearfix ">
   <header class="center col-12 sm-col-8 mx-auto mb4">
     <p class="h1 block letter-spacing pb2"><?= $page->herotitle() ?></p>
     <p class="h3 lighter mx-auto col-inline mb3"><?= $page->herotext() ?></p>

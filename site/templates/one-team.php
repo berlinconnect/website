@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
+<?php snippet('image-hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
 
 <div class="container clearfix">
   <div class="container pt4 tiny-pt2 px3 mt3 mb3 tiny-mt-1 tiny-mb1 clearfix">
@@ -11,7 +11,7 @@
     </div>
   </div>
   <div class="mx-auto">
-    <h1 class="lighter center m0 mb1 bc-blue"><?= $page->tenreasonsheader() ?></h1>
+    <h1 class="lighter center m0 mb1 bc-blue px0 sm-px4"><?= $page->tenreasonsheader() ?></h1>
     <?php $reasoncols = 'col-inline col-12 sm-col-6 tiny-px2 px3 grid-item' ?>
     <ol class="list-reset reasons grid mt3 px2 font-size-0">
       <li class="<?= $reasoncols ?>">

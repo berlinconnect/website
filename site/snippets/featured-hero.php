@@ -1,6 +1,6 @@
 <!-- Typography > Positioning > Layout > Color & Theme > State > Custom -->
 <?php foreach($page->children()->visible()->sortBy('date', 'desc')->limit(1) as $post): ?>
-<div class="relative full-width pb4 cover-bg center-bg" style="background-image: url(
+<div class="flex flex-center relative full-width cover-bg center-bg general-hero" style="background-image: url(
 <?php
 if ($post->hasImages()){
   echo $post->images()->first()->url();
@@ -17,9 +17,7 @@ else{
 
   <?php snippet('menu', array('color' => 'bc-white')) ?>
 
-  <div class="clearfix relative z4 center mt3 mb3 py4 px2 md-px4 bc-white">
-
-      <!-- <h5 class="caps inline-block px1 pyhalf m0 rounded mb3">Toolbox</h5> -->
+  <div class="flex-auto z4 container center bc-white">
 
       <h1 class="huge lighter caps letter-spacing m0 px3"><?= $post->title() ?></h1>
 

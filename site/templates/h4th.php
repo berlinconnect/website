@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
+<?php snippet('image-hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
 
 <div class="full-width clearfix">
   <div class="md-p4 bg-dark-gray">
