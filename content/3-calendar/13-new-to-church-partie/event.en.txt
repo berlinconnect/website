@@ -1,4 +1,4 @@
-Title: New to Church Partie
+Title: New to Church Party
 
 ----
 
@@ -17,7 +17,7 @@ Location: B/C Hub
 
 ----
 
-Googlemapslink: 
+Googlemapslink: https://www.google.de/maps?client=safari&rls=en&q=Haus+ungarn&oe=UTF-8&gfe_rd=cr&um=1&ie=UTF-8&sa=X&ved=0CAgQ_AUoAmoVChMIotbBqaakyAIVCOwUCh1PBAZC
 
 ----
 
@@ -25,7 +25,7 @@ Link:
 
 ----
 
-Tag: 
+Tag: general
 
 ----
 

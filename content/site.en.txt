@@ -56,3 +56,6 @@ HubAddress: Hub (Midweek Office):<br>Weinbergsweg 24<br>10119 Berlin
 
 ContactQuestions: Questions? Call Dave:<br>+49 (0) 174 3463491<br>dave@berlinclc.de<br>myberlinconnect.de
 ----
+
+Upcoming: Upcoming
+----
