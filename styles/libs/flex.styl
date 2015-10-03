@@ -71,12 +71,12 @@ sizes = "tiny" 'max-width: 29.999em',
         "md" 'min-width: 48em',
         "lg" 'min-width: 64em',
         "xlg" 'min-width: 81em'
-        
+
   for size in sizes
     @media ({size[1]})
       .{size[0]}-flex
         display: flex
-        
+
       .{size[0]}-flex-column
         flex-direction column
 
@@ -118,3 +118,20 @@ sizes = "tiny" 'max-width: 29.999em',
 
       .{size[0]}-flex-justify
         justify-content space-between
+
+      .{size[0]}-flex-auto
+        flex 1 1 auto
+        min-width 0 /* 1 */
+        min-height 0 /* 1 */
+
+      .{size[0]}-flex-grow
+        flex 1 0 auto
+
+      .{size[0]}-flex-none
+        flex none
+
+      .{size[0]}-flex-first
+        order -1
+
+      .{size[0]}-flex-last
+        order 99999
