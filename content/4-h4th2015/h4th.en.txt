@@ -6,7 +6,7 @@ Video: https://player.vimeo.com/video/139208268?badge=0
 
 ----
 
-FaithfulGiverTitle: Faithful Giver
+Faithfulgivertitle: Faithful Giver
 
 ----
 
@@ -14,7 +14,7 @@ Faithfulgiverheader: Bring a gift on the day
 
 ----
 
-Faithfulgivertext:
+Faithfulgivertext: 
 
 Faithful Givers are people who are willing and generous in their outlook on life and understand that their contribution large or small will always give God an opportunity to show His faithfulness in our lives.
 <br>
@@ -30,7 +30,7 @@ Visiongiverheader: Bring a gift on the day + a monthly commitment
 
 ----
 
-Visiongivertext:
+Visiongivertext: 
 
 Vision Givers bring a gift on 4th October plus a monthly commitment for 12 months resourcing the ongoing vision of Berlin Connect. This monthly commitment is above your normal giving of tithes and offerings. Vision giving starts at € 10 or more and runs for 12 months.
 <br>
@@ -45,8 +45,24 @@ Kingdomgiverheader: Bring a gift on the day + a yearly commitment
 
 ----
 
-Kingdomgivertext:
+Kingdomgivertext: 
 
 Kingdom Givers understand that their gifts, talents and character add value that strengthens the House of God. This is a vehicle to help people who believe they are called to be financial leaders in life and who choose to honour the Lord with their increase and wealth.
 <br>
 Kingdom giving starts at € 3,000.00 or more and is an annual commitment, over and above your normal tithes and offerings, to resource the ongoing work of Berlin Connect.
+
+----
+
+Completioninfo: All Heart for the House giving to be completed before 31 October 2015.
+
+----
+
+Accountname: Account Name
+
+----
+
+Reference: Reference
+
+----
+
+Giveonline: Online Giving

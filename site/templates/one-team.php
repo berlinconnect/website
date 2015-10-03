@@ -62,7 +62,7 @@
     <p class="h1 lighter mb3 tiny-mb2"><?= $page->signupheader() ?></p>
     <p class="h3 lighter px1 sm-px2 col-inline col-12 md-col-8"><?= $page->signuptext() ?></p>
     <div class="mt3">
-      <a href="" class="h5 caps bold p2 center bg-bc-white bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);"><?= $page->signupcalltoaction() ?></a>
+      <a href="http://bit.ly/1OesEsf" class="h5 caps bold p2 center bg-bc-white bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);"><?= $page->signupcalltoaction() ?></a>
     </div>
   </div>
 </div>

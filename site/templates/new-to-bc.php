@@ -144,7 +144,7 @@
     <p class="h1 lighter mb3 tiny-mb2"><?= $page->areyoufree() ?></p>
     <p class="h3 lighter px1 sm-px2 col-inline col-12 md-col-8"><?= $page->areyoufreecopy() ?></p>
     <div class="mt3">
-      <a href="" class="button h5 caps bold p2 center bg-bc-white bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Find us on a map']);"><?= $page->findus() ?></a>
+      <a href="mailto:<?= $page->emailaddress() ?>" class="button h5 caps bold p2 center bg-bc-white bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Find us on a map']);"><?= $page->findus() ?></a>
     </div>
   </div>
 </div>

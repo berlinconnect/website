@@ -75,16 +75,19 @@ fields:
   	label: Event Section Info
   	type: textarea
   	size: small
-  addresstitle:
-  	label: Address Title
-  	type: text
+  seefullcalendar:
+    label: See Full Calendar
+    type: text
   addressheader:
     label: Address Header
     type: text
-  addresstext:
-  	label: Address Text
-  	type: textarea
-  	size: small
+  churchaddress:
+    label: Church Address
+    type: textarea
+  entranceInfo:
+    label: Info about the entrance
+    type: textarea
+    size: small
   transporttitle:
   	label: Transport Title
   	type: text 
