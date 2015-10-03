@@ -58,7 +58,7 @@
           <span class="bold"><?= $page->accountName() ?>:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
-          <span class="bold">IBAN:</span> DE07120400000623459500<br/>
+          <span class="bold">IBAN:</span> DE77120400000623459501<br/>
           <span class="bold"><?= $page->reference() ?>:</span> Vision Giver
         </h5>
       </div>
@@ -86,7 +86,7 @@
           <span class="bold"><?= $page->accountName() ?>:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
-          <span class="bold">IBAN:</span> DE07120400000623459500<br/>
+          <span class="bold">IBAN:</span> DE77120400000623459501<br/>
           <span class="bold"><?= $page->reference() ?>:</span> Kingdom Giver
         </h5>
       </div>

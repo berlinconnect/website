@@ -19,17 +19,17 @@
         <div class="<?= $hwacols ?> center">
           <h5 class="caps"><?= $page->sundaytitle() ?></h5>
           <p class="h4 regular px1 mb3"><?= $page->sundaytext() ?></p>
-          <a href="#" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about sundays']);"><?= $page->readmore() ?></a>
+          <a href="new-to-bc" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about sundays']);"><?= $page->readmore() ?></a>
         </div>
         <div class="<?= $hwacols ?> center">
           <h5 class="caps"><?= $page->communitytitle() ?></h5>
           <p class="h4 regular px1 mb3 mid-gray"><?= $page->communitytext() ?></p>
-          <a href="#" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about midweek']);"><?= $page->readmore() ?></a>
+          <a href="dinner-parties" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about midweek']);"><?= $page->readmore() ?></a>
         </div>
         <div class="<?= $hwacols ?> center">
           <h5 class="caps"><?= $page->socialtitle() ?></h5>
           <p class="h4 regular px1 mb3"><?= $page->socialtext() ?></p>
-          <a href="#" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about social']);"><?= $page->readmore() ?></a>
+          <a href="social-kindness" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about social']);"><?= $page->readmore() ?></a>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@
       <div class="relative mt3 mx-auto bc-white grid-content">
         <h5 class="bold caps line-height-2 m0"><?= $page->addressheader() ?></h5>
         <p class="h4 regular m0"><?= $page->churchaddress()?></p>
-        <p class="small italic mb3 mid-gray"><?= $page->entranceInfo()?></p>
+        <p class="small italic mb3 light-gray"><?= $page->entranceInfo()?></p>
         <h5 class="bold caps line-height-2 m0"><?= $page->transporttitle() ?></h5>
         <p class="m0">Alexanderplatz:</p>
         <div class="connections">
