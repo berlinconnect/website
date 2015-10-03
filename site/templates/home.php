@@ -48,10 +48,8 @@
             snippet('address_hausungarn');
           }
           else{
-            echo '<script language="javascript">';
-            echo 'alert(hallo);';
-            echo 'alert(' . $page->venuelocation() . ');';
-            echo '</script>';
+            echo '<script type="text/javascript">alert("Data has been submitted to ' . $page->venuelocation() . '");</script>';
+           
             snippet('address_maritimHotel');
           }
         ?>
