@@ -101,4 +101,10 @@ Karl-Liebknecht-Straße 9<br>
 
 ----
 
+VenueLocation:
+
+hausungarn
+
+----
+
 Entranceinfo: The entrance is 50m to the left of the direct entrance of Karl-Liebknecht-Strasse 9, right across from Marienkirche.
