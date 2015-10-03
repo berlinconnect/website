@@ -1,37 +1,49 @@
 Title: Giving
+
 ----
 
-HeroTitle: Giving
+Herotitle: Giving
+
 ----
 
-HeroText: The strength of our church can be found in the generosity and commitment of its people.
+Herotext: The strength of our church can be found in the generosity and commitment of its people.
+
 ----
 
 Verse: All day long he craves for more, but the righteous give without sparing
+
 ----
 
-VerseLocation:Proverbs 21:25
+Verselocation: Proverbs 21:25
+
 ----
 
-Text: The strength of our Church can be found in the generosity and commitment of its people. Proverbs 21:26 says ‘the godly love to give’ (TLB), this is seen through the countless volunteer hours offered to run community programs, in those serving in church services and through those who financially support the church and its initiatives.
+Text: 
+
+The strength of our Church can be found in the generosity and commitment of its people. Proverbs 21:26 says ‘the godly love to give’ (TLB), this is seen through the countless volunteer hours offered to run community programs, in those serving in church services and through those who financially support the church and its initiatives.
 
 We believe in the Biblical principle of tithing. In Malachi 3:10 (NLT) the Bible talks about bringing the first 10% (tithe) of your income into the storehouse (church). Tithes and Offerings received at Berlin Connect fund the vision and activities of our church.
+
 ----
 
-OnlineGivingTitle: Online Giving
+Onlinegivingtitle: Online geben
+
 ----
 
-OnlineGivingText: Online giving is a quick and easy way to give. Click on the button below which will take you to our payment system and complete the online form with your details.
+Onlinegivingtext: Online giving is a quick and easy way to give. Click on the button below which will take you to our payment system and complete the online form with your details.
+
 ----
 
-GiveOnline: Give Online
+Giveonline: Give Online
+
 ----
 
-OnlineGivingNote: If you have any queries with regards to your giving please call 0207 384 9200 to speak to someone in accounts or email giving@hillsong.co.uk
+Onlinegivingnote: If you have any queries with regards to your giving please call 0207 384 9200 to speak to someone in accounts or email giving@hillsong.co.uk
+
 ----
 
-StandingOrderTitle: Standing Order
+Standingordertitle: Standing Order
+
 ----
 
-StandingOrderText: The most effective and convenient way to give is by regular standing order. Decide how much you want to give, set it up, and let your giving take care of itself each month.
-----
+Standingordertext: The most effective and convenient way to give is by regular standing order. Decide how much you want to give, set it up, and let your giving take care of itself each month.

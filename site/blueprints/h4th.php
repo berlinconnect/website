@@ -13,6 +13,9 @@ fields:
   completionInfo:
     label: Completion Date Info
     type: textarea
+  giveOnline:
+    label: Give Online
+    type: text
   accountName:
     label: Account Name
     type: text
