@@ -35,8 +35,8 @@ fields:
     label: Toolbox Title
     type: text
   toolboxtext:
-      label: Toolbox Text
-      type:  textarea
+    label: Toolbox Text
+    type:  textarea
   eventsectiontitle:
     label: Event Header
     type: text

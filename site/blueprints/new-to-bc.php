@@ -61,6 +61,7 @@ fields:
   emailaddress:
     label: Email Address
     type: email
+    help: Just the email address please, "mailto:" is already added
   findus:
   	label: Find Us
   	type: text
