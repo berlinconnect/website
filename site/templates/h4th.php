@@ -10,7 +10,7 @@
 
     <div class="flex flex-stretch flex-column md-flex-row mb3 md-mb0">
 
-      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image py4" style="background-image:url('<?= $page->url(); ?>/giver1.jpg');">
+      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image py4" style="background-image:url('<?= $page->image('giver1.jpg')->url() ?>');">
         <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->faithfulgivertitle() ?></h1>
       </div>
 
@@ -38,7 +38,7 @@
 
     <div class="flex flex-stretch flex-column md-flex-row mb3 md-mb0">
 
-      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image py4" style="background-image:url('<?= $page->url(); ?>/giver2.jpg');">
+      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image py4" style="background-image:url('<?= $page->image('giver2.jpg')->url() ?>');">
         <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->visiongivertitle() ?></h1>
       </div>
 
@@ -65,7 +65,7 @@
 
     <div class="flex flex-stretch flex-column md-flex-row mb3 md-mb0">
 
-      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image py4" style="background-image:url('<?= $page->url(); ?>/giver3.jpg');">
+      <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg h4h-image py4" style="background-image:url('<?= $page->image('giver3.jpg')->url() ?>');">
         <h1 class="flex-auto center bc-white bold letter-spacing-2 m0 py4"><?= $page->kingdomgivertitle() ?></h1>
       </div>
 

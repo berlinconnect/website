@@ -14,7 +14,7 @@
 
     <?php if($page->id() == 'h4th2015'): ?>
       <div class="center py4 my4 tiny-my2 ">
-        <div class="contain-bg center-bg" style="background-image:url('<?= $page->url() ?>/h4h-logo-white.svg'); width:100%; height:400px;"></div>
+        <div class="contain-bg center-bg" style="background-image:url('<?= $page->image('h4h-logo-white.svg')->url() ?>'); width:100%; height:400px;"></div>
       </div>
     <?php endif ?>
 
