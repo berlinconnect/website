@@ -43,7 +43,7 @@
         <h5 class="bold caps line-height-2 m0"><?= $page->addressheader() ?></h5>
         
         <?php
-          if ($page->venuelocation() == "Haus Ungarn") {
+          if ($page->venuelocation() == "hausungarn") {
             
             snippet('address_hausungarn');
           }
