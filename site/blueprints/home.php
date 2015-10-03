@@ -75,6 +75,9 @@ fields:
   	label: Event Section Info
   	type: textarea
   	size: small
+  seefullcalendar:
+    label: See Full Calendar
+    type: text
   addressheader:
     label: Address Header
     type: text
