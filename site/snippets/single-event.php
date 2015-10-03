@@ -1,4 +1,4 @@
-<div class="inline-col-12 sm-col-6 lg-col-3 event-container inline-block border-box p1 mt2 left-align">
+<div class="col-12 sm-col-6 lg-col-3 event-container border-box p1 mt2 left-align">
   <div class="relative drop-shadow event p1">
     <?php if (strlen($event->link()) > 1): ?>
       <a href="<?= $event->link() ?>" class="absolute top-0 left-0 bottom-0 right-0"></a>

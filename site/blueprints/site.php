@@ -66,4 +66,4 @@ fields:
     type: textarea
   Upcoming:
     label: Upcoming Text
-    type: textarea
+    type: text
