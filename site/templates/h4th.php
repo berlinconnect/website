@@ -19,8 +19,9 @@
         <p class="h4 regular bc-blue caps line-height-2 m0 mb2"><?= $page->faithfulgiverheader() ?></p>
 
         <p class="tiny-justify"><?= $page->faithfulgivertext() ?></p>
-
-        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
+        
+        <!-- Pass on giver variable, for google analytics tracking -->
+        <?php snippet('paypal', array('giver' => '')) ?>
 
         <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
@@ -48,7 +49,8 @@
 
         <p class="tiny-justify"><?= $page->visiongivertext() ?></p>
 
-        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
+        <!-- Pass on giver variable, for google analytics tracking -->
+        <?php snippet('paypal', array('giver' => '')) ?>
 
         <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
@@ -75,7 +77,8 @@
 
         <p class="tiny-justify"><?= $page->kingdomgivertext() ?></p>
 
-        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
+        <!-- Pass on giver variable, for google analytics tracking -->
+        <?php snippet('paypal', array('giver' => '')) ?>
 
         <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
