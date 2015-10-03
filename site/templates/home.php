@@ -41,7 +41,8 @@
     <div class="col col-6 lg-col-4 sm-show">
       <div class="relative mt3 mx-auto bc-white grid-content">
         <h5 class="bold caps line-height-2 m0"><?= $page->addressheader() ?></h5>
-        <p class="h4 regular m0 mb3"><?= $site->churchaddress()?></p>
+        <p class="h4 regular m0"><?= $page->churchaddress()?></p>
+        <p class="small italic mb3 mid-gray"><?= $page->entranceInfo()?></p>
         <h5 class="bold caps line-height-2 m0"><?= $page->transporttitle() ?></h5>
         <p class="m0">Alexanderplatz:</p>
         <div class="connections">

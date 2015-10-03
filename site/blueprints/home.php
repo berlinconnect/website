@@ -78,6 +78,13 @@ fields:
   addressheader:
     label: Address Header
     type: text
+  churchaddress:
+    label: Church Address
+    type: textarea
+  entranceInfo:
+    label: Info about the entrance
+    type: textarea
+    size: small
   transporttitle:
   	label: Transport Title
   	type: text 
