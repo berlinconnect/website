@@ -1,8 +1,10 @@
 <div class="col-12 sm-col-6 lg-col-3 event-container border-box p1 mt2 left-align overflow-hidden">
   <div class="relative drop-shadow event p1 overflow-hidden">
+
     <?php if (strlen($event->link()) > 1): ?>
-      <a href="<?= $event->link() ?>" class="absolute top-0 left-0 bottom-0 right-0"></a>
+      <a href="<?= $event->link() ?>" class="absolute top-0 left-0 bottom-0 right-0 z1"></a>
     <?php endif ?>
+
     <div class="absolute top-0 left-0 bottom-0 right-0 cover-bg top-bg bg-image" style="background-image: url(<?php if ($event->hasImages()){
       echo $event->images()->first()->url();
     } ?>)"></div>

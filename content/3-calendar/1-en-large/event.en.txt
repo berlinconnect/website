@@ -2,7 +2,7 @@ Title: (En)large
 
 ----
 
-Text: 
+Text:
 
 Discovering Jesus & His Church, Life Skills, My Bible
 19:00
@@ -21,7 +21,7 @@ Googlemapslink: https://www.google.de/maps?client=safari&rls=en&q=Haus+ungarn&oe
 
 ----
 
-Link: 
+Link: /enlarge
 
 ----
 
@@ -29,8 +29,8 @@ Tag: enlarge
 
 ----
 
-Ticketprice: 
+Ticketprice:
 
 ----
 
-Ticketlink: 
+Ticketlink:
