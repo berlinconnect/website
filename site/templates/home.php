@@ -49,8 +49,8 @@
           }
           else{
             echo '<script language="javascript">';
-            echo 'alert(hallo)';
-            echo 'alert(' . $page->venuelocation() . ')';
+            echo 'alert(hallo);';
+            echo 'alert(' . $page->venuelocation() . ');';
             echo '</script>';
             snippet('address_maritimHotel');
           }
