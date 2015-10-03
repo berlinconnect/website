@@ -22,14 +22,14 @@
 
         <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
 
-        <p class="small mt2 light-gray">All Heart for the House giving to be completed before 31 October 2015.</p>
+        <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
         <h5 class="regular m0">
-          <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
+          <span class="bold"><?= $page->accountName() ?>:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
-          <span class="bold">IBAN:</span> DE77120400000623459501<br/>
-          <span class="bold">Reference:</span> H4TH2015
+          <span class="bold">IBAN:</span> DE07120400000623459500<br/>
+          <span class="bold"><?= $page->reference() ?>:</span> H4TH2015
         </h5>
       </div>
 
@@ -50,14 +50,14 @@
 
         <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
 
-        <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
+        <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
         <h5 class="regular m0">
-          <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
+          <span class="bold"><?= $page->accountName() ?>:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
-          <span class="bold">IBAN:</span> DE77120400000623459501<br/>
-          <span class="bold">Reference:</span> Vision Giver
+          <span class="bold">IBAN:</span> DE07120400000623459500<br/>
+          <span class="bold"><?= $page->reference() ?>:</span> Vision Giver
         </h5>
       </div>
 
@@ -77,14 +77,14 @@
 
         <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);">Online Giving</a>
 
-        <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
+        <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
         <h5 class="regular m0">
-          <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
+          <span class="bold"><?= $page->accountName() ?>:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
-          <span class="bold">IBAN:</span> DE77120400000623459501<br/>
-          <span class="bold">Reference:</span> Kingdom Giver
+          <span class="bold">IBAN:</span> DE07120400000623459500<br/>
+          <span class="bold"><?= $page->reference() ?>:</span> Kingdom Giver
         </h5>
       </div>
     </div>

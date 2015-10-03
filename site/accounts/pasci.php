@@ -7,6 +7,7 @@ password: >
 language: en
 role: admin
 history:
+  - h4th2015
   - >
     enlarge/toolbox/helping-those-who-lack-power
   - >
@@ -15,5 +16,3 @@ history:
     enlarge/toolbox/jesus-our-role-model-in-everything-part-1
   - >
     enlarge/toolbox/jesus-our-role-model-in-everything-part-2
-  - >
-    enlarge/toolbox/jesus-our-role-model-in-everything-part-2-message
