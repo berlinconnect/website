@@ -81,13 +81,22 @@ fields:
   addressheader:
     label: Address Header
     type: text
+  venuelocation:
+    label: Venue Location
+    type: radio
+    options:
+      hausungarn: Haus Ungarn
+      maritimhotel: Maritim Hotel
+    help: Please select whether the venue will be at Haus Ungarn or Maritim Hotel
   churchaddress:
-    label: Church Address
+    label: Haus Ungarn Address
     type: textarea
+    help: This is only the address for Haus Ungarn, not for Maritim Hotel or any other venue!
   entranceInfo:
     label: Info about the entrance
     type: textarea
     size: small
+    help: Only shown, if the venue is at Haus Ungarn
   transporttitle:
   	label: Transport Title
   	type: text 

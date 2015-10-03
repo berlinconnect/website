@@ -42,7 +42,14 @@
       <div class="relative mt3 mx-auto bc-white grid-content">
         <h5 class="bold caps line-height-2 m0"><?= $page->addressheader() ?></h5>
         
-        <?php snippet('address_maritimHotel') ?>
+        <?php
+          if ($page->venuelocation() == "Haus Ungarn") {
+            snippet('address_hausungarn');
+          }
+          else{
+            snippet('address_maritimHotel');
+          }
+        ?>
 
       </div>
     </div>
