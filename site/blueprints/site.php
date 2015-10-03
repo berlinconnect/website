@@ -55,12 +55,15 @@ fields:
   formurl:
     label: Form Url
     type: text
-  privacylink:
-    label: Privacy Policy Link Text
+  imprintlink:
+    label: Imprint Link Text
     type: text
   hubaddress:
     label: Hub Address
     type: textarea
   contactquestions:
     label: Contact Questions
+    type: textarea
+  Upcoming:
+    label: Upcoming Text
     type: textarea
