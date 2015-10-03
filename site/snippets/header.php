@@ -54,7 +54,15 @@
   <?php echo js('js/plugins/isotope.js') ?>
   <?php echo js('js/plugins/packery.js') ?>
 
-  <?php snippet('gmap_maritimHotel') ?>
+
+  <?php
+    if ($page->venuelocation() == "hausungarn") {
+      snippet('gmap_hausungarn');
+    }
+    else{
+      snippet('gmap_maritimHotel');
+    }
+  ?>
 
   <!-- Google Analytics -->
   <script type="text/javascript">

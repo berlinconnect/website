@@ -44,16 +44,13 @@
         
         <?php
           if ($page->venuelocation() == "hausungarn") {
-            
             snippet('address_hausungarn');
           }
           else{
-            echo '<script type="text/javascript">alert("Data has been submitted to ' . $page->venuelocation() . '");</script>';
-           
             snippet('address_maritimHotel');
           }
         ?>
-
+        
       </div>
     </div>
     <div class="map" id="map_canvas"></div>
