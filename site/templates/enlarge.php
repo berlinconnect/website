@@ -42,7 +42,7 @@
           // $randomNumber is for the images for each post
           $randomNumber = 1;
         ?>
-        <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'featured', ',')->visible()->limit(1) as $post): ?>
+        <?php foreach($page->find('toolbox')->children()->sortBy('date', 'desc')->filterBy('size', 'featured', ',')->visible()->limit(1) as $post): ?>
           <?php
             // increase $randomNumber by one to show another image next time
             $randomNumber = $randomNumber + 1;
@@ -53,7 +53,7 @@
           ?>
           <?php snippet('post', array('post' => $post, 'randomNumber' => $randomNumber)) ?>
         <?php endforeach ?>
-        <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'small', ',')->visible()->limit(2) as $post): ?>
+        <?php foreach($page->find('toolbox')->children()->sortBy('date', 'desc')->filterBy('size', 'small', ',')->visible()->limit(2) as $post): ?>
           <?php
             // increase $randomNumber by one to show another image next time
             $randomNumber = $randomNumber + 1;
@@ -64,7 +64,7 @@
           ?>
           <?php snippet('post', array('post' => $post, 'randomNumber' => $randomNumber)) ?>
         <?php endforeach ?>
-        <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'normal', ',')->visible()->limit(1) as $post): ?>
+        <?php foreach($page->find('toolbox')->children()->sortBy('date', 'desc')->filterBy('size', 'normal', ',')->visible()->limit(1) as $post): ?>
           <?php
             // increase $randomNumber by one to show another image next time
             $randomNumber = $randomNumber + 1;
