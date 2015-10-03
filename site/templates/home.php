@@ -44,9 +44,13 @@
         
         <?php
           if ($page->venuelocation() == "Haus Ungarn") {
+            
             snippet('address_hausungarn');
           }
           else{
+            echo '<script language="javascript">';
+            echo 'alert("DUDE: $page->venuelocation()")';
+            echo '</script>';
             snippet('address_maritimHotel');
           }
         ?>
