@@ -87,7 +87,7 @@
         <div class="center pt3">
           <h1 class="m0 mb2 caps lighter"><?= $page->eventsectiontitle() ?></h1>
         </div>
-        <div class="center full-width clearfix">
+        <div class="flex flex-wrap center full-width clearfix">
 
           <?php
 
