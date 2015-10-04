@@ -2,7 +2,7 @@ Title: A21 - Walk for Freedom
 
 ----
 
-Text: Walk for Freedom to raise awareness of modern slavery!
+Text: Walk for Freedom to raise awareness of modern slavery! For more information contact Linda at <linda@futureminded.de>
 
 ----
 
@@ -10,7 +10,7 @@ Date: 2015-10-17
 
 ----
 
-Location: For more information contact Linda at linda@futureminded.de
+Location: Berlin
 
 ----
 

@@ -6,23 +6,24 @@ Herotitle: Giving
 
 ----
 
-Herotext: The strength of our church can be found in the generosity and commitment of its people.
+Herotext: Living God's way
 
 ----
 
-Verse: All day long he craves for more, but the righteous give without sparing
+Verse: Remember this - a farmer who plants only a few seeds will get a small crop. But the one who plants generously will get a generous crop. You must each decide in your heart how much to give. And don’t give reluctantly or in response to pressure. “For God loves a person who gives cheerfully.” And God will generously provide all you need. Then you will always have everything you need and plenty left over to share with others.
 
 ----
 
-Verselocation: Proverbs 21:25
+Verselocation: 2 Corinthians 9:6-8 (NLT)
 
 ----
 
 Text: 
 
-The strength of our Church can be found in the generosity and commitment of its people. Proverbs 21:26 says ‘the godly love to give’ (TLB), this is seen through the countless volunteer hours offered to run community programs, in those serving in church services and through those who financially support the church and its initiatives.
+If you would like to support and contribute financially to the work of ‘Berlin Connect’ please use any of the options below.
+Thank you for helping build God’s house here in Berlin.
 
-We believe in the Biblical principle of tithing. In Malachi 3:10 (NLT) the Bible talks about bringing the first 10% (tithe) of your income into the storehouse (church). Tithes and Offerings received at Berlin Connect fund the vision and activities of our church.
+You can also view our (link: http://issuu.com/berlinconnect/docs/bc_annual_report_2014_final text: Annual report 2014).
 
 ----
 
@@ -30,11 +31,11 @@ Onlinegivingtitle: Online Giving
 
 ----
 
-Onlinegivingtext: Online giving is a quick and easy way to give. Click on the button below which will take you to our payment system and complete the online form with your details.
+Onlinegivingtext: Online giving is a quick and easy way to give. Please click on the button below and complete the online form with your details.
 
 ----
 
-Giveonline: Give Online
+Giveonline: Online giving
 
 ----
 
@@ -46,4 +47,7 @@ Standingordertitle: Standing Order
 
 ----
 
-Standingordertext: The most effective and convenient way to give is by regular standing order. Decide how much you want to give, set it up, and let your giving take care of itself each month.
+Standingordertext: 
+
+The best way to help your church plan financially. Please use the following details to set up your standing order.
+If you require a receipt, please provide your postal address in the reference of your transaction.

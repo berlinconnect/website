@@ -1,49 +1,51 @@
-Title: Giving
+Title: Geben
 
 ----
 
-Herotitle: Giving
+Herotitle: Geben
 
 ----
 
-Herotext: The strength of our church can be found in the generosity and commitment of its people.
+Herotext: Gottes Weg in jedem Lebensbereich gehen.
 
 ----
 
-Verse: All day long he craves for more, but the righteous give without sparing
+Verse: Ich bin davon überzeugt: Wer wenig sät, der wird auch wenig ernten; wer aber viel sät, der wird auch viel ernten. So soll jeder für sich selbst entscheiden, wie viel er geben will, und zwar freiwillig und nicht aus Pflichtgefühl. Denn Gott liebt den, der fröhlich gibt. Er wird euch dafür alles schenken, was ihr braucht, ja mehr als das. So werdet ihr nicht nur selbst genug haben, sondern auch noch anderen von eurem Überfluss weitergeben können.
 
 ----
 
-Verselocation: Proverbs 21:25
+Verselocation: 2 Korinther 9:6-8 (HOF)
 
 ----
 
 Text: 
 
-The strength of our Church can be found in the generosity and commitment of its people. Proverbs 21:26 says ‘the godly love to give’ (TLB), this is seen through the countless volunteer hours offered to run community programs, in those serving in church services and through those who financially support the church and its initiatives.
+Wenn du finanziell zur Arbeit von ‘Berlin Connect’ beitragen willst, benutze bitte die folgenden Kontodaten. Falls du eine Spendenquittung benötigst, gib bitte deine Anschrift als Verwendungszweck an.
 
-We believe in the Biblical principle of tithing. In Malachi 3:10 (NLT) the Bible talks about bringing the first 10% (tithe) of your income into the storehouse (church). Tithes and Offerings received at Berlin Connect fund the vision and activities of our church.
+Du kannst auch online geben, indem du unten auf den Button klickst. Danke, dass du mithilfst, Gottes Haus hier in Berlin zu bauen.
 
-----
-
-Onlinegivingtitle: Online geben
+Hier kannst du unseren (link: http://issuu.com/berlinconnect/docs/bc_annual_report_2014_final text: jährlichen Bericht 2014) anschauen .
 
 ----
 
-Onlinegivingtext: Online giving is a quick and easy way to give. Click on the button below which will take you to our payment system and complete the online form with your details.
+Onlinegivingtitle: Online Geben
 
 ----
 
-Giveonline: Give Online
+Onlinegivingtext: Online zu geben ist schnell und einfach. Klicke einfach auf den unten abgebildeten Button, der dich zu unserem Online-Zahlsystem führen wird, und vervollständige das Online-Formular mit deinen Angaben.
 
 ----
 
-Onlinegivingnote: Bitte kontaktiere giving@berlinclc.de falls du Fragen hast.
+Giveonline: Gebe Online
 
 ----
 
-Standingordertitle: Standing Order
+Onlinegivingnote: Bitte kontaktiere giving@berlinclc.de  falls du Fragen hast.
 
 ----
 
-Standingordertext: The most effective and convenient way to give is by regular standing order. Decide how much you want to give, set it up, and let your giving take care of itself each month.
+Standingordertitle: Dauerauftrag
+
+----
+
+Standingordertext: Ein Dauerauftrag ist der beste Weg, deiner Kirche zu helfen, finanziell zu planen.

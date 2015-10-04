@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-  <?php snippet('hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
+  <?php snippet('image-hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
     <div class="full-width bg-bc-off-white py4">
       <div class="container clearfix center">
         <p class="caps h4 regular tiny-justify sm-justify md-center letter-spacing-1 px3 line-height-3 m0 bc-blue"><?= $page->overview() ?></p>
@@ -92,7 +92,7 @@
           <?php
 
           // nested menu
-          $events = $pages->find('calendar')->children()->filterBy('tag', 'enlarge', ',')->visible()->sortBy('date', 'asc');
+          $events = $pages->find('calendar')->children()->filterBy('tag', 'enlarge', ',')->visible()->sortBy('date', 'asc')->limit(4);
 
           // integer to count how many events are not obsolete
           $notObsoleteItems = 0;

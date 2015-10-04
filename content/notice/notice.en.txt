@@ -1,13 +1,24 @@
 Title: Venue Change & H4TH
+
 ----
-Text: Today is our Heart for the House and our 6th Birthday and you are invited to celebrate with us 
+
+Text: 
+
+Today is our Heart for the House and our 6th Birthday and you are invited to celebrate with us 
 at 11:00 and 17:00 in the Maritim ProArte Hotel (Friedrichstrasse 151, 10117 Berlin)!
+
 ----
+
 Link: /h4th2015
+
 ----
-LearnMore: Learn More
+
+Learnmore: Learn More
+
 ----
+
 Dismiss: Dismiss
+
 ----
+
 Read: Read
-----

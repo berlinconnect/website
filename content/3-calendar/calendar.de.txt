@@ -1,8 +1,9 @@
-Title: Calendar
+Title: Kalender
+
 ----
 
-HeroTitle: Coming Up
+Herotitle: Was liegt an
+
 ----
 
-HeroText: This Sunday, Guest Speakers & more.
-----
+Herotext: Du bist herzlich eingeladen!

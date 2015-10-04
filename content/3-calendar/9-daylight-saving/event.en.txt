@@ -2,7 +2,7 @@ Title: Daylight Saving
 
 ----
 
-Text: Don't forget to adjust your clocks backward 1 hour for winter time.
+Text: Don't forget to adjust your clocks backward for winter time.
 
 ----
 

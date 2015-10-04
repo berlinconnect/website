@@ -18,6 +18,12 @@
       </div>
     <?php endif ?>
 
+    <?php if($page->id() == 'enlarge'): ?>
+      <div class="center py4 my4 tiny-my2 ">
+        <div class="contain-bg center-bg" style="background-image:url('<?= $page->image('enlarge-logo.svg')->url() ?>'); width:100%; height:150px;"></div>
+      </div>
+    <?php endif ?>
+
   </div>
 
   <div class="absolute left-0 top-0 full-height full-width bg-light-overlay-dark-gray"></div>

@@ -1,8 +1,8 @@
-Title: Willkommen zuhause
+Title: Willkommen Zuhause
 
 ----
 
-Herotitle: Willkommen zuhause
+Herotitle: Willkommen Zuhause
 
 ----
 
@@ -52,7 +52,7 @@ Sundaytitle: Sonntag
 
 ----
 
-Sundaytext: Our desire is that Sunday gatherings are a place of connection with God and each other, of encouragement, worship and a place where guests become family. <!-- TO BE CHANGED-->
+Sundaytext: Unser Wunsch ist, dass Sonntage in Gottes Haus ein Ort sind, zu dem Menschen aus allen Lebenslagen kommen können und an dem sie sich 'ZU HAUSE' fühlen. Ein Ort, um eine Beziehung zu Gott und zu einander aufzubauen. Ein Ort, um ermutigt zu werden und Gott anzubeten, ein Ort wo Gäste Teil der Familie werden.
 
 ----
 
@@ -96,12 +96,20 @@ Transporttitle: Transport
 
 ----
 
+Seefullcalendar: Zeige den ganzen Kalender
+
+----
+
 Churchaddress: 
 
-Haus Ungarn
-Karl-Liebknecht-Straße 9
+Haus Ungarn<br>
+Karl-Liebknecht-Straße 9<br>
 10178 Berlin
 
 ----
 
 Entranceinfo: Der Eingang zu Berlin Connect ist direkt gegenüber der Marienkirche, 50m links neben der Tür mit der Hausnummer 9.
+
+----
+
+Venuelocation: maritimhotel

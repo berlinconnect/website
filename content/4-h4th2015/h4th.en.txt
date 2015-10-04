@@ -57,12 +57,12 @@ Completioninfo: All Heart for the House giving to be completed before 31 October
 
 ----
 
+Giveonline: Online Giving
+
+----
+
 Accountname: Account Name
 
 ----
 
 Reference: Reference
-
-----
-
-Giveonline: Online Giving

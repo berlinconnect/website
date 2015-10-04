@@ -82,6 +82,9 @@ fields:
   signuptext:
   	label: Signup Text
   	type: textarea
+  formlink:
+  	label: Form Link
+  	type: url
   signupcalltoaction:
   	label: Signup Call To Action
   	type: text
