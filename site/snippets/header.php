@@ -15,14 +15,14 @@
   <meta content="summary" name="twitter:card">
   <meta content="@berliconnect" name="twitter:site">
   <meta content="<?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>" name="twitter:title">
-  <meta content="<?= excerpt($page->description(), 300) ?>">
+  <meta content="<?= $site->description()->excerpt(300) ?>">
 
   <?php if($page->parent()->id() == 'toolbox'): ?>
     <meta property="og:type" content="article" />
-    <meta content="<?= excerpt($page->text(), 300) ?>" itemprop="description">
-    <meta content="<?= excerpt($page->text(), 300) ?>">
-    <meta property="og:description" content="<?= excerpt($page->text(), 300) ?>" />
-    <meta content="<?= excerpt($page->text(), 300) ?>" itemprop="description">
+    <meta content="<?= $page->text()->excerpt(300) ?>" itemprop="description">
+    <meta content="<?= $page->text()->excerpt(300) ?>">
+    <meta property="og:description" content="<?= $page->text()->excerpt(300) ?>" />
+    <meta content="<?= $page->text()->excerpt(300) ?>" itemprop="description">
   <?php else: ?>
     <meta content="<?= $site->description() ?>">
     <meta content="<?= $site->description() ?>" itemprop="description">
@@ -30,14 +30,14 @@
     <meta content="<?= $site->description() ?>" itemprop="description">
   <?php endif ?>
   <meta property="og:site_name" content="<?php echo $site->title()->html() ?>" />
-  <meta property="og:description" content="<?= excerpt($page->description(), 300) ?>" />
+  <meta property="og:description" content="<?= $site->description()->excerpt(300) ?>" />
   <meta property="og:url" content="<?= $page->url() ?>" />
   <meta property="og:title" content="<?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>" />
   <meta property="og:image" content="<?php if($image = $page->image()): ?><?php echo $image->url() ?><?php endif ?>" />
   <meta property="article:author" content="<?= $site->url() ?>" />
 
   <meta content="<?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>" itemprop="name">
-  <meta content="<?= excerpt($page->description(), 300) ?>" itemprop="description">
+  <meta content="<?= $site->description()->excerpt(300) ?>" itemprop="description">
 
   <link rel="icon" type="image/png" href="../../images/favicon.ico" sizes="32x32" />
 
