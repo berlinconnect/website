@@ -46,3 +46,5 @@ c::set('languages', array(
 ));
 
 c::set('language.detect', false);
+
+c::set('cache', true);
