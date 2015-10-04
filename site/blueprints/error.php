@@ -10,3 +10,6 @@ fields:
   text:
     label: Text
     type:  textarea
+  button:
+    label: Button Text
+    type:  text
