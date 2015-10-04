@@ -2,11 +2,11 @@
 <?php snippet('image-hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
 
 <div class="full-width clearfix">
-  <div class="md-p4 bg-dark-gray">
+  <!-- <div class="md-p4 bg-dark-gray">
     <div class="center video-wrapper border-box">
       <iframe src="<?= $page->video() ?>" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
-  </div>
+  </div> -->
 
     <div class="flex flex-stretch flex-column md-flex-row mb3 md-mb0">
 
@@ -20,16 +20,17 @@
 
         <p class="tiny-justify"><?= $page->faithfulgivertext() ?></p>
 
-        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'H4TH Online Faithful Giver']);">Online Giving</a>
+        <!-- Pass on giver variable, for google analytics tracking -->
+        <?php snippet('paypal', array('giver' => '')) ?>
 
-        <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
+        <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
         <h5 class="regular m0">
-          <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
+          <span class="bold"><?= $page->accountName() ?>:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
-          <span class="bold">IBAN:</span> DE77120400000623459501<br/>
-          <span class="bold">Reference:</span> H4TH2015
+          <span class="bold">IBAN:</span> DE07120400000623459500<br/>
+          <span class="bold"><?= $page->reference() ?>:</span> H4TH2015
         </h5>
       </div>
 
@@ -48,16 +49,17 @@
 
         <p class="tiny-justify"><?= $page->visiongivertext() ?></p>
 
-        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'H4TH Online Vision Giver']);">Online Giving</a>
+        <!-- Pass on giver variable, for google analytics tracking -->
+        <?php snippet('paypal', array('giver' => '')) ?>
 
-        <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
+        <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
         <h5 class="regular m0">
-          <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
+          <span class="bold"><?= $page->accountName() ?>:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
           <span class="bold">IBAN:</span> DE77120400000623459501<br/>
-          <span class="bold">Reference:</span> Vision Giver
+          <span class="bold"><?= $page->reference() ?>:</span> Vision Giver
         </h5>
       </div>
 
@@ -75,16 +77,17 @@
 
         <p class="tiny-justify"><?= $page->kingdomgivertext() ?></p>
 
-        <a href="" class="h5 caps bold p2 px3 center bg-bc-blue bc-white block" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'H4TH Online Kingdom Giver']);">Online Giving</a>
+        <!-- Pass on giver variable, for google analytics tracking -->
+        <?php snippet('paypal', array('giver' => '')) ?>
 
-        <p class="small mt2 light-gray">Online giving opens 1 October 2015. Giving envelopes ready on 30 September 2015. All Heart for the House giving to be completed before 31 October 2015.</p>
+        <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
         <h5 class="regular m0">
-          <span class="bold">Account Name:</span> Berlin Christian Life Centre e.V.<br/>
+          <span class="bold"><?= $page->accountName() ?>:</span> Berlin Christian Life Centre e.V.<br/>
           <span class="bold">Bank:</span>Commerzbank Berlin<br/>
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
           <span class="bold">IBAN:</span> DE77120400000623459501<br/>
-          <span class="bold">Reference:</span> Kingdom Giver
+          <span class="bold"><?= $page->reference() ?>:</span> Kingdom Giver
         </h5>
       </div>
     </div>

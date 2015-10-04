@@ -13,7 +13,10 @@
       <div class="col col-12 sm-col-6 pr2">
         <h5 class="caps"><?= $page->onlinegivingtitle() ?></h5>
         <p class="small justify"><?= $page->onlinegivingtext() ?></p>
-        <a href="" class="h5 caps bold p2 block center bg-bc-blue bc-white" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Give Online']);"><?= $page->giveonline() ?></a>
+        
+        <!-- Pass on giver variable, for google analytics tracking -->
+        <?php snippet('paypal', array('giver' => '')) ?>
+        
         <p class="small mt2 light-gray italic"><?= $page->onlinegivingnote() ?></p>
       </div>
       <div class="col-right col-12 sm-col-6 sm-pl2">

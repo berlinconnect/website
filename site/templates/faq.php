@@ -5,7 +5,7 @@
   <header class="center col-12 sm-col-8 mx-auto mb4">
     <p class="h1 block letter-spacing pb2"><?= $page->herotitle() ?></p>
     <p class="h3 lighter mx-auto col-inline mb3"><?= $page->herotext() ?></p>
-    <a href="mailto:questions@berlinclc.de" class="h5 caps bold inline-block p2 center bg-bc-blue bc-white" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Ask a question']);">Email us your question</a>
+    <a href="mailto:<?= $page->emailaddress() ?>" class="h5 caps bold inline-block p2 center bg-bc-blue bc-white" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Ask a question']);"><?= $page->emailbutton() ?></a>
   </header>
   <div class="questions grid">
     <?php foreach($page->children()->visible() as $question): ?>

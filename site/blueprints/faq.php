@@ -13,6 +13,10 @@ fields:
   herotext:
   	label: Hero Text
   	type: textarea
-  leftcolumn:
-  	label: Left Column
-  	type: textarea
+  emailbutton:
+    label: Text for Email Button
+    type: text
+  emailaddress: 
+    label: Email Address for Questions
+    type: email
+    help: Just the email address please, "mailto:" is already added
