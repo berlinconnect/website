@@ -7,7 +7,7 @@ fields:
   title:
     label: Title
     type:  text
-  text:
+  noticetext:
     label: Text
     type:  textarea
   link:

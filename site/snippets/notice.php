@@ -13,7 +13,7 @@
     <div class="p3 center">
       <h5 class="mt0"><?= $pages->find('notice')->title() ?></h5>
       <p class="small mb0">
-        <?= $pages->find('notice')->text() ?>
+        <?= $pages->find('notice')->noticetext() ?>
       </p>
     </div>
     <div class="buttons">
