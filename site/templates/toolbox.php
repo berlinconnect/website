@@ -1,24 +1,31 @@
 <?php snippet('header') ?>
 <?php snippet('featured-hero') ?>
 <div class="filterAnchor"></div>
-<div class="full-width p1 border-box bg-bc-blue filter top-0 left-0 z4">
+<div class="full-width p1 border-box bg-bc-blue filter top-0 left-0 z4 md-show">
   <div class="container flex flex-justify filter-group filter-button-group">
-    <button class="bg-transparent h4 m0" data-filter="*">Show all</button>
-    <button class="bg-transparent h4 m0" data-filter=".message">Messages</button>
-    <button class="bg-transparent h4 m0" data-filter=".podcast">Podcasts</button>
-    <button class="bg-transparent h4 m0" data-filter=".discovery-notes">Discovery Notes</button>
-    <button class="bg-transparent h4 m0" data-filter=".my-bible">My Bible</button>
-    <button class="bg-transparent h4 m0" data-filter=".annual-report">Annual Report</button>
+    <button class="bg-transparent h5 m0 p0" data-filter="*">Show all</button>
+    <?php
+
+    // fetch all tags
+    $tags = $page->children()->visible()->pluck('tags', ',', true);
+
+
+    ?>
+    <?php foreach($tags as $tag):
+      $tagStripped = str_replace("-"," ",$tag);
+    ?>
+      <button class="bg-transparent h5 m0 p0" data-filter=".<?= $tag ?>"><?= $tagStripped ?></button>
+    <?php endforeach ?>
   </div>
 </div>
   <div class="clearfix md-px3 py3 border-box">
     <ul class="relative col-12 mx-auto posts list-reset m0">
       <?php
-        $heroPost = $page->children()->flip()->visible()->limit(1)->first();
+        $heroPost = $page->children()->visible()->sortBy('date', 'desc')->limit(1)->first();
         $slug = $heroPost->slug();
         // $randomNumber is for the images for each post
         $randomNumber = 1;
-        foreach($page->children()->flip()->visible()->not($slug) as $post):
+        foreach($page->children()->visible()->sortBy('date', 'desc')->not($slug) as $post):
           // increase $randomNumber by one to show another image next time
           $randomNumber = $randomNumber + 1;
           // if $randomNumber is over 13, then repeat all images again
@@ -51,9 +58,9 @@
      var window_top = $(window).scrollTop();
      var div_top = $('.filterAnchor').offset().top;
      if (window_top > div_top) {
-         $('.filterhidden').removeClass('hidden');
+         $('.filterhidden').removeClass('slideUp');
      } else {
-         $('.filterhidden').addClass('hidden');
+         $('.filterhidden').addClass('slideUp');
      }
   }
 

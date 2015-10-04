@@ -1,6 +1,6 @@
 <!-- Typography > Positioning > Layout > Color & Theme > State > Custom -->
-<?php foreach($page->children()->visible()->flip()->limit(1) as $post): ?>
-<div class="relative full-width pb4 cover-bg center-bg" style="background-image: url(
+<?php foreach($page->children()->visible()->sortBy('date', 'desc')->limit(1) as $post): ?>
+<div class="flex flex-center relative full-width cover-bg center-bg general-hero" style="background-image: url(
 <?php
 if ($post->hasImages()){
   echo $post->images()->first()->url();
@@ -17,17 +17,25 @@ else{
 
   <?php snippet('menu', array('color' => 'bc-white')) ?>
 
-  <div class="clearfix relative z4 container center mt3 mb3 py4 bc-white">
+  <div class="flex-auto z4 container center bc-white">
 
-      <!-- <h5 class="caps inline-block px1 pyhalf m0 rounded mb3">Toolbox</h5> -->
-
-      <h2 class="huge lighter caps letter-spacing m0 px3"><?= $post->title() ?></h2>
+      <h1 class="huge lighter caps letter-spacing m0 px3"><?= $post->title() ?></h1>
 
       <p class="small mt2">
         by <span class="caps bold"><?= $post->author() ?></span>
       </p>
 
-      <a href="<?= $post->url() ?> " class="h5 px3 py2 mt3 caps bg-bc-white gray inline-block">Read More</a>
+      <?php if($post->tags() == 'book-recommendation'): ?>
+        <a href="<?= $post->link() ?> " class="h5 px3 py2 mt3 caps bg-bc-white gray inline-block">View Book</a>
+      <?php endif ?>
+
+      <?php if($post->tags() == 'podcast'): ?>
+        <a href="<?= $post->link() ?> " class="h5 px3 py2 mt3 caps bg-bc-white gray inline-block">Listen</a>
+      <?php endif ?>
+
+      <?php if (strlen($post->link()) == 0): ?>
+        <a href="<?= $post->url() ?> " class="h5 px3 py2 mt3 caps bg-bc-white gray inline-block">Read More</a>
+      <?php endif ?>
 
   </div>
 

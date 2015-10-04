@@ -71,8 +71,67 @@ sizes = "tiny" 'max-width: 29.999em',
         "md" 'min-width: 48em',
         "lg" 'min-width: 64em',
         "xlg" 'min-width: 81em'
-        
+
   for size in sizes
     @media ({size[1]})
       .{size[0]}-flex
         display: flex
+
+      .{size[0]}-flex-column
+        flex-direction column
+
+      .{size[0]}-flex-row
+        flex-direction row
+
+      .{size[0]}-flex-wrap
+        flex-wrap wrap
+
+      .{size[0]}-flex-center
+        align-items center
+
+      .{size[0]}-flex-baseline
+        align-items baseline
+
+      .{size[0]}-flex-stretch
+        align-items stretch
+
+      .{size[0]}-flex-start
+        align-items flex-start
+
+      .{size[0]}-flex-end
+        align-items flex-end
+
+      .{size[0]}-flex-content-center
+        align-content center
+
+      .{size[0]}-flex-content-baseline
+        align-content baseline
+
+      .{size[0]}-flex-content-stretch
+        align-content stretch
+
+      .{size[0]}-flex-content-start
+        align-content flex-start
+
+      .{size[0]}-flex-content-end
+        align-content flex-end
+
+      .{size[0]}-flex-justify
+        justify-content space-between
+
+      .{size[0]}-flex-auto
+        flex 1 1 auto
+        min-width 0 /* 1 */
+        min-height 0 /* 1 */
+
+      .{size[0]}-flex-grow
+        flex 1 0 auto
+
+      .{size[0]}-flex-none
+        flex none
+
+      .{size[0]}-flex-first
+        order -1
+
+      .{size[0]}-flex-last
+        order 99999

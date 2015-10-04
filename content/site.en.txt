@@ -1,58 +1,81 @@
 Title: Berlin Connect
-----
-Copyright: © Berlin Connect 2015.<br>All rights reserved
+
 ----
 
-MoreInformation: More Information
+Copyright: © Berlin Connect 2015.<br>All rights reserved
+
+----
+
+Moreinformation: More Information
+
 ----
 
 Conferences: Conferences
+
 ----
 
 Kids: Kids
+
 ----
 
 Youth: Youth
+
 ----
 
-DinnerParties: Dinner Parties
+Dinnerparties: Dinner Parties
+
 ----
 
 Sisterhood: Sisterhood
+
 ----
 
-SocialKindness: Social Kindness
+Socialkindness: Social Kindness
+
 ----
 
 Futureminded: futureminded
+
 ----
 
-SubscribeSubmit: Subscribe
+Subscribesubmit: Subscribe
+
 ----
 
-ChurchAddress: Haus Ungarn<br>Karl-Liebknecht-Straße 9<br>10178 Berlin
+Churchaddress: Haus Ungarn<br>Karl-Liebknecht-Straße 9<br>10178 Berlin
+
 ----
 
-FacebookLink: https://www.facebook.com/myberlinconnect
+Facebooklink: https://www.facebook.com/myberlinconnect
+
 ----
 
-TwitterLink: https://twitter.com/berlinconnect
+Twitterlink: https://twitter.com/berlinconnect
+
 ----
 
-InstagramLink: https://instagram.com/berlinconnect/
+Instagramlink: https://instagram.com/berlinconnect/
+
 ----
 
-TumblrLink: http://berlinconnect.tumblr.com/
+Tumblrlink: http://berlinconnect.tumblr.com/
+
 ----
 
-FormUrl: http://eepurl.com/6DKcf
+Formurl: http://eepurl.com/6DKcf
+
 ----
 
-PrivacyLink: Privacy Policy
+Imprintlink: Imprint
+
 ----
 
-HubAddress: Hub (Midweek Office):<br>Weinbergsweg 24<br>10119 Berlin
+Hubaddress: Hub (Midweek Office):<br>Weinbergsweg 24<br>10119 Berlin
+
 ----
 
-ContactQuestions: Questions? Call Dave:<br>+49 (0) 174 3463491<br>dave@berlinclc.de<br>myberlinconnect.de
+Contactquestions: Questions? Call Dave:<br>+49 (0) 174 3463491<br>dave@berlinclc.de<br>myberlinconnect.de
+
 ----
+
+Upcoming: Upcoming

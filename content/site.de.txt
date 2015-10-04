@@ -1,64 +1,81 @@
 Title: Berlinc Connect
-----
-Copyright: © Berlin Connect 2015.<br>All rights reserved
+
 ----
 
-MoreInformation: More Information
+Copyright: © Berlin Connect 2015.<br>All rights reserved
+
+----
+
+Moreinformation: More Information
+
 ----
 
 Conferences: Conferences
+
 ----
 
 Kids: Kids
+
 ----
 
 Youth: Youth
+
 ----
 
-DinnerParties: Dinner Parties
+Dinnerparties: Dinner Parties
+
 ----
 
 Sisterhood: Sisterhood
+
 ----
 
-SocialKindness: Social Kindness
+Socialkindness: Social Kindness
+
 ----
 
 Futureminded: futureminded
+
 ----
 
-EventSectionTitle: This Week
+Subscribesubmit: Updates erhalten
+
 ----
 
-EventSectionInfo: As a local church we are a community of everyday people in which Jesus is central to all we do as we seek to embrace our city and nation.
+Churchaddress: Haus Ungarn<br>Karl-Liebknecht-Straße 9<br>10178 Berlin
+
 ----
 
-SubscribeSubmit: Updates erhalten
+Facebooklink: https://www.facebook.com/myberlinconnect
+
 ----
 
-ChurchAddress: Haus Ungarn<br>Karl-Liebknecht-Straße 9<br>10178 Berlin
+Twitterlink: https://twitter.com/berlinconnect
+
 ----
 
-FacebookLink: https://www.facebook.com/myberlinconnect
+Instagramlink: https://instagram.com/berlinconnect/
+
 ----
 
-TwitterLink: https://twitter.com/berlinconnect
+Tumblrlink: http://berlinconnect.tumblr.com/
+
 ----
 
-InstagramLink: https://instagram.com/berlinconnect/
+Formurl: http://eepurl.com/6DKQ5
+
 ----
 
-TumblrLink: http://berlinconnect.tumblr.com/
+Imprintlink: Imprint
+
 ----
 
-FormUrl: http://eepurl.com/6DKQ5
+Hubaddress: Hub (Midweek Office):<br>Weinbergsweg 24<br>10119 Berlin
+
 ----
 
-PrivacyLink: Privacy Policy
+Contactquestions: Fragen? Ruf Dave an:<br>+49 (0) 174 3463491<br>dave@berlinclc.de<br>myberlinconnect.de
+
 ----
 
-HubAddress: Hub (Midweek Office):<br>Weinbergsweg 24<br>10119 Berlin
-----
-
-ContactQuestions: Fragen? Ruf Dave an:<br>+49 (0) 174 3463491<br>dave@berlinclc.de<br>myberlinconnect.de
-----
+Upcoming: Upcoming

@@ -1,0 +1,17 @@
+Title: FAQ
+
+----
+
+Herotitle: Frequently Asked Questions
+
+----
+
+Herotext: Here are a few of the commonly asked questions. If the answer you're looking for isn't here, please ask by sending us a message via the button below.
+
+----
+
+Emailbutton: Email us your question
+
+----
+
+Emailaddress: 

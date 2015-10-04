@@ -1,0 +1,17 @@
+Title: FAQ
+
+----
+
+Herotitle: FAQs - Ich will noch mehr wissen.
+
+----
+
+Herotext: Hier sind einige der häufigsten Fragen die uns gestellt werden. Wenn die Antwort auf deine Frage nicht dabei ist, dann frag uns einfach in dem du uns durch den unteren Button eine E-Mail sendest.
+
+----
+
+Emailbutton: Schreib uns deine Fragen
+
+----
+
+Emailaddress: 

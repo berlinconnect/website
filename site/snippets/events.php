@@ -5,7 +5,7 @@
     <h1 class="m0 caps lighter"><?= $page->eventsectionheader() ?></h1>
     <p class="h3 regular px1 border-box col-inline col-12 sm-col-10 md-col-9"><?= $page->eventsectioninfo() ?></p>
   </div>
-  <div class="questions grid">
+  <div class="flex flex-wrap">
     <?php
       /*
         since the built-in Kirby limit() function won't be useable,
@@ -51,6 +51,6 @@
 </div>
 <div class="container pb4 clearfix">
   <div class="center mt3">
-    <a class="button bg-bc-blue py2 px4" href='<?php echo $pages->find('calendar')->url() ?>' onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'See full calendar']);">See full calendar</a>
+    <a class="button bg-bc-blue py2 px4" href='<?php echo $pages->find('calendar')->url() ?>' onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'See full calendar']);"><?= $page->seefullcalendar() ?></a>
   </div>
 </div>

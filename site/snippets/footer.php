@@ -1,13 +1,13 @@
   <div class="full-width py4 px3 bg-dark-gray bc-off-white border-box">
     <div class="clearfix mt2 mb3 tiny-center sm-center md-left font-size-0">
       <div class="mx-auto col-2 sm-col-12 sm-center">
-        <img class="inline-block  mb3 vm" src="../images/logo/light-bc-white.svg" width="70px"/>
+        <img class="inline-block  mb3 vm" src="<?php echo $site->url() ?>/images/logo/light-bc-white.svg" width="70px"/>
       </div>
       <div class="col-inline col-12  sm-col-12 lg-col-4 md-center">
         <p>
           <?= $site->copyright()?>
           <br>
-          <a href="" class="bc-white"><?= $site->privacylink()?></a>
+          <a href="/imprint" class="bc-white"><?= $site->imprintlink()?></a>
         </p>
       </div>
       <div class="col-inline col-12 sm-col-12 lg-col-4 md-center">
@@ -83,6 +83,17 @@
     feed.run();
   </script>
 <?php endif ?>
+
+<script>
+  function externalLinks() {
+    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+      var b = c[a];
+      b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+    }
+  }
+  ;
+  externalLinks();
+</script>
 
 </body>
 </html>

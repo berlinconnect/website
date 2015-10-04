@@ -4,6 +4,22 @@
 .tiny-show-inline, .xsm-show-inline, .sm-show-inline, .md-show-inline, .lg-show-inline, .xlg-show-inline
   display none !important
 
+body
+  &::before
+    content 'tiny'
+    position fixed
+    top 20px
+    left 20px
+    padding 3px 5px
+    background red
+    text-transform uppercase
+    letter-spacing 1px
+    line-height 1rem
+    font-size 12px
+    color white
+    z-index 100
+    display none !important
+
 sizes = "tiny" 'max-width: 29.999em',
         "xsm" 'min-width: 30em',
         "sm" 'min-width: 40em',
@@ -26,12 +42,6 @@ sizes = "tiny" 'max-width: 29.999em',
   body
     &::before
       content 'tiny'
-      position fixed
-      top 20px
-      left 20px
-      background red
-      color white
-      z-index 100
 
     h1, .h1
       font-size ($h1 / 1.2)
@@ -59,12 +69,6 @@ sizes = "tiny" 'max-width: 29.999em',
   body
     &::before
       content 'xsm'
-      position fixed
-      top 20px
-      left 20px
-      background red
-      color white
-      z-index 100
 
     h1, .h1
       font-size ($h1 / 1.2)
@@ -88,12 +92,6 @@ sizes = "tiny" 'max-width: 29.999em',
   body
     &:before
       content 'sm'
-      position fixed
-      top 20px
-      left 20px
-      background red
-      color white
-      z-index 100
 
     h1, .h1
       &.huge
@@ -113,12 +111,6 @@ sizes = "tiny" 'max-width: 29.999em',
 
   body::before
     content 'md'
-    position fixed
-    top 20px
-    left 20px
-    background red
-    color white
-    z-index 100
 
   .md-show-inline
     display inline-block !important
@@ -134,12 +126,6 @@ sizes = "tiny" 'max-width: 29.999em',
   body
     &:before
       content 'lg'
-      position fixed
-      top 20px
-      left 20px
-      background red
-      color white
-      z-index 100
 
     h1, .h1
       font-size $h1
@@ -161,12 +147,6 @@ sizes = "tiny" 'max-width: 29.999em',
 
   body::before
     content 'xlg'
-    position fixed
-    top 20px
-    left 20px
-    background red
-    color white
-    z-index 100
 
   .xlg-show-inline
     display inline-block !important

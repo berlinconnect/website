@@ -54,32 +54,15 @@
   <?php echo js('js/plugins/isotope.js') ?>
   <?php echo js('js/plugins/packery.js') ?>
 
-  <!-- Maps -->
-  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-  <script>
-    function initialize() {
-      var myLatLng = new google.maps.LatLng(52.521300, 13.406281);
-      var map_canvas = document.getElementById('map_canvas');
-      var myIcon = new google.maps.MarkerImage("<?php echo url('images/logo/logo-black.png') ?>", null, null, null, new google.maps.Size(60,60));
-      var isDraggable = $(document).width() > 480 ? true : false;
-      var map_options = {
-        center: new google.maps.LatLng(52.521874, 13.410211),
-        zoom: 16,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        scrollwheel: false,
-        draggable: isDraggable
-      }
-      var map = new google.maps.Map(map_canvas, map_options)
-      var marker = new google.maps.Marker({
-        position: myLatLng,
-        icon: myIcon,
-        map: map
-      });
-      map.panTo(marker.getPosition());
-      marker.setMap(map);
+
+  <?php
+    if ($page->venuelocation() == "hausungarn") {
+      snippet('gmap_hausungarn');
     }
-    google.maps.event.addDomListener(window, 'load', initialize);
-  </script>
+    else{
+      snippet('gmap_maritimHotel');
+    }
+  ?>
 
   <!-- Google Analytics -->
   <script type="text/javascript">
@@ -99,14 +82,21 @@
 <body class="animated fadeIn <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">
   <?= snippet('notice')?>
   <?= snippet('sidebar')?>
-  <div class="full-width p1 border-box bg-bc-blue filterhidden hidden fixed top-0 left-0 z2">
+  <div class="full-width p1 border-box bg-bc-blue filterhidden slideUp fixed top-0 left-0 z2 md-show">
     <div class="container flex flex-justify filter-group filter-button-group">
-      <button class="bg-transparent h4 m0" data-filter="*">Show all</button>
-      <button class="bg-transparent h4 m0" data-filter=".message">Messages</button>
-      <button class="bg-transparent h4 m0" data-filter=".podcast">Podcasts</button>
-      <button class="bg-transparent h4 m0" data-filter=".discovery-notes">Discovery Notes</button>
-      <button class="bg-transparent h4 m0" data-filter=".my-bible">My Bible</button>
-      <button class="bg-transparent h4 m0" data-filter=".annual-report">Annual Report</button>
+      <button class="bg-transparent h5 m0 p0" data-filter="*">Show all</button>
+      <?php
+
+      // fetch all tags
+      $tags = $pages->find('enlarge')->find('toolbox')->children()->visible()->pluck('tags', ',', true);
+
+
+      ?>
+      <?php foreach($tags as $tag):
+        $tagStripped = str_replace("-"," ",$tag);
+      ?>
+        <button class="bg-transparent h5 m0 p0" data-filter=".<?= $tag ?>"><?= $tagStripped ?></button>
+      <?php endforeach ?>
     </div>
   </div>
 

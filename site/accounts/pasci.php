@@ -7,14 +7,10 @@ password: >
 language: en
 role: admin
 history:
-<<<<<<< HEAD
-  - enlarge/toolbox/named-unnamed
-  - enlarge/toolbox/crafting-your-cv
-  - enlarge/toolbox/test
-  - enlarge/toolbox/learn-to-live-love-learn
-  - enlarge/toolbox/truth-and-transformation
-=======
-  - calendar/thanksgiving
   - home
-  - error
->>>>>>> parent of 6e79e12... added the tags in the panel
+  - giving
+  - h4th2015
+  - >
+    enlarge/toolbox/helping-those-who-lack-power
+  - >
+    enlarge/toolbox/the-yes-series-the-great-gap-closer

@@ -1,0 +1,115 @@
+Title: Willkommen Zuhause
+
+----
+
+Herotitle: Willkommen Zuhause
+
+----
+
+Herotext: Eine multikulturelle Kirche im Herzen Berlins, die Menschen eine neue Perspektive auf Jesus und Seine Kirche ermöglichen möchte.
+
+----
+
+Abouttitle: Über uns
+
+----
+
+Aboutheader: Berlin Connect ist eine multikulturelle kirche im herzen Berlins.
+
+----
+
+Abouttext: Unsere Philosophie ist einfach: 'Liebe Gott, liebe Menschen und liebe das Leben'. Unser Motto lautet 'Komm' so wie du bist'.
+
+----
+
+Subscribetitle: Newsletter
+
+----
+
+Subscribeheader: Lass uns in Kontakt bleiben
+
+----
+
+Subscribetext: Wir halten dich gern auf dem Laufenden, was im Leben unserer Kirche alles passiert.
+
+----
+
+Subscribeinputplaceholder: Deine Email Adresse
+
+----
+
+Overview: 
+
+Wir glauben, dass Kirche ein Ort sein kann,
+an dem Menschen aus allen Lebenslagen und jeden Alters sich ‘Zuhause’ fühlen können.
+Bei Berlin Connect wollen wir eine Umgebung schaffen, in der du leicht mit Gott und Menschen
+in Beziehung treten kannst, wodurch dein Leben größer wird und du das Potential, das Gott dir
+gegeben hat, entdecken und ausleben kannst.
+
+----
+
+Sundaytitle: Sonntag
+
+----
+
+Sundaytext: Unser Wunsch ist, dass Sonntage in Gottes Haus ein Ort sind, zu dem Menschen aus allen Lebenslagen kommen können und an dem sie sich 'ZU HAUSE' fühlen. Ein Ort, um eine Beziehung zu Gott und zu einander aufzubauen. Ein Ort, um ermutigt zu werden und Gott anzubeten, ein Ort wo Gäste Teil der Familie werden.
+
+----
+
+Readmore: Mehr
+
+----
+
+Communitytitle: Gemeinschaft
+
+----
+
+Communitytext: Zusammen mit Freunden und Familie um den Tisch zu sitzen ist für uns alle wichtig. Als Kirche legen wir großen Wert darauf, persönliche und tiefe Beziehungen unter der Woche aufzubauen.
+
+----
+
+Socialtitle: (En)gage
+
+----
+
+Socialtext: Wir wollen zum Wohlergehen der gesamten Gesellschaft beitragen durch soziale Unternehmungen und innovatives Leiten.
+
+----
+
+Eventsectiontitle: Kalender
+
+----
+
+Eventsectionheader: Was liegt an
+
+----
+
+Eventsectioninfo: Finde heraus, was im Leben unserer Kirche ansteht.
+
+----
+
+Addressheader: Ort der Gottesdienste
+
+----
+
+Transporttitle: Transport
+
+----
+
+Seefullcalendar: Zeige den ganzen Kalender
+
+----
+
+Churchaddress: 
+
+Haus Ungarn<br>
+Karl-Liebknecht-Straße 9<br>
+10178 Berlin
+
+----
+
+Entranceinfo: Der Eingang zu Berlin Connect ist direkt gegenüber der Marienkirche, 50m links neben der Tür mit der Hausnummer 9.
+
+----
+
+Venuelocation: maritimhotel

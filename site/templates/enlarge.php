@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-  <?php snippet('hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
+  <?php snippet('image-hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
     <div class="full-width bg-bc-off-white py4">
       <div class="container clearfix center">
         <p class="caps h4 regular tiny-justify sm-justify md-center letter-spacing-1 px3 line-height-3 m0 bc-blue"><?= $page->overview() ?></p>
@@ -38,12 +38,12 @@
       <ul class="relative col-12 mx-auto posts list-reset m0 bg-dark-gray">
         <div class="filler">
         </div>
-        <?php 
+        <?php
           // $randomNumber is for the images for each post
           $randomNumber = 1;
         ?>
-        <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'featured', ',')->visible()->limit(1) as $post): ?>
-          <?php 
+        <?php foreach($page->find('toolbox')->children()->sortBy('date', 'desc')->filterBy('size', 'featured', ',')->visible()->limit(1) as $post): ?>
+          <?php
             // increase $randomNumber by one to show another image next time
             $randomNumber = $randomNumber + 1;
             // if $randomNumber is over 13, then repeat all images again
@@ -53,8 +53,8 @@
           ?>
           <?php snippet('post', array('post' => $post, 'randomNumber' => $randomNumber)) ?>
         <?php endforeach ?>
-        <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'small', ',')->visible()->limit(2) as $post): ?>
-          <?php 
+        <?php foreach($page->find('toolbox')->children()->sortBy('date', 'desc')->filterBy('size', 'small', ',')->visible()->limit(2) as $post): ?>
+          <?php
             // increase $randomNumber by one to show another image next time
             $randomNumber = $randomNumber + 1;
             // if $randomNumber is over 13, then repeat all images again
@@ -64,8 +64,8 @@
           ?>
           <?php snippet('post', array('post' => $post, 'randomNumber' => $randomNumber)) ?>
         <?php endforeach ?>
-        <?php foreach($page->find('toolbox')->children()->flip()->filterBy('size', 'normal', ',')->visible()->limit(1) as $post): ?>
-          <?php 
+        <?php foreach($page->find('toolbox')->children()->sortBy('date', 'desc')->filterBy('size', 'normal', ',')->visible()->limit(1) as $post): ?>
+          <?php
             // increase $randomNumber by one to show another image next time
             $randomNumber = $randomNumber + 1;
             // if $randomNumber is over 13, then repeat all images again
@@ -87,12 +87,12 @@
         <div class="center pt3">
           <h1 class="m0 mb2 caps lighter"><?= $page->eventsectiontitle() ?></h1>
         </div>
-        <div class="questions grid">
+        <div class="flex flex-wrap center full-width clearfix">
 
           <?php
 
           // nested menu
-          $events = $pages->find('calendar')->children()->filterBy('tag', 'enlarge', ',')->visible()->sortBy('date', 'asc');
+          $events = $pages->find('calendar')->children()->filterBy('tag', 'enlarge', ',')->visible()->sortBy('date', 'asc')->limit(4);
 
           // integer to count how many events are not obsolete
           $notObsoleteItems = 0;
@@ -111,12 +111,6 @@
                 $notObsoleteItems = $notObsoleteItems + 1;
                 snippet('single-event', array('event' => $event));
               }
-            }
-
-            if (notObsoleteItems == 0) {
-              echo "<div class='center mx-auto col-12 sm-col-6 bg-bc-off-white p3 mt4 mb3'>";
-              echo "<p class='m0'>No upcoming sessions or workshops.</p>";
-              echo "</div>";
             }
           }
           else{

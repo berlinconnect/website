@@ -6,10 +6,10 @@ files: true
 fields:
   title:
     label: Title
-    type:  text
+    type: text
   copyright:
     label: Copyright
-    type:  text
+    type: text
   moreinformation:
     label: More Information
     type: text
@@ -55,8 +55,8 @@ fields:
   formurl:
     label: Form Url
     type: text
-  privacylink:
-    label: Privacy Policy Link Text
+  imprintlink:
+    label: Imprint Link Text
     type: text
   hubaddress:
     label: Hub Address
@@ -64,3 +64,6 @@ fields:
   contactquestions:
     label: Contact Questions
     type: textarea
+  Upcoming:
+    label: Upcoming Text
+    type: text
