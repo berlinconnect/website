@@ -5,7 +5,7 @@
     <h1 class="m0 caps lighter"><?= $page->eventsectionheader() ?></h1>
     <p class="h3 regular px1 border-box col-inline col-12 sm-col-10 md-col-9"><?= $page->eventsectioninfo() ?></p>
   </div>
-  <div class="flex">
+  <div class="flex flex-wrap">
     <?php
       /*
         since the built-in Kirby limit() function won't be useable,
