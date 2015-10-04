@@ -2,11 +2,11 @@
 <?php snippet('image-hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
 
 <div class="full-width clearfix">
-  <!-- <div class="md-p4 bg-dark-gray">
+  <div class="md-p4 bg-dark-gray">
     <div class="center video-wrapper border-box">
       <iframe src="<?= $page->video() ?>" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
-  </div> -->
+  </div>
 
     <div class="flex flex-stretch flex-column md-flex-row mb3 md-mb0">
 
