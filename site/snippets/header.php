@@ -17,7 +17,7 @@
   <meta content="<?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?>" name="twitter:title">
   <meta content="<?= excerpt($page->description(), 300) ?>">
 
-  <?php if($page->parent()->id() == 'enlarge'): ?>
+  <?php if($page->parent()->id() == 'toolbox'): ?>
     <meta property="og:type" content="article" />
     <meta content="<?= excerpt($page->text(), 300) ?>" itemprop="description">
     <meta content="<?= excerpt($page->text(), 300) ?>">
