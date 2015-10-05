@@ -24,14 +24,14 @@
         Buy Tickets
       </a>
       <?php endif ?>
-      <div class="p2 border-box event-content">
+      <div class="p2 border-box event-content relative z3">
         <h5 class="m0 caps mb1"><?= $event->title() ?></h5>
         <?php echo $event->text()->kirbytext() ?>
       </div>
       <?php if (strlen($event->googlemapslink()) != 0): ?>
-        <a class='bg-bc-off-white px2 py1 block dark-gray z2 relative location' href='<?= $event->googlemapslink() ?>'><img src="../images/ui/location.svg" width="8px" class="mr1"><h6 class="caps inline-block m0"><?= $event->location() ?></h6></a>
+        <a class='bg-bc-off-white px2 py1 block dark-gray z4 relative location' href='<?= $event->googlemapslink() ?>'><img src="../images/ui/location.svg" width="8px" class="mr1"><h6 class="caps inline-block m0"><?= $event->location() ?></h6></a>
       <?php else: ?>
-        <span class='bg-bc-off-white px2 py1 block dark-gray z2 relative location'><img src="../images/ui/location.svg" width="8px" class="mr1"><h6 class="caps inline-block m0"><?= $event->location() ?></h6></span>
+        <span class='bg-bc-off-white px2 py1 block dark-gray z4 relative location'><img src="../images/ui/location.svg" width="8px" class="mr1"><h6 class="caps inline-block m0"><?= $event->location() ?></h6></span>
       <?php endif ?>
     </div>
   </div>
