@@ -21,7 +21,7 @@
         <?= snippet('social', array('iconSize' => '30px')) ?>
     </div>
 
-    <div class="absolute left-0 top-0 full-height muted full-width bg-light-overlay-dark-gray z1"></div>
+    <div class="absolute left-0 top-0 full-height muted full-width bg-light-overlay-dark-gray z3"></div>
 
     <div class="video-container sm-show">
       <video class="" autoplay muted loop poster="<?= $site->url() ?>/video/bg.jpg" id="bgvid">

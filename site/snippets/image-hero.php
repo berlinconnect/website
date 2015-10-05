@@ -26,6 +26,6 @@
 
   </div>
 
-  <div class="absolute left-0 top-0 full-height full-width bg-light-overlay-dark-gray"></div>
+  <div class="absolute left-0 top-0 full-height full-width bg-light-overlay-dark-gray z3"></div>
 
 </div>
