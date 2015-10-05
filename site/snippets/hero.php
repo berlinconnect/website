@@ -13,6 +13,6 @@
 
   </div>
 
-  <div class="absolute left-0 top-0 full-height full-width bg-light-overlay-dark-gray no-flex"></div>
+  <div class="absolute left-0 top-0 full-height full-width bg-light-overlay-dark-gray no-flex z3"></div>
 
 </div>
