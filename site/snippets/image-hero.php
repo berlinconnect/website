@@ -4,7 +4,7 @@
 
   <?php snippet('menu', array('color' => 'bc-white')) ?>
 
-  <div class="flex-auto z4 container center bc-white ">
+  <div class="flex-auto z3 container center bc-white ">
 
     <?php if($page->id() == 'one-team'): ?>
       <div class="center py4 my4 tiny-my2 ">
@@ -26,6 +26,6 @@
 
   </div>
 
-  <div class="absolute left-0 top-0 full-height full-width bg-light-overlay-dark-gray z3"></div>
+  <div class="absolute left-0 top-0 full-height full-width bg-light-overlay-dark-gray z2"></div>
 
 </div>
