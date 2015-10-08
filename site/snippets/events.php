@@ -21,7 +21,7 @@
       // $sevenDays = strtotime("+7 day", $now);
 
     ?>
-    <?php foreach($pages->find('calendar')->children()->visible() as $event): ?>
+    <?php foreach($pages->find('calendar')->children()->sortBy('date', 'asc')->visible() as $event): ?>
       <?php
         // get date of the event
         $date = $event->date();
