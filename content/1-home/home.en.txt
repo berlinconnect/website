@@ -38,7 +38,22 @@ Subscribeinputplaceholder: Enter your email address
 
 ----
 
-Overview: 
+Specialtitle: Berlin Remixed
+
+----
+
+Specialheader: Supporting people seeking refuge
+
+----
+
+Specialtext: People seeking refuge in Europe is a crisis we can't ignore. Find out ways to get involved.
+
+----
+
+Specialbutton: Find Out More
+----
+
+Overview:
 
 We believe church can be a place where people from all walks of life and ages can feel ‘at home’.
 At Berlin Connect, we aim to create an environment where you can easily connect with God and people, enabling your life to grow as you discover and live out your God-given potential.
@@ -97,7 +112,7 @@ Seefullcalendar: See Full Calendar
 
 ----
 
-Churchaddress: 
+Churchaddress:
 
 Haus Ungarn<br>
 Karl-Liebknecht-Straße 9<br>

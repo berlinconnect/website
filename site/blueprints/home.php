@@ -37,12 +37,22 @@ fields:
   subscribeinputplaceholder:
   	label: Subscribe Input Placeholder
   	type: text
+  specialtitle:
+  	label: Subscribe Title
+  	type: text
+  specialheader:
+  	label: Subscribe Header
+  	type: text
+  specialtext:
+  	label: Subscribe Text
+  	type: textarea
+  	size: small
   overview:
   	label: Overview
   	type: textarea
   	size: small
   sundaytitle:
-  	label: Sunday Title 
+  	label: Sunday Title
   	type: text
   sundaytext:
   	label: Sunday Text
@@ -99,4 +109,4 @@ fields:
     help: Only shown, if the venue is at Haus Ungarn
   transporttitle:
   	label: Transport Title
-  	type: text 
+  	type: text
