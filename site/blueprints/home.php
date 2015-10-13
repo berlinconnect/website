@@ -38,15 +38,21 @@ fields:
   	label: Subscribe Input Placeholder
   	type: text
   specialtitle:
-  	label: Subscribe Title
+  	label: Special Title
   	type: text
   specialheader:
-  	label: Subscribe Header
+  	label: Special Header
   	type: text
   specialtext:
-  	label: Subscribe Text
+  	label: Special Text
   	type: textarea
   	size: small
+  specialbutton:
+  	label: Special Button Text
+  	type: text
+  speciallink:
+  	label: Special Link
+  	type: text
   overview:
   	label: Overview
   	type: textarea

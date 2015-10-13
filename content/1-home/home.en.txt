@@ -38,7 +38,7 @@ Subscribeinputplaceholder: Enter your email address
 
 ----
 
-Specialtitle: Berlin Remixed
+Specialtitle: Berlin Remix
 
 ----
 
@@ -51,6 +51,9 @@ Specialtext: People seeking refuge in Europe is a crisis we can't ignore. Find o
 ----
 
 Specialbutton: Find Out More
+----
+
+Speciallink: http://futureminded.de/#berlin-remix
 ----
 
 Overview:
