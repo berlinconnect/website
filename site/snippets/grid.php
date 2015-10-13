@@ -26,7 +26,13 @@
         <?php foreach($pages->find('enlarge')->find('toolbox')->children()->visible()->limit(1) as $post): ?>
           <p class="h4 bold caps line-height-2 m0 mb2"><?= $post->title() ?></p>
           <p class="h4 regular"><?= $post->text()->excerpt(100) ?></p>
-          <a href="<?= $post->url() ?>" class="h5 bold caps m0 mt3 full-width inline-block bg-bc-white bc-orange">View</a>
+          <?php if($post->tags() == 'podcast'): ?>
+            <a href="<?= $post->link() ?>" class="h5 bold caps m0 mt3 full-width inline-block bg-bc-white bc-orange">Listen</a>
+          <?php endif ?>
+
+          <?php if (strlen($post->link()) == 0): ?>
+            <a href="<?= $post->url() ?>" class="h5 bold caps m0 mt3 full-width inline-block bg-bc-white bc-orange">View</a>
+          <?php endif ?>
         <?php endforeach ?>
       </div>
     </div>
