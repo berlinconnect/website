@@ -37,8 +37,8 @@ fields:
       social-kindness: Social Kindness
       enlarge: Enlarge
   ticketprice:
-    lable: Ticket Price
+    label: Ticket Price
     type: text
   ticketlink:
-    lable: Ticket Link
+    label: Ticket Link
     type: text
