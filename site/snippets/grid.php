@@ -61,7 +61,7 @@
         <h5 class="caps m0 mb3 bc-blue"><?= $page->specialtitle() ?></h5>
         <p class="h4 bold caps line-height-2 m0 mb2"><?= $page->specialheader() ?></p>
         <p class="h4 regular"><?= $page->specialtext() ?></p>
-        <a href="<?= $site->speciallink() ?>" class="button p2 center full-width border-none bg-bc-blue bc-white" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Berlin Remixed']);"><?= $page->specialbutton() ?></a>
+        <a href="<?= $page->speciallink() ?>" class="button p2 center full-width border-none bg-bc-blue bc-white" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Berlin Remixed']);"><?= $page->specialbutton() ?></a>
       </div>
     </div>
   </div>
