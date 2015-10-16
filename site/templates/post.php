@@ -19,7 +19,7 @@
       </div>
       <?php if (strlen($page->scriptures()) != 0): ?>
         <div class="scriptures mt2">
-          <h5>Key Striptures</h5>
+          <h5>Key Scriptures</h5>
           <p class="small"><?= $page->scriptures() ?></p>
         </div>
       <?php endif ?>
