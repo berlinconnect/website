@@ -83,6 +83,34 @@
     feed.run();
   </script>
 <?php endif ?>
+<?php if($page->id() == 'dinner-parties'): ?>
+  <script type="text/javascript">
+
+    var loadButton = document.getElementById('load-more');
+    var feed = new Instafeed({
+        after: function() {
+          // disable button if no more results to load
+          if (!this.hasNext()) {
+            $('#load-more').addClass('hidden');
+          }
+        },
+
+        get: 'tagged',
+        tagName: 'takeyourplaceatthetable',
+        clientId: 'ca090230b9b241d79c684fc7f76b89d8',
+        resolution: 'standard_resolution',
+        sortBy: 'most-recent',
+        links: 'false',
+        template: '<div class="relative overflow-hidden col-inline col-12 xsm-col-6 sm-col-4 md-col-3 image"><div class="absolute caption">{{caption}}</div><img src="{{image}}" /></div>'
+    });
+
+    loadButton.addEventListener('click', function() {
+      feed.next();
+    });
+
+    feed.run();
+  </script>
+<?php endif ?>
 
 <script>
   function externalLinks() {
