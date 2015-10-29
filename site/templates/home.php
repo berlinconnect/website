@@ -35,13 +35,14 @@
     </div>
   </div>
 
+  <?php snippet('servicetimes') ?>
   <?php snippet('events') ?>
 
   <div class="full-width bg-dark-gray clearfix">
     <div class="col col-6 lg-col-4 sm-show">
       <div class="relative mt3 mx-auto bc-white grid-content">
         <h5 class="bold caps line-height-2 m0"><?= $page->addressheader() ?></h5>
-        
+
         <?php
           if ($page->venuelocation() == "hausungarn") {
             snippet('address_hausungarn');
@@ -50,7 +51,7 @@
             snippet('address_maritimHotel');
           }
         ?>
-        
+
       </div>
     </div>
     <div class="map" id="map_canvas"></div>
