@@ -171,3 +171,24 @@ h6, .h6
 
 .default-page p a
   text-decoration underline
+
+sizes = "tiny" 'max-width: 29.999em',
+        "xsm" 'min-width: 30em',
+        "sm" 'min-width: 40em',
+        "md" 'min-width: 48em',
+        "lg" 'min-width: 64em',
+        "xlg" 'min-width: 81em'
+
+  for size in sizes
+    @media ({size[1]})
+      .{size[0]}-left-align
+        text-align left
+
+      .{size[0]}-center
+        text-align center
+
+      .{size[0]}-right-align
+        text-align right
+
+      .{size[0]}-justify
+        text-align justify

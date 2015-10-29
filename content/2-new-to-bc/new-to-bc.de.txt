@@ -93,3 +93,7 @@ Areyoufreebuttons:
 ----
 
 Findus: Kontaktiere Conny
+
+----
+
+Emailaddress: conny@berlinclc.de

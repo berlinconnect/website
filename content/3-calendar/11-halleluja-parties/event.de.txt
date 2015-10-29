@@ -1,4 +1,4 @@
-Title: Halleluja-Parties
+Title: House Parties
 
 ----
 
@@ -6,7 +6,7 @@ Text: House Parties
 
 ----
 
-Date: 2015-10-31
+Date: 2015-10-30
 
 ----
 
@@ -22,7 +22,7 @@ Link:
 
 ----
 
-Tag: 
+Tag: dinner-parties
 
 ----
 

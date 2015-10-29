@@ -35,13 +35,14 @@
     </div>
   </div>
 
+  <?php snippet('servicetimes') ?>
   <?php snippet('events') ?>
 
-  <div class="full-width bg-dark-gray clearfix">
-    <div class="col col-6 lg-col-4 sm-show">
-      <div class="relative mt3 mx-auto bc-white grid-content">
+  <div class="flex flex-center flex-column sm-flex-row full-width bg-dark-gray clearfix">
+    <div class="col-12 sm-col-6 lg-col-4 tiny-center sm-left-align">
+      <div class="relative bc-white p4 xsm-p3 sm-p3">
         <h5 class="bold caps line-height-2 m0"><?= $page->addressheader() ?></h5>
-        
+
         <?php
           if ($page->venuelocation() == "hausungarn") {
             snippet('address_hausungarn');
@@ -50,9 +51,9 @@
             snippet('address_maritimHotel');
           }
         ?>
-        
+
       </div>
     </div>
-    <div class="map" id="map_canvas"></div>
+    <div class="col-12 sm-col-6 lg-col-8 flex-auto map sm-show" id="map_canvas"></div>
   </div>
 <?php snippet('footer') ?>

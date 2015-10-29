@@ -4,8 +4,11 @@ Title: (En)large
 
 Text: 
 
-Entdecke Jesus & Seine Kirche, Life Skills, Meine Bibel
-Los geht's um 19:00
+Türen öffnen um 19:00
+**Themen der Woche**
+Entdecke Jesus & Seine Kirche: Gebet & Abendmahl
+Life Skills: Finanzplanung, Teil II & Steuern
+My Bible: Galater
 
 ----
 
@@ -21,7 +24,7 @@ Googlemapslink: https://www.google.de/maps?client=safari&rls=en&q=Haus+ungarn&oe
 
 ----
 
-Link: 
+Link: /enlarge
 
 ----
 
