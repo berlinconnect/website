@@ -1,11 +1,4 @@
-Title: Venue Change & H4TH
-
-----
-
-Text:
-
-Today is our Heart for the House and our 6th Birthday and you are invited to celebrate with us 
-at 11:00 and 17:00 in the Maritim ProArte Hotel (Friedrichstrasse 151, 10117 Berlin)!
+Title: Heart for the House
 
 ----
 
@@ -22,3 +15,7 @@ Dismiss: Dismiss
 ----
 
 Read: Read
+
+----
+
+Noticetext: Until 31 October 2015 you can still get involved in Heart for the House as a Faithful Giver and a Vision Giver and/or a Kingdom Giver.

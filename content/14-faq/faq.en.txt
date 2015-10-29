@@ -14,4 +14,4 @@ Emailbutton: Email us your question
 
 ----
 
-Emailaddress: 
+Emailaddress: questions@berlinclc.de

@@ -38,4 +38,4 @@ Herotitle: Conferences
 
 ----
 
-Herotext: Connecting to a bigger pictre
+Herotext: Connecting to a bigger picture

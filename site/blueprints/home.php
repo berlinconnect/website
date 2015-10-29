@@ -81,6 +81,16 @@ fields:
   	label: Social Text
   	type: textarea
   	size: small
+  oursundaygatherings:
+    label: Our Sunday Gatherings Title
+    type: text
+  oursundaygatheringstext:
+    label: Our Sunday Gatherings Text
+    type: textarea
+    size: small
+  servicetimes:
+    label: Service Time Title
+    type: text
   eventsectiontitle:
   	label: Event Section Title
   	type: text

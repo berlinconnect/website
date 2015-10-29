@@ -1,8 +1,4 @@
-Title: Heute Neue Location & H4TH
-
-----
-
-Text: Heute ist Herz für sein Haus und unser 6. Geburtstag und du bist herzlich eingeladen mit uns um 11:00 und 17:00 im Maritim ProArte Hotel (Friedrichstrasse 151, 10117 Berlin) zu feiern!
+Title: Herz für Sein Haus
 
 ----
 
@@ -19,3 +15,7 @@ Dismiss: Zurück
 ----
 
 Read: Lesen
+
+----
+
+Noticetext: Bis zum 31. Oktober kannst du dich noch als Faithful Giver und Vision Giver und/oder Kingdom Giver an unserem Herz für Sein Haus beteiligen.
