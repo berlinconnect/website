@@ -1,5 +1,5 @@
   <div class="full-width py4 px3 bg-dark-gray bc-off-white border-box">
-    <div class="clearfix mt2 mb3 tiny-center sm-center md-left font-size-0">
+    <div class="clearfix mt2 mb3 tiny-center sm-left md-left font-size-0">
       <div class="mx-auto col-2 sm-col-12 sm-center">
         <img class="inline-block  mb3 vm" src="<?php echo $site->url() ?>/images/logo/light-bc-white.svg" width="70px"/>
       </div>

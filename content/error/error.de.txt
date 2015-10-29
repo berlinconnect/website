@@ -3,3 +3,7 @@ Title: Oh Nein!
 ----
 
 Text: Scheinbar konnten wir die Seite die du suchst nicht finden. Aber keine Angst, du bist nicht verloren, klicke einfach den unteren Button.
+
+----
+
+Button: Zurück Haus

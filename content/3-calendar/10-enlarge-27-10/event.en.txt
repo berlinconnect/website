@@ -1,10 +1,10 @@
-Title: (En)large
+Title: (En)large presents
 
 ----
 
 Text: 
 
-An intimate night with John and Helen Burns
+Up close & personal with Mark & Joyce and John & Helen Burns on Life & Relationships
 Doors open at 19:00
 
 ----
@@ -21,7 +21,7 @@ Googlemapslink: https://www.google.de/maps?client=safari&rls=en&q=Haus+Ungarn&oe
 
 ----
 
-Link: 
+Link: https://www.eventbrite.de/e/enlarge-presents-up-close-personal-with-mark-joyce-and-john-helen-burns-on-life-relationships-tickets-19017473776
 
 ----
 
@@ -33,4 +33,4 @@ Ticketprice:
 
 ----
 
-Ticketlink: 
+Ticketlink: https://www.eventbrite.de/e/enlarge-presents-up-close-personal-with-mark-joyce-and-john-helen-burns-on-life-relationships-tickets-19017473776

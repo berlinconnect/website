@@ -38,7 +38,25 @@ Subscribeinputplaceholder: Deine Email Adresse
 
 ----
 
-Overview: 
+Specialtitle: Berlin Remix
+
+----
+
+Specialheader: Supporting people seeking refuge
+
+----
+
+Specialtext: People seeking refuge in Europe is a crisis we can't ignore. Find out ways to get involved.
+
+----
+
+Specialbutton: Find Out More
+----
+
+Speciallink: http://futureminded.de/#berlin-remix
+----
+
+Overview:
 
 Wir glauben, dass Kirche ein Ort sein kann,
 an dem Menschen aus allen Lebenslagen und jeden Alters sich ‘Zuhause’ fühlen können.
@@ -100,7 +118,7 @@ Seefullcalendar: Zeige den ganzen Kalender
 
 ----
 
-Churchaddress: 
+Churchaddress:
 
 Haus Ungarn<br>
 Karl-Liebknecht-Straße 9<br>
@@ -112,4 +130,4 @@ Entranceinfo: Der Eingang zu Berlin Connect ist direkt gegenüber der Marienkirc
 
 ----
 
-Venuelocation: maritimhotel
+Venuelocation: hausungarn

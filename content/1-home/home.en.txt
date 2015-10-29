@@ -91,6 +91,15 @@ Socialtext: Our desire is to contribute to the well-being of society as a whole 
 
 ----
 
+OurSundayGatherings: Our Sunday Gatherings
+----
+
+OurSundayGatheringsText: Located at Alexanderplatz in the heart of Berlin we meet at Haus Ungarn. We look forward to welcoming you and your family and friends this Sunday.
+----
+
+ServiceTimes: Service Times
+----
+
 Eventsectiontitle: Calendar
 
 ----
@@ -127,4 +136,4 @@ Entranceinfo: The entrance is 50m to the left of the direct entrance of Karl-Lie
 
 ----
 
-Venuelocation: maritimhotel
+Venuelocation: hausungarn
