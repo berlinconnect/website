@@ -20,8 +20,13 @@
 
         <p class="tiny-justify"><?= $page->faithfulgivertext() ?></p>
 
+        <a href="mailto:dave@berlinclc.de" class="mt4 block border-box full-width h5 caps bold p2 px3 center bg-bc-blue bc-white">
+          <?= $page->getintouch() ?>
+        </a>
+        <p class="small mt2 light-gray center"><?= $page->getintouchtext() ?></p>
+
         <!-- Pass on giver variable, for google analytics tracking -->
-        <?php snippet('paypal', array('giver' => '')) ?>
+        <!-- <?php snippet('paypal', array('giver' => '')) ?>
 
         <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
@@ -31,7 +36,7 @@
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
           <span class="bold">IBAN:</span> DE07120400000623459500<br/>
           <span class="bold"><?= $page->reference() ?>:</span> H4TH2015
-        </h5>
+        </h5> -->
       </div>
 
     </div>
@@ -49,8 +54,13 @@
 
         <p class="tiny-justify"><?= $page->visiongivertext() ?></p>
 
+        <a href="mailto:dave@berlinclc.de" class="mt4 block border-box full-width h5 caps bold p2 px3 center bg-bc-blue bc-white">
+          <?= $page->getintouch() ?>
+        </a>
+        <p class="small mt2 light-gray center"><?= $page->getintouchtext() ?></p>
+
         <!-- Pass on giver variable, for google analytics tracking -->
-        <?php snippet('paypal', array('giver' => '')) ?>
+        <!-- <?php snippet('paypal', array('giver' => '')) ?>
 
         <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
@@ -60,7 +70,7 @@
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
           <span class="bold">IBAN:</span> DE77120400000623459501<br/>
           <span class="bold"><?= $page->reference() ?>:</span> Vision Giver
-        </h5>
+        </h5> -->
       </div>
 
     </div>
@@ -77,8 +87,12 @@
 
         <p class="tiny-justify"><?= $page->kingdomgivertext() ?></p>
 
+        <a href="mailto:dave@berlinclc.de" class="mt4 block border-box full-width h5 caps bold p2 px3 center bg-bc-blue bc-white">
+          <?= $page->getintouch() ?>
+        </a>
+        <p class="small mt2 light-gray center"><?= $page->getintouchtext() ?></p>
         <!-- Pass on giver variable, for google analytics tracking -->
-        <?php snippet('paypal', array('giver' => '')) ?>
+        <!-- <?php snippet('paypal', array('giver' => '')) ?>
 
         <p class="small mt2 light-gray"><?= $page->completionInfo() ?></p>
 
@@ -88,7 +102,7 @@
           <span class="bold">SWIFT Code (BIC):</span> COBADEFF120<br/>
           <span class="bold">IBAN:</span> DE77120400000623459501<br/>
           <span class="bold"><?= $page->reference() ?>:</span> Kingdom Giver
-        </h5>
+        </h5> -->
       </div>
     </div>
   </div>
