@@ -49,3 +49,9 @@ fields:
   KingdomGiverText:
     label: Kingdom Giver Text
     type: textarea
+  GetInTouch:
+    label: Get in touch
+    type: text
+  GetInTouchText:
+    label: Get in touch copy
+    type: text
