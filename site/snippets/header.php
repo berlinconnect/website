@@ -80,7 +80,13 @@
   </script>
 </head>
 <body class="animated fadeIn <?php if($page->id() == 'error'): ?>body-full-height<?php endif ?>">
-  <?= snippet('notice')?>
+  <?php
+    if ($pages->find('notice')->state() == "on") {
+      snippet('notice');
+    }
+    else{
+    }
+  ?>
   <?= snippet('sidebar')?>
   <div class="full-width p1 border-box bg-bc-blue filterhidden slideUp fixed top-0 left-0 z2 md-show">
     <div class="container flex flex-justify filter-group filter-button-group">

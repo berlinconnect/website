@@ -4,6 +4,13 @@ title: Page
 pages: false
 files: true
 fields:
+  state:
+    label: State
+    type: radio
+    options:
+      on: Show
+      off: Hide
+    help: Select whether to show or hide the blue notice
   title:
     label: Title
     type:  text
