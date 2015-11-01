@@ -20,11 +20,6 @@
 
         <p class="tiny-justify"><?= $page->faithfulgivertext() ?></p>
 
-        <a href="mailto:dave@berlinclc.de" class="mt4 block border-box full-width h5 caps bold p2 px3 center bg-bc-blue bc-white">
-          <?= $page->getintouch() ?>
-        </a>
-        <p class="small mt2 light-gray center"><?= $page->getintouchtext() ?></p>
-
         <!-- Pass on giver variable, for google analytics tracking -->
         <!-- <?php snippet('paypal', array('giver' => '')) ?>
 
