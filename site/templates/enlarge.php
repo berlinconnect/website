@@ -83,44 +83,31 @@
       <a class="button bg-bc-blue py2 px4" href='<?php echo $page->find('toolbox')->url() ?>' onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Explore the tooltox']);">See More</a>
     </div>
 
-      <div class="container py4 clearfix">
-        <div class="center pt3">
-          <h1 class="m0 mb2 caps lighter"><?= $page->eventsectiontitle() ?></h1>
-        </div>
-        <div class="flex flex-wrap center full-width clearfix">
-
-          <?php
-
-          // nested menu
-          $events = $pages->find('calendar')->children()->filterBy('tag', 'enlarge', ',')->visible()->sortBy('date', 'asc')->limit(4);
-
-          // integer to count how many events are not obsolete
-          $notObsoleteItems = 0;
-
-          // only show the menu if items are available and not obsolete
-          if($events->count()){
-            foreach($events as $event){
-              // get the current date and the date in seven days
-              $now = date('M d, Y');
-              $now = strtotime($now);
-
-              // get date of the event
-              $date = $event->date();
-
-              if ($now <= $date) {
-                $notObsoleteItems = $notObsoleteItems + 1;
-                snippet('single-event', array('event' => $event));
-              }
-            }
-          }
-          else{
-            echo "<div class='center mx-auto col-12 sm-col-6 bg-bc-off-white p3 mt4 mb3'>";
-            echo "<p class='m0'>No upcoming sessions or workshops.</p>";
-            echo "</div>";
-          }
-          ?>
-        </div>
+    <div class="container clearfix mt4 mb4">
+      <div class="center">
+        <h1 class="m0 mb2 caps lighter"><?= $page->eventsectiontitle() ?></h1>
       </div>
+      <div class="flex flex-wrap center flex-justify full-width clearfix">
+        <?php
+          $calendarTag = $page->id(); foreach($pages->find('calendar')->children()->visible()->filterBy('tag', $calendarTag, ',')->sortBy('date', 'asc') as $event): ?>
+          <?php
+            // get the current date and the date in seven days
+            $now = date('M d, Y');
+            $now = strtotime($now);
+
+            // get date of the event
+            $date = $event->date();
+
+            if ($now <= $date) {
+              snippet('single-event', array('event' => $event));
+            }
+
+          ?>
+
+          <!-- endif ?>  -->
+        <?php endforeach ?>
+      </div>
+    </div>
 
     <script>
 
