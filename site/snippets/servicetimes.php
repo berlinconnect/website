@@ -7,7 +7,7 @@
       <span class="px1 border border-bc-white rounded mxn1 mb2 sm-mb0 inline-block">11:00</span>
       <!-- <span class="px1 border border-bc-white rounded mxn1 mb2 sm-mb0 inline-block">13:00</span> -->
       <!-- <span class="px1 border border-bc-white rounded mxn1 mb2 sm-mb0 inline-block">15:00</span> -->
-      <span class="px1 border border-bc-white rounded mxn1 mb2 sm-mb0 inline-block">17:00</span>
+      <!-- <span class="px1 border border-bc-white rounded mxn1 mb2 sm-mb0 inline-block">17:00</span> -->
       <!-- <span class="px1 border border-bc-white rounded mxn1 mb2 sm-mb0 inline-block">19:00</span> -->
     </p>
   </div>
