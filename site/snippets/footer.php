@@ -83,7 +83,7 @@
     feed.run();
   </script>
 <?php endif ?>
-<?php if($page->id() == 'dinner-parties'): ?>
+<?php if($page->id() == 'changeThisLater'): ?>
   <script type="text/javascript">
 
     var loadButton = document.getElementById('load-more');
