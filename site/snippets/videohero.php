@@ -24,10 +24,10 @@
     <div class="absolute left-0 top-0 full-height muted full-width bg-light-overlay-dark-gray z3"></div>
 
     <div class="video-container sm-show">
-      <!-- <video class="" autoplay muted loop poster="<?= $site->url() ?>/video/bg.jpg" id="bgvid">
+      <video class="" autoplay muted loop poster="<?= $site->url() ?>/video/bg.jpg" id="bgvid">
         <source src="<?= $site->url() ?>/video/bg.mp4" type="video/mp4">
         <source src="<?= $site->url() ?>/video/bg.ogv" type="video/ogg">
-      </video> -->
+      </video>
     </div>
 
   </div>
