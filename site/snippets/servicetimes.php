@@ -6,7 +6,7 @@
     <p class="h4 bold px1 sm-px2 col-inline col-12 md-col-8 bc-white">
 
       <?php foreach($page->servicetimespots()->split() as $serviceTime): ?>
-        <span class="px1 border border-bc-white rounded mxn1 mb2 sm-mb0 inline-block"><?php echo html($serviceTime) ?></span>
+        <span class="px1 border border-bc-white rounded mxn1 mb2 sm-mb0 inline-block"><?php echo html($serviceTime) ?>:00</span>
       <?php endforeach ?>
 
     </p>
