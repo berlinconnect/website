@@ -91,6 +91,16 @@ fields:
   servicetimes:
     label: Service Time Title
     type: text
+  servicetimespots:
+    label: Service Times
+    type: checkboxes
+    options:
+      elevenAM: 11:00
+      onePM: 13:00
+      threePM: 15:00
+      fivePM: 17:00
+      sevenPM: 19:00
+    help: Please select the service times
   eventsectiontitle:
   	label: Event Section Title
   	type: text
