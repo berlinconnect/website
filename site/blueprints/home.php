@@ -95,11 +95,12 @@ fields:
     label: Service Times
     type: checkboxes
     options:
-      elevenAM: 11:00
-      onePM: 13:00
-      threePM: 15:00
-      fivePM: 17:00
-      sevenPM: 19:00
+      11:00: 11:00
+      13:00: 13:00
+      14:00: 15:00
+      17:00: 17:00
+      19:00: 19:00
+    columns: 5
     help: Please select the service times
   eventsectiontitle:
   	label: Event Section Title
