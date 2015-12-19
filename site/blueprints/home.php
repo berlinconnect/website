@@ -97,10 +97,9 @@ fields:
     options:
       11: 11:00
       13: 13:00
-      14: 15:00
+      15: 15:00
       17: 17:00
       19: 19:00
-    columns: 5
     help: Please select the service times
   eventsectiontitle:
   	label: Event Section Title
