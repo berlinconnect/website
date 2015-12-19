@@ -95,11 +95,11 @@ fields:
     label: Service Times
     type: checkboxes
     options:
-      11:00: 11:00
-      13:00: 13:00
-      14:00: 15:00
-      17:00: 17:00
-      19:00: 19:00
+      11: 11:00
+      13: 13:00
+      14: 15:00
+      17: 17:00
+      19: 19:00
     columns: 5
     help: Please select the service times
   eventsectiontitle:
