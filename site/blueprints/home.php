@@ -14,6 +14,13 @@ fields:
   	label: Hero Text
   	type: textarea
   	size: small
+  videoheader:
+    label: Video Header
+    type: radio
+    options:
+      videoYES: Video Header Background
+      videoNO: Image Header Background
+    help: Please select whether there should be a video header
   abouttitle:
   	label: About Title
   	type: text
