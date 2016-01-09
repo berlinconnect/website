@@ -62,8 +62,8 @@
     <p class="h1 lighter mb3 tiny-mb2"><?= $page->signupheader() ?></p>
     <p class="h3 lighter px1 sm-px2 col-inline col-12 md-col-8"><?= $page->signuptext() ?></p>
     <div class="mt3">
-      <a href="<?= $page->brochurelink() ?>" class="block sm-inline-block h5 caps bold p2 center bg-bc-blue border border-bc-white bc-white" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn more about team']);"><?= $page->learnmorecalltoaction() ?></a>
-      <a href="<?= $page->formlink() ?>" class="block sm-inline-block mt1 sm-mt0 h5 caps bold p2 center bg-bc-white bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);"><?= $page->signupcalltoaction() ?></a>
+      <a href="<?= $page->brochurelink() ?>" class="h5 caps bold p2 center bg-bc-blue border border-bc-white bc-white" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn more about team']);">Hello</a>
+      <a href="<?= $page->formlink() ?>" class="mt1 sm-mt0 h5 caps bold p2 center bg-bc-white bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Sign up for team']);"><?= $page->signupcalltoaction() ?></a>
     </div>
   </div>
 </div>
