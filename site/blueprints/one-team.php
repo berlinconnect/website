@@ -88,6 +88,12 @@ fields:
   signupcalltoaction:
   	label: Signup Call To Action
   	type: text
+  brochurelink:
+  	label: Brochure Link
+  	type: url
+  learnmorecalltoaction:
+  	label: Learn More Call To Action
+  	type: text
   moreinstagram:
   	label: More Instagram Stories
   	type: text
