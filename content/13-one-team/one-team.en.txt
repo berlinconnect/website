@@ -10,87 +10,87 @@ Introtext: Berlin Connect is a local church community built and carried by ordin
 
 ----
 
-Tenreasonsheader: 10 Reasons to consider joining team
+Tenreasonsheader: 10 Reasons to get involved on team
 
 ----
 
-Reason1header: God, People, Life
+Reason1header: Development
 
 ----
 
-Reason1text: Being around others who share the same vision develops your passion for: God, People, Life.
+Reason1text: It develops your love for God, love for people & love for life
 
 ----
 
-Reason2header: Challenges your mindset
+Reason2header: Contribution
 
 ----
 
-Reason2text: Adding purpose behind what you do and remembers its all about others will change your mindsets.
+Reason2text: It's another way of contributing and caring
 
 ----
 
-Reason3header: Add Value
+Reason3header: The 'Why'
 
 ----
 
-Reason3text: Serving with others give you an opportunity to add value & contribute to the bigger picture.
+Reason3text: You will learn the 'why' behind everything we do as a Church
 
 ----
 
-Reason4header: Develops your leadership
+Reason4header: Character
 
 ----
 
-Reason4text: We are all called to be leaders in life and through serving, you are equipped to lead in all areas of life.
+Reason4text: It builds your character to be more Christ like
 
 ----
 
-Reason5header: Grow In Confidence
+Reason5header: Leadership Potential
 
 ----
 
-Reason5text: Serving creates an environment for your voice & ideas to be heard which helps you grow confidence in yourself.
+Reason5text: It develops your leadership potential
 
 ----
 
-Reason6header: Care in Practical Ways
+Reason6header: Mindset
 
 ----
 
-Reason6text: Serving give you a practical way to care for others. It teaches you and helps you grow in your ability to care.
+Reason6text: It will help you develop a growth mindset for your life
 
 ----
 
-Reason7header: Positions You around good leadership
+Reason7header: Strenghts
 
 ----
 
-Reason7text: Serving with others who have been on the journey you're on gives you so much insight and input to help you grow.
+Reason7text: You will discover your strengths and your uniqueness
 
 ----
 
-Reason8header: Focus on what matters
+Reason8header: Confidence
 
 ----
 
-Reason8text: Being on team gives you a greater understanding of the why behind all the tasks we do: IT’S ALL ABOUT PEOPLE
+Reason8text: It helps you grow in confidence & be a team player
 
 ----
 
-Reason9header: Discover Strengths and Weaknesses
+Reason9header: Add Value
 
 ----
 
-Reason9text: Serving allows you to try everything in an enviroment where it's ok to fail. Dicovering the things you're good at and develop them.
+Reason9text: It gives you the opportunity to add value to something bigger than yourself
 
 ----
 
-Reason10header: Character building
+Reason10header: Future
 
 ----
 
-Reason10text: Serving with people builds your character, credibility and increases your trust-worthiness.
+Reason10text: You just might meet your future wife / husband ;-)
 
 ----
 
@@ -110,4 +110,12 @@ Moreinstagram: See More Stories
 
 ----
 
-Formlink: https://docs.google.com/forms/d/1tENVn3stdZ-CsAg858nI8MJ0dHZhxAFil6BK4ljUm3A/viewform
+Formlink: https://docs.google.com/forms/d/1XprrqJlhJvNJjVf7pCVNGUcIN-IJjL91vBpX5CNotAI/viewform
+
+----
+
+Brochurelink: http://myberlinconnect.de/content/13-one-team/team_registration_card.pdf
+
+----
+
+Learnmorecalltoaction: Learn More

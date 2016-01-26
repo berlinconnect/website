@@ -6,19 +6,19 @@ Video: https://player.vimeo.com/video/141309589?badge=0
 
 ----
 
-Faithfulgivertitle: Faithful Giver
+Faithfulgivertitle: Thank you
 
 ----
 
-Faithfulgiverheader: Bring a gift on the day
+Faithfulgiverheader: Contributing to the ongoing vision of B/C
 
 ----
 
-Faithfulgivertext:
+Faithfulgivertext: 
 
-Faithful Givers are people who are willing and generous in their outlook on life and understand that their contribution large or small will always give God an opportunity to show His faithfulness in our lives.
+It is never to late to get involved in resourcing the ongoing vision and work of Berlin Connect by becoming a Vision Giver or Kingdom Giver, enabling us to strengthen our church and speed up the work of Jesus here in our city Berlin!  For more information please see below or contact Dave by sending an e-mail to dave@berlinclc.de .
 <br>
-Let’s prepare our hearts with prayer and excitement as we consider what to bring to the Heart for the House offering on 4th October 2015 enabling us to strengthen our church and speed up the work of Jesus here in our city Berlin.
+Thank you to everyone who contributes to the ongoing vision of Berlin Connect through our annual Heart for the House miracle offering and by becoming a Vision Giver or Kingdom Giver.
 
 ----
 
@@ -26,13 +26,15 @@ Visiongivertitle: Vision Giver
 
 ----
 
-Visiongiverheader: Bring a gift on the day + a monthly commitment
+Visiongiverheader: A monthly commitment
 
 ----
 
-Visiongivertext:
+Visiongivertext: 
 
-Vision Givers bring a gift on 4th October plus a monthly commitment for 12 months resourcing the ongoing vision of Berlin Connect. This monthly commitment is above your normal giving of tithes and offerings. Vision giving starts at € 10 or more and runs for 12 months.
+Vision Givers bring a monthly commitment resourcing the ongoing vision of Berlin Connect. This monthly commitment is above your normal giving of tithes and offerings.
+ <br>
+Vision giving starts at € 10 or more.
 <br>
 
 ----
@@ -41,11 +43,11 @@ Kingdomgivertitle: Kingdom Giver
 
 ----
 
-Kingdomgiverheader: Bring a gift on the day + a yearly commitment
+Kingdomgiverheader: A yearly commitment
 
 ----
 
-Kingdomgivertext:
+Kingdomgivertext: 
 
 Kingdom Givers understand that their gifts, talents and character add value that strengthens the House of God. This is a vehicle to help people who believe they are called to be financial leaders in life and who choose to honour the Lord with their increase and wealth.
 <br>
@@ -53,7 +55,7 @@ Kingdom giving starts at € 3,000.00 or more and is an annual commitment, over 
 
 ----
 
-Completioninfo: Giving for Heart for the House miracle offering open until 31st of October.
+Completioninfo: For more information contact Dave by sending an e-mail to dave@berlinclc.de .
 
 ----
 
@@ -69,8 +71,8 @@ Reference: Reference
 
 ----
 
-GetInTouch: Get in touch
+Getintouch: Get in touch
+
 ----
 
-GetInTouchText: Got questions? Click the button above to get in touch with Dave.
-----
+Getintouchtext: Want to know more? Click the button above to get in touch with Dave.

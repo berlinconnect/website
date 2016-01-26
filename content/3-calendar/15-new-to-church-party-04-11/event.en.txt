@@ -13,11 +13,11 @@ Date: 2015-11-04
 
 ----
 
-Location: B/C Hub
+Location: Hufelandstr. 17, ring at Berndt
 
 ----
 
-Googlemapslink: https://www.google.de/maps?client=safari&rls=en&q=Haus+ungarn&oe=UTF-8&gfe_rd=cr&um=1&ie=UTF-8&sa=X&ved=0CAgQ_AUoAmoVChMIotbBqaakyAIVCOwUCh1PBAZC
+Googlemapslink: https://www.google.de/maps/place/Hufelandstra%C3%9Fe+17,+10407+Berlin/@52.53205,13.430106,17z/data=!3m1!4b1!4m2!3m1!1s0x47a84e0ef971cd75:0xdbc83a4b953ec505
 
 ----
 

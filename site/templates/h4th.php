@@ -101,6 +101,7 @@
       </div>
     </div>
   </div>
+  <?php snippet('annualreport') ?>
 </div>
 
 <?php snippet('footer') ?>

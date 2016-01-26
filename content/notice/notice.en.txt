@@ -1,25 +1,25 @@
+Title: City Kindness
+
+----
+
+Link: http://citykindness.de/
+
+----
+
+Learnmore: Yes
+
+----
+
+Dismiss: Back
+
+----
+
+Read: 
+
+----
+
+Noticetext: Want to get involved in extending kindness to our city by giving time & items?
+
+----
+
 State: off
-
-----
-
-Title: Heart for the House
-
-----
-
-Link: /h4th2015
-
-----
-
-Learnmore: Learn More
-
-----
-
-Dismiss: Dismiss
-
-----
-
-Read: Read
-
-----
-
-Noticetext: Until 31 October 2015 you can still get involved in Heart for the House as a Faithful Giver and a Vision Giver and/or a Kingdom Giver.

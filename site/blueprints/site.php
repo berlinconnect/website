@@ -64,6 +64,12 @@ fields:
   contactquestions:
     label: Contact Questions
     type: textarea
-  Upcoming:
+  upcoming:
     label: Upcoming Text
     type: text
+  annualreporttitle
+    label: Annual Report Title
+    type: text
+  annualreportembed
+    label: Annual Report Embed Link
+    type: textarea
