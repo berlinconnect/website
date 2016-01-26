@@ -67,9 +67,9 @@ fields:
   upcoming:
     label: Upcoming Text
     type: text
-  annualreporttitle
+  annualreporttitle:
     label: Annual Report Title
     type: text
-  annualreportembed
+  annualreportembed:
     label: Annual Report Embed Link
     type: textarea
