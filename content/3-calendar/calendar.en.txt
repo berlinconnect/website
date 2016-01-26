@@ -2,8 +2,8 @@ Title: Calendar
 
 ----
 
-Herotitle: Coming Up
+Herotitle: 
 
 ----
 
-Herotext: You are invited!
+Herotext: 

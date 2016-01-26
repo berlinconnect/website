@@ -13,10 +13,10 @@
       <div class="col col-12 sm-col-6 pr2">
         <h5 class="caps"><?= $page->onlinegivingtitle() ?></h5>
         <p class="small justify"><?= $page->onlinegivingtext() ?></p>
-        
+
         <!-- Pass on giver variable, for google analytics tracking -->
         <?php snippet('paypal', array('giver' => '')) ?>
-        
+
         <p class="small mt2 light-gray italic"><?= $page->onlinegivingnote() ?></p>
       </div>
       <div class="col-right col-12 sm-col-6 sm-pl2">
@@ -31,6 +31,7 @@
       </div>
     </div>
   </div>
+  <?php snippet('annualreport') ?>
 </div>
 
 <?php snippet('footer') ?>

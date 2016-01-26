@@ -1,10 +1,15 @@
 Title: Imprint
+
 ----
-HeroTitle: Imprint
+
+Herotitle: Imprint
+
 ----
-Text:
+
+Text: 
+
 Berlin Christian Life Centre e.V.
-Weinbergsweg 24
+Torstr. 25
 D-10119 Berlin
 Germany
 Registered as a charity with Amtsgericht Charlottenburg, Registration No. VR 27694 B
@@ -36,4 +41,7 @@ You can prohibit the installation of the cookies by a corresponding setting in y
 
 ###Source of imprint English version:
 twigg's Übersetzungsbüro; Rechtsanwälte Streifler und Kollegen
+
 ----
+
+Herotext: 

@@ -8,19 +8,21 @@ Herotitle: (en)large
 
 Overview: 
 
-(en)large is our learning and resources platform to equip you to shine brightly and add value to whatever sphere of society you find yourself in.
+(en)large is our personal development and learning platform to equip you to shine brightly and add value to whatever sphere of society you find yourself in.
 
-(en)large has 3 aspects: "Discovering Jesus and His Church", "Life Skills" and "My Bible".
+(en)large has 3 aspects: "Faith Essentials", "Life Skills" and "My Bible".
 
 You can join midweek (en)large sessions and workshops, meet new friends and experience a great learning environment. In the toolbox you'll find inspiring resources.
+<br><br>
+<a href="http://eepurl.com/bM94kb">If you want to stay up to date with what's coming up at (en)large, <br> sign up for our Newsletter!</a>
 
 ----
 
-Discovertitle: Discovery
+Discovertitle: Faith Essentials
 
 ----
 
-Discovertext: focuses on the essentials of living your Christian faith. Topics include ‘Who is Jesus?’, Water baptism, prayer and more.
+Discovertext: focuses on the basics of living your Christian faith. Topics include ‘Who is Jesus?’, Water baptism, prayer and more.
 
 ----
 
