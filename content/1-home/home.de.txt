@@ -2,11 +2,14 @@ Title: Willkommen Zuhause
 
 ----
 
-Herotitle: Willkommen Zuhause
+Herotitle: WILLKOMMEN ZUHAUSE
 
 ----
 
-Herotext: Eine multikulturelle Kirche im Herzen Berlins, die Menschen eine neue Perspektive auf Jesus und Seine Kirche ermöglichen möchte.
+Herotext: 
+
+Diesen Sonntag, 31 Januar 2016<br>Vision Sunday!<br>11:00, 13:00, 15:00, 17:00 & 19:00<br>
+Haus Ungarn,Karl-Liebknecht-Straße 9
 
 ----
 
@@ -34,7 +37,7 @@ Subscribetext: Wir halten dich gern auf dem Laufenden, was im Leben unserer Kirc
 
 ----
 
-Subscribeinputplaceholder: Deine Email Adresse
+Subscribeinputplaceholder: Deine E-Mail-Adresse
 
 ----
 
@@ -42,21 +45,23 @@ Specialtitle: Berlin Remix
 
 ----
 
-Specialheader: Supporting people seeking refuge
+Specialheader: Geflüchtete unterstützen
 
 ----
 
-Specialtext: People seeking refuge in Europe is a crisis we can't ignore. Find out ways to get involved.
+Specialtext: Die aktuelle Situation der Menschen, die Zuflucht in Europa suchen, stellt eine Herausforderung dar, die wir nicht ignorieren können.  Finde heraus, wie du dich hier einbringen kannst.
 
 ----
 
-Specialbutton: Find Out More
+Specialbutton: Mehr herausfinden
+
 ----
 
 Speciallink: http://futureminded.de/#berlin-remix
+
 ----
 
-Overview:
+Overview: 
 
 Wir glauben, dass Kirche ein Ort sein kann,
 an dem Menschen aus allen Lebenslagen und jeden Alters sich ‘Zuhause’ fühlen können.
@@ -106,7 +111,7 @@ Eventsectioninfo: Finde heraus, was im Leben unserer Kirche ansteht.
 
 ----
 
-Addressheader: Ort der Gottesdienste
+Addressheader: 
 
 ----
 
@@ -118,7 +123,7 @@ Seefullcalendar: Zeige den ganzen Kalender
 
 ----
 
-Churchaddress:
+Churchaddress: 
 
 Haus Ungarn<br>
 Karl-Liebknecht-Straße 9<br>
@@ -131,3 +136,27 @@ Entranceinfo: Der Eingang zu Berlin Connect ist direkt gegenüber der Marienkirc
 ----
 
 Venuelocation: hausungarn
+
+----
+
+Oursundaygatherings: Den Sonntag zusammen erleben
+
+----
+
+Oursundaygatheringstext: 
+
+Diesen Sonntag, 31. Januar treffen wir uns für unseren Vision Sunday um 11:00, 13:00, 15:00, 17:00 & 19:00 
+im Haus Ungarn, Karl-Liebknecht-Straße 9. 
+Wir freuen uns, dich und deine Familie & Freunde diesen Sonntag zu begrüßen.
+
+----
+
+Servicetimes: Service Times
+
+----
+
+Servicetimespots: 11, 13, 15, 17, 19
+
+----
+
+Videoheader: videoYES

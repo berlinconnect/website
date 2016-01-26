@@ -1,8 +1,8 @@
-Title: Herz für Sein Haus
+Title: City Kindness
 
 ----
 
-Link: /h4th2015
+Link: http://citykindness.de/
 
 ----
 
@@ -18,4 +18,8 @@ Read: Lesen
 
 ----
 
-Noticetext: Bis zum 31. Oktober kannst du dich noch als Faithful Giver und Vision Giver und/oder Kingdom Giver an unserem Herz für Sein Haus beteiligen.
+Noticetext: Freundlichkeit durch Zeit und Geschenke praktisch werden lassen.
+
+----
+
+State: off

@@ -4,22 +4,27 @@ Title: Herz für Sein Haus
 
 Faithfulgivertext: 
 
-Faithful Givers sind Menschen, die verstehen, dass ihr Beitrag, ob groß oder klein, immer Gott eine Gelegenheit gibt, zu zeigen, dass Er beständig zu uns hält.
+Danke für deinen großzügigen Beitrag zu Herz für sein Haus 2015, der es uns ermöglicht, unsere Kirche zu stärken und das zu beschleunigen, was Jesus hier in Berlin tun möchte. 
 <br>
-Lasst uns unser Herz durch das Gebet und mit Freude vorbereiten für unseren Beitrag zu Herz für sein Haus, der uns in die Lage versetzt, unsere Kirche zu stärken und das zu beschleunigen, was Jesus hier in unserer Stadt Berlin tut.
+<br>
+Du kannst das ganze Jahr über als Vision Giver oder Kingdom Giver Teil von Herz für Sein Haus sein. Mehr darüber erfährst du auf dieser Seite.
 
 ----
 
 Visiongivertext: 
 
-Vision Givers geben einen Beitrag am 4. Oktober und sagen darüber hinaus für 12 Monate einen bestimmten Betrag zu, um die fortlaufende Umsetzung der Vision von Berlin Connect zu unterstützen. Dieser geht über den regelmäßigen Zehnten und Beiträge hinaus. Als Vision Giver ist der monatliche Mindestbeitrag € 10 oder mehr und wird für die Dauer von 12 Monaten gegeben.  
+Vision Givers beteiligen sich durch die Zusage eines monatlichen Betrags an der fortlaufenden Umsetzung der Vision von Berlin Connect. Dieser geht über den regelmäßigen Zehnten und Beiträge hinaus. 
+<br>
+<br>
+Als Vision Giver ist der monatliche Mindestbeitrag € 10 oder mehr.
 <br>
 
 ----
 
 Kingdomgivertext: 
 
-Kingdom Givers wissen, dass sie durch ihre Begabungen, Talente und ihren Charakter einen wertvollen Beitrag leisten können, um das Haus Gottes zu stärken. Dies ist ein Weg Menschen helfen zu können, die glauben, dass sie in ihrem Leben in finanzieller Hinsicht zu Führungsverantwortung berufen sind und die sich entscheiden, den Herrn mit ihrem Vermögen und finanziellen Zuwächsen zu ehren. 
+Kingdom Givers wissen, dass sie durch ihre Begabungen und ihren Charakter einen wertvollen Beitrag leisten können, um das Haus Gottes zu stärken. Die Möglichkeit, ein Kingdom Giver zu sein, ist ein Weg für all die, die glauben, dass sie in finanzieller Hinsicht zu Führungsverantwortung berufen sind und die Gott mit ihrem Vermögen und ihren finanziellen Zuwächsen ehren möchten. 
+<br>
 <br>
 Der Jahresbeitrag der Kingdom Givers beginnt bei € 3.000,00 oder mehr (über den normalen Zehnten und regelmäßige Beiträge hinaus) und unterstützt die laufende Arbeit von Berlin Connect.
 
@@ -29,11 +34,11 @@ Video: https://player.vimeo.com/video/141309589?badge=0
 
 ----
 
-Faithfulgivertitle: Faithful Giver
+Faithfulgivertitle: Danke!
 
 ----
 
-Faithfulgiverheader: Beitrag am 4. Oktober
+Faithfulgiverheader: Danke für deinen Beitrag zu H4TH 2015!
 
 ----
 
@@ -41,7 +46,7 @@ Visiongivertitle: Vision Giver
 
 ----
 
-Visiongiverheader: Beitrag am 4. Oktober & Zusage eines monatlichen Betrags
+Visiongiverheader: Zusage eines monatlichen Betrags
 
 ----
 
@@ -49,11 +54,11 @@ Kingdomgivertitle: Kingdom Giver
 
 ----
 
-Kingdomgiverheader: Beitrag am 4. Oktober & Zusage eines Jahresbeitrags
+Kingdomgiverheader: Zusage eines Jahresbeitrags
 
 ----
 
-Completioninfo: Heart for the House Beiträge sind bis 31. Oktober 2015 möglich.
+Completioninfo: Für weitere Informationen kontaktiere Dave unter dave@berlinclc.de.
 
 ----
 
@@ -66,3 +71,11 @@ Accountname: Kontoinhaber
 ----
 
 Reference: Verwendungszweck
+
+----
+
+Getintouch: Get in touch
+
+----
+
+Getintouchtext: Hast du Fragen? Klicke einfach auf den blauen Button, um Dave zu kontaktieren.
