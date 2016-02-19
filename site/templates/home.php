@@ -37,7 +37,6 @@
 
   <?php snippet('servicetimes') ?>
   <?php snippet('events') ?>
-  <?php snippet('praiseprayer') ?>
 
   <div class="flex flex-center flex-column sm-flex-row full-width bg-dark-gray clearfix">
     <div class="col-12 sm-col-6 lg-col-4 tiny-center sm-left-align">
