@@ -11,7 +11,7 @@
         </div>
       </div>
 
-      <a href="/new-to-bc" class="button inline-block md-hide mt3 h5 caps bg-bc-blue bc-white bold p2" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Go to new to bc on mobile']);"><?= $page->readmore() ?></a>
+      <a href="<?= $pages->find('new-to-bc')->url() ?>" class="button inline-block md-hide mt3 h5 caps bg-bc-blue bc-white bold p2" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Go to new to bc on mobile']);"><?= $page->readmore() ?></a>
 
       <?php $hwacols = 'col col-12 sm-col-4 mb4' ?>
 
@@ -19,17 +19,17 @@
         <div class="<?= $hwacols ?> center">
           <h5 class="caps"><?= $page->sundaytitle() ?></h5>
           <p class="h4 regular px1 mb3"><?= $page->sundaytext() ?></p>
-          <a href="new-to-bc" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about sundays']);"><?= $page->readmore() ?></a>
+          <a href="<?= $pages->find('new-to-bc')->url() ?>" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about sundays']);"><?= $page->readmore() ?></a>
         </div>
         <div class="<?= $hwacols ?> center">
           <h5 class="caps"><?= $page->communitytitle() ?></h5>
           <p class="h4 regular px1 mb3 mid-gray"><?= $page->communitytext() ?></p>
-          <a href="dinner-parties" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about midweek']);"><?= $page->readmore() ?></a>
+          <a href="<?= $pages->find('dinner-parties')->url() ?>" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about midweek']);"><?= $page->readmore() ?></a>
         </div>
         <div class="<?= $hwacols ?> center">
           <h5 class="caps"><?= $page->socialtitle() ?></h5>
           <p class="h4 regular px1 mb3"><?= $page->socialtext() ?></p>
-          <a href="social-kindness" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about social']);"><?= $page->readmore() ?></a>
+          <a href="<?= $pages->find('social-kindness')->url() ?>" class="button-outline h6 caps bold p1 border-bc-blue bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'Learn about social']);"><?= $page->readmore() ?></a>
         </div>
       </div>
     </div>
