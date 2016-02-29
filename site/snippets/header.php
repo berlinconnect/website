@@ -56,8 +56,8 @@
 
 
   <?php
-    if ($page->venuelocation() == "hausungarn") {
-      snippet('gmap_hausungarn');
+    if ($page->venuelocation() == "kulturbrauerei") {
+      snippet('gmap_kulturbrauerei');
     }
     else{
       snippet('gmap_maritimHotel');
