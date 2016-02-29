@@ -128,13 +128,13 @@ fields:
     label: Venue Location
     type: radio
     options:
-      hausungarn: Haus Ungarn
+      kulturbrauerei: Kulturbrauerei
       maritimhotel: Maritim Hotel
-    help: Please select whether the venue will be at Haus Ungarn or Maritim Hotel
+    help: Please select whether the venue will be at Kulturbrauerei or Maritim Hotel
   churchaddress:
-    label: Haus Ungarn Address
+    label: Kulturbrauerei Address
     type: textarea
-    help: This is only the address for Haus Ungarn, not for Maritim Hotel or any other venue!
+    help: This is only the address for Kulturbrauerei, not for Maritim Hotel or any other venue!
   entranceInfo:
     label: Info about the entrance
     type: textarea
