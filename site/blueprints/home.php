@@ -121,6 +121,12 @@ fields:
   seefullcalendar:
     label: See Full Calendar
     type: text
+  prayerurl:
+    label: Prayer Form Link
+    type: text
+  praiseurl:
+    label: Praise Form Link
+    type: text
   addressheader:
     label: Address Header
     type: text
