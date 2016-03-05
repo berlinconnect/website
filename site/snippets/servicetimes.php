@@ -17,6 +17,6 @@
 <div class="center sm-mt4 mx-auto col-12 border-box sm-col-6 py3 px2 bg-bc-blue bc-white">
   <h2 class="lighter mt0 mb0 tiny-mb0"><?= $page->westberlintitle() ?></h2>
   <h4 class="bold mt0 mb2 tiny-mb2"><?= $page->westberlinsoon() ?></h4>
-  <p class="big px1"><?= $page->westberlintext() ?></p>
+  <p class="big px1"><?= $page->westberlincopy() ?></p>
   <a href="<?= $page->westberlinlink() ?>"class="bg-bc-white button"><?= $page->westberlinbutton() ?></a>
 </div>
