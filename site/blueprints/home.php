@@ -108,6 +108,21 @@ fields:
       17: 17:00
       19: 19:00
     help: Please select the service times
+  westberlintitle:
+    label: West Berlin Title
+    type: text
+  westberlinsoon:
+    label: Coming Soon Text
+    type: text
+  westberlincopy:
+    label: West Berlin Text
+    type: text
+  westberlinlink:
+    label: West Berlin Link
+    type: text
+  westberlinbutton:
+    label: Find out more
+    type: text
   eventsectiontitle:
   	label: Event Section Title
   	type: text
