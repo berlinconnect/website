@@ -136,6 +136,12 @@ fields:
   seefullcalendar:
     label: See Full Calendar
     type: text
+  prayertitle:
+    label: Prayer Form Title
+    type: text
+  praisetitle:
+    label: Praise Form Title
+    type: text
   prayerurl:
     label: Prayer Form Link
     type: text
