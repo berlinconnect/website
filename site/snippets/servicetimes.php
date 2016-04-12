@@ -14,7 +14,7 @@
   <div class="absolute left-0 top-0 full-height full-width bg-light-overlay-dark-gray no-flex"></div>
 </div>
 
-<div class="center sm-mt4 mx-auto col-12 border-box sm-col-6 py3 px2 bg-bc-blue bc-white">
+<div class="center mx-auto col-12 border-box py2 px2 bg-mid-gray bc-white">
   <h2 class="lighter mt0 mb0 tiny-mb0"><?= $page->westberlintitle() ?></h2>
   <h4 class="bold mt0 mb2 tiny-mb2"><?= $page->westberlinsoon() ?></h4>
   <p class="big px1"><?= $page->westberlincopy() ?></p>
