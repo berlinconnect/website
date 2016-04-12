@@ -5,6 +5,13 @@
     <h1 class="m0 caps lighter"><?= $page->eventsectionheader() ?></h1>
     <p class="h3 regular px1 border-box col-inline col-12 sm-col-10 md-col-9"><?= $page->eventsectioninfo() ?></p>
   </div>
+  <?php
+    if ($page->specialevent() == "on") {
+      snippet('specialevent');
+    }
+    else{
+    }
+  ?>
   <div class="flex flex-wrap">
     <?php
       /*
