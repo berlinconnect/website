@@ -1,7 +1,7 @@
 <div class="relative py4 center mt3 mb3 overflow-hidden">
   <div class="date center bc-white m2 absolute left-0 top-0 relative z2">
-    <h4 class="caps regular m0 line-height-1"><?= $page->specialeventdate('M') ?></h4>
-    <h2 class="caps regular m0"><?= $page->specialeventdate('d') ?></h2>
+    <h4 class="caps regular m0 line-height-1"><?= $page->specialeventdate->date('M') ?></h4>
+    <h2 class="caps regular m0"><?= $page->specialeventdate->date('d') ?></h2>
   </div>
   <span class="absolute right-0 top-0 m2 caps letter-spacing-1 rounded pyhalf px1 h5 z4 dark-gray bg-bc-white"> <?= $page->specialeventspecial() ?>
   </span>
