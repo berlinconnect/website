@@ -123,6 +123,32 @@ fields:
   westberlinbutton:
     label: Find out more
     type: text
+  specialevent:
+    label: Special Event
+    type: radio
+    options:
+      on: Show
+      off: Hidden
+    help: Please choose option to either hide or show a special event section. Make sure you fill in all the content before saving.
+  specialeventspecial:
+    label: Special Tag
+    type: text
+  specialeventtitle:
+    label: Special Event Title
+    type: text
+  specialeventtext:
+    label: Special Event Text
+    type: textarea
+  specialeventlocation:
+    label: Special Event Location
+    type: text
+  specialeventlocationlink:
+    label: Special Event Link
+    type: text
+  specialeventdate:
+  	label: Special Event Date
+  	type: date
+  	format: MM/DD/YYYY
   eventsectiontitle:
   	label: Event Section Title
   	type: text
