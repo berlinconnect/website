@@ -7,7 +7,7 @@
   </span>
   <div class="center pb1 pt4 bc-white z2 relative">
     <h1 class="m0 caps lighter letter-spacing-2"><?= $page->specialeventtitle() ?></h1>
-    <p class="regular px1 border-box col-inline col-12 md-col-8 mt2"><?= $page->specialeventtitle() ?></p>
+    <p class="regular px1 border-box col-inline col-12 md-col-8 mt2"><?= $page->specialeventtext() ?></p>
     <div>
     <a href="<?= $page->specialeventlocationlink() ?>" class="h5 bc-white inline-block mx-auto caps letter-spacing mt4"> <img src="../images/ui/location-white.svg" width="8px" class="mr1"><?= $page->specialeventlocation() ?></a>
     </div>
