@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('hero', array('bgAttachement' => '', 'bgPosition' => 'top-bg')) ?>
+<?php snippet('hero', array('bgAttachement' => '', 'bgPosition' => 'center-bg')) ?>
 
 <div class="container pt4 tiny-pt2 px3 mt3 mb3 tiny-mt-1 tiny-mb1 clearfix">
   <div class="col col-12 sm-col-5">
