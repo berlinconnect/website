@@ -8,8 +8,9 @@ Herotitle: WILLKOMMEN ZUHAUSE
 
 Herotext: 
 
-Diesen Sonntag, 31 Januar 2016<br>Vision Sunday!<br>11:00, 13:00, 15:00, 17:00 & 19:00<br>
-Haus Ungarn,Karl-Liebknecht-Straße 9
+Sonntag, 5. Juni 2016<br>11:00 & 13:00<br>
+Kino in der KulturBrauerei<br>
+Schönhauser Allee 36, 10435 Berlin<br>
 
 ----
 
@@ -17,11 +18,11 @@ Abouttitle: Über uns
 
 ----
 
-Aboutheader: Berlin Connect ist eine multikulturelle kirche im herzen Berlins.
+Aboutheader: Berlin Connect ist ein Ort, an dem Menschen entdecken, dass ihre Geschichte noch nicht zu Ende ist.
 
 ----
 
-Abouttext: Unsere Philosophie ist einfach: 'Liebe Gott, liebe Menschen und liebe das Leben'. Unser Motto lautet 'Komm' so wie du bist'.
+Abouttext: Unsere Philosophie ist einfach: 'Liebe Gott, liebe Menschen und liebe das Leben'. Unser Motto lautet 'Komm wie du bist'.
 
 ----
 
@@ -41,15 +42,15 @@ Subscribeinputplaceholder: Deine E-Mail-Adresse
 
 ----
 
-Specialtitle: Berlin Remix
+Specialtitle: charity: water
 
 ----
 
-Specialheader: Geflüchtete unterstützen
+Specialheader: Sauberes Wasser für alle
 
 ----
 
-Specialtext: Die aktuelle Situation der Menschen, die Zuflucht in Europa suchen, stellt eine Herausforderung dar, die wir nicht ignorieren können.  Finde heraus, wie du dich hier einbringen kannst.
+Specialtext: Zum sechsten Mal in Folge laufen wir beim jährlichen Berliner Wasserbetriebe Staffellauf mit, um den Kreislauf der Armut zu durchbrechen, indem wir für ein Wasserprojekt von charity: water für Menschen in Not Spenden sammeln.
 
 ----
 
@@ -57,25 +58,24 @@ Specialbutton: Mehr herausfinden
 
 ----
 
-Speciallink: http://futureminded.de/#berlin-remix
+Speciallink: http://charitywaterberlin.de
 
 ----
 
 Overview: 
 
-Wir glauben, dass Kirche ein Ort sein kann,
-an dem Menschen aus allen Lebenslagen und jeden Alters sich ‘Zuhause’ fühlen können.
+Wir glauben, dass Kirche ein Ort sein kann, an dem Menschen aus allen Lebenslagen und jeden Alters sich ‘Zuhause’ fühlen können.
 Bei Berlin Connect wollen wir eine Umgebung schaffen, in der du leicht mit Gott und Menschen
 in Beziehung treten kannst, wodurch dein Leben größer wird und du das Potential, das Gott dir
 gegeben hat, entdecken und ausleben kannst.
 
 ----
 
-Sundaytitle: Sonntag
+Sundaytitle: <span class="bc-blue">(en)vision</span><br>Sonntag
 
 ----
 
-Sundaytext: Unser Wunsch ist, dass Sonntage in Gottes Haus ein Ort sind, zu dem Menschen aus allen Lebenslagen kommen können und an dem sie sich 'ZU HAUSE' fühlen. Ein Ort, um eine Beziehung zu Gott und zu einander aufzubauen. Ein Ort, um ermutigt zu werden und Gott anzubeten, ein Ort wo Gäste Teil der Familie werden.
+Sundaytext: Unser Wunsch ist, dass Sonntage in Gottes Haus ein Ort sind, zu dem Menschen aus allen Lebenslagen kommen können und an dem sie sich 'ZUHAUSE' fühlen. Ein Ort, um eine Beziehung zu Gott und zu einander aufzubauen. Ein Ort, um ermutigt zu werden und Gott anzubeten, ein Ort wo Gäste Teil der Familie werden.
 
 ----
 
@@ -83,7 +83,7 @@ Readmore: Mehr
 
 ----
 
-Communitytitle: Gemeinschaft
+Communitytitle: <span class="bc-blue">(en)large</span><br>Gemeinschaft
 
 ----
 
@@ -91,11 +91,11 @@ Communitytext: Zusammen mit Freunden und Familie um den Tisch zu sitzen ist für
 
 ----
 
-Socialtitle: (En)gage
+Socialtitle: <span class="bc-blue">(en)gage</span><br>Gesellschaft
 
 ----
 
-Socialtext: Wir wollen zum Wohlergehen der gesamten Gesellschaft beitragen durch soziale Unternehmungen und innovatives Leiten.
+Socialtext: Wir wollen zum Wohlergehen der gesamten Gesellschaft durch soziale Unternehmungen und innovatives Leiten beitragen .
 
 ----
 
@@ -103,15 +103,15 @@ Eventsectiontitle: Kalender
 
 ----
 
-Eventsectionheader: Was liegt an
+Eventsectionheader: Was passiert im Leben unserer Kirche?
 
 ----
 
-Eventsectioninfo: Finde heraus, was im Leben unserer Kirche ansteht.
+Eventsectioninfo: Entdecke, was diese Woche ansteht.
 
 ----
 
-Addressheader: 
+Addressheader: Unser Treffpunkt
 
 ----
 
@@ -125,17 +125,17 @@ Seefullcalendar: Zeige den ganzen Kalender
 
 Churchaddress: 
 
-Haus Ungarn<br>
-Karl-Liebknecht-Straße 9<br>
-10178 Berlin
+Kino in der KulturBrauerei<br>
+Schönhauser Allee 36<br>
+10435 Berlin
 
 ----
 
-Entranceinfo: Der Eingang zu Berlin Connect ist direkt gegenüber der Marienkirche, 50m links neben der Tür mit der Hausnummer 9.
+Entranceinfo: 
 
 ----
 
-Venuelocation: hausungarn
+Venuelocation: kulturbrauerei
 
 ----
 
@@ -145,18 +145,83 @@ Oursundaygatherings: Den Sonntag zusammen erleben
 
 Oursundaygatheringstext: 
 
-Diesen Sonntag, 31. Januar treffen wir uns für unseren Vision Sunday um 11:00, 13:00, 15:00, 17:00 & 19:00 
-im Haus Ungarn, Karl-Liebknecht-Straße 9. 
-Wir freuen uns, dich und deine Familie & Freunde diesen Sonntag zu begrüßen.
+Am Sonntag, 5. Juni 2016 treffen wir uns um 11:00 & 13:00<br>
+im Kino in der KulturBrauerei, Schönhauser Allee 36, 10435 Berlin.<br>
+Wir freuen uns, dich und deine Familie & Freunde<br> 
+dort zu begrüßen.
 
 ----
 
-Servicetimes: Service Times
+Servicetimes: Gottesdienste
 
 ----
 
-Servicetimespots: 11, 13, 15, 17, 19
+Servicetimespots: 11, 13
 
 ----
 
 Videoheader: videoYES
+
+----
+
+Prayerurl: https://docs.google.com/forms/d/1Urd5GXUeSpotxlK-R1sATJ2FvkHxDCvk2gB3gSsi7e0/edit
+
+----
+
+Praiseurl: https://docs.google.com/forms/d/1ggOxWm8_SF-9SFIagPl64mlD-bZYC3_bkx4y9UEV4s4/edit
+
+----
+
+Westberlintitle: Gottesdienst in West-Berlin
+
+----
+
+Westberlinsoon: In Kürze
+
+----
+
+Westberlincopy: Möchtest du den Gottesdienst mit ins Leben rufen? <br> Klicke einfach auf den unten stehenden Button, um weitere Informationen zu erhalten.
+
+----
+
+Westberlinlink: https://docs.google.com/forms/d/1wDehSZb4p-9EgPhXqTTI3bqEwiEgLRH9xht674uVtps/edit
+
+----
+
+Westberlinbutton: Ich habe Interesse
+
+----
+
+Prayertitle: Mein Gebetsanliegen
+
+----
+
+Praisetitle: Ich bin dankbar
+
+----
+
+Specialevent: off
+
+----
+
+Specialeventspecial: Special
+
+----
+
+Specialeventtitle: Jeffrey Rachmat
+
+----
+
+Specialeventtext: We are very excited to have Ps. Jeffrey Rachmat from Jakarta Praise Community Church with us this weekend. Come expectant & bring your friends!
+
+----
+
+Specialeventlocation: Kino Kulturbrauerei
+
+----
+
+Specialeventlocationlink: https://goo.gl/maps/1Yw7EzQW6mr
+
+----
+
+Specialeventdate: 2016-04-17

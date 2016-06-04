@@ -24,8 +24,6 @@ Wenn du finanziell zur Arbeit von ‘Berlin Connect’ beitragen willst, benutze
 
 Du kannst auch online geben, indem du unten auf den Button klickst. Danke, dass du mithilfst, Gottes Haus hier in Berlin zu bauen.
 
-Hier kannst du unseren (link: http://issuu.com/berlinconnect/docs/bc_annual_report_2014_final text: jährlichen Bericht 2014) anschauen .
-
 ----
 
 Onlinegivingtitle: Online Geben
@@ -36,7 +34,7 @@ Onlinegivingtext: Online zu geben ist schnell und einfach. Klicke einfach auf de
 
 ----
 
-Giveonline: Gebe Online
+Giveonline: Online Geben
 
 ----
 
