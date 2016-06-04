@@ -24,12 +24,12 @@ Sundayquote: Sonntags - Auf Jesus fokussieren und Menschen befähigen <!-- TO BE
 
 Sundaycopy: 
 
-Sonntags ist der ganze Tag die Botschaft. Wir wollen eine Umgebung schaffen, in der du
-leicht zu Gott und Menschen eine persönliche, herzliche und authentische Beziehung
-aufbauen kannst.
+Sonntags ist der ganze Tag die Botschaft. Wir wollen eine Umgebung 
+schaffen, in der du leicht zu Gott und Menschen eine persönliche, herzliche und authentische Beziehung aufbauen kannst.
 
-**Diesen Sonntag, 31 Januar 2016<br>Vision Sunday!<br>Sunday Gatherings um 11:00, 13:00, 15:00, 17:00 & 19:00 Uhr<br>im
-Haus Ungarn, Karl-Liebknecht-Straße 9**
+**Diesen Sonntag, 5.Juni 2016
+Gottesdienste um 11:00 & 13:00 Uhr
+im Kino in der KulturBrauerei<br>Schönhauser Allee 36, 10435 Berlin**
 
 Es gibt Live-Musik, Aktivitäten für Kinder & Jugendliche (1-18 Jahre) & Übersetzung ins Deutsche, Spanische und Portugiesische.
 
@@ -53,9 +53,9 @@ Communitycopy:
 
 Als Kirche legen wir großen Wert darauf, bedeutungsvolle und persönliche Beziehungen in der Woche durch unsere Dinner Parties und Sisterhood-Treffen aufzubauen.
 
-Dinner Parties sind lockere Zusammenkünfte und finden zweiwöchentlich Donnerstag abends in Wohnungen in ganz Berlin statt. Bei Sisterhood geht es darum, Frauen wertzuschätzen. 
+Dinner Parties finden zweiwöchentlich Donnerstag abends in Wohnungen in ganz Berlin statt. Bei Sisterhood geht es darum, Frauen wertzuschätzen. 
 
-Bitte kontaktiere (email: conny@berlinclc.de text: Conny) bei Fragen zu unseren Dinner Parties oder zu Sisterhood.
+Bitte kontaktiere (email: tini@berlinclc.de text: Tini) bei Fragen zu unseren Dinner Parties oder zu Sisterhood.
 <!-- TO BE CHANGED-->
 
 ----
@@ -87,7 +87,10 @@ Areyoufree: Was ist dein nächster Schritt?
 
 ----
 
-Areyoufreecopy: Jesus & Seine Kirche zu entdecken ist eine Reise. Egal, wo du gerade stehst – es gibt immer einen nächsten Schritt. Wir helfen dir gern, den nächsten Schritt auf deiner Reise zu gehen.
+Areyoufreecopy: 
+
+Jesus & Seine Kirche zu entdecken ist eine Reise. <br>
+Egal, wo du gerade stehst – es gibt immer einen nächsten Schritt. Wir helfen dir gern, den nächsten Schritt auf deiner Reise zu gehen.
 
 ----
 
@@ -95,8 +98,8 @@ Areyoufreebuttons:
 
 ----
 
-Findus: Kontaktiere Conny
+Findus: Kontaktiere Tini
 
 ----
 
-Emailaddress: conny@berlinclc.de
+Emailaddress: tini@berlinclc.de

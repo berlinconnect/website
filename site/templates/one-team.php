@@ -67,7 +67,7 @@
     </div>
   </div>
 </div>
-<div class="full-width font-size-0" id="instafeed"></div>
-<a id="load-more" class="full-width block center h1 bc-white border-box p3 pointer bg-bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'See more stories']);"><?= $page->moreinstagram() ?></a>
+<!-- <div class="full-width font-size-0" id="instafeed"></div>
+<a id="load-more" class="full-width block center h1 bc-white border-box p3 pointer bg-bc-blue" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Clicked', 'See more stories']);"><?= $page->moreinstagram() ?></a> -->
 
 <?php snippet('footer') ?>

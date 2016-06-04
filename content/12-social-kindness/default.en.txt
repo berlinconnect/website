@@ -77,4 +77,4 @@ Herotitle: Social Kindness
 
 ----
 
-Herotext: Making a difference globally and locally
+Herotext: Making a difference locally and globally
