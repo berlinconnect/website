@@ -1,12 +1,12 @@
-Title: City Kindness
+Title: Easter Special
 
 ----
 
-Link: http://citykindness.de/
+Link: https://www.eventbrite.de/e/bitter-sweet-tickets-22600616051
 
 ----
 
-Learnmore: Yes
+Learnmore: Buy Tickets
 
 ----
 
@@ -18,7 +18,11 @@ Read:
 
 ----
 
-Noticetext: Want to get involved in extending kindness to our city by giving time & items?
+Noticetext: 
+
+A modern approach to an ancient story.<br>
+Friday, March 25, 19:30 at Musikbrauerei<br>
+Greifswalder Straße 23A, 10405 Berlin
 
 ----
 

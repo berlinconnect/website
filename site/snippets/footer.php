@@ -55,6 +55,35 @@
     });
   </script>
 <?php endif ?>
+<?php if($page->id() == 'summer'): ?>
+  <script type="text/javascript">
+
+    var loadButton = document.getElementById('load-more');
+    var feed = new Instafeed({
+        after: function() {
+          // disable button if no more results to load
+          if (!this.hasNext()) {
+            $('#load-more').addClass('hidden');
+          }
+        },
+
+        get: 'tagged',
+        tagName: 'summermomentum',
+        clientId: '32ffa2236fc042c1a8a8f2f3e9646ecd',
+        accessToken: '1529396.1677ed0.a4fba16666414e11b6a0985b9cb01c0d',
+        resolution: 'standard_resolution',
+        sortBy: 'most-recent',
+        links: 'false',
+        template: '<div class="relative overflow-hidden col-inline col-12 xsm-col-6 sm-col-4 md-col-3 image"><div class="absolute caption">{{caption}}</div><img src="{{image}}" /></div>'
+    });
+
+    loadButton.addEventListener('click', function() {
+      feed.next();
+    });
+
+    feed.run();
+  </script>
+<?php endif ?>
 <?php if($page->id() == 'one-team'): ?>
   <script type="text/javascript">
 
@@ -69,7 +98,8 @@
 
         get: 'tagged',
         tagName: 'bcteambesties',
-        clientId: 'ca090230b9b241d79c684fc7f76b89d8',
+        clientId: '32ffa2236fc042c1a8a8f2f3e9646ecd',
+        accessToken: '1529396.1677ed0.a4fba16666414e11b6a0985b9cb01c0d',
         resolution: 'standard_resolution',
         sortBy: 'most-recent',
         links: 'false',
@@ -96,8 +126,10 @@
         },
 
         get: 'tagged',
+        userId: 'YOUR_USER_ID'
         tagName: 'takeyourplaceatthetable',
-        clientId: 'ca090230b9b241d79c684fc7f76b89d8',
+        clientId: '32ffa2236fc042c1a8a8f2f3e9646ecd',
+        accessToken: '1529396.1677ed0.a4fba16666414e11b6a0985b9cb01c0d',
         resolution: 'standard_resolution',
         sortBy: 'most-recent',
         links: 'false',
