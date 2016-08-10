@@ -1,4 +1,4 @@
-<?php snippet('header') ?>
+  <?php snippet('header') ?>
 
 <div class="flex flex-center relative py4 full-width cover-bg general-hero summer-hero">
   <div class="flex-auto z3 container center bc-white ">
@@ -73,77 +73,135 @@
 
   <div class="flex flex-stretch flex-column md-flex-row black">
 
-    <div class="flex flex-center col-12 md-col-6 full-height flex-content-stretch center py4" style="background-color: #CCDFF3;">
+    <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg py4" style="background-color: #BDE1CC;">
       <div class="flex-auto summer-event-content center">
-        <div class="icon summer-enlarge">
-          <svg width="77px" height="84px" viewBox="0 0 77 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <div class="icon park">
+          <svg width="94px" height="91px" viewBox="0 0 94 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
-              <title>enlarge</title>
+              <title>dinner</title>
               <desc>Created with Sketch.</desc>
               <defs></defs>
               <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="enlarge" transform="translate(1.000000, 1.000000)" stroke-width="2" stroke="#000000">
+                  <g id="dinner" transform="translate(0.000000, 1.000000)" stroke-width="2" stroke="#000000">
                       <g id="Group">
-                          <path d="M7.5,81.1 L7.5,0.5" id="Shape"></path>
-                          <path d="M15.1,10.6 L52.8,10.6" id="Shape"></path>
-                          <path d="M15.1,20.6 L52.8,20.6" id="Shape"></path>
-                          <path d="M15.1,30.7 L52.8,30.7" id="Shape"></path>
-                          <path d="M15.1,40.8 L52.8,40.8" id="Shape"></path>
-                          <path d="M15.1,50.9 L46.1,50.9" id="Shape"></path>
-                          <path d="M47.5,60.9 L52.8,60.9" id="Shape"></path>
-                          <path d="M15.1,60.9 L36,60.9" id="Shape"></path>
-                          <path d="M15.1,71.2 L31.1,71.2" id="Shape"></path>
-                          <path d="M59.5,49 L59.5,81.1 L0.8,81.1 L0.8,0.5 L59.5,0.5 L59.5,37.4" id="Shape"></path>
-                          <g transform="translate(31.000000, 28.000000)" id="Shape">
-                              <path d="M0.1,43.6 L0.9,37 L37.1,0.8 C38,-0.1 39.5,4.77395901e-15 40.5,1 L42.6,3.1 C43.6,4.1 43.7,5.7 42.8,6.5 L6.6,42.7 L0.1,43.6 L0.1,43.6 Z"></path>
-                              <path d="M35.8,2.1 L41.6,7.9"></path>
-                              <path d="M0.9,37.1 C0.9,37.1 1.9,42.2 6.7,42.9"></path>
+                          <path d="M43.1,66.2 L93.9,66.2" id="Shape"></path>
+                          <path d="M54.7,66.2 L51.2,89" id="Shape"></path>
+                          <path d="M81.6,66.2 L85.1,89" id="Shape"></path>
+                          <path d="M33.6,89.4 L33.6,34" id="Shape"></path>
+                          <path d="M33.6,34 L55.5,10.4" id="Shape"></path>
+                          <path d="M45.8,20.9 L41,7.3" id="Shape"></path>
+                          <path d="M33.6,49.3 L52.4,32.1 L54.7,24.9" id="Shape"></path>
+                          <path d="M43.4,40.3 L64.5,43.7" id="Shape"></path>
+                          <path d="M56.4,42.4 L67.5,34" id="Shape"></path>
+                          <path d="M64.5,35.9 L66.1,28.5" id="Shape"></path>
+                          <path d="M50.9,15.3 L58.4,16.5" id="Shape"></path>
+                          <path d="M44.4,16.9 L36.4,12.5" id="Shape"></path>
+                          <path d="M37.2,28.9 L34.7,18.7" id="Shape"></path>
+                          <g transform="translate(0.000000, 10.000000)" id="Shape">
+                              <path d="M33.6,79.4 L33.6,24"></path>
+                              <path d="M28.7,32 L18.6,13.3"></path>
+                              <path d="M18.6,13.3 L22.4,0.4"></path>
+                              <path d="M33.6,33.7 L17.1,27.9"></path>
+                              <path d="M22.6,29.8 L14.3,35.7"></path>
+                              <path d="M17.1,33.7 L0.9,27.2"></path>
+                              <path d="M22.6,20.7 L5.2,11.4"></path>
+                              <path d="M18.6,13.3 L14.3,9.9"></path>
+                              <path d="M33.6,24 L28.7,18.9"></path>
                           </g>
+                          <path d="M26.6,16.2 L36.4,25.6" id="Shape"></path>
+                          <path d="M41,26 L48.5,26.7" id="Shape"></path>
+                          <path d="M10.5,41 L5.2,34" id="Shape"></path>
+                          <path d="M14.7,27.2 L10.1,29.8" id="Shape"></path>
+                          <path d="M58.4,31.4 L52.4,32.1" id="Shape"></path>
+                          <path d="M49.8,41.4 L53,47.1" id="Shape"></path>
+                          <path d="M61.3,52.8 C61.3,52.8 58.8,53.5 56.2,51.7 C53.5,49.8 53.4,47.3 53.4,47.3 C53.4,47.3 55.9,46.6 58.5,48.4 C61.2,50.3 61.3,52.8 61.3,52.8 L61.3,52.8 Z" id="Shape"></path>
+                          <path d="M39.7,31.7 C39.7,31.7 42.1,32.7 43,35.8 C43.9,38.9 42.4,41 42.4,41 C42.4,41 40,40 39.1,36.9 C38.2,33.8 39.7,31.7 39.7,31.7 L39.7,31.7 Z" id="Shape"></path>
+                          <path d="M6.5,14 C6.5,14 8.9,15 9.8,18.1 C10.7,21.2 9.2,23.3 9.2,23.3 C9.2,23.3 6.8,22.3 5.9,19.2 C5,16.1 6.5,14 6.5,14 L6.5,14 Z" id="Shape"></path>
+                          <path d="M13.6,7.1 C13.6,7.1 16.2,6.7 18.5,8.9 C20.8,11.1 20.7,13.7 20.7,13.7 C20.7,13.7 18.1,14.1 15.8,11.9 C13.5,9.7 13.6,7.1 13.6,7.1 L13.6,7.1 Z" id="Shape"></path>
+                          <path d="M32.9,9.2 C32.9,9.2 34.2,11.4 33,14.4 C31.8,17.4 29.4,18.2 29.4,18.2 C29.4,18.2 28.1,16 29.2,13 C30.4,10 32.9,9.2 32.9,9.2 L32.9,9.2 Z" id="Shape"></path>
+                          <path d="M47.4,7.1 C47.4,7.1 49.7,8.2 50.5,11.4 C51.3,14.6 49.6,16.6 49.6,16.6 C49.6,16.6 47.3,15.5 46.5,12.3 C45.8,9.1 47.4,7.1 47.4,7.1 L47.4,7.1 Z" id="Shape"></path>
+                          <path d="M66.6,13.2 C66.6,13.2 65.7,15.6 62.6,16.7 C59.5,17.7 57.4,16.3 57.4,16.3 C57.4,16.3 58.3,13.9 61.4,12.8 C64.4,11.8 66.6,13.2 66.6,13.2 L66.6,13.2 Z" id="Shape"></path>
+                          <path d="M18.4,37.5 C18.4,37.5 16.2,38.8 13.2,37.7 C10.2,36.5 9.4,34.1 9.4,34.1 C9.4,34.1 11.6,32.8 14.6,33.9 C17.6,35 18.4,37.5 18.4,37.5 L18.4,37.5 Z" id="Shape"></path>
+                          <path d="M72.5,22.8 C72.5,22.8 72.3,25.4 69.6,27.2 C66.9,29 64.5,28.2 64.5,28.2 C64.5,28.2 64.7,25.6 67.4,23.8 C70.1,22 72.5,22.8 72.5,22.8 L72.5,22.8 Z" id="Shape"></path>
+                          <path d="M63,21.8 C63,21.8 62,24.2 58.9,25 C55.8,25.8 53.7,24.3 53.7,24.3 C53.7,24.3 54.7,21.9 57.8,21.1 C60.9,20.3 63,21.8 63,21.8 L63,21.8 Z" id="Shape"></path>
+                          <path d="M25.3,20.2 C25.3,20.2 27.7,21.2 28.5,24.3 C29.4,27.4 27.8,29.5 27.8,29.5 C27.8,29.5 25.4,28.5 24.6,25.4 C23.7,22.3 25.3,20.2 25.3,20.2 L25.3,20.2 Z" id="Shape"></path>
+                          <path d="M34.5,0.8 C34.5,0.8 37.1,0.5 39.4,2.8 C41.7,5.1 41.4,7.6 41.4,7.6 C41.4,7.6 38.8,7.9 36.5,5.6 C34.2,3.3 34.5,0.8 34.5,0.8 L34.5,0.8 Z" id="Shape"></path>
                       </g>
                   </g>
               </g>
           </svg>
         </div>
-        <h4 class="title caps">(En)large</h4>
-        <p class="h5 summer-date">7, 14, 21 JUNE | 5,12,19 JULY</p>
-        <p class="h5 summer-location"><a class="black" href="https://goo.gl/maps/FH1hUnEvA642">GENERATOR HOSTEL</a></p>
+        <h4 class="title caps">DINNER PARTIES IN THE PARK</h4>
+        <p class="h5 summer-date">4 &amp; 18 AUGUST</p>
+        <p class="h5 summer-location"><a class="black" href="https://goo.gl/maps/bnH8YsHT57z">MONBIJOUPARK</a></p>
       </div>
     </div>
 
-    <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg py4" style="background-color: #BDE1CC;">
+    <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg py4" style="background-color: #F79F95;">
       <div class="flex-auto summer-event-content center">
-        <div class="icon leadership">
-          <svg width="57px" height="109px" viewBox="0 0 57 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <div class="icon sundays">
+          <svg width="118px" height="83px" viewBox="0 0 118 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
-              <title>leadership</title>
+              <title>sunday</title>
               <desc>Created with Sketch.</desc>
               <defs></defs>
               <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="leadership" transform="translate(1.000000, 1.000000)" stroke-width="2" stroke="#000000">
-                      <g id="Group">
-                          <path d="M12.4,63.8 C11.2,65.7 4.2,77.2 3.2,78.9 C2.2,80.6 0.6,83 0.6,86.9 L0.6,105.1 L15.5,86.5" id="Shape"></path>
-                          <g transform="translate(10.000000, 0.000000)" id="Shape">
-                              <path d="M17.8,93.6 C24.7,93.6 28.3,94.3 29.8,87.7 C31.4,80.3 34.9,55.6 34.9,32.9 C34.9,9.8 17.8,0.2 17.8,0.2 C17.8,0.2 0.7,9.8 0.7,32.9 C0.7,55.6 4.2,80.3 5.8,87.7 C7.3,94.3 10.9,93.6 17.8,93.6 L17.8,93.6 Z"></path>
-                              <path d="M33.2,63.8 C34.4,65.7 41.4,77.2 42.4,78.9 C43.4,80.6 45,83 45,86.9 L45,105.1 L30,86.6"></path>
+                  <g id="sunday" transform="translate(1.000000, 1.000000)" stroke-width="2" stroke="#000000">
+                      <g id="Layer_1">
+                          <g id="Group" transform="translate(45.000000, 0.000000)">
+                              <path d="M12.7,0.2 C15.9,0.2 18.5,2.8 18.5,6 C18.5,9.2 15.9,11.8 12.7,11.8 C9.5,11.8 6.9,9.2 6.9,6 C6.9,2.8 9.5,0.2 12.7,0.2" id="Shape"></path>
+                              <path d="M0.2,24.7 C0.6,22.3 2,15.8 7.5,15.8 L18,15.8 C23.5,15.8 25.1,22.3 25.5,24.7" id="Shape"></path>
                           </g>
-                          <path id="Shape" d="M31.9,13.3 C30.5,13.3 29.1,13.4 27.8,13.4 C23.7,13.4 19.7,13.3 15.8,13"></path>
-                          <path id="Shape" d="M39.8,12.9 C38.4,13 37,13.1 35.6,13.2"></path>
-                          <circle id="Oval" cx="27.8" cy="33.1" r="10.8"></circle>
-                          <path d="M27.8,63.8 L27.8,105.2" id="Shape"></path>
-                          <path d="M29.3,27.8 C31.7,28.1 34.1,30.5 34.1,33" id="Shape"></path>
+                          <g id="Group" transform="translate(71.000000, 8.000000)">
+                              <path d="M12.7,0.3 C15.9,0.3 18.5,2.9 18.5,6.1 C18.5,9.3 15.9,11.9 12.7,11.9 C9.5,11.9 7,9.3 7,6.1 C7,2.9 9.6,0.3 12.7,0.3" id="Shape"></path>
+                              <path d="M0.9,22 C1.8,19.2 3.6,16 7.5,16 L18,16 C23.5,16 25.1,22.5 25.5,24.9" id="Shape"></path>
+                          </g>
+                          <g id="Group" transform="translate(21.000000, 9.000000)">
+                              <path d="M12.8,0.7 C16,0.7 18.6,3.3 18.6,6.5 C18.6,9.7 16,12.3 12.8,12.3 C9.6,12.3 7,9.7 7,6.5 C7,3.3 9.6,0.7 12.8,0.7" id="Shape"></path>
+                              <path d="M0.3,25.2 C0.7,22.8 2.1,16.3 7.6,16.3 L18,16.3 C23.5,16.3 25.1,22.8 25.5,25.2" id="Shape"></path>
+                          </g>
+                          <g id="Group" transform="translate(0.000000, 30.000000)">
+                              <path d="M12.6,0 C15.8,0 18.4,2.6 18.4,5.8 C18.4,9 15.8,11.6 12.6,11.6 C9.4,11.6 6.8,9 6.8,5.8 C6.8,2.6 9.4,0 12.6,0" id="Shape"></path>
+                              <path d="M0.1,24.5 C0.5,22.1 1.9,15.6 7.4,15.6 L17.9,15.6 C23.4,15.6 25,22.1 25.4,24.5" id="Shape"></path>
+                          </g>
+                          <g id="Group" transform="translate(60.000000, 29.000000)">
+                              <path d="M12.8,0.8 C16,0.8 18.6,3.4 18.6,6.6 C18.6,9.8 16,12.4 12.8,12.4 C9.6,12.4 7,9.8 7,6.6 C7.1,3.4 9.6,0.8 12.8,0.8" id="Shape"></path>
+                              <path d="M0.3,25.3 C0.7,22.9 2.1,16.4 7.6,16.4 L18.1,16.4 C23.6,16.4 25.2,22.9 25.6,25.3" id="Shape"></path>
+                          </g>
+                          <g id="Group" transform="translate(92.000000, 36.000000)">
+                              <path d="M10.3,0.5 C13.5,0.5 16.1,3.1 16.1,6.3 C16.1,9.5 13.5,12.1 10.3,12.1 C7.1,12.1 4.5,9.5 4.5,6.3 C4.5,3.1 7.1,0.5 10.3,0.5" id="Shape"></path>
+                              <path d="M0.6,18.2 C1.7,17 3.1,16.2 5.1,16.2 L15.6,16.2 C21.1,16.2 22.7,22.7 23.1,25.1" id="Shape"></path>
+                          </g>
+                          <g id="Group" transform="translate(37.000000, 34.000000)">
+                              <path d="M12.2,0.5 C15.4,0.5 18,3.1 18,6.3 C18,9.5 15.4,12.1 12.2,12.1 C9,12.1 6.4,9.5 6.4,6.3 C6.4,3.1 9,0.5 12.2,0.5" id="Shape"></path>
+                              <path d="M0.3,22.4 C1.1,19.6 3,16.2 7,16.2 L17.5,16.2 C21.9,16.2 23.8,20.3 24.6,23.2" id="Shape"></path>
+                          </g>
+                          <g id="Group" transform="translate(76.000000, 53.000000)">
+                              <path d="M13.2,0.1 C16.4,0.1 19,2.7 19,5.9 C19,9.1 16.4,11.7 13.2,11.7 C10,11.7 7.4,9.1 7.4,5.9 C7.4,2.7 10,0.1 13.2,0.1" id="Shape"></path>
+                              <path d="M0.7,24.6 C1.1,22.2 2.5,15.7 8,15.7 L18.5,15.7 C24,15.7 25.6,22.2 26,24.6" id="Shape"></path>
+                          </g>
+                          <g id="Group" transform="translate(20.000000, 53.000000)">
+                              <path d="M12.5,0.9 C15.7,0.9 18.3,3.5 18.3,6.7 C18.3,9.9 15.7,12.5 12.5,12.5 C9.3,12.5 6.7,9.9 6.7,6.7 C6.7,3.5 9.3,0.9 12.5,0.9" id="Shape"></path>
+                              <path d="M0,25.4 C0.4,23 1.8,16.5 7.3,16.5 L17.8,16.5 C23.3,16.5 24.9,23 25.3,25.4" id="Shape"></path>
+                          </g>
+                          <g id="Group" transform="translate(47.000000, 57.000000)">
+                              <path d="M13.2,0 C16.4,0 19,2.6 19,5.8 C19,9 16.4,11.6 13.2,11.6 C10,11.6 7.4,9 7.4,5.8 C7.4,2.6 10,0 13.2,0" id="Shape"></path>
+                              <path d="M0.7,24.5 C1.1,22.1 2.5,15.6 8,15.6 L18.5,15.6 C24,15.6 25.6,22.1 26,24.5" id="Shape"></path>
+                          </g>
                       </g>
                   </g>
               </g>
           </svg>
         </div>
-        <h4 class="title caps">LEADERSHIP SUMMER SCHOOL</h4>
-        <p class="h5 summer-date">7, 14, 21 JUNE | 5,12,19 JULY</p>
-        <p class="h5 summer-location">DIFFERENT LOCATIONS</p>
+        <h4 class="title caps">SUNDAYS ARE THE BEST</h4>
+        <p class="h5 summer-date">11:00 &amp; 13:00</p>
+        <p class="h5 summer-location"><a class="black" href="https://goo.gl/maps/7ew77ofTpxE2">KINO IN DER KULTURBRAUEREI</a></p>
       </div>
     </div>
 
 
   </div>
+
   <div class="flex flex-stretch flex-column md-flex-row black">
 
     <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg py4" style="background-color: #F9F18C;">
@@ -240,134 +298,80 @@
 
   <div class="flex flex-stretch flex-column md-flex-row black">
 
-    <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg py4" style="background-color: #BDE1CC;">
+    <div class="flex flex-center col-12 md-col-6 full-height flex-content-stretch center py4" style="background-color: #CCDFF3;">
       <div class="flex-auto summer-event-content center">
-        <div class="icon park">
-          <svg width="94px" height="91px" viewBox="0 0 94 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <div class="icon summer-enlarge">
+          <svg width="77px" height="84px" viewBox="0 0 77 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
-              <title>dinner</title>
+              <title>enlarge</title>
               <desc>Created with Sketch.</desc>
               <defs></defs>
               <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="dinner" transform="translate(0.000000, 1.000000)" stroke-width="2" stroke="#000000">
+                  <g id="enlarge" transform="translate(1.000000, 1.000000)" stroke-width="2" stroke="#000000">
                       <g id="Group">
-                          <path d="M43.1,66.2 L93.9,66.2" id="Shape"></path>
-                          <path d="M54.7,66.2 L51.2,89" id="Shape"></path>
-                          <path d="M81.6,66.2 L85.1,89" id="Shape"></path>
-                          <path d="M33.6,89.4 L33.6,34" id="Shape"></path>
-                          <path d="M33.6,34 L55.5,10.4" id="Shape"></path>
-                          <path d="M45.8,20.9 L41,7.3" id="Shape"></path>
-                          <path d="M33.6,49.3 L52.4,32.1 L54.7,24.9" id="Shape"></path>
-                          <path d="M43.4,40.3 L64.5,43.7" id="Shape"></path>
-                          <path d="M56.4,42.4 L67.5,34" id="Shape"></path>
-                          <path d="M64.5,35.9 L66.1,28.5" id="Shape"></path>
-                          <path d="M50.9,15.3 L58.4,16.5" id="Shape"></path>
-                          <path d="M44.4,16.9 L36.4,12.5" id="Shape"></path>
-                          <path d="M37.2,28.9 L34.7,18.7" id="Shape"></path>
-                          <g transform="translate(0.000000, 10.000000)" id="Shape">
-                              <path d="M33.6,79.4 L33.6,24"></path>
-                              <path d="M28.7,32 L18.6,13.3"></path>
-                              <path d="M18.6,13.3 L22.4,0.4"></path>
-                              <path d="M33.6,33.7 L17.1,27.9"></path>
-                              <path d="M22.6,29.8 L14.3,35.7"></path>
-                              <path d="M17.1,33.7 L0.9,27.2"></path>
-                              <path d="M22.6,20.7 L5.2,11.4"></path>
-                              <path d="M18.6,13.3 L14.3,9.9"></path>
-                              <path d="M33.6,24 L28.7,18.9"></path>
+                          <path d="M7.5,81.1 L7.5,0.5" id="Shape"></path>
+                          <path d="M15.1,10.6 L52.8,10.6" id="Shape"></path>
+                          <path d="M15.1,20.6 L52.8,20.6" id="Shape"></path>
+                          <path d="M15.1,30.7 L52.8,30.7" id="Shape"></path>
+                          <path d="M15.1,40.8 L52.8,40.8" id="Shape"></path>
+                          <path d="M15.1,50.9 L46.1,50.9" id="Shape"></path>
+                          <path d="M47.5,60.9 L52.8,60.9" id="Shape"></path>
+                          <path d="M15.1,60.9 L36,60.9" id="Shape"></path>
+                          <path d="M15.1,71.2 L31.1,71.2" id="Shape"></path>
+                          <path d="M59.5,49 L59.5,81.1 L0.8,81.1 L0.8,0.5 L59.5,0.5 L59.5,37.4" id="Shape"></path>
+                          <g transform="translate(31.000000, 28.000000)" id="Shape">
+                              <path d="M0.1,43.6 L0.9,37 L37.1,0.8 C38,-0.1 39.5,4.77395901e-15 40.5,1 L42.6,3.1 C43.6,4.1 43.7,5.7 42.8,6.5 L6.6,42.7 L0.1,43.6 L0.1,43.6 Z"></path>
+                              <path d="M35.8,2.1 L41.6,7.9"></path>
+                              <path d="M0.9,37.1 C0.9,37.1 1.9,42.2 6.7,42.9"></path>
                           </g>
-                          <path d="M26.6,16.2 L36.4,25.6" id="Shape"></path>
-                          <path d="M41,26 L48.5,26.7" id="Shape"></path>
-                          <path d="M10.5,41 L5.2,34" id="Shape"></path>
-                          <path d="M14.7,27.2 L10.1,29.8" id="Shape"></path>
-                          <path d="M58.4,31.4 L52.4,32.1" id="Shape"></path>
-                          <path d="M49.8,41.4 L53,47.1" id="Shape"></path>
-                          <path d="M61.3,52.8 C61.3,52.8 58.8,53.5 56.2,51.7 C53.5,49.8 53.4,47.3 53.4,47.3 C53.4,47.3 55.9,46.6 58.5,48.4 C61.2,50.3 61.3,52.8 61.3,52.8 L61.3,52.8 Z" id="Shape"></path>
-                          <path d="M39.7,31.7 C39.7,31.7 42.1,32.7 43,35.8 C43.9,38.9 42.4,41 42.4,41 C42.4,41 40,40 39.1,36.9 C38.2,33.8 39.7,31.7 39.7,31.7 L39.7,31.7 Z" id="Shape"></path>
-                          <path d="M6.5,14 C6.5,14 8.9,15 9.8,18.1 C10.7,21.2 9.2,23.3 9.2,23.3 C9.2,23.3 6.8,22.3 5.9,19.2 C5,16.1 6.5,14 6.5,14 L6.5,14 Z" id="Shape"></path>
-                          <path d="M13.6,7.1 C13.6,7.1 16.2,6.7 18.5,8.9 C20.8,11.1 20.7,13.7 20.7,13.7 C20.7,13.7 18.1,14.1 15.8,11.9 C13.5,9.7 13.6,7.1 13.6,7.1 L13.6,7.1 Z" id="Shape"></path>
-                          <path d="M32.9,9.2 C32.9,9.2 34.2,11.4 33,14.4 C31.8,17.4 29.4,18.2 29.4,18.2 C29.4,18.2 28.1,16 29.2,13 C30.4,10 32.9,9.2 32.9,9.2 L32.9,9.2 Z" id="Shape"></path>
-                          <path d="M47.4,7.1 C47.4,7.1 49.7,8.2 50.5,11.4 C51.3,14.6 49.6,16.6 49.6,16.6 C49.6,16.6 47.3,15.5 46.5,12.3 C45.8,9.1 47.4,7.1 47.4,7.1 L47.4,7.1 Z" id="Shape"></path>
-                          <path d="M66.6,13.2 C66.6,13.2 65.7,15.6 62.6,16.7 C59.5,17.7 57.4,16.3 57.4,16.3 C57.4,16.3 58.3,13.9 61.4,12.8 C64.4,11.8 66.6,13.2 66.6,13.2 L66.6,13.2 Z" id="Shape"></path>
-                          <path d="M18.4,37.5 C18.4,37.5 16.2,38.8 13.2,37.7 C10.2,36.5 9.4,34.1 9.4,34.1 C9.4,34.1 11.6,32.8 14.6,33.9 C17.6,35 18.4,37.5 18.4,37.5 L18.4,37.5 Z" id="Shape"></path>
-                          <path d="M72.5,22.8 C72.5,22.8 72.3,25.4 69.6,27.2 C66.9,29 64.5,28.2 64.5,28.2 C64.5,28.2 64.7,25.6 67.4,23.8 C70.1,22 72.5,22.8 72.5,22.8 L72.5,22.8 Z" id="Shape"></path>
-                          <path d="M63,21.8 C63,21.8 62,24.2 58.9,25 C55.8,25.8 53.7,24.3 53.7,24.3 C53.7,24.3 54.7,21.9 57.8,21.1 C60.9,20.3 63,21.8 63,21.8 L63,21.8 Z" id="Shape"></path>
-                          <path d="M25.3,20.2 C25.3,20.2 27.7,21.2 28.5,24.3 C29.4,27.4 27.8,29.5 27.8,29.5 C27.8,29.5 25.4,28.5 24.6,25.4 C23.7,22.3 25.3,20.2 25.3,20.2 L25.3,20.2 Z" id="Shape"></path>
-                          <path d="M34.5,0.8 C34.5,0.8 37.1,0.5 39.4,2.8 C41.7,5.1 41.4,7.6 41.4,7.6 C41.4,7.6 38.8,7.9 36.5,5.6 C34.2,3.3 34.5,0.8 34.5,0.8 L34.5,0.8 Z" id="Shape"></path>
                       </g>
                   </g>
               </g>
           </svg>
         </div>
-        <h4 class="title caps">DINNER PARTIES IN THE PARK</h4>
-        <p class="h5 summer-date">4 &amp; 18 AUGUST</p>
-        <p class="h5 summer-location"></p>
+        <h4 class="title caps">(En)large</h4>
+        <p class="h5 summer-date">7, 14, 21 JUNE | 5,12,19 JULY</p>
+        <p class="h5 summer-location"><a class="black" href="https://goo.gl/maps/FH1hUnEvA642">GENERATOR HOSTEL</a></p>
       </div>
     </div>
 
-    <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg py4" style="background-color: #F79F95;">
+    <div class="flex flex-center col-12 md-col-6 full-height cover-bg flex-content-stretch center-bg py4" style="background-color: #BDE1CC;">
       <div class="flex-auto summer-event-content center">
-        <div class="icon sundays">
-          <svg width="118px" height="83px" viewBox="0 0 118 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <div class="icon leadership">
+          <svg width="57px" height="109px" viewBox="0 0 57 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
-              <title>sunday</title>
+              <title>leadership</title>
               <desc>Created with Sketch.</desc>
               <defs></defs>
               <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="sunday" transform="translate(1.000000, 1.000000)" stroke-width="2" stroke="#000000">
-                      <g id="Layer_1">
-                          <g id="Group" transform="translate(45.000000, 0.000000)">
-                              <path d="M12.7,0.2 C15.9,0.2 18.5,2.8 18.5,6 C18.5,9.2 15.9,11.8 12.7,11.8 C9.5,11.8 6.9,9.2 6.9,6 C6.9,2.8 9.5,0.2 12.7,0.2" id="Shape"></path>
-                              <path d="M0.2,24.7 C0.6,22.3 2,15.8 7.5,15.8 L18,15.8 C23.5,15.8 25.1,22.3 25.5,24.7" id="Shape"></path>
+                  <g id="leadership" transform="translate(1.000000, 1.000000)" stroke-width="2" stroke="#000000">
+                      <g id="Group">
+                          <path d="M12.4,63.8 C11.2,65.7 4.2,77.2 3.2,78.9 C2.2,80.6 0.6,83 0.6,86.9 L0.6,105.1 L15.5,86.5" id="Shape"></path>
+                          <g transform="translate(10.000000, 0.000000)" id="Shape">
+                              <path d="M17.8,93.6 C24.7,93.6 28.3,94.3 29.8,87.7 C31.4,80.3 34.9,55.6 34.9,32.9 C34.9,9.8 17.8,0.2 17.8,0.2 C17.8,0.2 0.7,9.8 0.7,32.9 C0.7,55.6 4.2,80.3 5.8,87.7 C7.3,94.3 10.9,93.6 17.8,93.6 L17.8,93.6 Z"></path>
+                              <path d="M33.2,63.8 C34.4,65.7 41.4,77.2 42.4,78.9 C43.4,80.6 45,83 45,86.9 L45,105.1 L30,86.6"></path>
                           </g>
-                          <g id="Group" transform="translate(71.000000, 8.000000)">
-                              <path d="M12.7,0.3 C15.9,0.3 18.5,2.9 18.5,6.1 C18.5,9.3 15.9,11.9 12.7,11.9 C9.5,11.9 7,9.3 7,6.1 C7,2.9 9.6,0.3 12.7,0.3" id="Shape"></path>
-                              <path d="M0.9,22 C1.8,19.2 3.6,16 7.5,16 L18,16 C23.5,16 25.1,22.5 25.5,24.9" id="Shape"></path>
-                          </g>
-                          <g id="Group" transform="translate(21.000000, 9.000000)">
-                              <path d="M12.8,0.7 C16,0.7 18.6,3.3 18.6,6.5 C18.6,9.7 16,12.3 12.8,12.3 C9.6,12.3 7,9.7 7,6.5 C7,3.3 9.6,0.7 12.8,0.7" id="Shape"></path>
-                              <path d="M0.3,25.2 C0.7,22.8 2.1,16.3 7.6,16.3 L18,16.3 C23.5,16.3 25.1,22.8 25.5,25.2" id="Shape"></path>
-                          </g>
-                          <g id="Group" transform="translate(0.000000, 30.000000)">
-                              <path d="M12.6,0 C15.8,0 18.4,2.6 18.4,5.8 C18.4,9 15.8,11.6 12.6,11.6 C9.4,11.6 6.8,9 6.8,5.8 C6.8,2.6 9.4,0 12.6,0" id="Shape"></path>
-                              <path d="M0.1,24.5 C0.5,22.1 1.9,15.6 7.4,15.6 L17.9,15.6 C23.4,15.6 25,22.1 25.4,24.5" id="Shape"></path>
-                          </g>
-                          <g id="Group" transform="translate(60.000000, 29.000000)">
-                              <path d="M12.8,0.8 C16,0.8 18.6,3.4 18.6,6.6 C18.6,9.8 16,12.4 12.8,12.4 C9.6,12.4 7,9.8 7,6.6 C7.1,3.4 9.6,0.8 12.8,0.8" id="Shape"></path>
-                              <path d="M0.3,25.3 C0.7,22.9 2.1,16.4 7.6,16.4 L18.1,16.4 C23.6,16.4 25.2,22.9 25.6,25.3" id="Shape"></path>
-                          </g>
-                          <g id="Group" transform="translate(92.000000, 36.000000)">
-                              <path d="M10.3,0.5 C13.5,0.5 16.1,3.1 16.1,6.3 C16.1,9.5 13.5,12.1 10.3,12.1 C7.1,12.1 4.5,9.5 4.5,6.3 C4.5,3.1 7.1,0.5 10.3,0.5" id="Shape"></path>
-                              <path d="M0.6,18.2 C1.7,17 3.1,16.2 5.1,16.2 L15.6,16.2 C21.1,16.2 22.7,22.7 23.1,25.1" id="Shape"></path>
-                          </g>
-                          <g id="Group" transform="translate(37.000000, 34.000000)">
-                              <path d="M12.2,0.5 C15.4,0.5 18,3.1 18,6.3 C18,9.5 15.4,12.1 12.2,12.1 C9,12.1 6.4,9.5 6.4,6.3 C6.4,3.1 9,0.5 12.2,0.5" id="Shape"></path>
-                              <path d="M0.3,22.4 C1.1,19.6 3,16.2 7,16.2 L17.5,16.2 C21.9,16.2 23.8,20.3 24.6,23.2" id="Shape"></path>
-                          </g>
-                          <g id="Group" transform="translate(76.000000, 53.000000)">
-                              <path d="M13.2,0.1 C16.4,0.1 19,2.7 19,5.9 C19,9.1 16.4,11.7 13.2,11.7 C10,11.7 7.4,9.1 7.4,5.9 C7.4,2.7 10,0.1 13.2,0.1" id="Shape"></path>
-                              <path d="M0.7,24.6 C1.1,22.2 2.5,15.7 8,15.7 L18.5,15.7 C24,15.7 25.6,22.2 26,24.6" id="Shape"></path>
-                          </g>
-                          <g id="Group" transform="translate(20.000000, 53.000000)">
-                              <path d="M12.5,0.9 C15.7,0.9 18.3,3.5 18.3,6.7 C18.3,9.9 15.7,12.5 12.5,12.5 C9.3,12.5 6.7,9.9 6.7,6.7 C6.7,3.5 9.3,0.9 12.5,0.9" id="Shape"></path>
-                              <path d="M0,25.4 C0.4,23 1.8,16.5 7.3,16.5 L17.8,16.5 C23.3,16.5 24.9,23 25.3,25.4" id="Shape"></path>
-                          </g>
-                          <g id="Group" transform="translate(47.000000, 57.000000)">
-                              <path d="M13.2,0 C16.4,0 19,2.6 19,5.8 C19,9 16.4,11.6 13.2,11.6 C10,11.6 7.4,9 7.4,5.8 C7.4,2.6 10,0 13.2,0" id="Shape"></path>
-                              <path d="M0.7,24.5 C1.1,22.1 2.5,15.6 8,15.6 L18.5,15.6 C24,15.6 25.6,22.1 26,24.5" id="Shape"></path>
-                          </g>
+                          <path id="Shape" d="M31.9,13.3 C30.5,13.3 29.1,13.4 27.8,13.4 C23.7,13.4 19.7,13.3 15.8,13"></path>
+                          <path id="Shape" d="M39.8,12.9 C38.4,13 37,13.1 35.6,13.2"></path>
+                          <circle id="Oval" cx="27.8" cy="33.1" r="10.8"></circle>
+                          <path d="M27.8,63.8 L27.8,105.2" id="Shape"></path>
+                          <path d="M29.3,27.8 C31.7,28.1 34.1,30.5 34.1,33" id="Shape"></path>
                       </g>
                   </g>
               </g>
           </svg>
         </div>
-        <h4 class="title caps">SUNDAYS ARE THE BEST</h4>
-        <p class="h5 summer-date">11:00 &amp; 13:00</p>
-        <p class="h5 summer-location"><a class="black" href="https://goo.gl/maps/7ew77ofTpxE2">KINO IN DER KULTURBRAUEREI</a></p>
+        <h4 class="title caps">LEADERSHIP SUMMER SCHOOL</h4>
+        <p class="h5 summer-date">7, 14, 21 JUNE | 5,12,19 JULY</p>
+        <p class="h5 summer-location">DIFFERENT LOCATIONS</p>
       </div>
     </div>
 
 
   </div>
+
+
+
 
   <div class="full-width py4 px3 black border-box" style="background-color: #F9F18C;">
     <div class="clearfix mt2 mb3 tiny-center sm-left md-left font-size-0">
